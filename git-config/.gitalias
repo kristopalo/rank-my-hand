@@ -1,0 +1,12 @@
+[alias]
+
+	st = status
+	
+	# Commit to your local repository (-a = include unstaged changes)
+	ci = commit
+	
+	# List branches (-l = local, -r = remote, -a = all, -d = delete, -v = verbosity, defaults to local)
+	br = branch
+	
+	# Update your working tree from the index
+    co = checkout

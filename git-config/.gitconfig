@@ -1,0 +1,9 @@
+# This is Git's per-repo (local) configuration file
+[user]
+    useConfigOnly = true
+[fetch]
+    prune = true
+[pull]
+    ff = only
+[merge]
+    ff = false
