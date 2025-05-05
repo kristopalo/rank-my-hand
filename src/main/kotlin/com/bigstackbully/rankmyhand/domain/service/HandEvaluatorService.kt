@@ -21,7 +21,7 @@ class HandEvaluatorService {
     }
 
     fun isRoyalFlush(hand: Hand): Boolean {
-        val cards = hand.getCards()
+        val cards = hand.cards
         val ranks = cards.map { card -> card.rank }
 
         return hand.numberOfCards == 5 &&
