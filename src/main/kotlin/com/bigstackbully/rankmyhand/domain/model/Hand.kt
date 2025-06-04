@@ -9,11 +9,13 @@ data class Hand(
 ) {
 
     init {
-        if (cards.size > 5)
-            throw IllegalArgumentException("List of cards cannot contain more than 5 playing cards.")
+        require(cards.size > 5) {
+            "List of cards cannot contain more than 5 playing cards."
+        }
 
-        if (!cards.areUnique())
-            throw IllegalArgumentException("List of cards cannot contain non-unique playing cards.")
+        require(!cards.areUnique()) {
+            "List of cards cannot contain non-unique playing cards."
+        }
     }
 
     val numberOfCards: Int = cards.size
