@@ -1,6 +1,6 @@
-package com.bigstackbully.rankmyhand.domain.service.utils
+package com.bigstackbully.rankmyhand.service.utils
 
-import com.bigstackbully.rankmyhand.domain.model.enums.PlayingCard
+import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 
 fun List<PlayingCard>.areSameSuit(): Boolean {
     if (this.isEmpty())

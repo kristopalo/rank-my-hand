@@ -1,11 +1,11 @@
-package com.bigstackbully.rankmyhand.domain.service
+package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.domain.model.CardGroup
-import com.bigstackbully.rankmyhand.domain.model.EvaluationResult
-import com.bigstackbully.rankmyhand.domain.model.EvaluationSet
-import com.bigstackbully.rankmyhand.domain.model.Hand
-import com.bigstackbully.rankmyhand.domain.model.enums.CardRank
-import com.bigstackbully.rankmyhand.domain.model.enums.HandRank
+import com.bigstackbully.rankmyhand.model.CardGroup
+import com.bigstackbully.rankmyhand.model.EvaluationResult
+import com.bigstackbully.rankmyhand.model.EvaluationSet
+import com.bigstackbully.rankmyhand.model.Hand
+import com.bigstackbully.rankmyhand.model.enums.CardRank
+import com.bigstackbully.rankmyhand.model.enums.HandRank
 import org.springframework.stereotype.Service
 
 @Service

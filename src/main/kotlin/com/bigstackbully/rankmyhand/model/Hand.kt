@@ -1,8 +1,8 @@
-package com.bigstackbully.rankmyhand.domain.model
+package com.bigstackbully.rankmyhand.model
 
-import com.bigstackbully.rankmyhand.domain.model.enums.PlayingCard
-import com.bigstackbully.rankmyhand.domain.service.utils.areSameSuit
-import com.bigstackbully.rankmyhand.domain.service.utils.areUnique
+import com.bigstackbully.rankmyhand.model.enums.PlayingCard
+import com.bigstackbully.rankmyhand.service.utils.areSameSuit
+import com.bigstackbully.rankmyhand.service.utils.areUnique
 
 data class Hand(
     val cards: List<PlayingCard> = listOf()

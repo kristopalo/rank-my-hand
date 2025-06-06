@@ -1,4 +1,4 @@
-package com.bigstackbully.rankmyhand.domain.model
+package com.bigstackbully.rankmyhand.model
 
 import java.util.SortedSet
 

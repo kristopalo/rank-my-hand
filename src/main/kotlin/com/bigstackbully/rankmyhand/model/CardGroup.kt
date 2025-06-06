@@ -1,8 +1,8 @@
-package com.bigstackbully.rankmyhand.domain.model
+package com.bigstackbully.rankmyhand.model
 
-import com.bigstackbully.rankmyhand.domain.model.enums.CardRank
-import com.bigstackbully.rankmyhand.domain.model.enums.PlayingCard
-import com.bigstackbully.rankmyhand.domain.model.enums.Suit
+import com.bigstackbully.rankmyhand.model.enums.CardRank
+import com.bigstackbully.rankmyhand.model.enums.PlayingCard
+import com.bigstackbully.rankmyhand.model.enums.Suit
 
 data class CardGroup(
     val cards: Set<PlayingCard> = sortedSetOf()

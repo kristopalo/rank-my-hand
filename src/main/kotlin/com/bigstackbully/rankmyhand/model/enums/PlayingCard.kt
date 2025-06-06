@@ -1,4 +1,4 @@
-package com.bigstackbully.rankmyhand.domain.model.enums
+package com.bigstackbully.rankmyhand.model.enums
 
 enum class PlayingCard(
     val rank: CardRank,

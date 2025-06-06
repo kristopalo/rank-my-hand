@@ -1,4 +1,4 @@
-package com.bigstackbully.rankmyhand.domain.model.enums
+package com.bigstackbully.rankmyhand.model.enums
 
 enum class Suit(val initial: String, val color: SuitColor) {
     HEARTS(initial = "H", color = SuitColor.RED),
