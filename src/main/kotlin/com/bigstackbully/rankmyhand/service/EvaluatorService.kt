@@ -1,6 +1,7 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.CardGroup
+import com.bigstackbully.rankmyhand.model.command.EvaluateCardsCommand
 import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.EvaluationSet
 import com.bigstackbully.rankmyhand.model.Hand
@@ -9,9 +10,13 @@ import com.bigstackbully.rankmyhand.model.enums.HandRank
 import org.springframework.stereotype.Service
 
 @Service
-class HandEvaluatorService {
+class EvaluatorService {
 
-    fun evaluate(hand: Hand): EvaluationResult {
+    fun evaluate(evaluateCardsCmd: EvaluateCardsCommand): EvaluationResult {
+        return EvaluationResult(HandRank.HIGH_CARD)
+    }
+
+    fun evaluateHand(hand: Hand): EvaluationResult {
         val result: EvaluationResult
 
         val cardGroups = hand.cards

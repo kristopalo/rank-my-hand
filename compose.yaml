@@ -1,1 +1,7 @@
 services:
+  rank-my-hand:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"

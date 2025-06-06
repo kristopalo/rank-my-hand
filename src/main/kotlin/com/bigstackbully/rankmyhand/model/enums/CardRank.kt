@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.model.enums
 
 enum class CardRank(val abbreviation: String, val value: Int) {
     // TODO ACE_LOW
-    ACE_LOW(abbreviation = "1", value = 1),
+    ACE_LOW(abbreviation = "A", value = 1),
     TWO(abbreviation = "2", value = 2),
     THREE(abbreviation = "3", value = 3),
     FOUR(abbreviation = "4", value = 4),
@@ -17,4 +17,10 @@ enum class CardRank(val abbreviation: String, val value: Int) {
     KING(abbreviation = "K", value = 13),
     // TODO ACE_HIGH
     ACE(abbreviation = "A", value = 14); // Ace has dual values
+
+    companion object {
+        fun fromAbbreviation(abbr: String): CardRank? {
+            return entries.find { it.abbreviation == abbr }
+        }
+    }
 }
