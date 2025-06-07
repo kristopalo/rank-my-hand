@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.controller
 
-import com.bigstackbully.rankmyhand.model.request.EvaluateStringInputRequest
+import com.bigstackbully.rankmyhand.model.request.EvaluateCardsRequest
 import com.bigstackbully.rankmyhand.model.response.EvaluationResultResponse
 import com.bigstackbully.rankmyhand.service.EvaluationRequestTransformer
 import com.bigstackbully.rankmyhand.service.EvaluationResultTransformer
@@ -24,8 +24,8 @@ class EvaluatorController(
         return "Hello world!"
     }
 
-    @PostMapping("/evaluate-cards-as-string-input")
-    fun evaluate(@RequestBody evalReq: EvaluateStringInputRequest): EvaluationResultResponse {
+    @PostMapping("/evaluate")
+    fun evaluate(@RequestBody evalReq: EvaluateCardsRequest): EvaluationResultResponse {
         val evalCmd = evaluationRequestTransformer.toCommand(evaluateCardsReq = evalReq)
         val evalResult = evaluatorService.evaluate(evaluateCardsCmd = evalCmd)
         return evaluationResultTransformer.toResponse(evaluationResult = evalResult)

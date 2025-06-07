@@ -2,14 +2,14 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.command.EvaluateCardsCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
-import com.bigstackbully.rankmyhand.model.request.EvaluateStringInputRequest
+import com.bigstackbully.rankmyhand.model.request.EvaluateCardsRequest
 import com.bigstackbully.rankmyhand.service.utils.hasEvenNumberOfCharacters
 import org.springframework.stereotype.Service
 
 @Service
 class EvaluationRequestTransformer {
 
-    fun toCommand(evaluateCardsReq: EvaluateStringInputRequest): EvaluateCardsCommand {
+    fun toCommand(evaluateCardsReq: EvaluateCardsRequest): EvaluateCardsCommand {
         val input = evaluateCardsReq.input
         val filteredInput = input.filter { it.isLetterOrDigit() }
 
