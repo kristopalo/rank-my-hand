@@ -4,16 +4,17 @@ import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.service.utils.areSameSuit
 import com.bigstackbully.rankmyhand.service.utils.areUnique
 
-data class Hand(
+// TODO Kristo @ 07.06.2025 -> Maybe rename this data class back to just "Hand", because there might be less than 5 cards here...?
+data class FiveCardHand(
     val cards: List<PlayingCard> = listOf()
 ) {
 
     init {
-        require(cards.size > 5) {
+        require(cards.size == 5) {
             "List of cards cannot contain more than 5 playing cards."
         }
 
-        require(!cards.areUnique()) {
+        require(cards.areUnique()) {
             "List of cards cannot contain non-unique playing cards."
         }
     }
