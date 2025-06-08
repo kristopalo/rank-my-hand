@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service
 class EvaluationResultTransformer {
 
     fun toResponse(evaluationResult: EvaluationResult): EvaluationResultResponse = EvaluationResultResponse(
+        hand = evaluationResult.hand,
         rank = evaluationResult.rank
     )
 }

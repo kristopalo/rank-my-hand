@@ -4,20 +4,20 @@ import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.enums.Suit
 
-data class CardGroup(
+data class RankUnit(
     val cards: Set<PlayingCard> = sortedSetOf()
-) : Comparable<CardGroup> {
+) : Comparable<RankUnit> {
 
     companion object {
-        fun of(cards: List<PlayingCard>): CardGroup {
+        fun of(cards: List<PlayingCard>): RankUnit {
             val setOfCards = cards.toSet()
-            return CardGroup(setOfCards)
+            return RankUnit(setOfCards)
         }
     }
 
     init {
         require(cards.map { it.rank }.distinct().size == 1) {
-            "All cards in a card group must have the same rank."
+            "All playing cards in a rank unit must have the same card rank."
         }
     }
 
@@ -26,15 +26,13 @@ data class CardGroup(
     val numberOfCards: Int = cards.size
     val totalValue: Int = cards.sumOf { card -> card.rank.value }
 
-    val isSingleSuit = suits.distinct().size == 1
-
-    override fun compareTo(other: CardGroup): Int {
-        return compareByDescending<CardGroup> { it.numberOfCards }
+    override fun compareTo(other: RankUnit): Int {
+        return compareByDescending<RankUnit> { it.numberOfCards }
             .thenByDescending { it.rank.value }
             .compare(this, other)
     }
 
 }
 
-val cardGroupComparator = compareByDescending<CardGroup> { it.numberOfCards }
+val rankUnitComparator = compareByDescending<RankUnit> { it.numberOfCards }
     .thenByDescending { it.rank }

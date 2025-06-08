@@ -1,16 +1,17 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.command.EvaluateCardsCommand
+import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
-import com.bigstackbully.rankmyhand.model.request.EvaluateCardsRequest
+import com.bigstackbully.rankmyhand.model.request.EvaluateHandRequest
+import com.bigstackbully.rankmyhand.service.utils.areUnique
 import com.bigstackbully.rankmyhand.service.utils.hasEvenNumberOfCharacters
 import org.springframework.stereotype.Service
 
 @Service
 class EvaluationRequestTransformer {
 
-    fun toCommand(evaluateCardsReq: EvaluateCardsRequest): EvaluateCardsCommand {
-        val input = evaluateCardsReq.input
+    fun toCommand(evaluateHandReq: EvaluateHandRequest): EvaluateHandCommand {
+        val input = evaluateHandReq.hand
         val filteredInput = input.filter { it.isLetterOrDigit() }
 
         require(filteredInput.hasEvenNumberOfCharacters()) {
@@ -23,10 +24,18 @@ class EvaluationRequestTransformer {
                 val abbr = "${it[0].uppercase()}${it[1].lowercase()}"
                 PlayingCard.fromAbbreviation(abbreviation = abbr)
             }
-            .toSet()
 
-        return EvaluateCardsCommand(
-            cards = cards
+        // TODO Kristo @ 08.06.2025 -> Temporary restriction
+        require(cards.size == 5) {
+            throw IllegalArgumentException("Evaluator only accepts a 5-card hand as an input for evaluation.")
+        }
+
+        require(cards.areUnique()) {
+            throw IllegalArgumentException("All cards in the provided hand have to be unique.")
+        }
+
+        return EvaluateHandCommand(
+            cards = cards.toSet()
         )
     }
 }

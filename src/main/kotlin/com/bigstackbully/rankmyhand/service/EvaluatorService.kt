@@ -1,92 +1,95 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.CardGroup
-import com.bigstackbully.rankmyhand.model.command.EvaluateCardsCommand
+import com.bigstackbully.rankmyhand.model.RankUnit
+import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
 import com.bigstackbully.rankmyhand.model.EvaluationResult
-import com.bigstackbully.rankmyhand.model.EvaluationSet
-import com.bigstackbully.rankmyhand.model.FiveCardHand
+import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.bigstackbully.rankmyhand.model.enums.HandRank
+import com.bigstackbully.rankmyhand.service.utils.areInConsecutiveDescOrder
+import com.bigstackbully.rankmyhand.service.utils.areSuited
+import com.bigstackbully.rankmyhand.service.utils.highestRank
+import com.bigstackbully.rankmyhand.service.utils.maxUnitSize
 import org.springframework.stereotype.Service
+import java.util.SortedSet
 
 @Service
 class EvaluatorService {
 
-    fun evaluate(evaluateCardsCmd: EvaluateCardsCommand): EvaluationResult {
-        val availableCards = evaluateCardsCmd.cards.toList()
-
-        val allFiveCardHands = mutableListOf<FiveCardHand>()
-
-        // TODO Kristo @ 07.06.2025 -> Find all possible 5-card combinations out of 7 available cards. Should result to 21 combinations.
-        for (i in 0 until availableCards.size - 1) {
-            for (j in (i + 1) until availableCards.size) {
-                val excludedIndices = setOf(i, j)
-                val currentCards = availableCards.filterIndexed { index, _ -> index !in excludedIndices }
-
-                val currentFiveCardHand = FiveCardHand(
-                    cards = currentCards
-                )
-
-                allFiveCardHands.add(currentFiveCardHand)
-            }
-        }
-
-        // TODO Kristo @ 07.06.2025 -> Evaluate each possible hand and find out which one of them is the best.
-
-        return EvaluationResult(HandRank.HIGH_CARD)
+    fun evaluate(evaluateHandCmd: EvaluateHandCommand): EvaluationResult {
+        val hand = Hand(
+            cards = evaluateHandCmd.cards
+        )
+        return evaluate(hand)
     }
 
-    fun evaluateHand(fiveCardHand: FiveCardHand): EvaluationResult {
+    fun evaluate(hand: Hand): EvaluationResult {
         val result: EvaluationResult
 
-        val cardGroups = fiveCardHand.cards
+        val rankUnits = hand.cards
             .groupBy { it.rank }
-            .map { (_, cards) -> CardGroup.of(cards) }
+            .map { (_, cards) -> RankUnit.of(cards) }
             .toSortedSet()
 
-        val evaluationSet = EvaluationSet(
-            cardGroups = cardGroups
-        )
-
-        val groupCount = evaluationSet.groupCount
-
-        result = when (groupCount) {
-            2 -> handleEvaluationSetOfTwoCardGroups()
-            3 -> handleEvaluationSetOfThreeCardGroups()
-            4 -> handleEvaluationSetOfFourCardGroups()
-            5 -> handleEvaluationSetOfFiveCardGroups()
-            else -> EvaluationResult(HandRank.HIGH_CARD) // TODO Kristo @ 04.06.2025 -> Just a hack here.
+        val handRank = when (rankUnits.size) {
+            2 -> handleTwoRankUnits(rankUnits)
+            3 -> handleThreeRankUnits(rankUnits)
+            4 -> handleFourRankUnits(rankUnits)
+            5 -> handleFiveRankUnits(rankUnits)
+            else -> error("The number of rank units has to be between 2 and 5, inclusive.")
         }
 
-        return result
+        return EvaluationResult(
+            hand = hand.cards.joinToString(separator = " ") { it.abbreviation },
+            rank = handRank
+        )
     }
 
-    private fun handleEvaluationSetOfFourCardGroups(): EvaluationResult {
-        TODO("Not yet implemented")
+    private fun handleTwoRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
+        if (rankUnits.maxUnitSize() == 4)
+            return HandRank.FOUR_OF_A_KIND
+
+        return HandRank.FULL_HOUSE
     }
 
-    private fun handleEvaluationSetOfThreeCardGroups(): EvaluationResult {
-        TODO("Not yet implemented")
+    private fun handleThreeRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
+        if (rankUnits.maxUnitSize() == 3)
+            return HandRank.THREE_OF_A_KIND
+
+        return HandRank.TWO_PAIR
     }
 
-    private fun handleEvaluationSetOfTwoCardGroups(): EvaluationResult {
-        TODO("Not yet implemented")
+    private fun handleFourRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
+        return HandRank.ONE_PAIR
     }
 
-    private fun handleEvaluationSetOfFiveCardGroups(): EvaluationResult {
-        TODO("Not yet implemented")
+    private fun handleFiveRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
+        if (rankUnits.areSuited()) {
+            handleFiveRankUnitsSuited(rankUnits)
+        }
+
+        return handleFiveRankUnitsOffsuit(rankUnits)
     }
 
-    fun isRoyalFlush(fiveCardHand: FiveCardHand): Boolean {
-        val cards = fiveCardHand.cards
-        val ranks = cards.map { card -> card.rank }
+    private fun handleFiveRankUnitsSuited(rankUnits: SortedSet<RankUnit>): HandRank {
+        if (rankUnits.areInConsecutiveDescOrder()) {
+            handleFiveRankUnitsSuitedStraight(rankUnits)
+        }
 
-        return fiveCardHand.numberOfCards == 5 &&
-                fiveCardHand.isSuited &&
-                ranks.contains(CardRank.ACE) &&
-                ranks.contains(CardRank.KING) &&
-                ranks.contains(CardRank.QUEEN) &&
-                ranks.contains(CardRank.JACK) &&
-                ranks.contains(CardRank.TEN)
+        return HandRank.FLUSH
+    }
+
+    private fun handleFiveRankUnitsSuitedStraight(rankUnits: SortedSet<RankUnit>): HandRank {
+        if (rankUnits.highestRank() == CardRank.ACE)
+            return HandRank.ROYAL_FLUSH
+
+        return HandRank.STRAIGHT_FLUSH
+    }
+
+    private fun handleFiveRankUnitsOffsuit(rankUnits: SortedSet<RankUnit>): HandRank {
+        if (rankUnits.areInConsecutiveDescOrder())
+            return HandRank.STRAIGHT
+
+        return HandRank.HIGH_CARD
     }
 }
