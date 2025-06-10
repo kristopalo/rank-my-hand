@@ -13,3 +13,9 @@ fun SortedSet<RankUnit>.areInConsecutiveDescOrder(): Boolean = map { it.rank.val
     .all { (a, b) -> a - 1 == b }
 
 fun SortedSet<RankUnit>.highestRank(): CardRank? = maxOfOrNull { it.rank }
+
+fun SortedSet<RankUnit>.valueEncoded(): String = joinToString(separator = "-") { it.totalValue.toString() }
+
+fun SortedSet<RankUnit>.ranks(): String = joinToString(separator = "") { it.abbreviation }
+
+fun SortedSet<RankUnit>.ranksInStandardNotation(): String = joinToString(separator = " ") { it.ranksInStandardNotation }

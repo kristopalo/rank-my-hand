@@ -4,5 +4,7 @@ import com.bigstackbully.rankmyhand.model.enums.HandRank
 
 data class EvaluationResult(
     val hand: String,
-    val rank: HandRank
+    val handRank: HandRank,
+    val serializedValue: String,
+    val handInStandardNotation: String
 )

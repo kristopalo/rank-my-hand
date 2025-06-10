@@ -1,14 +1,14 @@
 package com.bigstackbully.rankmyhand.model.enums
 
-enum class HandRank {
-    HIGH_CARD,
-    ONE_PAIR,
-    TWO_PAIR,
-    THREE_OF_A_KIND,
-    STRAIGHT,
-    FLUSH,
-    FULL_HOUSE,
-    FOUR_OF_A_KIND,
-    STRAIGHT_FLUSH,
-    ROYAL_FLUSH
+enum class HandRank(val value: Int) {
+    HIGH_CARD(value = 1),
+    ONE_PAIR(value = 2),
+    TWO_PAIR(value = 3),
+    THREE_OF_A_KIND(value = 4),
+    STRAIGHT(value = 5),
+    FLUSH(value = 6),
+    FULL_HOUSE(value = 7),
+    FOUR_OF_A_KIND(value = 8),
+    STRAIGHT_FLUSH(value = 9),
+    ROYAL_FLUSH(value = 10)
 }

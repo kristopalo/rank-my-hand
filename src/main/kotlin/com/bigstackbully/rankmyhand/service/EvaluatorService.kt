@@ -8,6 +8,7 @@ import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.bigstackbully.rankmyhand.model.enums.HandRank
 import com.bigstackbully.rankmyhand.service.utils.areInConsecutiveDescOrder
 import com.bigstackbully.rankmyhand.service.utils.areSuited
+import com.bigstackbully.rankmyhand.service.utils.valueEncoded
 import com.bigstackbully.rankmyhand.service.utils.highestRank
 import com.bigstackbully.rankmyhand.service.utils.maxUnitSize
 import org.springframework.stereotype.Service
@@ -41,7 +42,9 @@ class EvaluatorService {
 
         return EvaluationResult(
             hand = hand.cards.joinToString(separator = " ") { it.abbreviation },
-            rank = handRank
+            handRank = handRank,
+            serializedValue = "${handRank.value}-${rankUnits.valueEncoded()}",
+            handInStandardNotation = rankUnits.joinToString(separator = "") { it.ranksInStandardNotation }
         )
     }
 

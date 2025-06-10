@@ -9,6 +9,8 @@ class EvaluationResultTransformer {
 
     fun toResponse(evaluationResult: EvaluationResult): EvaluationResultResponse = EvaluationResultResponse(
         hand = evaluationResult.hand,
-        rank = evaluationResult.rank
+        rank = evaluationResult.handRank,
+        serializedValue = evaluationResult.serializedValue,
+        handInStandardNotation = evaluationResult.handInStandardNotation
     )
 }
