@@ -11,6 +11,6 @@ class EvaluationResultTransformer {
         hand = evaluationResult.hand,
         rank = evaluationResult.handRank,
         serializedValue = evaluationResult.serializedValue,
-        handInStandardNotation = evaluationResult.handInStandardNotation
+        handInShortNotation = evaluationResult.shortNotation
     )
 }

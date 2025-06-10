@@ -44,7 +44,7 @@ class EvaluatorService {
             hand = hand.cards.joinToString(separator = " ") { it.abbreviation },
             handRank = handRank,
             serializedValue = "${handRank.value}-${rankUnits.valueEncoded()}",
-            handInStandardNotation = rankUnits.joinToString(separator = "") { it.ranksInStandardNotation }
+            shortNotation = rankUnits.joinToString(separator = "") { it.ranksInStandardNotation }
         )
     }
 
