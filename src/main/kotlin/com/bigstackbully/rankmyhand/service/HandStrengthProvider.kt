@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.EvaluationResult
-import com.bigstackbully.rankmyhand.model.enums.HandRank
+import com.bigstackbully.rankmyhand.model.enums.HandRanking
 import com.bigstackbully.rankmyhand.model.handstrengths.HandStats
 import org.springframework.stereotype.Service
 
@@ -11,9 +11,9 @@ class HandStrengthProvider {
     fun getHandStats(evaluationResult: EvaluationResult): HandStats {
         val shortNotation = evaluationResult.shortNotation
 
-        val mapOfHandStats = when (evaluationResult.handRank) {
-            HandRank.ROYAL_FLUSH -> mapOfAllRoyalFlushes()
-            HandRank.STRAIGHT_FLUSH -> mapOfAllStraightFlushes()
+        val mapOfHandStats = when (evaluationResult.handRanking) {
+            HandRanking.ROYAL_FLUSH -> mapOfAllRoyalFlushes()
+            HandRanking.STRAIGHT_FLUSH -> mapOfAllStraightFlushes()
             else -> error("Unknown hand rank")
         }
 

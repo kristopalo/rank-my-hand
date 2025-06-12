@@ -25,15 +25,14 @@ data class RankUnit(
     val suits: List<Suit> = cards.map { card -> card.suit }
     val numberOfCards: Int = cards.size
     val totalValue: Int = cards.sumOf { card -> card.rank.value }
-    val abbreviation: String = cards.joinToString(separator = "") { it.rank.abbreviation }
-    val ranksInStandardNotation = cards.joinToString(separator = "") { card -> card.rank.abbreviation }
+    val abbreviation: String = cards.joinToString(separator = "") { it.rank.shortNotation }
+    val ranksInStandardNotation = cards.joinToString(separator = "") { card -> card.rank.shortNotation }
 
     override fun compareTo(other: RankUnit): Int {
         return compareByDescending<RankUnit> { it.numberOfCards }
             .thenByDescending { it.rank.value }
             .compare(this, other)
     }
-
 }
 
 val rankUnitComparator = compareByDescending<RankUnit> { it.numberOfCards }

@@ -9,7 +9,7 @@ class EvaluationResultTransformer {
 
     fun toResponse(evaluationResult: EvaluationResult): EvaluationResultResponse = EvaluationResultResponse(
         hand = evaluationResult.hand,
-        rank = evaluationResult.handRank,
+        rank = evaluationResult.handRanking,
         serializedValue = evaluationResult.serializedValue,
         handInShortNotation = evaluationResult.shortNotation
     )

@@ -1,10 +1,10 @@
 package com.bigstackbully.rankmyhand.model
 
-import com.bigstackbully.rankmyhand.model.enums.HandRank
+import com.bigstackbully.rankmyhand.model.enums.HandRanking
 
 data class EvaluationResult(
     val hand: String,
-    val handRank: HandRank,
+    val handRanking: HandRanking,
     val serializedValue: String,
     val shortNotation: String
 )

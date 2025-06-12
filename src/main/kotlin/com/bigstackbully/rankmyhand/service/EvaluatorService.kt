@@ -5,7 +5,7 @@ import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
 import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.enums.CardRank
-import com.bigstackbully.rankmyhand.model.enums.HandRank
+import com.bigstackbully.rankmyhand.model.enums.HandRanking
 import com.bigstackbully.rankmyhand.service.utils.areInConsecutiveDescOrder
 import com.bigstackbully.rankmyhand.service.utils.areSuited
 import com.bigstackbully.rankmyhand.service.utils.valueEncoded
@@ -42,31 +42,31 @@ class EvaluatorService {
 
         return EvaluationResult(
             hand = hand.cards.joinToString(separator = " ") { it.abbreviation },
-            handRank = handRank,
-            serializedValue = "${handRank.value}-${rankUnits.valueEncoded()}",
+            handRanking = handRank,
+            serializedValue = "${handRank.strength}-${rankUnits.valueEncoded()}",
             shortNotation = rankUnits.joinToString(separator = "") { it.ranksInStandardNotation }
         )
     }
 
-    private fun handleTwoRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
+    private fun handleTwoRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.maxUnitSize() == 4)
-            return HandRank.FOUR_OF_A_KIND
+            return HandRanking.FOUR_OF_A_KIND
 
-        return HandRank.FULL_HOUSE
+        return HandRanking.FULL_HOUSE
     }
 
-    private fun handleThreeRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
+    private fun handleThreeRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.maxUnitSize() == 3)
-            return HandRank.THREE_OF_A_KIND
+            return HandRanking.THREE_OF_A_KIND
 
-        return HandRank.TWO_PAIR
+        return HandRanking.TWO_PAIR
     }
 
-    private fun handleFourRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
-        return HandRank.ONE_PAIR
+    private fun handleFourRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
+        return HandRanking.ONE_PAIR
     }
 
-    private fun handleFiveRankUnits(rankUnits: SortedSet<RankUnit>): HandRank {
+    private fun handleFiveRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.areSuited()) {
             handleFiveRankUnitsSuited(rankUnits)
         }
@@ -74,25 +74,25 @@ class EvaluatorService {
         return handleFiveRankUnitsOffsuit(rankUnits)
     }
 
-    private fun handleFiveRankUnitsSuited(rankUnits: SortedSet<RankUnit>): HandRank {
+    private fun handleFiveRankUnitsSuited(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.areInConsecutiveDescOrder()) {
             handleFiveRankUnitsSuitedStraight(rankUnits)
         }
 
-        return HandRank.FLUSH
+        return HandRanking.FLUSH
     }
 
-    private fun handleFiveRankUnitsSuitedStraight(rankUnits: SortedSet<RankUnit>): HandRank {
+    private fun handleFiveRankUnitsSuitedStraight(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.highestRank() == CardRank.ACE)
-            return HandRank.ROYAL_FLUSH
+            return HandRanking.ROYAL_FLUSH
 
-        return HandRank.STRAIGHT_FLUSH
+        return HandRanking.STRAIGHT_FLUSH
     }
 
-    private fun handleFiveRankUnitsOffsuit(rankUnits: SortedSet<RankUnit>): HandRank {
+    private fun handleFiveRankUnitsOffsuit(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.areInConsecutiveDescOrder())
-            return HandRank.STRAIGHT
+            return HandRanking.STRAIGHT
 
-        return HandRank.HIGH_CARD
+        return HandRanking.HIGH_CARD
     }
 }
