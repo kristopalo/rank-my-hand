@@ -1,19 +1,54 @@
 package com.bigstackbully.rankmyhand.service
 
+import com.bigstackbully.rankmyhand.model.RankUnit
+import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.bigstackbully.rankmyhand.model.enums.HandRanking
 import com.bigstackbully.rankmyhand.model.enums.RankUnitTemplate
 import com.bigstackbully.rankmyhand.model.template.HandRankingTemplate
+import com.bigstackbully.rankmyhand.model.template.HandTemplate
 import org.springframework.stereotype.Service
 
 @Service
 class HandTemplateService {
 
     fun composeAllPossibleHandCombinations(): List<HandRankingTemplate> {
-        val handRankingTemplates = mutableListOf<HandRankingTemplate>()
-
         // TODO Kristo @ 12.06.2025 -> Iterate the list of hand ranking templates and generate all possible hand combinations for each of them
+        val handRankingTemplates = composeAllHandRankingTemplates()
+        val cardRanks = CardRank.entries.toList()
+            .filter { it.value > 1 }
+            .sortedByDescending { it.value }
+
+        val handTemplates = mutableListOf<HandTemplate>()
+
+        for (hrt in handRankingTemplates) {
+
+        }
 
         return handRankingTemplates
+    }
+
+    fun createAllPossibleHandCombinations(
+        handRankingTemplate: HandRankingTemplate,
+        cardRanks: List<CardRank>
+    ): List<HandTemplate> {
+        return createAllPossibleHandTemplates(
+            rankUnitTemplates = handRankingTemplate.rankUnitTemplates,
+            cardRanks = cardRanks,
+            handTemplates = listOf())
+    }
+
+    fun createAllPossibleHandTemplates(
+        rankUnitTemplates: List<RankUnitTemplate>,
+        cardRanks: List<CardRank>,
+        handTemplates: List<HandTemplate>
+    ): List<HandTemplate> {
+        if (ran)
+
+        for (cardRank in cardRanks) {
+
+        }
+
+        return listOf()
     }
 
     fun composeAllHandRankingTemplates(): List<HandRankingTemplate> = listOf(

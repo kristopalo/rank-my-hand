@@ -17,10 +17,4 @@ enum class CardRank(val shortNotation: String, val value: Int) {
     KING(shortNotation = "K", value = 13),
     // TODO ACE_HIGH
     ACE(shortNotation = "A", value = 14); // Ace has dual values
-
-    companion object {
-        fun fromAbbreviation(abbr: String): CardRank? {
-            return entries.find { it.shortNotation == abbr }
-        }
-    }
 }
