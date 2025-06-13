@@ -6,7 +6,7 @@ import com.bigstackbully.rankmyhand.model.template.HandRankingTemplate
 import org.springframework.stereotype.Service
 
 @Service
-class HandRankingsService {
+class HandTemplateService {
 
     fun composeAllPossibleHandCombinations(): List<HandRankingTemplate> {
         val handRankingTemplates = mutableListOf<HandRankingTemplate>()
@@ -48,7 +48,7 @@ class HandRankingsService {
             ranking = HandRanking.FULL_HOUSE,
             rankUnitTemplates = listOf(
                 RankUnitTemplate.THREE_OF_A_KIND,
-                RankUnitTemplate.TWO_OF_A_KIND
+                RankUnitTemplate.PAIR
             )
         ),
         HandRankingTemplate(
@@ -82,15 +82,15 @@ class HandRankingsService {
         HandRankingTemplate(
             ranking = HandRanking.TWO_PAIR,
             rankUnitTemplates = listOf(
-                RankUnitTemplate.TWO_OF_A_KIND,
-                RankUnitTemplate.TWO_OF_A_KIND,
+                RankUnitTemplate.PAIR,
+                RankUnitTemplate.PAIR,
                 RankUnitTemplate.SINGLE
             )
         ),
         HandRankingTemplate(
             ranking = HandRanking.ONE_PAIR,
             rankUnitTemplates = listOf(
-                RankUnitTemplate.TWO_OF_A_KIND,
+                RankUnitTemplate.PAIR,
                 RankUnitTemplate.SINGLE,
                 RankUnitTemplate.SINGLE,
                 RankUnitTemplate.SINGLE
