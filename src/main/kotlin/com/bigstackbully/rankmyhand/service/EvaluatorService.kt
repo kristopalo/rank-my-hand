@@ -76,17 +76,15 @@ class EvaluatorService(
     }
 
     private fun handleFiveRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.areSuited()) {
-            handleFiveRankUnitsSuited(rankUnits)
-        }
+        if (rankUnits.areSuited())
+            return handleFiveRankUnitsSuited(rankUnits)
 
         return handleFiveRankUnitsOffsuit(rankUnits)
     }
 
     private fun handleFiveRankUnitsSuited(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.areInConsecutiveDescOrder()) {
-            handleFiveRankUnitsSuitedStraight(rankUnits)
-        }
+        if (rankUnits.areInConsecutiveDescOrder())
+            return handleFiveRankUnitsSuitedStraight(rankUnits)
 
         return HandRanking.FLUSH
     }
