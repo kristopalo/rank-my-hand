@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.model.combination
 
 import com.bigstackbully.rankmyhand.model.enums.HandRanking.STRAIGHT
 
-fun composeStraightHands(): HashMap<String, HandCombination> = hashMapOf(
+val STRAIGHT_HANDS: HashMap<String, HandCombination> = hashMapOf(
         "AKQJT" to HandCombination("AKQJT", STRAIGHT, 1600, 0.785714, 1, 1.000000),
         "KQJT9" to HandCombination("KQJT9", STRAIGHT, 1601, 0.785580, 2, 0.900000),
         "QJT98" to HandCombination("QJT98", STRAIGHT, 1602, 0.785446, 3, 0.800000),

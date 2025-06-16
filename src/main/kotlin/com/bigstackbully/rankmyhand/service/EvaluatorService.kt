@@ -15,7 +15,9 @@ import org.springframework.stereotype.Service
 import java.util.SortedSet
 
 @Service
-class EvaluatorService {
+class EvaluatorService(
+    private val handStrengthService: HandStrengthService
+) {
 
     fun evaluate(evaluateHandCmd: EvaluateHandCommand): EvaluationResult {
         val hand = Hand(
@@ -32,7 +34,7 @@ class EvaluatorService {
             .map { (_, cards) -> RankUnit.of(cards) }
             .toSortedSet()
 
-        val handRank = when (rankUnits.size) {
+        val handRanking = when (rankUnits.size) {
             2 -> handleTwoRankUnits(rankUnits)
             3 -> handleThreeRankUnits(rankUnits)
             4 -> handleFourRankUnits(rankUnits)
@@ -40,11 +42,18 @@ class EvaluatorService {
             else -> error("The number of rank units has to be between 2 and 5, inclusive.")
         }
 
+        val shortNotation = rankUnits.joinToString(separator = "") { it.ranksInStandardNotation }
+        val handStrength = handStrengthService.calculateHandStrength(handRanking, shortNotation)
+
         return EvaluationResult(
             hand = hand.cards.joinToString(separator = " ") { it.abbreviation },
-            handRanking = handRank,
-            serializedValue = "${handRank.strength}-${rankUnits.valueEncoded()}",
-            shortNotation = rankUnits.joinToString(separator = "") { it.ranksInStandardNotation }
+            handRanking = handRanking,
+            serializedValue = "${handRanking.strength}-${rankUnits.valueEncoded()}",
+            shortNotation = shortNotation,
+            absolutePosition = handStrength.absolutePosition,
+            absoluteStrength = handStrength.absoluteStrength,
+            relativePosition = handStrength.relativePosition,
+            relativeStrength = handStrength.relativeStrength
         )
     }
 

@@ -1,8 +1,8 @@
 package com.bigstackbully.rankmyhand.model.combination
 
-import com.bigstackbully.rankmyhand.model.enums.HandRanking.*
+import com.bigstackbully.rankmyhand.model.enums.HandRanking.FULL_HOUSE
 
-fun composeFullHouseHands(): HashMap<String, HandCombination> = hashMapOf(
+val FULL_HOUSE_HANDS: HashMap<String, HandCombination> = hashMapOf(
         "AAAKK" to HandCombination("AAAKK", FULL_HOUSE, 167, 0.977754, 1, 1.000000),
         "AAAQQ" to HandCombination("AAAQQ", FULL_HOUSE, 168, 0.977620, 2, 0.993590),
         "AAAJJ" to HandCombination("AAAJJ", FULL_HOUSE, 169, 0.977486, 3, 0.987179),

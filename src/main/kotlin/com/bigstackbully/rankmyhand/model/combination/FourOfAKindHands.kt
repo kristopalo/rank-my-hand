@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.model.combination
 
 import com.bigstackbully.rankmyhand.model.enums.HandRanking.FOUR_OF_A_KIND
 
-fun composeFourOfAKindHands(): HashMap<String, HandCombination> = hashMapOf(
+val FOUR_OF_A_KIND_HANDS: HashMap<String, HandCombination> = hashMapOf(
         "AAAAK" to HandCombination("AAAAK", FOUR_OF_A_KIND, 11, 0.998660, 1, 1.000000),
         "AAAAQ" to HandCombination("AAAAQ", FOUR_OF_A_KIND, 12, 0.998526, 2, 0.993590),
         "AAAAJ" to HandCombination("AAAAJ", FOUR_OF_A_KIND, 13, 0.998392, 3, 0.987179),
