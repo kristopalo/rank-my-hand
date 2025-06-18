@@ -1,0 +1,1250 @@
+{
+  "AAAKK": {
+    "hand": "AAAKK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 167,
+    "absoluteStrength": 0.977754,
+    "relativePosition": 1,
+    "relativeStrength": 1.0
+  },
+  "AAAQQ": {
+    "hand": "AAAQQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 168,
+    "absoluteStrength": 0.97762,
+    "relativePosition": 2,
+    "relativeStrength": 0.99359
+  },
+  "AAAJJ": {
+    "hand": "AAAJJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 169,
+    "absoluteStrength": 0.977486,
+    "relativePosition": 3,
+    "relativeStrength": 0.987179
+  },
+  "AAATT": {
+    "hand": "AAATT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 170,
+    "absoluteStrength": 0.977352,
+    "relativePosition": 4,
+    "relativeStrength": 0.980769
+  },
+  "AAA99": {
+    "hand": "AAA99",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 171,
+    "absoluteStrength": 0.977218,
+    "relativePosition": 5,
+    "relativeStrength": 0.974359
+  },
+  "AAA88": {
+    "hand": "AAA88",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 172,
+    "absoluteStrength": 0.977084,
+    "relativePosition": 6,
+    "relativeStrength": 0.967949
+  },
+  "AAA77": {
+    "hand": "AAA77",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 173,
+    "absoluteStrength": 0.97695,
+    "relativePosition": 7,
+    "relativeStrength": 0.961538
+  },
+  "AAA66": {
+    "hand": "AAA66",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 174,
+    "absoluteStrength": 0.976816,
+    "relativePosition": 8,
+    "relativeStrength": 0.955128
+  },
+  "AAA55": {
+    "hand": "AAA55",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 175,
+    "absoluteStrength": 0.976682,
+    "relativePosition": 9,
+    "relativeStrength": 0.948718
+  },
+  "AAA44": {
+    "hand": "AAA44",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 176,
+    "absoluteStrength": 0.976548,
+    "relativePosition": 10,
+    "relativeStrength": 0.942308
+  },
+  "AAA33": {
+    "hand": "AAA33",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 177,
+    "absoluteStrength": 0.976414,
+    "relativePosition": 11,
+    "relativeStrength": 0.935897
+  },
+  "AAA22": {
+    "hand": "AAA22",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 178,
+    "absoluteStrength": 0.97628,
+    "relativePosition": 12,
+    "relativeStrength": 0.929487
+  },
+  "KKKAA": {
+    "hand": "KKKAA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 179,
+    "absoluteStrength": 0.976146,
+    "relativePosition": 13,
+    "relativeStrength": 0.923077
+  },
+  "KKKQQ": {
+    "hand": "KKKQQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 180,
+    "absoluteStrength": 0.976012,
+    "relativePosition": 14,
+    "relativeStrength": 0.916667
+  },
+  "KKKJJ": {
+    "hand": "KKKJJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 181,
+    "absoluteStrength": 0.975878,
+    "relativePosition": 15,
+    "relativeStrength": 0.910256
+  },
+  "KKKTT": {
+    "hand": "KKKTT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 182,
+    "absoluteStrength": 0.975744,
+    "relativePosition": 16,
+    "relativeStrength": 0.903846
+  },
+  "KKK99": {
+    "hand": "KKK99",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 183,
+    "absoluteStrength": 0.97561,
+    "relativePosition": 17,
+    "relativeStrength": 0.897436
+  },
+  "KKK88": {
+    "hand": "KKK88",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 184,
+    "absoluteStrength": 0.975476,
+    "relativePosition": 18,
+    "relativeStrength": 0.891026
+  },
+  "KKK77": {
+    "hand": "KKK77",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 185,
+    "absoluteStrength": 0.975342,
+    "relativePosition": 19,
+    "relativeStrength": 0.884615
+  },
+  "KKK66": {
+    "hand": "KKK66",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 186,
+    "absoluteStrength": 0.975208,
+    "relativePosition": 20,
+    "relativeStrength": 0.878205
+  },
+  "KKK55": {
+    "hand": "KKK55",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 187,
+    "absoluteStrength": 0.975074,
+    "relativePosition": 21,
+    "relativeStrength": 0.871795
+  },
+  "KKK44": {
+    "hand": "KKK44",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 188,
+    "absoluteStrength": 0.97494,
+    "relativePosition": 22,
+    "relativeStrength": 0.865385
+  },
+  "KKK33": {
+    "hand": "KKK33",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 189,
+    "absoluteStrength": 0.974806,
+    "relativePosition": 23,
+    "relativeStrength": 0.858974
+  },
+  "KKK22": {
+    "hand": "KKK22",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 190,
+    "absoluteStrength": 0.974672,
+    "relativePosition": 24,
+    "relativeStrength": 0.852564
+  },
+  "QQQAA": {
+    "hand": "QQQAA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 191,
+    "absoluteStrength": 0.974538,
+    "relativePosition": 25,
+    "relativeStrength": 0.846154
+  },
+  "QQQKK": {
+    "hand": "QQQKK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 192,
+    "absoluteStrength": 0.974404,
+    "relativePosition": 26,
+    "relativeStrength": 0.839744
+  },
+  "QQQJJ": {
+    "hand": "QQQJJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 193,
+    "absoluteStrength": 0.97427,
+    "relativePosition": 27,
+    "relativeStrength": 0.833333
+  },
+  "QQQTT": {
+    "hand": "QQQTT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 194,
+    "absoluteStrength": 0.974136,
+    "relativePosition": 28,
+    "relativeStrength": 0.826923
+  },
+  "QQQ99": {
+    "hand": "QQQ99",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 195,
+    "absoluteStrength": 0.974002,
+    "relativePosition": 29,
+    "relativeStrength": 0.820513
+  },
+  "QQQ88": {
+    "hand": "QQQ88",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 196,
+    "absoluteStrength": 0.973868,
+    "relativePosition": 30,
+    "relativeStrength": 0.814103
+  },
+  "QQQ77": {
+    "hand": "QQQ77",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 197,
+    "absoluteStrength": 0.973734,
+    "relativePosition": 31,
+    "relativeStrength": 0.807692
+  },
+  "QQQ66": {
+    "hand": "QQQ66",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 198,
+    "absoluteStrength": 0.9736,
+    "relativePosition": 32,
+    "relativeStrength": 0.801282
+  },
+  "QQQ55": {
+    "hand": "QQQ55",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 199,
+    "absoluteStrength": 0.973466,
+    "relativePosition": 33,
+    "relativeStrength": 0.794872
+  },
+  "QQQ44": {
+    "hand": "QQQ44",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 200,
+    "absoluteStrength": 0.973332,
+    "relativePosition": 34,
+    "relativeStrength": 0.788462
+  },
+  "QQQ33": {
+    "hand": "QQQ33",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 201,
+    "absoluteStrength": 0.973198,
+    "relativePosition": 35,
+    "relativeStrength": 0.782051
+  },
+  "QQQ22": {
+    "hand": "QQQ22",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 202,
+    "absoluteStrength": 0.973064,
+    "relativePosition": 36,
+    "relativeStrength": 0.775641
+  },
+  "JJJAA": {
+    "hand": "JJJAA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 203,
+    "absoluteStrength": 0.97293,
+    "relativePosition": 37,
+    "relativeStrength": 0.769231
+  },
+  "JJJKK": {
+    "hand": "JJJKK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 204,
+    "absoluteStrength": 0.972795,
+    "relativePosition": 38,
+    "relativeStrength": 0.762821
+  },
+  "JJJQQ": {
+    "hand": "JJJQQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 205,
+    "absoluteStrength": 0.972661,
+    "relativePosition": 39,
+    "relativeStrength": 0.75641
+  },
+  "JJJTT": {
+    "hand": "JJJTT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 206,
+    "absoluteStrength": 0.972527,
+    "relativePosition": 40,
+    "relativeStrength": 0.75
+  },
+  "JJJ99": {
+    "hand": "JJJ99",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 207,
+    "absoluteStrength": 0.972393,
+    "relativePosition": 41,
+    "relativeStrength": 0.74359
+  },
+  "JJJ88": {
+    "hand": "JJJ88",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 208,
+    "absoluteStrength": 0.972259,
+    "relativePosition": 42,
+    "relativeStrength": 0.737179
+  },
+  "JJJ77": {
+    "hand": "JJJ77",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 209,
+    "absoluteStrength": 0.972125,
+    "relativePosition": 43,
+    "relativeStrength": 0.730769
+  },
+  "JJJ66": {
+    "hand": "JJJ66",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 210,
+    "absoluteStrength": 0.971991,
+    "relativePosition": 44,
+    "relativeStrength": 0.724359
+  },
+  "JJJ55": {
+    "hand": "JJJ55",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 211,
+    "absoluteStrength": 0.971857,
+    "relativePosition": 45,
+    "relativeStrength": 0.717949
+  },
+  "JJJ44": {
+    "hand": "JJJ44",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 212,
+    "absoluteStrength": 0.971723,
+    "relativePosition": 46,
+    "relativeStrength": 0.711538
+  },
+  "JJJ33": {
+    "hand": "JJJ33",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 213,
+    "absoluteStrength": 0.971589,
+    "relativePosition": 47,
+    "relativeStrength": 0.705128
+  },
+  "JJJ22": {
+    "hand": "JJJ22",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 214,
+    "absoluteStrength": 0.971455,
+    "relativePosition": 48,
+    "relativeStrength": 0.698718
+  },
+  "TTTAA": {
+    "hand": "TTTAA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 215,
+    "absoluteStrength": 0.971321,
+    "relativePosition": 49,
+    "relativeStrength": 0.692308
+  },
+  "TTTKK": {
+    "hand": "TTTKK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 216,
+    "absoluteStrength": 0.971187,
+    "relativePosition": 50,
+    "relativeStrength": 0.685897
+  },
+  "TTTQQ": {
+    "hand": "TTTQQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 217,
+    "absoluteStrength": 0.971053,
+    "relativePosition": 51,
+    "relativeStrength": 0.679487
+  },
+  "TTTJJ": {
+    "hand": "TTTJJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 218,
+    "absoluteStrength": 0.970919,
+    "relativePosition": 52,
+    "relativeStrength": 0.673077
+  },
+  "TTT99": {
+    "hand": "TTT99",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 219,
+    "absoluteStrength": 0.970785,
+    "relativePosition": 53,
+    "relativeStrength": 0.666667
+  },
+  "TTT88": {
+    "hand": "TTT88",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 220,
+    "absoluteStrength": 0.970651,
+    "relativePosition": 54,
+    "relativeStrength": 0.660256
+  },
+  "TTT77": {
+    "hand": "TTT77",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 221,
+    "absoluteStrength": 0.970517,
+    "relativePosition": 55,
+    "relativeStrength": 0.653846
+  },
+  "TTT66": {
+    "hand": "TTT66",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 222,
+    "absoluteStrength": 0.970383,
+    "relativePosition": 56,
+    "relativeStrength": 0.647436
+  },
+  "TTT55": {
+    "hand": "TTT55",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 223,
+    "absoluteStrength": 0.970249,
+    "relativePosition": 57,
+    "relativeStrength": 0.641026
+  },
+  "TTT44": {
+    "hand": "TTT44",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 224,
+    "absoluteStrength": 0.970115,
+    "relativePosition": 58,
+    "relativeStrength": 0.634615
+  },
+  "TTT33": {
+    "hand": "TTT33",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 225,
+    "absoluteStrength": 0.969981,
+    "relativePosition": 59,
+    "relativeStrength": 0.628205
+  },
+  "TTT22": {
+    "hand": "TTT22",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 226,
+    "absoluteStrength": 0.969847,
+    "relativePosition": 60,
+    "relativeStrength": 0.621795
+  },
+  "999AA": {
+    "hand": "999AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 227,
+    "absoluteStrength": 0.969713,
+    "relativePosition": 61,
+    "relativeStrength": 0.615385
+  },
+  "999KK": {
+    "hand": "999KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 228,
+    "absoluteStrength": 0.969579,
+    "relativePosition": 62,
+    "relativeStrength": 0.608974
+  },
+  "999QQ": {
+    "hand": "999QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 229,
+    "absoluteStrength": 0.969445,
+    "relativePosition": 63,
+    "relativeStrength": 0.602564
+  },
+  "999JJ": {
+    "hand": "999JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 230,
+    "absoluteStrength": 0.969311,
+    "relativePosition": 64,
+    "relativeStrength": 0.596154
+  },
+  "999TT": {
+    "hand": "999TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 231,
+    "absoluteStrength": 0.969177,
+    "relativePosition": 65,
+    "relativeStrength": 0.589744
+  },
+  "99988": {
+    "hand": "99988",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 232,
+    "absoluteStrength": 0.969043,
+    "relativePosition": 66,
+    "relativeStrength": 0.583333
+  },
+  "99977": {
+    "hand": "99977",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 233,
+    "absoluteStrength": 0.968909,
+    "relativePosition": 67,
+    "relativeStrength": 0.576923
+  },
+  "99966": {
+    "hand": "99966",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 234,
+    "absoluteStrength": 0.968775,
+    "relativePosition": 68,
+    "relativeStrength": 0.570513
+  },
+  "99955": {
+    "hand": "99955",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 235,
+    "absoluteStrength": 0.968641,
+    "relativePosition": 69,
+    "relativeStrength": 0.564103
+  },
+  "99944": {
+    "hand": "99944",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 236,
+    "absoluteStrength": 0.968507,
+    "relativePosition": 70,
+    "relativeStrength": 0.557692
+  },
+  "99933": {
+    "hand": "99933",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 237,
+    "absoluteStrength": 0.968373,
+    "relativePosition": 71,
+    "relativeStrength": 0.551282
+  },
+  "99922": {
+    "hand": "99922",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 238,
+    "absoluteStrength": 0.968239,
+    "relativePosition": 72,
+    "relativeStrength": 0.544872
+  },
+  "888AA": {
+    "hand": "888AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 239,
+    "absoluteStrength": 0.968105,
+    "relativePosition": 73,
+    "relativeStrength": 0.538462
+  },
+  "888KK": {
+    "hand": "888KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 240,
+    "absoluteStrength": 0.967971,
+    "relativePosition": 74,
+    "relativeStrength": 0.532051
+  },
+  "888QQ": {
+    "hand": "888QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 241,
+    "absoluteStrength": 0.967837,
+    "relativePosition": 75,
+    "relativeStrength": 0.525641
+  },
+  "888JJ": {
+    "hand": "888JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 242,
+    "absoluteStrength": 0.967703,
+    "relativePosition": 76,
+    "relativeStrength": 0.519231
+  },
+  "888TT": {
+    "hand": "888TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 243,
+    "absoluteStrength": 0.967569,
+    "relativePosition": 77,
+    "relativeStrength": 0.512821
+  },
+  "88899": {
+    "hand": "88899",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 244,
+    "absoluteStrength": 0.967435,
+    "relativePosition": 78,
+    "relativeStrength": 0.50641
+  },
+  "88877": {
+    "hand": "88877",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 245,
+    "absoluteStrength": 0.967301,
+    "relativePosition": 79,
+    "relativeStrength": 0.5
+  },
+  "88866": {
+    "hand": "88866",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 246,
+    "absoluteStrength": 0.967167,
+    "relativePosition": 80,
+    "relativeStrength": 0.49359
+  },
+  "88855": {
+    "hand": "88855",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 247,
+    "absoluteStrength": 0.967033,
+    "relativePosition": 81,
+    "relativeStrength": 0.487179
+  },
+  "88844": {
+    "hand": "88844",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 248,
+    "absoluteStrength": 0.966899,
+    "relativePosition": 82,
+    "relativeStrength": 0.480769
+  },
+  "88833": {
+    "hand": "88833",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 249,
+    "absoluteStrength": 0.966765,
+    "relativePosition": 83,
+    "relativeStrength": 0.474359
+  },
+  "88822": {
+    "hand": "88822",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 250,
+    "absoluteStrength": 0.966631,
+    "relativePosition": 84,
+    "relativeStrength": 0.467949
+  },
+  "777AA": {
+    "hand": "777AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 251,
+    "absoluteStrength": 0.966497,
+    "relativePosition": 85,
+    "relativeStrength": 0.461538
+  },
+  "777KK": {
+    "hand": "777KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 252,
+    "absoluteStrength": 0.966363,
+    "relativePosition": 86,
+    "relativeStrength": 0.455128
+  },
+  "777QQ": {
+    "hand": "777QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 253,
+    "absoluteStrength": 0.966229,
+    "relativePosition": 87,
+    "relativeStrength": 0.448718
+  },
+  "777JJ": {
+    "hand": "777JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 254,
+    "absoluteStrength": 0.966095,
+    "relativePosition": 88,
+    "relativeStrength": 0.442308
+  },
+  "777TT": {
+    "hand": "777TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 255,
+    "absoluteStrength": 0.965961,
+    "relativePosition": 89,
+    "relativeStrength": 0.435897
+  },
+  "77799": {
+    "hand": "77799",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 256,
+    "absoluteStrength": 0.965827,
+    "relativePosition": 90,
+    "relativeStrength": 0.429487
+  },
+  "77788": {
+    "hand": "77788",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 257,
+    "absoluteStrength": 0.965693,
+    "relativePosition": 91,
+    "relativeStrength": 0.423077
+  },
+  "77766": {
+    "hand": "77766",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 258,
+    "absoluteStrength": 0.965559,
+    "relativePosition": 92,
+    "relativeStrength": 0.416667
+  },
+  "77755": {
+    "hand": "77755",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 259,
+    "absoluteStrength": 0.965425,
+    "relativePosition": 93,
+    "relativeStrength": 0.410256
+  },
+  "77744": {
+    "hand": "77744",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 260,
+    "absoluteStrength": 0.965291,
+    "relativePosition": 94,
+    "relativeStrength": 0.403846
+  },
+  "77733": {
+    "hand": "77733",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 261,
+    "absoluteStrength": 0.965157,
+    "relativePosition": 95,
+    "relativeStrength": 0.397436
+  },
+  "77722": {
+    "hand": "77722",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 262,
+    "absoluteStrength": 0.965023,
+    "relativePosition": 96,
+    "relativeStrength": 0.391026
+  },
+  "666AA": {
+    "hand": "666AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 263,
+    "absoluteStrength": 0.964889,
+    "relativePosition": 97,
+    "relativeStrength": 0.384615
+  },
+  "666KK": {
+    "hand": "666KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 264,
+    "absoluteStrength": 0.964755,
+    "relativePosition": 98,
+    "relativeStrength": 0.378205
+  },
+  "666QQ": {
+    "hand": "666QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 265,
+    "absoluteStrength": 0.964621,
+    "relativePosition": 99,
+    "relativeStrength": 0.371795
+  },
+  "666JJ": {
+    "hand": "666JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 266,
+    "absoluteStrength": 0.964487,
+    "relativePosition": 100,
+    "relativeStrength": 0.365385
+  },
+  "666TT": {
+    "hand": "666TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 267,
+    "absoluteStrength": 0.964353,
+    "relativePosition": 101,
+    "relativeStrength": 0.358974
+  },
+  "66699": {
+    "hand": "66699",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 268,
+    "absoluteStrength": 0.964219,
+    "relativePosition": 102,
+    "relativeStrength": 0.352564
+  },
+  "66688": {
+    "hand": "66688",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 269,
+    "absoluteStrength": 0.964085,
+    "relativePosition": 103,
+    "relativeStrength": 0.346154
+  },
+  "66677": {
+    "hand": "66677",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 270,
+    "absoluteStrength": 0.963951,
+    "relativePosition": 104,
+    "relativeStrength": 0.339744
+  },
+  "66655": {
+    "hand": "66655",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 271,
+    "absoluteStrength": 0.963817,
+    "relativePosition": 105,
+    "relativeStrength": 0.333333
+  },
+  "66644": {
+    "hand": "66644",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 272,
+    "absoluteStrength": 0.963683,
+    "relativePosition": 106,
+    "relativeStrength": 0.326923
+  },
+  "66633": {
+    "hand": "66633",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 273,
+    "absoluteStrength": 0.963549,
+    "relativePosition": 107,
+    "relativeStrength": 0.320513
+  },
+  "66622": {
+    "hand": "66622",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 274,
+    "absoluteStrength": 0.963415,
+    "relativePosition": 108,
+    "relativeStrength": 0.314103
+  },
+  "555AA": {
+    "hand": "555AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 275,
+    "absoluteStrength": 0.963281,
+    "relativePosition": 109,
+    "relativeStrength": 0.307692
+  },
+  "555KK": {
+    "hand": "555KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 276,
+    "absoluteStrength": 0.963147,
+    "relativePosition": 110,
+    "relativeStrength": 0.301282
+  },
+  "555QQ": {
+    "hand": "555QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 277,
+    "absoluteStrength": 0.963013,
+    "relativePosition": 111,
+    "relativeStrength": 0.294872
+  },
+  "555JJ": {
+    "hand": "555JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 278,
+    "absoluteStrength": 0.962879,
+    "relativePosition": 112,
+    "relativeStrength": 0.288462
+  },
+  "555TT": {
+    "hand": "555TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 279,
+    "absoluteStrength": 0.962745,
+    "relativePosition": 113,
+    "relativeStrength": 0.282051
+  },
+  "55599": {
+    "hand": "55599",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 280,
+    "absoluteStrength": 0.962611,
+    "relativePosition": 114,
+    "relativeStrength": 0.275641
+  },
+  "55588": {
+    "hand": "55588",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 281,
+    "absoluteStrength": 0.962477,
+    "relativePosition": 115,
+    "relativeStrength": 0.269231
+  },
+  "55577": {
+    "hand": "55577",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 282,
+    "absoluteStrength": 0.962343,
+    "relativePosition": 116,
+    "relativeStrength": 0.262821
+  },
+  "55566": {
+    "hand": "55566",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 283,
+    "absoluteStrength": 0.962209,
+    "relativePosition": 117,
+    "relativeStrength": 0.25641
+  },
+  "55544": {
+    "hand": "55544",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 284,
+    "absoluteStrength": 0.962075,
+    "relativePosition": 118,
+    "relativeStrength": 0.25
+  },
+  "55533": {
+    "hand": "55533",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 285,
+    "absoluteStrength": 0.96194,
+    "relativePosition": 119,
+    "relativeStrength": 0.24359
+  },
+  "55522": {
+    "hand": "55522",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 286,
+    "absoluteStrength": 0.961806,
+    "relativePosition": 120,
+    "relativeStrength": 0.237179
+  },
+  "444AA": {
+    "hand": "444AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 287,
+    "absoluteStrength": 0.961672,
+    "relativePosition": 121,
+    "relativeStrength": 0.230769
+  },
+  "444KK": {
+    "hand": "444KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 288,
+    "absoluteStrength": 0.961538,
+    "relativePosition": 122,
+    "relativeStrength": 0.224359
+  },
+  "444QQ": {
+    "hand": "444QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 289,
+    "absoluteStrength": 0.961404,
+    "relativePosition": 123,
+    "relativeStrength": 0.217949
+  },
+  "444JJ": {
+    "hand": "444JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 290,
+    "absoluteStrength": 0.96127,
+    "relativePosition": 124,
+    "relativeStrength": 0.211538
+  },
+  "444TT": {
+    "hand": "444TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 291,
+    "absoluteStrength": 0.961136,
+    "relativePosition": 125,
+    "relativeStrength": 0.205128
+  },
+  "44499": {
+    "hand": "44499",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 292,
+    "absoluteStrength": 0.961002,
+    "relativePosition": 126,
+    "relativeStrength": 0.198718
+  },
+  "44488": {
+    "hand": "44488",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 293,
+    "absoluteStrength": 0.960868,
+    "relativePosition": 127,
+    "relativeStrength": 0.192308
+  },
+  "44477": {
+    "hand": "44477",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 294,
+    "absoluteStrength": 0.960734,
+    "relativePosition": 128,
+    "relativeStrength": 0.185897
+  },
+  "44466": {
+    "hand": "44466",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 295,
+    "absoluteStrength": 0.9606,
+    "relativePosition": 129,
+    "relativeStrength": 0.179487
+  },
+  "44455": {
+    "hand": "44455",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 296,
+    "absoluteStrength": 0.960466,
+    "relativePosition": 130,
+    "relativeStrength": 0.173077
+  },
+  "44433": {
+    "hand": "44433",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 297,
+    "absoluteStrength": 0.960332,
+    "relativePosition": 131,
+    "relativeStrength": 0.166667
+  },
+  "44422": {
+    "hand": "44422",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 298,
+    "absoluteStrength": 0.960198,
+    "relativePosition": 132,
+    "relativeStrength": 0.160256
+  },
+  "333AA": {
+    "hand": "333AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 299,
+    "absoluteStrength": 0.960064,
+    "relativePosition": 133,
+    "relativeStrength": 0.153846
+  },
+  "333KK": {
+    "hand": "333KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 300,
+    "absoluteStrength": 0.95993,
+    "relativePosition": 134,
+    "relativeStrength": 0.147436
+  },
+  "333QQ": {
+    "hand": "333QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 301,
+    "absoluteStrength": 0.959796,
+    "relativePosition": 135,
+    "relativeStrength": 0.141026
+  },
+  "333JJ": {
+    "hand": "333JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 302,
+    "absoluteStrength": 0.959662,
+    "relativePosition": 136,
+    "relativeStrength": 0.134615
+  },
+  "333TT": {
+    "hand": "333TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 303,
+    "absoluteStrength": 0.959528,
+    "relativePosition": 137,
+    "relativeStrength": 0.128205
+  },
+  "33399": {
+    "hand": "33399",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 304,
+    "absoluteStrength": 0.959394,
+    "relativePosition": 138,
+    "relativeStrength": 0.121795
+  },
+  "33388": {
+    "hand": "33388",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 305,
+    "absoluteStrength": 0.95926,
+    "relativePosition": 139,
+    "relativeStrength": 0.115385
+  },
+  "33377": {
+    "hand": "33377",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 306,
+    "absoluteStrength": 0.959126,
+    "relativePosition": 140,
+    "relativeStrength": 0.108974
+  },
+  "33366": {
+    "hand": "33366",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 307,
+    "absoluteStrength": 0.958992,
+    "relativePosition": 141,
+    "relativeStrength": 0.102564
+  },
+  "33355": {
+    "hand": "33355",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 308,
+    "absoluteStrength": 0.958858,
+    "relativePosition": 142,
+    "relativeStrength": 0.096154
+  },
+  "33344": {
+    "hand": "33344",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 309,
+    "absoluteStrength": 0.958724,
+    "relativePosition": 143,
+    "relativeStrength": 0.089744
+  },
+  "33322": {
+    "hand": "33322",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 310,
+    "absoluteStrength": 0.95859,
+    "relativePosition": 144,
+    "relativeStrength": 0.083333
+  },
+  "222AA": {
+    "hand": "222AA",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 311,
+    "absoluteStrength": 0.958456,
+    "relativePosition": 145,
+    "relativeStrength": 0.076923
+  },
+  "222KK": {
+    "hand": "222KK",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 312,
+    "absoluteStrength": 0.958322,
+    "relativePosition": 146,
+    "relativeStrength": 0.070513
+  },
+  "222QQ": {
+    "hand": "222QQ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 313,
+    "absoluteStrength": 0.958188,
+    "relativePosition": 147,
+    "relativeStrength": 0.064103
+  },
+  "222JJ": {
+    "hand": "222JJ",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 314,
+    "absoluteStrength": 0.958054,
+    "relativePosition": 148,
+    "relativeStrength": 0.057692
+  },
+  "222TT": {
+    "hand": "222TT",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 315,
+    "absoluteStrength": 0.95792,
+    "relativePosition": 149,
+    "relativeStrength": 0.051282
+  },
+  "22299": {
+    "hand": "22299",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 316,
+    "absoluteStrength": 0.957786,
+    "relativePosition": 150,
+    "relativeStrength": 0.044872
+  },
+  "22288": {
+    "hand": "22288",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 317,
+    "absoluteStrength": 0.957652,
+    "relativePosition": 151,
+    "relativeStrength": 0.038462
+  },
+  "22277": {
+    "hand": "22277",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 318,
+    "absoluteStrength": 0.957518,
+    "relativePosition": 152,
+    "relativeStrength": 0.032051
+  },
+  "22266": {
+    "hand": "22266",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 319,
+    "absoluteStrength": 0.957384,
+    "relativePosition": 153,
+    "relativeStrength": 0.025641
+  },
+  "22255": {
+    "hand": "22255",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 320,
+    "absoluteStrength": 0.95725,
+    "relativePosition": 154,
+    "relativeStrength": 0.019231
+  },
+  "22244": {
+    "hand": "22244",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 321,
+    "absoluteStrength": 0.957116,
+    "relativePosition": 155,
+    "relativeStrength": 0.012821
+  },
+  "22233": {
+    "hand": "22233",
+    "ranking": "FULL_HOUSE",
+    "absolutePosition": 322,
+    "absoluteStrength": 0.956982,
+    "relativePosition": 156,
+    "relativeStrength": 0.00641
+  }
+}

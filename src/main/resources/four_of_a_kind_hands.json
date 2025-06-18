@@ -1,0 +1,1250 @@
+{
+  "AAAAK": {
+    "hand": "AAAAK",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 11,
+    "absoluteStrength": 0.99866,
+    "relativePosition": 1,
+    "relativeStrength": 1.0
+  },
+  "AAAAQ": {
+    "hand": "AAAAQ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 12,
+    "absoluteStrength": 0.998526,
+    "relativePosition": 2,
+    "relativeStrength": 0.99359
+  },
+  "AAAAJ": {
+    "hand": "AAAAJ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 13,
+    "absoluteStrength": 0.998392,
+    "relativePosition": 3,
+    "relativeStrength": 0.987179
+  },
+  "AAAAT": {
+    "hand": "AAAAT",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 14,
+    "absoluteStrength": 0.998258,
+    "relativePosition": 4,
+    "relativeStrength": 0.980769
+  },
+  "AAAA9": {
+    "hand": "AAAA9",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 15,
+    "absoluteStrength": 0.998124,
+    "relativePosition": 5,
+    "relativeStrength": 0.974359
+  },
+  "AAAA8": {
+    "hand": "AAAA8",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 16,
+    "absoluteStrength": 0.99799,
+    "relativePosition": 6,
+    "relativeStrength": 0.967949
+  },
+  "AAAA7": {
+    "hand": "AAAA7",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 17,
+    "absoluteStrength": 0.997856,
+    "relativePosition": 7,
+    "relativeStrength": 0.961538
+  },
+  "AAAA6": {
+    "hand": "AAAA6",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 18,
+    "absoluteStrength": 0.997722,
+    "relativePosition": 8,
+    "relativeStrength": 0.955128
+  },
+  "AAAA5": {
+    "hand": "AAAA5",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 19,
+    "absoluteStrength": 0.997588,
+    "relativePosition": 9,
+    "relativeStrength": 0.948718
+  },
+  "AAAA4": {
+    "hand": "AAAA4",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 20,
+    "absoluteStrength": 0.997454,
+    "relativePosition": 10,
+    "relativeStrength": 0.942308
+  },
+  "AAAA3": {
+    "hand": "AAAA3",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 21,
+    "absoluteStrength": 0.99732,
+    "relativePosition": 11,
+    "relativeStrength": 0.935897
+  },
+  "AAAA2": {
+    "hand": "AAAA2",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 22,
+    "absoluteStrength": 0.997186,
+    "relativePosition": 12,
+    "relativeStrength": 0.929487
+  },
+  "KKKKA": {
+    "hand": "KKKKA",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 23,
+    "absoluteStrength": 0.997052,
+    "relativePosition": 13,
+    "relativeStrength": 0.923077
+  },
+  "KKKKQ": {
+    "hand": "KKKKQ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 24,
+    "absoluteStrength": 0.996918,
+    "relativePosition": 14,
+    "relativeStrength": 0.916667
+  },
+  "KKKKJ": {
+    "hand": "KKKKJ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 25,
+    "absoluteStrength": 0.996784,
+    "relativePosition": 15,
+    "relativeStrength": 0.910256
+  },
+  "KKKKT": {
+    "hand": "KKKKT",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 26,
+    "absoluteStrength": 0.99665,
+    "relativePosition": 16,
+    "relativeStrength": 0.903846
+  },
+  "KKKK9": {
+    "hand": "KKKK9",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 27,
+    "absoluteStrength": 0.996516,
+    "relativePosition": 17,
+    "relativeStrength": 0.897436
+  },
+  "KKKK8": {
+    "hand": "KKKK8",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 28,
+    "absoluteStrength": 0.996382,
+    "relativePosition": 18,
+    "relativeStrength": 0.891026
+  },
+  "KKKK7": {
+    "hand": "KKKK7",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 29,
+    "absoluteStrength": 0.996248,
+    "relativePosition": 19,
+    "relativeStrength": 0.884615
+  },
+  "KKKK6": {
+    "hand": "KKKK6",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 30,
+    "absoluteStrength": 0.996114,
+    "relativePosition": 20,
+    "relativeStrength": 0.878205
+  },
+  "KKKK5": {
+    "hand": "KKKK5",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 31,
+    "absoluteStrength": 0.99598,
+    "relativePosition": 21,
+    "relativeStrength": 0.871795
+  },
+  "KKKK4": {
+    "hand": "KKKK4",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 32,
+    "absoluteStrength": 0.995846,
+    "relativePosition": 22,
+    "relativeStrength": 0.865385
+  },
+  "KKKK3": {
+    "hand": "KKKK3",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 33,
+    "absoluteStrength": 0.995712,
+    "relativePosition": 23,
+    "relativeStrength": 0.858974
+  },
+  "KKKK2": {
+    "hand": "KKKK2",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 34,
+    "absoluteStrength": 0.995578,
+    "relativePosition": 24,
+    "relativeStrength": 0.852564
+  },
+  "QQQQA": {
+    "hand": "QQQQA",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 35,
+    "absoluteStrength": 0.995444,
+    "relativePosition": 25,
+    "relativeStrength": 0.846154
+  },
+  "QQQQK": {
+    "hand": "QQQQK",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 36,
+    "absoluteStrength": 0.99531,
+    "relativePosition": 26,
+    "relativeStrength": 0.839744
+  },
+  "QQQQJ": {
+    "hand": "QQQQJ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 37,
+    "absoluteStrength": 0.995176,
+    "relativePosition": 27,
+    "relativeStrength": 0.833333
+  },
+  "QQQQT": {
+    "hand": "QQQQT",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 38,
+    "absoluteStrength": 0.995042,
+    "relativePosition": 28,
+    "relativeStrength": 0.826923
+  },
+  "QQQQ9": {
+    "hand": "QQQQ9",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 39,
+    "absoluteStrength": 0.994908,
+    "relativePosition": 29,
+    "relativeStrength": 0.820513
+  },
+  "QQQQ8": {
+    "hand": "QQQQ8",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 40,
+    "absoluteStrength": 0.994774,
+    "relativePosition": 30,
+    "relativeStrength": 0.814103
+  },
+  "QQQQ7": {
+    "hand": "QQQQ7",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 41,
+    "absoluteStrength": 0.99464,
+    "relativePosition": 31,
+    "relativeStrength": 0.807692
+  },
+  "QQQQ6": {
+    "hand": "QQQQ6",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 42,
+    "absoluteStrength": 0.994505,
+    "relativePosition": 32,
+    "relativeStrength": 0.801282
+  },
+  "QQQQ5": {
+    "hand": "QQQQ5",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 43,
+    "absoluteStrength": 0.994371,
+    "relativePosition": 33,
+    "relativeStrength": 0.794872
+  },
+  "QQQQ4": {
+    "hand": "QQQQ4",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 44,
+    "absoluteStrength": 0.994237,
+    "relativePosition": 34,
+    "relativeStrength": 0.788462
+  },
+  "QQQQ3": {
+    "hand": "QQQQ3",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 45,
+    "absoluteStrength": 0.994103,
+    "relativePosition": 35,
+    "relativeStrength": 0.782051
+  },
+  "QQQQ2": {
+    "hand": "QQQQ2",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 46,
+    "absoluteStrength": 0.993969,
+    "relativePosition": 36,
+    "relativeStrength": 0.775641
+  },
+  "JJJJA": {
+    "hand": "JJJJA",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 47,
+    "absoluteStrength": 0.993835,
+    "relativePosition": 37,
+    "relativeStrength": 0.769231
+  },
+  "JJJJK": {
+    "hand": "JJJJK",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 48,
+    "absoluteStrength": 0.993701,
+    "relativePosition": 38,
+    "relativeStrength": 0.762821
+  },
+  "JJJJQ": {
+    "hand": "JJJJQ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 49,
+    "absoluteStrength": 0.993567,
+    "relativePosition": 39,
+    "relativeStrength": 0.75641
+  },
+  "JJJJT": {
+    "hand": "JJJJT",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 50,
+    "absoluteStrength": 0.993433,
+    "relativePosition": 40,
+    "relativeStrength": 0.75
+  },
+  "JJJJ9": {
+    "hand": "JJJJ9",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 51,
+    "absoluteStrength": 0.993299,
+    "relativePosition": 41,
+    "relativeStrength": 0.74359
+  },
+  "JJJJ8": {
+    "hand": "JJJJ8",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 52,
+    "absoluteStrength": 0.993165,
+    "relativePosition": 42,
+    "relativeStrength": 0.737179
+  },
+  "JJJJ7": {
+    "hand": "JJJJ7",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 53,
+    "absoluteStrength": 0.993031,
+    "relativePosition": 43,
+    "relativeStrength": 0.730769
+  },
+  "JJJJ6": {
+    "hand": "JJJJ6",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 54,
+    "absoluteStrength": 0.992897,
+    "relativePosition": 44,
+    "relativeStrength": 0.724359
+  },
+  "JJJJ5": {
+    "hand": "JJJJ5",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 55,
+    "absoluteStrength": 0.992763,
+    "relativePosition": 45,
+    "relativeStrength": 0.717949
+  },
+  "JJJJ4": {
+    "hand": "JJJJ4",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 56,
+    "absoluteStrength": 0.992629,
+    "relativePosition": 46,
+    "relativeStrength": 0.711538
+  },
+  "JJJJ3": {
+    "hand": "JJJJ3",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 57,
+    "absoluteStrength": 0.992495,
+    "relativePosition": 47,
+    "relativeStrength": 0.705128
+  },
+  "JJJJ2": {
+    "hand": "JJJJ2",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 58,
+    "absoluteStrength": 0.992361,
+    "relativePosition": 48,
+    "relativeStrength": 0.698718
+  },
+  "TTTTA": {
+    "hand": "TTTTA",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 59,
+    "absoluteStrength": 0.992227,
+    "relativePosition": 49,
+    "relativeStrength": 0.692308
+  },
+  "TTTTK": {
+    "hand": "TTTTK",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 60,
+    "absoluteStrength": 0.992093,
+    "relativePosition": 50,
+    "relativeStrength": 0.685897
+  },
+  "TTTTQ": {
+    "hand": "TTTTQ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 61,
+    "absoluteStrength": 0.991959,
+    "relativePosition": 51,
+    "relativeStrength": 0.679487
+  },
+  "TTTTJ": {
+    "hand": "TTTTJ",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 62,
+    "absoluteStrength": 0.991825,
+    "relativePosition": 52,
+    "relativeStrength": 0.673077
+  },
+  "TTTT9": {
+    "hand": "TTTT9",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 63,
+    "absoluteStrength": 0.991691,
+    "relativePosition": 53,
+    "relativeStrength": 0.666667
+  },
+  "TTTT8": {
+    "hand": "TTTT8",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 64,
+    "absoluteStrength": 0.991557,
+    "relativePosition": 54,
+    "relativeStrength": 0.660256
+  },
+  "TTTT7": {
+    "hand": "TTTT7",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 65,
+    "absoluteStrength": 0.991423,
+    "relativePosition": 55,
+    "relativeStrength": 0.653846
+  },
+  "TTTT6": {
+    "hand": "TTTT6",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 66,
+    "absoluteStrength": 0.991289,
+    "relativePosition": 56,
+    "relativeStrength": 0.647436
+  },
+  "TTTT5": {
+    "hand": "TTTT5",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 67,
+    "absoluteStrength": 0.991155,
+    "relativePosition": 57,
+    "relativeStrength": 0.641026
+  },
+  "TTTT4": {
+    "hand": "TTTT4",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 68,
+    "absoluteStrength": 0.991021,
+    "relativePosition": 58,
+    "relativeStrength": 0.634615
+  },
+  "TTTT3": {
+    "hand": "TTTT3",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 69,
+    "absoluteStrength": 0.990887,
+    "relativePosition": 59,
+    "relativeStrength": 0.628205
+  },
+  "TTTT2": {
+    "hand": "TTTT2",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 70,
+    "absoluteStrength": 0.990753,
+    "relativePosition": 60,
+    "relativeStrength": 0.621795
+  },
+  "9999A": {
+    "hand": "9999A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 71,
+    "absoluteStrength": 0.990619,
+    "relativePosition": 61,
+    "relativeStrength": 0.615385
+  },
+  "9999K": {
+    "hand": "9999K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 72,
+    "absoluteStrength": 0.990485,
+    "relativePosition": 62,
+    "relativeStrength": 0.608974
+  },
+  "9999Q": {
+    "hand": "9999Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 73,
+    "absoluteStrength": 0.990351,
+    "relativePosition": 63,
+    "relativeStrength": 0.602564
+  },
+  "9999J": {
+    "hand": "9999J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 74,
+    "absoluteStrength": 0.990217,
+    "relativePosition": 64,
+    "relativeStrength": 0.596154
+  },
+  "9999T": {
+    "hand": "9999T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 75,
+    "absoluteStrength": 0.990083,
+    "relativePosition": 65,
+    "relativeStrength": 0.589744
+  },
+  "99998": {
+    "hand": "99998",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 76,
+    "absoluteStrength": 0.989949,
+    "relativePosition": 66,
+    "relativeStrength": 0.583333
+  },
+  "99997": {
+    "hand": "99997",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 77,
+    "absoluteStrength": 0.989815,
+    "relativePosition": 67,
+    "relativeStrength": 0.576923
+  },
+  "99996": {
+    "hand": "99996",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 78,
+    "absoluteStrength": 0.989681,
+    "relativePosition": 68,
+    "relativeStrength": 0.570513
+  },
+  "99995": {
+    "hand": "99995",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 79,
+    "absoluteStrength": 0.989547,
+    "relativePosition": 69,
+    "relativeStrength": 0.564103
+  },
+  "99994": {
+    "hand": "99994",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 80,
+    "absoluteStrength": 0.989413,
+    "relativePosition": 70,
+    "relativeStrength": 0.557692
+  },
+  "99993": {
+    "hand": "99993",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 81,
+    "absoluteStrength": 0.989279,
+    "relativePosition": 71,
+    "relativeStrength": 0.551282
+  },
+  "99992": {
+    "hand": "99992",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 82,
+    "absoluteStrength": 0.989145,
+    "relativePosition": 72,
+    "relativeStrength": 0.544872
+  },
+  "8888A": {
+    "hand": "8888A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 83,
+    "absoluteStrength": 0.989011,
+    "relativePosition": 73,
+    "relativeStrength": 0.538462
+  },
+  "8888K": {
+    "hand": "8888K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 84,
+    "absoluteStrength": 0.988877,
+    "relativePosition": 74,
+    "relativeStrength": 0.532051
+  },
+  "8888Q": {
+    "hand": "8888Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 85,
+    "absoluteStrength": 0.988743,
+    "relativePosition": 75,
+    "relativeStrength": 0.525641
+  },
+  "8888J": {
+    "hand": "8888J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 86,
+    "absoluteStrength": 0.988609,
+    "relativePosition": 76,
+    "relativeStrength": 0.519231
+  },
+  "8888T": {
+    "hand": "8888T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 87,
+    "absoluteStrength": 0.988475,
+    "relativePosition": 77,
+    "relativeStrength": 0.512821
+  },
+  "88889": {
+    "hand": "88889",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 88,
+    "absoluteStrength": 0.988341,
+    "relativePosition": 78,
+    "relativeStrength": 0.50641
+  },
+  "88887": {
+    "hand": "88887",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 89,
+    "absoluteStrength": 0.988207,
+    "relativePosition": 79,
+    "relativeStrength": 0.5
+  },
+  "88886": {
+    "hand": "88886",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 90,
+    "absoluteStrength": 0.988073,
+    "relativePosition": 80,
+    "relativeStrength": 0.49359
+  },
+  "88885": {
+    "hand": "88885",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 91,
+    "absoluteStrength": 0.987939,
+    "relativePosition": 81,
+    "relativeStrength": 0.487179
+  },
+  "88884": {
+    "hand": "88884",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 92,
+    "absoluteStrength": 0.987805,
+    "relativePosition": 82,
+    "relativeStrength": 0.480769
+  },
+  "88883": {
+    "hand": "88883",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 93,
+    "absoluteStrength": 0.987671,
+    "relativePosition": 83,
+    "relativeStrength": 0.474359
+  },
+  "88882": {
+    "hand": "88882",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 94,
+    "absoluteStrength": 0.987537,
+    "relativePosition": 84,
+    "relativeStrength": 0.467949
+  },
+  "7777A": {
+    "hand": "7777A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 95,
+    "absoluteStrength": 0.987403,
+    "relativePosition": 85,
+    "relativeStrength": 0.461538
+  },
+  "7777K": {
+    "hand": "7777K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 96,
+    "absoluteStrength": 0.987269,
+    "relativePosition": 86,
+    "relativeStrength": 0.455128
+  },
+  "7777Q": {
+    "hand": "7777Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 97,
+    "absoluteStrength": 0.987135,
+    "relativePosition": 87,
+    "relativeStrength": 0.448718
+  },
+  "7777J": {
+    "hand": "7777J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 98,
+    "absoluteStrength": 0.987001,
+    "relativePosition": 88,
+    "relativeStrength": 0.442308
+  },
+  "7777T": {
+    "hand": "7777T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 99,
+    "absoluteStrength": 0.986867,
+    "relativePosition": 89,
+    "relativeStrength": 0.435897
+  },
+  "77779": {
+    "hand": "77779",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 100,
+    "absoluteStrength": 0.986733,
+    "relativePosition": 90,
+    "relativeStrength": 0.429487
+  },
+  "77778": {
+    "hand": "77778",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 101,
+    "absoluteStrength": 0.986599,
+    "relativePosition": 91,
+    "relativeStrength": 0.423077
+  },
+  "77776": {
+    "hand": "77776",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 102,
+    "absoluteStrength": 0.986465,
+    "relativePosition": 92,
+    "relativeStrength": 0.416667
+  },
+  "77775": {
+    "hand": "77775",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 103,
+    "absoluteStrength": 0.986331,
+    "relativePosition": 93,
+    "relativeStrength": 0.410256
+  },
+  "77774": {
+    "hand": "77774",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 104,
+    "absoluteStrength": 0.986197,
+    "relativePosition": 94,
+    "relativeStrength": 0.403846
+  },
+  "77773": {
+    "hand": "77773",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 105,
+    "absoluteStrength": 0.986063,
+    "relativePosition": 95,
+    "relativeStrength": 0.397436
+  },
+  "77772": {
+    "hand": "77772",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 106,
+    "absoluteStrength": 0.985929,
+    "relativePosition": 96,
+    "relativeStrength": 0.391026
+  },
+  "6666A": {
+    "hand": "6666A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 107,
+    "absoluteStrength": 0.985795,
+    "relativePosition": 97,
+    "relativeStrength": 0.384615
+  },
+  "6666K": {
+    "hand": "6666K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 108,
+    "absoluteStrength": 0.985661,
+    "relativePosition": 98,
+    "relativeStrength": 0.378205
+  },
+  "6666Q": {
+    "hand": "6666Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 109,
+    "absoluteStrength": 0.985527,
+    "relativePosition": 99,
+    "relativeStrength": 0.371795
+  },
+  "6666J": {
+    "hand": "6666J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 110,
+    "absoluteStrength": 0.985393,
+    "relativePosition": 100,
+    "relativeStrength": 0.365385
+  },
+  "6666T": {
+    "hand": "6666T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 111,
+    "absoluteStrength": 0.985259,
+    "relativePosition": 101,
+    "relativeStrength": 0.358974
+  },
+  "66669": {
+    "hand": "66669",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 112,
+    "absoluteStrength": 0.985125,
+    "relativePosition": 102,
+    "relativeStrength": 0.352564
+  },
+  "66668": {
+    "hand": "66668",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 113,
+    "absoluteStrength": 0.984991,
+    "relativePosition": 103,
+    "relativeStrength": 0.346154
+  },
+  "66667": {
+    "hand": "66667",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 114,
+    "absoluteStrength": 0.984857,
+    "relativePosition": 104,
+    "relativeStrength": 0.339744
+  },
+  "66665": {
+    "hand": "66665",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 115,
+    "absoluteStrength": 0.984723,
+    "relativePosition": 105,
+    "relativeStrength": 0.333333
+  },
+  "66664": {
+    "hand": "66664",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 116,
+    "absoluteStrength": 0.984589,
+    "relativePosition": 106,
+    "relativeStrength": 0.326923
+  },
+  "66663": {
+    "hand": "66663",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 117,
+    "absoluteStrength": 0.984455,
+    "relativePosition": 107,
+    "relativeStrength": 0.320513
+  },
+  "66662": {
+    "hand": "66662",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 118,
+    "absoluteStrength": 0.984321,
+    "relativePosition": 108,
+    "relativeStrength": 0.314103
+  },
+  "5555A": {
+    "hand": "5555A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 119,
+    "absoluteStrength": 0.984187,
+    "relativePosition": 109,
+    "relativeStrength": 0.307692
+  },
+  "5555K": {
+    "hand": "5555K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 120,
+    "absoluteStrength": 0.984053,
+    "relativePosition": 110,
+    "relativeStrength": 0.301282
+  },
+  "5555Q": {
+    "hand": "5555Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 121,
+    "absoluteStrength": 0.983919,
+    "relativePosition": 111,
+    "relativeStrength": 0.294872
+  },
+  "5555J": {
+    "hand": "5555J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 122,
+    "absoluteStrength": 0.983785,
+    "relativePosition": 112,
+    "relativeStrength": 0.288462
+  },
+  "5555T": {
+    "hand": "5555T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 123,
+    "absoluteStrength": 0.98365,
+    "relativePosition": 113,
+    "relativeStrength": 0.282051
+  },
+  "55559": {
+    "hand": "55559",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 124,
+    "absoluteStrength": 0.983516,
+    "relativePosition": 114,
+    "relativeStrength": 0.275641
+  },
+  "55558": {
+    "hand": "55558",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 125,
+    "absoluteStrength": 0.983382,
+    "relativePosition": 115,
+    "relativeStrength": 0.269231
+  },
+  "55557": {
+    "hand": "55557",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 126,
+    "absoluteStrength": 0.983248,
+    "relativePosition": 116,
+    "relativeStrength": 0.262821
+  },
+  "55556": {
+    "hand": "55556",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 127,
+    "absoluteStrength": 0.983114,
+    "relativePosition": 117,
+    "relativeStrength": 0.25641
+  },
+  "55554": {
+    "hand": "55554",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 128,
+    "absoluteStrength": 0.98298,
+    "relativePosition": 118,
+    "relativeStrength": 0.25
+  },
+  "55553": {
+    "hand": "55553",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 129,
+    "absoluteStrength": 0.982846,
+    "relativePosition": 119,
+    "relativeStrength": 0.24359
+  },
+  "55552": {
+    "hand": "55552",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 130,
+    "absoluteStrength": 0.982712,
+    "relativePosition": 120,
+    "relativeStrength": 0.237179
+  },
+  "4444A": {
+    "hand": "4444A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 131,
+    "absoluteStrength": 0.982578,
+    "relativePosition": 121,
+    "relativeStrength": 0.230769
+  },
+  "4444K": {
+    "hand": "4444K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 132,
+    "absoluteStrength": 0.982444,
+    "relativePosition": 122,
+    "relativeStrength": 0.224359
+  },
+  "4444Q": {
+    "hand": "4444Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 133,
+    "absoluteStrength": 0.98231,
+    "relativePosition": 123,
+    "relativeStrength": 0.217949
+  },
+  "4444J": {
+    "hand": "4444J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 134,
+    "absoluteStrength": 0.982176,
+    "relativePosition": 124,
+    "relativeStrength": 0.211538
+  },
+  "4444T": {
+    "hand": "4444T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 135,
+    "absoluteStrength": 0.982042,
+    "relativePosition": 125,
+    "relativeStrength": 0.205128
+  },
+  "44449": {
+    "hand": "44449",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 136,
+    "absoluteStrength": 0.981908,
+    "relativePosition": 126,
+    "relativeStrength": 0.198718
+  },
+  "44448": {
+    "hand": "44448",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 137,
+    "absoluteStrength": 0.981774,
+    "relativePosition": 127,
+    "relativeStrength": 0.192308
+  },
+  "44447": {
+    "hand": "44447",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 138,
+    "absoluteStrength": 0.98164,
+    "relativePosition": 128,
+    "relativeStrength": 0.185897
+  },
+  "44446": {
+    "hand": "44446",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 139,
+    "absoluteStrength": 0.981506,
+    "relativePosition": 129,
+    "relativeStrength": 0.179487
+  },
+  "44445": {
+    "hand": "44445",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 140,
+    "absoluteStrength": 0.981372,
+    "relativePosition": 130,
+    "relativeStrength": 0.173077
+  },
+  "44443": {
+    "hand": "44443",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 141,
+    "absoluteStrength": 0.981238,
+    "relativePosition": 131,
+    "relativeStrength": 0.166667
+  },
+  "44442": {
+    "hand": "44442",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 142,
+    "absoluteStrength": 0.981104,
+    "relativePosition": 132,
+    "relativeStrength": 0.160256
+  },
+  "3333A": {
+    "hand": "3333A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 143,
+    "absoluteStrength": 0.98097,
+    "relativePosition": 133,
+    "relativeStrength": 0.153846
+  },
+  "3333K": {
+    "hand": "3333K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 144,
+    "absoluteStrength": 0.980836,
+    "relativePosition": 134,
+    "relativeStrength": 0.147436
+  },
+  "3333Q": {
+    "hand": "3333Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 145,
+    "absoluteStrength": 0.980702,
+    "relativePosition": 135,
+    "relativeStrength": 0.141026
+  },
+  "3333J": {
+    "hand": "3333J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 146,
+    "absoluteStrength": 0.980568,
+    "relativePosition": 136,
+    "relativeStrength": 0.134615
+  },
+  "3333T": {
+    "hand": "3333T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 147,
+    "absoluteStrength": 0.980434,
+    "relativePosition": 137,
+    "relativeStrength": 0.128205
+  },
+  "33339": {
+    "hand": "33339",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 148,
+    "absoluteStrength": 0.9803,
+    "relativePosition": 138,
+    "relativeStrength": 0.121795
+  },
+  "33338": {
+    "hand": "33338",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 149,
+    "absoluteStrength": 0.980166,
+    "relativePosition": 139,
+    "relativeStrength": 0.115385
+  },
+  "33337": {
+    "hand": "33337",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 150,
+    "absoluteStrength": 0.980032,
+    "relativePosition": 140,
+    "relativeStrength": 0.108974
+  },
+  "33336": {
+    "hand": "33336",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 151,
+    "absoluteStrength": 0.979898,
+    "relativePosition": 141,
+    "relativeStrength": 0.102564
+  },
+  "33335": {
+    "hand": "33335",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 152,
+    "absoluteStrength": 0.979764,
+    "relativePosition": 142,
+    "relativeStrength": 0.096154
+  },
+  "33334": {
+    "hand": "33334",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 153,
+    "absoluteStrength": 0.97963,
+    "relativePosition": 143,
+    "relativeStrength": 0.089744
+  },
+  "33332": {
+    "hand": "33332",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 154,
+    "absoluteStrength": 0.979496,
+    "relativePosition": 144,
+    "relativeStrength": 0.083333
+  },
+  "2222A": {
+    "hand": "2222A",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 155,
+    "absoluteStrength": 0.979362,
+    "relativePosition": 145,
+    "relativeStrength": 0.076923
+  },
+  "2222K": {
+    "hand": "2222K",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 156,
+    "absoluteStrength": 0.979228,
+    "relativePosition": 146,
+    "relativeStrength": 0.070513
+  },
+  "2222Q": {
+    "hand": "2222Q",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 157,
+    "absoluteStrength": 0.979094,
+    "relativePosition": 147,
+    "relativeStrength": 0.064103
+  },
+  "2222J": {
+    "hand": "2222J",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 158,
+    "absoluteStrength": 0.97896,
+    "relativePosition": 148,
+    "relativeStrength": 0.057692
+  },
+  "2222T": {
+    "hand": "2222T",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 159,
+    "absoluteStrength": 0.978826,
+    "relativePosition": 149,
+    "relativeStrength": 0.051282
+  },
+  "22229": {
+    "hand": "22229",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 160,
+    "absoluteStrength": 0.978692,
+    "relativePosition": 150,
+    "relativeStrength": 0.044872
+  },
+  "22228": {
+    "hand": "22228",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 161,
+    "absoluteStrength": 0.978558,
+    "relativePosition": 151,
+    "relativeStrength": 0.038462
+  },
+  "22227": {
+    "hand": "22227",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 162,
+    "absoluteStrength": 0.978424,
+    "relativePosition": 152,
+    "relativeStrength": 0.032051
+  },
+  "22226": {
+    "hand": "22226",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 163,
+    "absoluteStrength": 0.97829,
+    "relativePosition": 153,
+    "relativeStrength": 0.025641
+  },
+  "22225": {
+    "hand": "22225",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 164,
+    "absoluteStrength": 0.978156,
+    "relativePosition": 154,
+    "relativeStrength": 0.019231
+  },
+  "22224": {
+    "hand": "22224",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 165,
+    "absoluteStrength": 0.978022,
+    "relativePosition": 155,
+    "relativeStrength": 0.012821
+  },
+  "22223": {
+    "hand": "22223",
+    "ranking": "FOUR_OF_A_KIND",
+    "absolutePosition": 166,
+    "absoluteStrength": 0.977888,
+    "relativePosition": 156,
+    "relativeStrength": 0.00641
+  }
+}

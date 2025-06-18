@@ -1,0 +1,74 @@
+{
+  "KQJT9": {
+    "hand": "KQJT9",
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 2,
+    "absoluteStrength": 0.999866,
+    "relativePosition": 1,
+    "relativeStrength": 1.0
+  },
+  "QJT98": {
+    "hand": "QJT98",
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 3,
+    "absoluteStrength": 0.999732,
+    "relativePosition": 2,
+    "relativeStrength": 0.888889
+  },
+  "JT987": {
+    "hand": "JT987",
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 4,
+    "absoluteStrength": 0.999598,
+    "relativePosition": 3,
+    "relativeStrength": 0.777778
+  },
+  "T9876": {
+    "hand": "T9876",
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 5,
+    "absoluteStrength": 0.999464,
+    "relativePosition": 4,
+    "relativeStrength": 0.666667
+  },
+  "98765": {
+    "hand": 98765,
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 6,
+    "absoluteStrength": 0.99933,
+    "relativePosition": 5,
+    "relativeStrength": 0.555556
+  },
+  "87654": {
+    "hand": 87654,
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 7,
+    "absoluteStrength": 0.999196,
+    "relativePosition": 6,
+    "relativeStrength": 0.444444
+  },
+  "76543": {
+    "hand": 76543,
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 8,
+    "absoluteStrength": 0.999062,
+    "relativePosition": 7,
+    "relativeStrength": 0.333333
+  },
+  "65432": {
+    "hand": 65432,
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 9,
+    "absoluteStrength": 0.998928,
+    "relativePosition": 8,
+    "relativeStrength": 0.222222
+  },
+  "5432A": {
+    "hand": "5432A",
+    "ranking": "STRAIGHT_FLUSH",
+    "absolutePosition": 10,
+    "absoluteStrength": 0.998794,
+    "relativePosition": 9,
+    "relativeStrength": 0.111111
+  }
+}

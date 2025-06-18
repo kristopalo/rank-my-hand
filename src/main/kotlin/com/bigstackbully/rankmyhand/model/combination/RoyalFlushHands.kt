@@ -1,7 +1,12 @@
 package com.bigstackbully.rankmyhand.model.combination
 
-import com.bigstackbully.rankmyhand.model.enums.HandRanking.ROYAL_FLUSH
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
+import java.io.InputStream
 
-val ROYAL_FLUSH_HANDS: HashMap<String, HandCombination> = hashMapOf(
-    "AKQJT" to HandCombination("AKQJT", ROYAL_FLUSH, 1, 1.000000, 1, 1.000000)
-)
+val ROYAL_FLUSH_HANDS: Map<String, HandCombination> by lazy {
+    val mapper = jacksonObjectMapper()
+    val stream: InputStream = object {}.javaClass.getResourceAsStream("/royal_flush_hands.json")
+        ?: error("Resource not found: royal_flush_hands.json")
+    val type = object : com.fasterxml.jackson.core.type.TypeReference<Map<String, HandCombination>>() {}
+    mapper.readValue(stream, type)
+}

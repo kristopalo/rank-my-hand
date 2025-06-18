@@ -1,0 +1,6866 @@
+{
+  "AAKKQ": {
+    "hand": "AAKKQ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2468,
+    "absoluteStrength": 0.669392,
+    "relativePosition": 1,
+    "relativeStrength": 1.0
+  },
+  "AAKKJ": {
+    "hand": "AAKKJ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2469,
+    "absoluteStrength": 0.669258,
+    "relativePosition": 2,
+    "relativeStrength": 0.998834
+  },
+  "AAKKT": {
+    "hand": "AAKKT",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2470,
+    "absoluteStrength": 0.669124,
+    "relativePosition": 3,
+    "relativeStrength": 0.997669
+  },
+  "AAKK9": {
+    "hand": "AAKK9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2471,
+    "absoluteStrength": 0.66899,
+    "relativePosition": 4,
+    "relativeStrength": 0.996503
+  },
+  "AAKK8": {
+    "hand": "AAKK8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2472,
+    "absoluteStrength": 0.668856,
+    "relativePosition": 5,
+    "relativeStrength": 0.995338
+  },
+  "AAKK7": {
+    "hand": "AAKK7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2473,
+    "absoluteStrength": 0.668722,
+    "relativePosition": 6,
+    "relativeStrength": 0.994172
+  },
+  "AAKK6": {
+    "hand": "AAKK6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2474,
+    "absoluteStrength": 0.668588,
+    "relativePosition": 7,
+    "relativeStrength": 0.993007
+  },
+  "AAKK5": {
+    "hand": "AAKK5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2475,
+    "absoluteStrength": 0.668453,
+    "relativePosition": 8,
+    "relativeStrength": 0.991841
+  },
+  "AAKK4": {
+    "hand": "AAKK4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2476,
+    "absoluteStrength": 0.668319,
+    "relativePosition": 9,
+    "relativeStrength": 0.990676
+  },
+  "AAKK3": {
+    "hand": "AAKK3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2477,
+    "absoluteStrength": 0.668185,
+    "relativePosition": 10,
+    "relativeStrength": 0.98951
+  },
+  "AAKK2": {
+    "hand": "AAKK2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2478,
+    "absoluteStrength": 0.668051,
+    "relativePosition": 11,
+    "relativeStrength": 0.988345
+  },
+  "AAQQK": {
+    "hand": "AAQQK",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2479,
+    "absoluteStrength": 0.667917,
+    "relativePosition": 12,
+    "relativeStrength": 0.987179
+  },
+  "AAQQJ": {
+    "hand": "AAQQJ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2480,
+    "absoluteStrength": 0.667783,
+    "relativePosition": 13,
+    "relativeStrength": 0.986014
+  },
+  "AAQQT": {
+    "hand": "AAQQT",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2481,
+    "absoluteStrength": 0.667649,
+    "relativePosition": 14,
+    "relativeStrength": 0.984848
+  },
+  "AAQQ9": {
+    "hand": "AAQQ9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2482,
+    "absoluteStrength": 0.667515,
+    "relativePosition": 15,
+    "relativeStrength": 0.983683
+  },
+  "AAQQ8": {
+    "hand": "AAQQ8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2483,
+    "absoluteStrength": 0.667381,
+    "relativePosition": 16,
+    "relativeStrength": 0.982517
+  },
+  "AAQQ7": {
+    "hand": "AAQQ7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2484,
+    "absoluteStrength": 0.667247,
+    "relativePosition": 17,
+    "relativeStrength": 0.981352
+  },
+  "AAQQ6": {
+    "hand": "AAQQ6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2485,
+    "absoluteStrength": 0.667113,
+    "relativePosition": 18,
+    "relativeStrength": 0.980186
+  },
+  "AAQQ5": {
+    "hand": "AAQQ5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2486,
+    "absoluteStrength": 0.666979,
+    "relativePosition": 19,
+    "relativeStrength": 0.979021
+  },
+  "AAQQ4": {
+    "hand": "AAQQ4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2487,
+    "absoluteStrength": 0.666845,
+    "relativePosition": 20,
+    "relativeStrength": 0.977855
+  },
+  "AAQQ3": {
+    "hand": "AAQQ3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2488,
+    "absoluteStrength": 0.666711,
+    "relativePosition": 21,
+    "relativeStrength": 0.97669
+  },
+  "AAQQ2": {
+    "hand": "AAQQ2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2489,
+    "absoluteStrength": 0.666577,
+    "relativePosition": 22,
+    "relativeStrength": 0.975524
+  },
+  "AAJJK": {
+    "hand": "AAJJK",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2490,
+    "absoluteStrength": 0.666443,
+    "relativePosition": 23,
+    "relativeStrength": 0.974359
+  },
+  "AAJJQ": {
+    "hand": "AAJJQ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2491,
+    "absoluteStrength": 0.666309,
+    "relativePosition": 24,
+    "relativeStrength": 0.973193
+  },
+  "AAJJT": {
+    "hand": "AAJJT",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2492,
+    "absoluteStrength": 0.666175,
+    "relativePosition": 25,
+    "relativeStrength": 0.972028
+  },
+  "AAJJ9": {
+    "hand": "AAJJ9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2493,
+    "absoluteStrength": 0.666041,
+    "relativePosition": 26,
+    "relativeStrength": 0.970862
+  },
+  "AAJJ8": {
+    "hand": "AAJJ8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2494,
+    "absoluteStrength": 0.665907,
+    "relativePosition": 27,
+    "relativeStrength": 0.969697
+  },
+  "AAJJ7": {
+    "hand": "AAJJ7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2495,
+    "absoluteStrength": 0.665773,
+    "relativePosition": 28,
+    "relativeStrength": 0.968531
+  },
+  "AAJJ6": {
+    "hand": "AAJJ6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2496,
+    "absoluteStrength": 0.665639,
+    "relativePosition": 29,
+    "relativeStrength": 0.967366
+  },
+  "AAJJ5": {
+    "hand": "AAJJ5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2497,
+    "absoluteStrength": 0.665505,
+    "relativePosition": 30,
+    "relativeStrength": 0.9662
+  },
+  "AAJJ4": {
+    "hand": "AAJJ4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2498,
+    "absoluteStrength": 0.665371,
+    "relativePosition": 31,
+    "relativeStrength": 0.965035
+  },
+  "AAJJ3": {
+    "hand": "AAJJ3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2499,
+    "absoluteStrength": 0.665237,
+    "relativePosition": 32,
+    "relativeStrength": 0.963869
+  },
+  "AAJJ2": {
+    "hand": "AAJJ2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2500,
+    "absoluteStrength": 0.665103,
+    "relativePosition": 33,
+    "relativeStrength": 0.962704
+  },
+  "AATTK": {
+    "hand": "AATTK",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2501,
+    "absoluteStrength": 0.664969,
+    "relativePosition": 34,
+    "relativeStrength": 0.961538
+  },
+  "AATTQ": {
+    "hand": "AATTQ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2502,
+    "absoluteStrength": 0.664835,
+    "relativePosition": 35,
+    "relativeStrength": 0.960373
+  },
+  "AATTJ": {
+    "hand": "AATTJ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2503,
+    "absoluteStrength": 0.664701,
+    "relativePosition": 36,
+    "relativeStrength": 0.959207
+  },
+  "AATT9": {
+    "hand": "AATT9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2504,
+    "absoluteStrength": 0.664567,
+    "relativePosition": 37,
+    "relativeStrength": 0.958042
+  },
+  "AATT8": {
+    "hand": "AATT8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2505,
+    "absoluteStrength": 0.664433,
+    "relativePosition": 38,
+    "relativeStrength": 0.956876
+  },
+  "AATT7": {
+    "hand": "AATT7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2506,
+    "absoluteStrength": 0.664299,
+    "relativePosition": 39,
+    "relativeStrength": 0.955711
+  },
+  "AATT6": {
+    "hand": "AATT6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2507,
+    "absoluteStrength": 0.664165,
+    "relativePosition": 40,
+    "relativeStrength": 0.954545
+  },
+  "AATT5": {
+    "hand": "AATT5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2508,
+    "absoluteStrength": 0.664031,
+    "relativePosition": 41,
+    "relativeStrength": 0.95338
+  },
+  "AATT4": {
+    "hand": "AATT4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2509,
+    "absoluteStrength": 0.663897,
+    "relativePosition": 42,
+    "relativeStrength": 0.952214
+  },
+  "AATT3": {
+    "hand": "AATT3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2510,
+    "absoluteStrength": 0.663763,
+    "relativePosition": 43,
+    "relativeStrength": 0.951049
+  },
+  "AATT2": {
+    "hand": "AATT2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2511,
+    "absoluteStrength": 0.663629,
+    "relativePosition": 44,
+    "relativeStrength": 0.949883
+  },
+  "AA99K": {
+    "hand": "AA99K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2512,
+    "absoluteStrength": 0.663495,
+    "relativePosition": 45,
+    "relativeStrength": 0.948718
+  },
+  "AA99Q": {
+    "hand": "AA99Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2513,
+    "absoluteStrength": 0.663361,
+    "relativePosition": 46,
+    "relativeStrength": 0.947552
+  },
+  "AA99J": {
+    "hand": "AA99J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2514,
+    "absoluteStrength": 0.663227,
+    "relativePosition": 47,
+    "relativeStrength": 0.946387
+  },
+  "AA99T": {
+    "hand": "AA99T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2515,
+    "absoluteStrength": 0.663093,
+    "relativePosition": 48,
+    "relativeStrength": 0.945221
+  },
+  "AA998": {
+    "hand": "AA998",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2516,
+    "absoluteStrength": 0.662959,
+    "relativePosition": 49,
+    "relativeStrength": 0.944056
+  },
+  "AA997": {
+    "hand": "AA997",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2517,
+    "absoluteStrength": 0.662825,
+    "relativePosition": 50,
+    "relativeStrength": 0.94289
+  },
+  "AA996": {
+    "hand": "AA996",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2518,
+    "absoluteStrength": 0.662691,
+    "relativePosition": 51,
+    "relativeStrength": 0.941725
+  },
+  "AA995": {
+    "hand": "AA995",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2519,
+    "absoluteStrength": 0.662557,
+    "relativePosition": 52,
+    "relativeStrength": 0.940559
+  },
+  "AA994": {
+    "hand": "AA994",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2520,
+    "absoluteStrength": 0.662423,
+    "relativePosition": 53,
+    "relativeStrength": 0.939394
+  },
+  "AA993": {
+    "hand": "AA993",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2521,
+    "absoluteStrength": 0.662289,
+    "relativePosition": 54,
+    "relativeStrength": 0.938228
+  },
+  "AA992": {
+    "hand": "AA992",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2522,
+    "absoluteStrength": 0.662155,
+    "relativePosition": 55,
+    "relativeStrength": 0.937063
+  },
+  "AA88K": {
+    "hand": "AA88K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2523,
+    "absoluteStrength": 0.662021,
+    "relativePosition": 56,
+    "relativeStrength": 0.935897
+  },
+  "AA88Q": {
+    "hand": "AA88Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2524,
+    "absoluteStrength": 0.661887,
+    "relativePosition": 57,
+    "relativeStrength": 0.934732
+  },
+  "AA88J": {
+    "hand": "AA88J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2525,
+    "absoluteStrength": 0.661753,
+    "relativePosition": 58,
+    "relativeStrength": 0.933566
+  },
+  "AA88T": {
+    "hand": "AA88T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2526,
+    "absoluteStrength": 0.661619,
+    "relativePosition": 59,
+    "relativeStrength": 0.932401
+  },
+  "AA889": {
+    "hand": "AA889",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2527,
+    "absoluteStrength": 0.661485,
+    "relativePosition": 60,
+    "relativeStrength": 0.931235
+  },
+  "AA887": {
+    "hand": "AA887",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2528,
+    "absoluteStrength": 0.661351,
+    "relativePosition": 61,
+    "relativeStrength": 0.93007
+  },
+  "AA886": {
+    "hand": "AA886",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2529,
+    "absoluteStrength": 0.661217,
+    "relativePosition": 62,
+    "relativeStrength": 0.928904
+  },
+  "AA885": {
+    "hand": "AA885",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2530,
+    "absoluteStrength": 0.661083,
+    "relativePosition": 63,
+    "relativeStrength": 0.927739
+  },
+  "AA884": {
+    "hand": "AA884",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2531,
+    "absoluteStrength": 0.660949,
+    "relativePosition": 64,
+    "relativeStrength": 0.926573
+  },
+  "AA883": {
+    "hand": "AA883",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2532,
+    "absoluteStrength": 0.660815,
+    "relativePosition": 65,
+    "relativeStrength": 0.925408
+  },
+  "AA882": {
+    "hand": "AA882",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2533,
+    "absoluteStrength": 0.660681,
+    "relativePosition": 66,
+    "relativeStrength": 0.924242
+  },
+  "AA77K": {
+    "hand": "AA77K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2534,
+    "absoluteStrength": 0.660547,
+    "relativePosition": 67,
+    "relativeStrength": 0.923077
+  },
+  "AA77Q": {
+    "hand": "AA77Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2535,
+    "absoluteStrength": 0.660413,
+    "relativePosition": 68,
+    "relativeStrength": 0.921911
+  },
+  "AA77J": {
+    "hand": "AA77J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2536,
+    "absoluteStrength": 0.660279,
+    "relativePosition": 69,
+    "relativeStrength": 0.920746
+  },
+  "AA77T": {
+    "hand": "AA77T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2537,
+    "absoluteStrength": 0.660145,
+    "relativePosition": 70,
+    "relativeStrength": 0.91958
+  },
+  "AA779": {
+    "hand": "AA779",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2538,
+    "absoluteStrength": 0.660011,
+    "relativePosition": 71,
+    "relativeStrength": 0.918415
+  },
+  "AA778": {
+    "hand": "AA778",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2539,
+    "absoluteStrength": 0.659877,
+    "relativePosition": 72,
+    "relativeStrength": 0.917249
+  },
+  "AA776": {
+    "hand": "AA776",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2540,
+    "absoluteStrength": 0.659743,
+    "relativePosition": 73,
+    "relativeStrength": 0.916084
+  },
+  "AA775": {
+    "hand": "AA775",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2541,
+    "absoluteStrength": 0.659609,
+    "relativePosition": 74,
+    "relativeStrength": 0.914918
+  },
+  "AA774": {
+    "hand": "AA774",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2542,
+    "absoluteStrength": 0.659475,
+    "relativePosition": 75,
+    "relativeStrength": 0.913753
+  },
+  "AA773": {
+    "hand": "AA773",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2543,
+    "absoluteStrength": 0.659341,
+    "relativePosition": 76,
+    "relativeStrength": 0.912587
+  },
+  "AA772": {
+    "hand": "AA772",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2544,
+    "absoluteStrength": 0.659207,
+    "relativePosition": 77,
+    "relativeStrength": 0.911422
+  },
+  "AA66K": {
+    "hand": "AA66K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2545,
+    "absoluteStrength": 0.659073,
+    "relativePosition": 78,
+    "relativeStrength": 0.910256
+  },
+  "AA66Q": {
+    "hand": "AA66Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2546,
+    "absoluteStrength": 0.658939,
+    "relativePosition": 79,
+    "relativeStrength": 0.909091
+  },
+  "AA66J": {
+    "hand": "AA66J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2547,
+    "absoluteStrength": 0.658805,
+    "relativePosition": 80,
+    "relativeStrength": 0.907925
+  },
+  "AA66T": {
+    "hand": "AA66T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2548,
+    "absoluteStrength": 0.658671,
+    "relativePosition": 81,
+    "relativeStrength": 0.90676
+  },
+  "AA669": {
+    "hand": "AA669",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2549,
+    "absoluteStrength": 0.658537,
+    "relativePosition": 82,
+    "relativeStrength": 0.905594
+  },
+  "AA668": {
+    "hand": "AA668",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2550,
+    "absoluteStrength": 0.658403,
+    "relativePosition": 83,
+    "relativeStrength": 0.904429
+  },
+  "AA667": {
+    "hand": "AA667",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2551,
+    "absoluteStrength": 0.658269,
+    "relativePosition": 84,
+    "relativeStrength": 0.903263
+  },
+  "AA665": {
+    "hand": "AA665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2552,
+    "absoluteStrength": 0.658135,
+    "relativePosition": 85,
+    "relativeStrength": 0.902098
+  },
+  "AA664": {
+    "hand": "AA664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2553,
+    "absoluteStrength": 0.658001,
+    "relativePosition": 86,
+    "relativeStrength": 0.900932
+  },
+  "AA663": {
+    "hand": "AA663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2554,
+    "absoluteStrength": 0.657867,
+    "relativePosition": 87,
+    "relativeStrength": 0.899767
+  },
+  "AA662": {
+    "hand": "AA662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2555,
+    "absoluteStrength": 0.657733,
+    "relativePosition": 88,
+    "relativeStrength": 0.898601
+  },
+  "AA55K": {
+    "hand": "AA55K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2556,
+    "absoluteStrength": 0.657598,
+    "relativePosition": 89,
+    "relativeStrength": 0.897436
+  },
+  "AA55Q": {
+    "hand": "AA55Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2557,
+    "absoluteStrength": 0.657464,
+    "relativePosition": 90,
+    "relativeStrength": 0.89627
+  },
+  "AA55J": {
+    "hand": "AA55J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2558,
+    "absoluteStrength": 0.65733,
+    "relativePosition": 91,
+    "relativeStrength": 0.895105
+  },
+  "AA55T": {
+    "hand": "AA55T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2559,
+    "absoluteStrength": 0.657196,
+    "relativePosition": 92,
+    "relativeStrength": 0.893939
+  },
+  "AA559": {
+    "hand": "AA559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2560,
+    "absoluteStrength": 0.657062,
+    "relativePosition": 93,
+    "relativeStrength": 0.892774
+  },
+  "AA558": {
+    "hand": "AA558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2561,
+    "absoluteStrength": 0.656928,
+    "relativePosition": 94,
+    "relativeStrength": 0.891608
+  },
+  "AA557": {
+    "hand": "AA557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2562,
+    "absoluteStrength": 0.656794,
+    "relativePosition": 95,
+    "relativeStrength": 0.890443
+  },
+  "AA556": {
+    "hand": "AA556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2563,
+    "absoluteStrength": 0.65666,
+    "relativePosition": 96,
+    "relativeStrength": 0.889277
+  },
+  "AA554": {
+    "hand": "AA554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2564,
+    "absoluteStrength": 0.656526,
+    "relativePosition": 97,
+    "relativeStrength": 0.888112
+  },
+  "AA553": {
+    "hand": "AA553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2565,
+    "absoluteStrength": 0.656392,
+    "relativePosition": 98,
+    "relativeStrength": 0.886946
+  },
+  "AA552": {
+    "hand": "AA552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2566,
+    "absoluteStrength": 0.656258,
+    "relativePosition": 99,
+    "relativeStrength": 0.885781
+  },
+  "AA44K": {
+    "hand": "AA44K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2567,
+    "absoluteStrength": 0.656124,
+    "relativePosition": 100,
+    "relativeStrength": 0.884615
+  },
+  "AA44Q": {
+    "hand": "AA44Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2568,
+    "absoluteStrength": 0.65599,
+    "relativePosition": 101,
+    "relativeStrength": 0.88345
+  },
+  "AA44J": {
+    "hand": "AA44J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2569,
+    "absoluteStrength": 0.655856,
+    "relativePosition": 102,
+    "relativeStrength": 0.882284
+  },
+  "AA44T": {
+    "hand": "AA44T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2570,
+    "absoluteStrength": 0.655722,
+    "relativePosition": 103,
+    "relativeStrength": 0.881119
+  },
+  "AA449": {
+    "hand": "AA449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2571,
+    "absoluteStrength": 0.655588,
+    "relativePosition": 104,
+    "relativeStrength": 0.879953
+  },
+  "AA448": {
+    "hand": "AA448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2572,
+    "absoluteStrength": 0.655454,
+    "relativePosition": 105,
+    "relativeStrength": 0.878788
+  },
+  "AA447": {
+    "hand": "AA447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2573,
+    "absoluteStrength": 0.65532,
+    "relativePosition": 106,
+    "relativeStrength": 0.877622
+  },
+  "AA446": {
+    "hand": "AA446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2574,
+    "absoluteStrength": 0.655186,
+    "relativePosition": 107,
+    "relativeStrength": 0.876457
+  },
+  "AA445": {
+    "hand": "AA445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2575,
+    "absoluteStrength": 0.655052,
+    "relativePosition": 108,
+    "relativeStrength": 0.875291
+  },
+  "AA443": {
+    "hand": "AA443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2576,
+    "absoluteStrength": 0.654918,
+    "relativePosition": 109,
+    "relativeStrength": 0.874126
+  },
+  "AA442": {
+    "hand": "AA442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2577,
+    "absoluteStrength": 0.654784,
+    "relativePosition": 110,
+    "relativeStrength": 0.87296
+  },
+  "AA33K": {
+    "hand": "AA33K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2578,
+    "absoluteStrength": 0.65465,
+    "relativePosition": 111,
+    "relativeStrength": 0.871795
+  },
+  "AA33Q": {
+    "hand": "AA33Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2579,
+    "absoluteStrength": 0.654516,
+    "relativePosition": 112,
+    "relativeStrength": 0.870629
+  },
+  "AA33J": {
+    "hand": "AA33J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2580,
+    "absoluteStrength": 0.654382,
+    "relativePosition": 113,
+    "relativeStrength": 0.869464
+  },
+  "AA33T": {
+    "hand": "AA33T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2581,
+    "absoluteStrength": 0.654248,
+    "relativePosition": 114,
+    "relativeStrength": 0.868298
+  },
+  "AA339": {
+    "hand": "AA339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2582,
+    "absoluteStrength": 0.654114,
+    "relativePosition": 115,
+    "relativeStrength": 0.867133
+  },
+  "AA338": {
+    "hand": "AA338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2583,
+    "absoluteStrength": 0.65398,
+    "relativePosition": 116,
+    "relativeStrength": 0.865967
+  },
+  "AA337": {
+    "hand": "AA337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2584,
+    "absoluteStrength": 0.653846,
+    "relativePosition": 117,
+    "relativeStrength": 0.864802
+  },
+  "AA336": {
+    "hand": "AA336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2585,
+    "absoluteStrength": 0.653712,
+    "relativePosition": 118,
+    "relativeStrength": 0.863636
+  },
+  "AA335": {
+    "hand": "AA335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2586,
+    "absoluteStrength": 0.653578,
+    "relativePosition": 119,
+    "relativeStrength": 0.862471
+  },
+  "AA334": {
+    "hand": "AA334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2587,
+    "absoluteStrength": 0.653444,
+    "relativePosition": 120,
+    "relativeStrength": 0.861305
+  },
+  "AA332": {
+    "hand": "AA332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2588,
+    "absoluteStrength": 0.65331,
+    "relativePosition": 121,
+    "relativeStrength": 0.86014
+  },
+  "AA22K": {
+    "hand": "AA22K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2589,
+    "absoluteStrength": 0.653176,
+    "relativePosition": 122,
+    "relativeStrength": 0.858974
+  },
+  "AA22Q": {
+    "hand": "AA22Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2590,
+    "absoluteStrength": 0.653042,
+    "relativePosition": 123,
+    "relativeStrength": 0.857809
+  },
+  "AA22J": {
+    "hand": "AA22J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2591,
+    "absoluteStrength": 0.652908,
+    "relativePosition": 124,
+    "relativeStrength": 0.856643
+  },
+  "AA22T": {
+    "hand": "AA22T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2592,
+    "absoluteStrength": 0.652774,
+    "relativePosition": 125,
+    "relativeStrength": 0.855478
+  },
+  "AA229": {
+    "hand": "AA229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2593,
+    "absoluteStrength": 0.65264,
+    "relativePosition": 126,
+    "relativeStrength": 0.854312
+  },
+  "AA228": {
+    "hand": "AA228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2594,
+    "absoluteStrength": 0.652506,
+    "relativePosition": 127,
+    "relativeStrength": 0.853147
+  },
+  "AA227": {
+    "hand": "AA227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2595,
+    "absoluteStrength": 0.652372,
+    "relativePosition": 128,
+    "relativeStrength": 0.851981
+  },
+  "AA226": {
+    "hand": "AA226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2596,
+    "absoluteStrength": 0.652238,
+    "relativePosition": 129,
+    "relativeStrength": 0.850816
+  },
+  "AA225": {
+    "hand": "AA225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2597,
+    "absoluteStrength": 0.652104,
+    "relativePosition": 130,
+    "relativeStrength": 0.84965
+  },
+  "AA224": {
+    "hand": "AA224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2598,
+    "absoluteStrength": 0.65197,
+    "relativePosition": 131,
+    "relativeStrength": 0.848485
+  },
+  "AA223": {
+    "hand": "AA223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2599,
+    "absoluteStrength": 0.651836,
+    "relativePosition": 132,
+    "relativeStrength": 0.847319
+  },
+  "KKQQA": {
+    "hand": "KKQQA",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2600,
+    "absoluteStrength": 0.651702,
+    "relativePosition": 133,
+    "relativeStrength": 0.846154
+  },
+  "KKQQJ": {
+    "hand": "KKQQJ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2601,
+    "absoluteStrength": 0.651568,
+    "relativePosition": 134,
+    "relativeStrength": 0.844988
+  },
+  "KKQQT": {
+    "hand": "KKQQT",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2602,
+    "absoluteStrength": 0.651434,
+    "relativePosition": 135,
+    "relativeStrength": 0.843823
+  },
+  "KKQQ9": {
+    "hand": "KKQQ9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2603,
+    "absoluteStrength": 0.6513,
+    "relativePosition": 136,
+    "relativeStrength": 0.842657
+  },
+  "KKQQ8": {
+    "hand": "KKQQ8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2604,
+    "absoluteStrength": 0.651166,
+    "relativePosition": 137,
+    "relativeStrength": 0.841492
+  },
+  "KKQQ7": {
+    "hand": "KKQQ7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2605,
+    "absoluteStrength": 0.651032,
+    "relativePosition": 138,
+    "relativeStrength": 0.840326
+  },
+  "KKQQ6": {
+    "hand": "KKQQ6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2606,
+    "absoluteStrength": 0.650898,
+    "relativePosition": 139,
+    "relativeStrength": 0.839161
+  },
+  "KKQQ5": {
+    "hand": "KKQQ5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2607,
+    "absoluteStrength": 0.650764,
+    "relativePosition": 140,
+    "relativeStrength": 0.837995
+  },
+  "KKQQ4": {
+    "hand": "KKQQ4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2608,
+    "absoluteStrength": 0.65063,
+    "relativePosition": 141,
+    "relativeStrength": 0.83683
+  },
+  "KKQQ3": {
+    "hand": "KKQQ3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2609,
+    "absoluteStrength": 0.650496,
+    "relativePosition": 142,
+    "relativeStrength": 0.835664
+  },
+  "KKQQ2": {
+    "hand": "KKQQ2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2610,
+    "absoluteStrength": 0.650362,
+    "relativePosition": 143,
+    "relativeStrength": 0.834499
+  },
+  "KKJJA": {
+    "hand": "KKJJA",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2611,
+    "absoluteStrength": 0.650228,
+    "relativePosition": 144,
+    "relativeStrength": 0.833333
+  },
+  "KKJJQ": {
+    "hand": "KKJJQ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2612,
+    "absoluteStrength": 0.650094,
+    "relativePosition": 145,
+    "relativeStrength": 0.832168
+  },
+  "KKJJT": {
+    "hand": "KKJJT",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2613,
+    "absoluteStrength": 0.64996,
+    "relativePosition": 146,
+    "relativeStrength": 0.831002
+  },
+  "KKJJ9": {
+    "hand": "KKJJ9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2614,
+    "absoluteStrength": 0.649826,
+    "relativePosition": 147,
+    "relativeStrength": 0.829837
+  },
+  "KKJJ8": {
+    "hand": "KKJJ8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2615,
+    "absoluteStrength": 0.649692,
+    "relativePosition": 148,
+    "relativeStrength": 0.828671
+  },
+  "KKJJ7": {
+    "hand": "KKJJ7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2616,
+    "absoluteStrength": 0.649558,
+    "relativePosition": 149,
+    "relativeStrength": 0.827506
+  },
+  "KKJJ6": {
+    "hand": "KKJJ6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2617,
+    "absoluteStrength": 0.649424,
+    "relativePosition": 150,
+    "relativeStrength": 0.82634
+  },
+  "KKJJ5": {
+    "hand": "KKJJ5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2618,
+    "absoluteStrength": 0.64929,
+    "relativePosition": 151,
+    "relativeStrength": 0.825175
+  },
+  "KKJJ4": {
+    "hand": "KKJJ4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2619,
+    "absoluteStrength": 0.649156,
+    "relativePosition": 152,
+    "relativeStrength": 0.824009
+  },
+  "KKJJ3": {
+    "hand": "KKJJ3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2620,
+    "absoluteStrength": 0.649022,
+    "relativePosition": 153,
+    "relativeStrength": 0.822844
+  },
+  "KKJJ2": {
+    "hand": "KKJJ2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2621,
+    "absoluteStrength": 0.648888,
+    "relativePosition": 154,
+    "relativeStrength": 0.821678
+  },
+  "KKTTA": {
+    "hand": "KKTTA",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2622,
+    "absoluteStrength": 0.648754,
+    "relativePosition": 155,
+    "relativeStrength": 0.820513
+  },
+  "KKTTQ": {
+    "hand": "KKTTQ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2623,
+    "absoluteStrength": 0.64862,
+    "relativePosition": 156,
+    "relativeStrength": 0.819347
+  },
+  "KKTTJ": {
+    "hand": "KKTTJ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2624,
+    "absoluteStrength": 0.648486,
+    "relativePosition": 157,
+    "relativeStrength": 0.818182
+  },
+  "KKTT9": {
+    "hand": "KKTT9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2625,
+    "absoluteStrength": 0.648352,
+    "relativePosition": 158,
+    "relativeStrength": 0.817016
+  },
+  "KKTT8": {
+    "hand": "KKTT8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2626,
+    "absoluteStrength": 0.648218,
+    "relativePosition": 159,
+    "relativeStrength": 0.815851
+  },
+  "KKTT7": {
+    "hand": "KKTT7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2627,
+    "absoluteStrength": 0.648084,
+    "relativePosition": 160,
+    "relativeStrength": 0.814685
+  },
+  "KKTT6": {
+    "hand": "KKTT6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2628,
+    "absoluteStrength": 0.64795,
+    "relativePosition": 161,
+    "relativeStrength": 0.81352
+  },
+  "KKTT5": {
+    "hand": "KKTT5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2629,
+    "absoluteStrength": 0.647816,
+    "relativePosition": 162,
+    "relativeStrength": 0.812354
+  },
+  "KKTT4": {
+    "hand": "KKTT4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2630,
+    "absoluteStrength": 0.647682,
+    "relativePosition": 163,
+    "relativeStrength": 0.811189
+  },
+  "KKTT3": {
+    "hand": "KKTT3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2631,
+    "absoluteStrength": 0.647548,
+    "relativePosition": 164,
+    "relativeStrength": 0.810023
+  },
+  "KKTT2": {
+    "hand": "KKTT2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2632,
+    "absoluteStrength": 0.647414,
+    "relativePosition": 165,
+    "relativeStrength": 0.808858
+  },
+  "KK99A": {
+    "hand": "KK99A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2633,
+    "absoluteStrength": 0.64728,
+    "relativePosition": 166,
+    "relativeStrength": 0.807692
+  },
+  "KK99Q": {
+    "hand": "KK99Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2634,
+    "absoluteStrength": 0.647146,
+    "relativePosition": 167,
+    "relativeStrength": 0.806527
+  },
+  "KK99J": {
+    "hand": "KK99J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2635,
+    "absoluteStrength": 0.647012,
+    "relativePosition": 168,
+    "relativeStrength": 0.805361
+  },
+  "KK99T": {
+    "hand": "KK99T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2636,
+    "absoluteStrength": 0.646878,
+    "relativePosition": 169,
+    "relativeStrength": 0.804196
+  },
+  "KK998": {
+    "hand": "KK998",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2637,
+    "absoluteStrength": 0.646744,
+    "relativePosition": 170,
+    "relativeStrength": 0.80303
+  },
+  "KK997": {
+    "hand": "KK997",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2638,
+    "absoluteStrength": 0.646609,
+    "relativePosition": 171,
+    "relativeStrength": 0.801865
+  },
+  "KK996": {
+    "hand": "KK996",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2639,
+    "absoluteStrength": 0.646475,
+    "relativePosition": 172,
+    "relativeStrength": 0.800699
+  },
+  "KK995": {
+    "hand": "KK995",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2640,
+    "absoluteStrength": 0.646341,
+    "relativePosition": 173,
+    "relativeStrength": 0.799534
+  },
+  "KK994": {
+    "hand": "KK994",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2641,
+    "absoluteStrength": 0.646207,
+    "relativePosition": 174,
+    "relativeStrength": 0.798368
+  },
+  "KK993": {
+    "hand": "KK993",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2642,
+    "absoluteStrength": 0.646073,
+    "relativePosition": 175,
+    "relativeStrength": 0.797203
+  },
+  "KK992": {
+    "hand": "KK992",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2643,
+    "absoluteStrength": 0.645939,
+    "relativePosition": 176,
+    "relativeStrength": 0.796037
+  },
+  "KK88A": {
+    "hand": "KK88A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2644,
+    "absoluteStrength": 0.645805,
+    "relativePosition": 177,
+    "relativeStrength": 0.794872
+  },
+  "KK88Q": {
+    "hand": "KK88Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2645,
+    "absoluteStrength": 0.645671,
+    "relativePosition": 178,
+    "relativeStrength": 0.793706
+  },
+  "KK88J": {
+    "hand": "KK88J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2646,
+    "absoluteStrength": 0.645537,
+    "relativePosition": 179,
+    "relativeStrength": 0.792541
+  },
+  "KK88T": {
+    "hand": "KK88T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2647,
+    "absoluteStrength": 0.645403,
+    "relativePosition": 180,
+    "relativeStrength": 0.791375
+  },
+  "KK889": {
+    "hand": "KK889",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2648,
+    "absoluteStrength": 0.645269,
+    "relativePosition": 181,
+    "relativeStrength": 0.79021
+  },
+  "KK887": {
+    "hand": "KK887",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2649,
+    "absoluteStrength": 0.645135,
+    "relativePosition": 182,
+    "relativeStrength": 0.789044
+  },
+  "KK886": {
+    "hand": "KK886",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2650,
+    "absoluteStrength": 0.645001,
+    "relativePosition": 183,
+    "relativeStrength": 0.787879
+  },
+  "KK885": {
+    "hand": "KK885",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2651,
+    "absoluteStrength": 0.644867,
+    "relativePosition": 184,
+    "relativeStrength": 0.786713
+  },
+  "KK884": {
+    "hand": "KK884",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2652,
+    "absoluteStrength": 0.644733,
+    "relativePosition": 185,
+    "relativeStrength": 0.785548
+  },
+  "KK883": {
+    "hand": "KK883",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2653,
+    "absoluteStrength": 0.644599,
+    "relativePosition": 186,
+    "relativeStrength": 0.784382
+  },
+  "KK882": {
+    "hand": "KK882",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2654,
+    "absoluteStrength": 0.644465,
+    "relativePosition": 187,
+    "relativeStrength": 0.783217
+  },
+  "KK77A": {
+    "hand": "KK77A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2655,
+    "absoluteStrength": 0.644331,
+    "relativePosition": 188,
+    "relativeStrength": 0.782051
+  },
+  "KK77Q": {
+    "hand": "KK77Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2656,
+    "absoluteStrength": 0.644197,
+    "relativePosition": 189,
+    "relativeStrength": 0.780886
+  },
+  "KK77J": {
+    "hand": "KK77J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2657,
+    "absoluteStrength": 0.644063,
+    "relativePosition": 190,
+    "relativeStrength": 0.77972
+  },
+  "KK77T": {
+    "hand": "KK77T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2658,
+    "absoluteStrength": 0.643929,
+    "relativePosition": 191,
+    "relativeStrength": 0.778555
+  },
+  "KK779": {
+    "hand": "KK779",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2659,
+    "absoluteStrength": 0.643795,
+    "relativePosition": 192,
+    "relativeStrength": 0.777389
+  },
+  "KK778": {
+    "hand": "KK778",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2660,
+    "absoluteStrength": 0.643661,
+    "relativePosition": 193,
+    "relativeStrength": 0.776224
+  },
+  "KK776": {
+    "hand": "KK776",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2661,
+    "absoluteStrength": 0.643527,
+    "relativePosition": 194,
+    "relativeStrength": 0.775058
+  },
+  "KK775": {
+    "hand": "KK775",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2662,
+    "absoluteStrength": 0.643393,
+    "relativePosition": 195,
+    "relativeStrength": 0.773893
+  },
+  "KK774": {
+    "hand": "KK774",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2663,
+    "absoluteStrength": 0.643259,
+    "relativePosition": 196,
+    "relativeStrength": 0.772727
+  },
+  "KK773": {
+    "hand": "KK773",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2664,
+    "absoluteStrength": 0.643125,
+    "relativePosition": 197,
+    "relativeStrength": 0.771562
+  },
+  "KK772": {
+    "hand": "KK772",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2665,
+    "absoluteStrength": 0.642991,
+    "relativePosition": 198,
+    "relativeStrength": 0.770396
+  },
+  "KK66A": {
+    "hand": "KK66A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2666,
+    "absoluteStrength": 0.642857,
+    "relativePosition": 199,
+    "relativeStrength": 0.769231
+  },
+  "KK66Q": {
+    "hand": "KK66Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2667,
+    "absoluteStrength": 0.642723,
+    "relativePosition": 200,
+    "relativeStrength": 0.768065
+  },
+  "KK66J": {
+    "hand": "KK66J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2668,
+    "absoluteStrength": 0.642589,
+    "relativePosition": 201,
+    "relativeStrength": 0.7669
+  },
+  "KK66T": {
+    "hand": "KK66T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2669,
+    "absoluteStrength": 0.642455,
+    "relativePosition": 202,
+    "relativeStrength": 0.765734
+  },
+  "KK669": {
+    "hand": "KK669",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2670,
+    "absoluteStrength": 0.642321,
+    "relativePosition": 203,
+    "relativeStrength": 0.764569
+  },
+  "KK668": {
+    "hand": "KK668",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2671,
+    "absoluteStrength": 0.642187,
+    "relativePosition": 204,
+    "relativeStrength": 0.763403
+  },
+  "KK667": {
+    "hand": "KK667",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2672,
+    "absoluteStrength": 0.642053,
+    "relativePosition": 205,
+    "relativeStrength": 0.762238
+  },
+  "KK665": {
+    "hand": "KK665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2673,
+    "absoluteStrength": 0.641919,
+    "relativePosition": 206,
+    "relativeStrength": 0.761072
+  },
+  "KK664": {
+    "hand": "KK664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2674,
+    "absoluteStrength": 0.641785,
+    "relativePosition": 207,
+    "relativeStrength": 0.759907
+  },
+  "KK663": {
+    "hand": "KK663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2675,
+    "absoluteStrength": 0.641651,
+    "relativePosition": 208,
+    "relativeStrength": 0.758741
+  },
+  "KK662": {
+    "hand": "KK662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2676,
+    "absoluteStrength": 0.641517,
+    "relativePosition": 209,
+    "relativeStrength": 0.757576
+  },
+  "KK55A": {
+    "hand": "KK55A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2677,
+    "absoluteStrength": 0.641383,
+    "relativePosition": 210,
+    "relativeStrength": 0.75641
+  },
+  "KK55Q": {
+    "hand": "KK55Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2678,
+    "absoluteStrength": 0.641249,
+    "relativePosition": 211,
+    "relativeStrength": 0.755245
+  },
+  "KK55J": {
+    "hand": "KK55J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2679,
+    "absoluteStrength": 0.641115,
+    "relativePosition": 212,
+    "relativeStrength": 0.754079
+  },
+  "KK55T": {
+    "hand": "KK55T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2680,
+    "absoluteStrength": 0.640981,
+    "relativePosition": 213,
+    "relativeStrength": 0.752914
+  },
+  "KK559": {
+    "hand": "KK559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2681,
+    "absoluteStrength": 0.640847,
+    "relativePosition": 214,
+    "relativeStrength": 0.751748
+  },
+  "KK558": {
+    "hand": "KK558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2682,
+    "absoluteStrength": 0.640713,
+    "relativePosition": 215,
+    "relativeStrength": 0.750583
+  },
+  "KK557": {
+    "hand": "KK557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2683,
+    "absoluteStrength": 0.640579,
+    "relativePosition": 216,
+    "relativeStrength": 0.749417
+  },
+  "KK556": {
+    "hand": "KK556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2684,
+    "absoluteStrength": 0.640445,
+    "relativePosition": 217,
+    "relativeStrength": 0.748252
+  },
+  "KK554": {
+    "hand": "KK554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2685,
+    "absoluteStrength": 0.640311,
+    "relativePosition": 218,
+    "relativeStrength": 0.747086
+  },
+  "KK553": {
+    "hand": "KK553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2686,
+    "absoluteStrength": 0.640177,
+    "relativePosition": 219,
+    "relativeStrength": 0.745921
+  },
+  "KK552": {
+    "hand": "KK552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2687,
+    "absoluteStrength": 0.640043,
+    "relativePosition": 220,
+    "relativeStrength": 0.744755
+  },
+  "KK44A": {
+    "hand": "KK44A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2688,
+    "absoluteStrength": 0.639909,
+    "relativePosition": 221,
+    "relativeStrength": 0.74359
+  },
+  "KK44Q": {
+    "hand": "KK44Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2689,
+    "absoluteStrength": 0.639775,
+    "relativePosition": 222,
+    "relativeStrength": 0.742424
+  },
+  "KK44J": {
+    "hand": "KK44J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2690,
+    "absoluteStrength": 0.639641,
+    "relativePosition": 223,
+    "relativeStrength": 0.741259
+  },
+  "KK44T": {
+    "hand": "KK44T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2691,
+    "absoluteStrength": 0.639507,
+    "relativePosition": 224,
+    "relativeStrength": 0.740093
+  },
+  "KK449": {
+    "hand": "KK449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2692,
+    "absoluteStrength": 0.639373,
+    "relativePosition": 225,
+    "relativeStrength": 0.738928
+  },
+  "KK448": {
+    "hand": "KK448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2693,
+    "absoluteStrength": 0.639239,
+    "relativePosition": 226,
+    "relativeStrength": 0.737762
+  },
+  "KK447": {
+    "hand": "KK447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2694,
+    "absoluteStrength": 0.639105,
+    "relativePosition": 227,
+    "relativeStrength": 0.736597
+  },
+  "KK446": {
+    "hand": "KK446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2695,
+    "absoluteStrength": 0.638971,
+    "relativePosition": 228,
+    "relativeStrength": 0.735431
+  },
+  "KK445": {
+    "hand": "KK445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2696,
+    "absoluteStrength": 0.638837,
+    "relativePosition": 229,
+    "relativeStrength": 0.734266
+  },
+  "KK443": {
+    "hand": "KK443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2697,
+    "absoluteStrength": 0.638703,
+    "relativePosition": 230,
+    "relativeStrength": 0.7331
+  },
+  "KK442": {
+    "hand": "KK442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2698,
+    "absoluteStrength": 0.638569,
+    "relativePosition": 231,
+    "relativeStrength": 0.731935
+  },
+  "KK33A": {
+    "hand": "KK33A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2699,
+    "absoluteStrength": 0.638435,
+    "relativePosition": 232,
+    "relativeStrength": 0.730769
+  },
+  "KK33Q": {
+    "hand": "KK33Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2700,
+    "absoluteStrength": 0.638301,
+    "relativePosition": 233,
+    "relativeStrength": 0.729604
+  },
+  "KK33J": {
+    "hand": "KK33J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2701,
+    "absoluteStrength": 0.638167,
+    "relativePosition": 234,
+    "relativeStrength": 0.728438
+  },
+  "KK33T": {
+    "hand": "KK33T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2702,
+    "absoluteStrength": 0.638033,
+    "relativePosition": 235,
+    "relativeStrength": 0.727273
+  },
+  "KK339": {
+    "hand": "KK339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2703,
+    "absoluteStrength": 0.637899,
+    "relativePosition": 236,
+    "relativeStrength": 0.726107
+  },
+  "KK338": {
+    "hand": "KK338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2704,
+    "absoluteStrength": 0.637765,
+    "relativePosition": 237,
+    "relativeStrength": 0.724942
+  },
+  "KK337": {
+    "hand": "KK337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2705,
+    "absoluteStrength": 0.637631,
+    "relativePosition": 238,
+    "relativeStrength": 0.723776
+  },
+  "KK336": {
+    "hand": "KK336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2706,
+    "absoluteStrength": 0.637497,
+    "relativePosition": 239,
+    "relativeStrength": 0.722611
+  },
+  "KK335": {
+    "hand": "KK335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2707,
+    "absoluteStrength": 0.637363,
+    "relativePosition": 240,
+    "relativeStrength": 0.721445
+  },
+  "KK334": {
+    "hand": "KK334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2708,
+    "absoluteStrength": 0.637229,
+    "relativePosition": 241,
+    "relativeStrength": 0.72028
+  },
+  "KK332": {
+    "hand": "KK332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2709,
+    "absoluteStrength": 0.637095,
+    "relativePosition": 242,
+    "relativeStrength": 0.719114
+  },
+  "KK22A": {
+    "hand": "KK22A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2710,
+    "absoluteStrength": 0.636961,
+    "relativePosition": 243,
+    "relativeStrength": 0.717949
+  },
+  "KK22Q": {
+    "hand": "KK22Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2711,
+    "absoluteStrength": 0.636827,
+    "relativePosition": 244,
+    "relativeStrength": 0.716783
+  },
+  "KK22J": {
+    "hand": "KK22J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2712,
+    "absoluteStrength": 0.636693,
+    "relativePosition": 245,
+    "relativeStrength": 0.715618
+  },
+  "KK22T": {
+    "hand": "KK22T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2713,
+    "absoluteStrength": 0.636559,
+    "relativePosition": 246,
+    "relativeStrength": 0.714452
+  },
+  "KK229": {
+    "hand": "KK229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2714,
+    "absoluteStrength": 0.636425,
+    "relativePosition": 247,
+    "relativeStrength": 0.713287
+  },
+  "KK228": {
+    "hand": "KK228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2715,
+    "absoluteStrength": 0.636291,
+    "relativePosition": 248,
+    "relativeStrength": 0.712121
+  },
+  "KK227": {
+    "hand": "KK227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2716,
+    "absoluteStrength": 0.636157,
+    "relativePosition": 249,
+    "relativeStrength": 0.710956
+  },
+  "KK226": {
+    "hand": "KK226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2717,
+    "absoluteStrength": 0.636023,
+    "relativePosition": 250,
+    "relativeStrength": 0.70979
+  },
+  "KK225": {
+    "hand": "KK225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2718,
+    "absoluteStrength": 0.635889,
+    "relativePosition": 251,
+    "relativeStrength": 0.708625
+  },
+  "KK224": {
+    "hand": "KK224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2719,
+    "absoluteStrength": 0.635754,
+    "relativePosition": 252,
+    "relativeStrength": 0.707459
+  },
+  "KK223": {
+    "hand": "KK223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2720,
+    "absoluteStrength": 0.63562,
+    "relativePosition": 253,
+    "relativeStrength": 0.706294
+  },
+  "QQJJA": {
+    "hand": "QQJJA",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2721,
+    "absoluteStrength": 0.635486,
+    "relativePosition": 254,
+    "relativeStrength": 0.705128
+  },
+  "QQJJK": {
+    "hand": "QQJJK",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2722,
+    "absoluteStrength": 0.635352,
+    "relativePosition": 255,
+    "relativeStrength": 0.703963
+  },
+  "QQJJT": {
+    "hand": "QQJJT",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2723,
+    "absoluteStrength": 0.635218,
+    "relativePosition": 256,
+    "relativeStrength": 0.702797
+  },
+  "QQJJ9": {
+    "hand": "QQJJ9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2724,
+    "absoluteStrength": 0.635084,
+    "relativePosition": 257,
+    "relativeStrength": 0.701632
+  },
+  "QQJJ8": {
+    "hand": "QQJJ8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2725,
+    "absoluteStrength": 0.63495,
+    "relativePosition": 258,
+    "relativeStrength": 0.700466
+  },
+  "QQJJ7": {
+    "hand": "QQJJ7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2726,
+    "absoluteStrength": 0.634816,
+    "relativePosition": 259,
+    "relativeStrength": 0.699301
+  },
+  "QQJJ6": {
+    "hand": "QQJJ6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2727,
+    "absoluteStrength": 0.634682,
+    "relativePosition": 260,
+    "relativeStrength": 0.698135
+  },
+  "QQJJ5": {
+    "hand": "QQJJ5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2728,
+    "absoluteStrength": 0.634548,
+    "relativePosition": 261,
+    "relativeStrength": 0.69697
+  },
+  "QQJJ4": {
+    "hand": "QQJJ4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2729,
+    "absoluteStrength": 0.634414,
+    "relativePosition": 262,
+    "relativeStrength": 0.695804
+  },
+  "QQJJ3": {
+    "hand": "QQJJ3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2730,
+    "absoluteStrength": 0.63428,
+    "relativePosition": 263,
+    "relativeStrength": 0.694639
+  },
+  "QQJJ2": {
+    "hand": "QQJJ2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2731,
+    "absoluteStrength": 0.634146,
+    "relativePosition": 264,
+    "relativeStrength": 0.693473
+  },
+  "QQTTA": {
+    "hand": "QQTTA",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2732,
+    "absoluteStrength": 0.634012,
+    "relativePosition": 265,
+    "relativeStrength": 0.692308
+  },
+  "QQTTK": {
+    "hand": "QQTTK",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2733,
+    "absoluteStrength": 0.633878,
+    "relativePosition": 266,
+    "relativeStrength": 0.691142
+  },
+  "QQTTJ": {
+    "hand": "QQTTJ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2734,
+    "absoluteStrength": 0.633744,
+    "relativePosition": 267,
+    "relativeStrength": 0.689977
+  },
+  "QQTT9": {
+    "hand": "QQTT9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2735,
+    "absoluteStrength": 0.63361,
+    "relativePosition": 268,
+    "relativeStrength": 0.688811
+  },
+  "QQTT8": {
+    "hand": "QQTT8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2736,
+    "absoluteStrength": 0.633476,
+    "relativePosition": 269,
+    "relativeStrength": 0.687646
+  },
+  "QQTT7": {
+    "hand": "QQTT7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2737,
+    "absoluteStrength": 0.633342,
+    "relativePosition": 270,
+    "relativeStrength": 0.68648
+  },
+  "QQTT6": {
+    "hand": "QQTT6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2738,
+    "absoluteStrength": 0.633208,
+    "relativePosition": 271,
+    "relativeStrength": 0.685315
+  },
+  "QQTT5": {
+    "hand": "QQTT5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2739,
+    "absoluteStrength": 0.633074,
+    "relativePosition": 272,
+    "relativeStrength": 0.684149
+  },
+  "QQTT4": {
+    "hand": "QQTT4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2740,
+    "absoluteStrength": 0.63294,
+    "relativePosition": 273,
+    "relativeStrength": 0.682984
+  },
+  "QQTT3": {
+    "hand": "QQTT3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2741,
+    "absoluteStrength": 0.632806,
+    "relativePosition": 274,
+    "relativeStrength": 0.681818
+  },
+  "QQTT2": {
+    "hand": "QQTT2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2742,
+    "absoluteStrength": 0.632672,
+    "relativePosition": 275,
+    "relativeStrength": 0.680653
+  },
+  "QQ99A": {
+    "hand": "QQ99A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2743,
+    "absoluteStrength": 0.632538,
+    "relativePosition": 276,
+    "relativeStrength": 0.679487
+  },
+  "QQ99K": {
+    "hand": "QQ99K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2744,
+    "absoluteStrength": 0.632404,
+    "relativePosition": 277,
+    "relativeStrength": 0.678322
+  },
+  "QQ99J": {
+    "hand": "QQ99J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2745,
+    "absoluteStrength": 0.63227,
+    "relativePosition": 278,
+    "relativeStrength": 0.677156
+  },
+  "QQ99T": {
+    "hand": "QQ99T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2746,
+    "absoluteStrength": 0.632136,
+    "relativePosition": 279,
+    "relativeStrength": 0.675991
+  },
+  "QQ998": {
+    "hand": "QQ998",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2747,
+    "absoluteStrength": 0.632002,
+    "relativePosition": 280,
+    "relativeStrength": 0.674825
+  },
+  "QQ997": {
+    "hand": "QQ997",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2748,
+    "absoluteStrength": 0.631868,
+    "relativePosition": 281,
+    "relativeStrength": 0.67366
+  },
+  "QQ996": {
+    "hand": "QQ996",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2749,
+    "absoluteStrength": 0.631734,
+    "relativePosition": 282,
+    "relativeStrength": 0.672494
+  },
+  "QQ995": {
+    "hand": "QQ995",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2750,
+    "absoluteStrength": 0.6316,
+    "relativePosition": 283,
+    "relativeStrength": 0.671329
+  },
+  "QQ994": {
+    "hand": "QQ994",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2751,
+    "absoluteStrength": 0.631466,
+    "relativePosition": 284,
+    "relativeStrength": 0.670163
+  },
+  "QQ993": {
+    "hand": "QQ993",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2752,
+    "absoluteStrength": 0.631332,
+    "relativePosition": 285,
+    "relativeStrength": 0.668998
+  },
+  "QQ992": {
+    "hand": "QQ992",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2753,
+    "absoluteStrength": 0.631198,
+    "relativePosition": 286,
+    "relativeStrength": 0.667832
+  },
+  "QQ88A": {
+    "hand": "QQ88A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2754,
+    "absoluteStrength": 0.631064,
+    "relativePosition": 287,
+    "relativeStrength": 0.666667
+  },
+  "QQ88K": {
+    "hand": "QQ88K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2755,
+    "absoluteStrength": 0.63093,
+    "relativePosition": 288,
+    "relativeStrength": 0.665501
+  },
+  "QQ88J": {
+    "hand": "QQ88J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2756,
+    "absoluteStrength": 0.630796,
+    "relativePosition": 289,
+    "relativeStrength": 0.664336
+  },
+  "QQ88T": {
+    "hand": "QQ88T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2757,
+    "absoluteStrength": 0.630662,
+    "relativePosition": 290,
+    "relativeStrength": 0.66317
+  },
+  "QQ889": {
+    "hand": "QQ889",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2758,
+    "absoluteStrength": 0.630528,
+    "relativePosition": 291,
+    "relativeStrength": 0.662005
+  },
+  "QQ887": {
+    "hand": "QQ887",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2759,
+    "absoluteStrength": 0.630394,
+    "relativePosition": 292,
+    "relativeStrength": 0.660839
+  },
+  "QQ886": {
+    "hand": "QQ886",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2760,
+    "absoluteStrength": 0.63026,
+    "relativePosition": 293,
+    "relativeStrength": 0.659674
+  },
+  "QQ885": {
+    "hand": "QQ885",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2761,
+    "absoluteStrength": 0.630126,
+    "relativePosition": 294,
+    "relativeStrength": 0.658508
+  },
+  "QQ884": {
+    "hand": "QQ884",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2762,
+    "absoluteStrength": 0.629992,
+    "relativePosition": 295,
+    "relativeStrength": 0.657343
+  },
+  "QQ883": {
+    "hand": "QQ883",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2763,
+    "absoluteStrength": 0.629858,
+    "relativePosition": 296,
+    "relativeStrength": 0.656177
+  },
+  "QQ882": {
+    "hand": "QQ882",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2764,
+    "absoluteStrength": 0.629724,
+    "relativePosition": 297,
+    "relativeStrength": 0.655012
+  },
+  "QQ77A": {
+    "hand": "QQ77A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2765,
+    "absoluteStrength": 0.62959,
+    "relativePosition": 298,
+    "relativeStrength": 0.653846
+  },
+  "QQ77K": {
+    "hand": "QQ77K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2766,
+    "absoluteStrength": 0.629456,
+    "relativePosition": 299,
+    "relativeStrength": 0.652681
+  },
+  "QQ77J": {
+    "hand": "QQ77J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2767,
+    "absoluteStrength": 0.629322,
+    "relativePosition": 300,
+    "relativeStrength": 0.651515
+  },
+  "QQ77T": {
+    "hand": "QQ77T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2768,
+    "absoluteStrength": 0.629188,
+    "relativePosition": 301,
+    "relativeStrength": 0.65035
+  },
+  "QQ779": {
+    "hand": "QQ779",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2769,
+    "absoluteStrength": 0.629054,
+    "relativePosition": 302,
+    "relativeStrength": 0.649184
+  },
+  "QQ778": {
+    "hand": "QQ778",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2770,
+    "absoluteStrength": 0.62892,
+    "relativePosition": 303,
+    "relativeStrength": 0.648019
+  },
+  "QQ776": {
+    "hand": "QQ776",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2771,
+    "absoluteStrength": 0.628786,
+    "relativePosition": 304,
+    "relativeStrength": 0.646853
+  },
+  "QQ775": {
+    "hand": "QQ775",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2772,
+    "absoluteStrength": 0.628652,
+    "relativePosition": 305,
+    "relativeStrength": 0.645688
+  },
+  "QQ774": {
+    "hand": "QQ774",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2773,
+    "absoluteStrength": 0.628518,
+    "relativePosition": 306,
+    "relativeStrength": 0.644522
+  },
+  "QQ773": {
+    "hand": "QQ773",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2774,
+    "absoluteStrength": 0.628384,
+    "relativePosition": 307,
+    "relativeStrength": 0.643357
+  },
+  "QQ772": {
+    "hand": "QQ772",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2775,
+    "absoluteStrength": 0.62825,
+    "relativePosition": 308,
+    "relativeStrength": 0.642191
+  },
+  "QQ66A": {
+    "hand": "QQ66A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2776,
+    "absoluteStrength": 0.628116,
+    "relativePosition": 309,
+    "relativeStrength": 0.641026
+  },
+  "QQ66K": {
+    "hand": "QQ66K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2777,
+    "absoluteStrength": 0.627982,
+    "relativePosition": 310,
+    "relativeStrength": 0.63986
+  },
+  "QQ66J": {
+    "hand": "QQ66J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2778,
+    "absoluteStrength": 0.627848,
+    "relativePosition": 311,
+    "relativeStrength": 0.638695
+  },
+  "QQ66T": {
+    "hand": "QQ66T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2779,
+    "absoluteStrength": 0.627714,
+    "relativePosition": 312,
+    "relativeStrength": 0.637529
+  },
+  "QQ669": {
+    "hand": "QQ669",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2780,
+    "absoluteStrength": 0.62758,
+    "relativePosition": 313,
+    "relativeStrength": 0.636364
+  },
+  "QQ668": {
+    "hand": "QQ668",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2781,
+    "absoluteStrength": 0.627446,
+    "relativePosition": 314,
+    "relativeStrength": 0.635198
+  },
+  "QQ667": {
+    "hand": "QQ667",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2782,
+    "absoluteStrength": 0.627312,
+    "relativePosition": 315,
+    "relativeStrength": 0.634033
+  },
+  "QQ665": {
+    "hand": "QQ665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2783,
+    "absoluteStrength": 0.627178,
+    "relativePosition": 316,
+    "relativeStrength": 0.632867
+  },
+  "QQ664": {
+    "hand": "QQ664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2784,
+    "absoluteStrength": 0.627044,
+    "relativePosition": 317,
+    "relativeStrength": 0.631702
+  },
+  "QQ663": {
+    "hand": "QQ663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2785,
+    "absoluteStrength": 0.62691,
+    "relativePosition": 318,
+    "relativeStrength": 0.630536
+  },
+  "QQ662": {
+    "hand": "QQ662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2786,
+    "absoluteStrength": 0.626776,
+    "relativePosition": 319,
+    "relativeStrength": 0.629371
+  },
+  "QQ55A": {
+    "hand": "QQ55A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2787,
+    "absoluteStrength": 0.626642,
+    "relativePosition": 320,
+    "relativeStrength": 0.628205
+  },
+  "QQ55K": {
+    "hand": "QQ55K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2788,
+    "absoluteStrength": 0.626508,
+    "relativePosition": 321,
+    "relativeStrength": 0.62704
+  },
+  "QQ55J": {
+    "hand": "QQ55J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2789,
+    "absoluteStrength": 0.626374,
+    "relativePosition": 322,
+    "relativeStrength": 0.625874
+  },
+  "QQ55T": {
+    "hand": "QQ55T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2790,
+    "absoluteStrength": 0.62624,
+    "relativePosition": 323,
+    "relativeStrength": 0.624709
+  },
+  "QQ559": {
+    "hand": "QQ559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2791,
+    "absoluteStrength": 0.626106,
+    "relativePosition": 324,
+    "relativeStrength": 0.623543
+  },
+  "QQ558": {
+    "hand": "QQ558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2792,
+    "absoluteStrength": 0.625972,
+    "relativePosition": 325,
+    "relativeStrength": 0.622378
+  },
+  "QQ557": {
+    "hand": "QQ557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2793,
+    "absoluteStrength": 0.625838,
+    "relativePosition": 326,
+    "relativeStrength": 0.621212
+  },
+  "QQ556": {
+    "hand": "QQ556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2794,
+    "absoluteStrength": 0.625704,
+    "relativePosition": 327,
+    "relativeStrength": 0.620047
+  },
+  "QQ554": {
+    "hand": "QQ554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2795,
+    "absoluteStrength": 0.62557,
+    "relativePosition": 328,
+    "relativeStrength": 0.618881
+  },
+  "QQ553": {
+    "hand": "QQ553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2796,
+    "absoluteStrength": 0.625436,
+    "relativePosition": 329,
+    "relativeStrength": 0.617716
+  },
+  "QQ552": {
+    "hand": "QQ552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2797,
+    "absoluteStrength": 0.625302,
+    "relativePosition": 330,
+    "relativeStrength": 0.61655
+  },
+  "QQ44A": {
+    "hand": "QQ44A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2798,
+    "absoluteStrength": 0.625168,
+    "relativePosition": 331,
+    "relativeStrength": 0.615385
+  },
+  "QQ44K": {
+    "hand": "QQ44K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2799,
+    "absoluteStrength": 0.625034,
+    "relativePosition": 332,
+    "relativeStrength": 0.614219
+  },
+  "QQ44J": {
+    "hand": "QQ44J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2800,
+    "absoluteStrength": 0.624899,
+    "relativePosition": 333,
+    "relativeStrength": 0.613054
+  },
+  "QQ44T": {
+    "hand": "QQ44T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2801,
+    "absoluteStrength": 0.624765,
+    "relativePosition": 334,
+    "relativeStrength": 0.611888
+  },
+  "QQ449": {
+    "hand": "QQ449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2802,
+    "absoluteStrength": 0.624631,
+    "relativePosition": 335,
+    "relativeStrength": 0.610723
+  },
+  "QQ448": {
+    "hand": "QQ448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2803,
+    "absoluteStrength": 0.624497,
+    "relativePosition": 336,
+    "relativeStrength": 0.609557
+  },
+  "QQ447": {
+    "hand": "QQ447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2804,
+    "absoluteStrength": 0.624363,
+    "relativePosition": 337,
+    "relativeStrength": 0.608392
+  },
+  "QQ446": {
+    "hand": "QQ446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2805,
+    "absoluteStrength": 0.624229,
+    "relativePosition": 338,
+    "relativeStrength": 0.607226
+  },
+  "QQ445": {
+    "hand": "QQ445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2806,
+    "absoluteStrength": 0.624095,
+    "relativePosition": 339,
+    "relativeStrength": 0.606061
+  },
+  "QQ443": {
+    "hand": "QQ443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2807,
+    "absoluteStrength": 0.623961,
+    "relativePosition": 340,
+    "relativeStrength": 0.604895
+  },
+  "QQ442": {
+    "hand": "QQ442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2808,
+    "absoluteStrength": 0.623827,
+    "relativePosition": 341,
+    "relativeStrength": 0.60373
+  },
+  "QQ33A": {
+    "hand": "QQ33A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2809,
+    "absoluteStrength": 0.623693,
+    "relativePosition": 342,
+    "relativeStrength": 0.602564
+  },
+  "QQ33K": {
+    "hand": "QQ33K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2810,
+    "absoluteStrength": 0.623559,
+    "relativePosition": 343,
+    "relativeStrength": 0.601399
+  },
+  "QQ33J": {
+    "hand": "QQ33J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2811,
+    "absoluteStrength": 0.623425,
+    "relativePosition": 344,
+    "relativeStrength": 0.600233
+  },
+  "QQ33T": {
+    "hand": "QQ33T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2812,
+    "absoluteStrength": 0.623291,
+    "relativePosition": 345,
+    "relativeStrength": 0.599068
+  },
+  "QQ339": {
+    "hand": "QQ339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2813,
+    "absoluteStrength": 0.623157,
+    "relativePosition": 346,
+    "relativeStrength": 0.597902
+  },
+  "QQ338": {
+    "hand": "QQ338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2814,
+    "absoluteStrength": 0.623023,
+    "relativePosition": 347,
+    "relativeStrength": 0.596737
+  },
+  "QQ337": {
+    "hand": "QQ337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2815,
+    "absoluteStrength": 0.622889,
+    "relativePosition": 348,
+    "relativeStrength": 0.595571
+  },
+  "QQ336": {
+    "hand": "QQ336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2816,
+    "absoluteStrength": 0.622755,
+    "relativePosition": 349,
+    "relativeStrength": 0.594406
+  },
+  "QQ335": {
+    "hand": "QQ335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2817,
+    "absoluteStrength": 0.622621,
+    "relativePosition": 350,
+    "relativeStrength": 0.59324
+  },
+  "QQ334": {
+    "hand": "QQ334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2818,
+    "absoluteStrength": 0.622487,
+    "relativePosition": 351,
+    "relativeStrength": 0.592075
+  },
+  "QQ332": {
+    "hand": "QQ332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2819,
+    "absoluteStrength": 0.622353,
+    "relativePosition": 352,
+    "relativeStrength": 0.590909
+  },
+  "QQ22A": {
+    "hand": "QQ22A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2820,
+    "absoluteStrength": 0.622219,
+    "relativePosition": 353,
+    "relativeStrength": 0.589744
+  },
+  "QQ22K": {
+    "hand": "QQ22K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2821,
+    "absoluteStrength": 0.622085,
+    "relativePosition": 354,
+    "relativeStrength": 0.588578
+  },
+  "QQ22J": {
+    "hand": "QQ22J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2822,
+    "absoluteStrength": 0.621951,
+    "relativePosition": 355,
+    "relativeStrength": 0.587413
+  },
+  "QQ22T": {
+    "hand": "QQ22T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2823,
+    "absoluteStrength": 0.621817,
+    "relativePosition": 356,
+    "relativeStrength": 0.586247
+  },
+  "QQ229": {
+    "hand": "QQ229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2824,
+    "absoluteStrength": 0.621683,
+    "relativePosition": 357,
+    "relativeStrength": 0.585082
+  },
+  "QQ228": {
+    "hand": "QQ228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2825,
+    "absoluteStrength": 0.621549,
+    "relativePosition": 358,
+    "relativeStrength": 0.583916
+  },
+  "QQ227": {
+    "hand": "QQ227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2826,
+    "absoluteStrength": 0.621415,
+    "relativePosition": 359,
+    "relativeStrength": 0.582751
+  },
+  "QQ226": {
+    "hand": "QQ226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2827,
+    "absoluteStrength": 0.621281,
+    "relativePosition": 360,
+    "relativeStrength": 0.581585
+  },
+  "QQ225": {
+    "hand": "QQ225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2828,
+    "absoluteStrength": 0.621147,
+    "relativePosition": 361,
+    "relativeStrength": 0.58042
+  },
+  "QQ224": {
+    "hand": "QQ224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2829,
+    "absoluteStrength": 0.621013,
+    "relativePosition": 362,
+    "relativeStrength": 0.579254
+  },
+  "QQ223": {
+    "hand": "QQ223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2830,
+    "absoluteStrength": 0.620879,
+    "relativePosition": 363,
+    "relativeStrength": 0.578089
+  },
+  "JJTTA": {
+    "hand": "JJTTA",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2831,
+    "absoluteStrength": 0.620745,
+    "relativePosition": 364,
+    "relativeStrength": 0.576923
+  },
+  "JJTTK": {
+    "hand": "JJTTK",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2832,
+    "absoluteStrength": 0.620611,
+    "relativePosition": 365,
+    "relativeStrength": 0.575758
+  },
+  "JJTTQ": {
+    "hand": "JJTTQ",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2833,
+    "absoluteStrength": 0.620477,
+    "relativePosition": 366,
+    "relativeStrength": 0.574592
+  },
+  "JJTT9": {
+    "hand": "JJTT9",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2834,
+    "absoluteStrength": 0.620343,
+    "relativePosition": 367,
+    "relativeStrength": 0.573427
+  },
+  "JJTT8": {
+    "hand": "JJTT8",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2835,
+    "absoluteStrength": 0.620209,
+    "relativePosition": 368,
+    "relativeStrength": 0.572261
+  },
+  "JJTT7": {
+    "hand": "JJTT7",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2836,
+    "absoluteStrength": 0.620075,
+    "relativePosition": 369,
+    "relativeStrength": 0.571096
+  },
+  "JJTT6": {
+    "hand": "JJTT6",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2837,
+    "absoluteStrength": 0.619941,
+    "relativePosition": 370,
+    "relativeStrength": 0.56993
+  },
+  "JJTT5": {
+    "hand": "JJTT5",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2838,
+    "absoluteStrength": 0.619807,
+    "relativePosition": 371,
+    "relativeStrength": 0.568765
+  },
+  "JJTT4": {
+    "hand": "JJTT4",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2839,
+    "absoluteStrength": 0.619673,
+    "relativePosition": 372,
+    "relativeStrength": 0.567599
+  },
+  "JJTT3": {
+    "hand": "JJTT3",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2840,
+    "absoluteStrength": 0.619539,
+    "relativePosition": 373,
+    "relativeStrength": 0.566434
+  },
+  "JJTT2": {
+    "hand": "JJTT2",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2841,
+    "absoluteStrength": 0.619405,
+    "relativePosition": 374,
+    "relativeStrength": 0.565268
+  },
+  "JJ99A": {
+    "hand": "JJ99A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2842,
+    "absoluteStrength": 0.619271,
+    "relativePosition": 375,
+    "relativeStrength": 0.564103
+  },
+  "JJ99K": {
+    "hand": "JJ99K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2843,
+    "absoluteStrength": 0.619137,
+    "relativePosition": 376,
+    "relativeStrength": 0.562937
+  },
+  "JJ99Q": {
+    "hand": "JJ99Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2844,
+    "absoluteStrength": 0.619003,
+    "relativePosition": 377,
+    "relativeStrength": 0.561772
+  },
+  "JJ99T": {
+    "hand": "JJ99T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2845,
+    "absoluteStrength": 0.618869,
+    "relativePosition": 378,
+    "relativeStrength": 0.560606
+  },
+  "JJ998": {
+    "hand": "JJ998",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2846,
+    "absoluteStrength": 0.618735,
+    "relativePosition": 379,
+    "relativeStrength": 0.559441
+  },
+  "JJ997": {
+    "hand": "JJ997",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2847,
+    "absoluteStrength": 0.618601,
+    "relativePosition": 380,
+    "relativeStrength": 0.558275
+  },
+  "JJ996": {
+    "hand": "JJ996",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2848,
+    "absoluteStrength": 0.618467,
+    "relativePosition": 381,
+    "relativeStrength": 0.55711
+  },
+  "JJ995": {
+    "hand": "JJ995",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2849,
+    "absoluteStrength": 0.618333,
+    "relativePosition": 382,
+    "relativeStrength": 0.555944
+  },
+  "JJ994": {
+    "hand": "JJ994",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2850,
+    "absoluteStrength": 0.618199,
+    "relativePosition": 383,
+    "relativeStrength": 0.554779
+  },
+  "JJ993": {
+    "hand": "JJ993",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2851,
+    "absoluteStrength": 0.618065,
+    "relativePosition": 384,
+    "relativeStrength": 0.553613
+  },
+  "JJ992": {
+    "hand": "JJ992",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2852,
+    "absoluteStrength": 0.617931,
+    "relativePosition": 385,
+    "relativeStrength": 0.552448
+  },
+  "JJ88A": {
+    "hand": "JJ88A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2853,
+    "absoluteStrength": 0.617797,
+    "relativePosition": 386,
+    "relativeStrength": 0.551282
+  },
+  "JJ88K": {
+    "hand": "JJ88K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2854,
+    "absoluteStrength": 0.617663,
+    "relativePosition": 387,
+    "relativeStrength": 0.550117
+  },
+  "JJ88Q": {
+    "hand": "JJ88Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2855,
+    "absoluteStrength": 0.617529,
+    "relativePosition": 388,
+    "relativeStrength": 0.548951
+  },
+  "JJ88T": {
+    "hand": "JJ88T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2856,
+    "absoluteStrength": 0.617395,
+    "relativePosition": 389,
+    "relativeStrength": 0.547786
+  },
+  "JJ889": {
+    "hand": "JJ889",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2857,
+    "absoluteStrength": 0.617261,
+    "relativePosition": 390,
+    "relativeStrength": 0.54662
+  },
+  "JJ887": {
+    "hand": "JJ887",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2858,
+    "absoluteStrength": 0.617127,
+    "relativePosition": 391,
+    "relativeStrength": 0.545455
+  },
+  "JJ886": {
+    "hand": "JJ886",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2859,
+    "absoluteStrength": 0.616993,
+    "relativePosition": 392,
+    "relativeStrength": 0.544289
+  },
+  "JJ885": {
+    "hand": "JJ885",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2860,
+    "absoluteStrength": 0.616859,
+    "relativePosition": 393,
+    "relativeStrength": 0.543124
+  },
+  "JJ884": {
+    "hand": "JJ884",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2861,
+    "absoluteStrength": 0.616725,
+    "relativePosition": 394,
+    "relativeStrength": 0.541958
+  },
+  "JJ883": {
+    "hand": "JJ883",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2862,
+    "absoluteStrength": 0.616591,
+    "relativePosition": 395,
+    "relativeStrength": 0.540793
+  },
+  "JJ882": {
+    "hand": "JJ882",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2863,
+    "absoluteStrength": 0.616457,
+    "relativePosition": 396,
+    "relativeStrength": 0.539627
+  },
+  "JJ77A": {
+    "hand": "JJ77A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2864,
+    "absoluteStrength": 0.616323,
+    "relativePosition": 397,
+    "relativeStrength": 0.538462
+  },
+  "JJ77K": {
+    "hand": "JJ77K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2865,
+    "absoluteStrength": 0.616189,
+    "relativePosition": 398,
+    "relativeStrength": 0.537296
+  },
+  "JJ77Q": {
+    "hand": "JJ77Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2866,
+    "absoluteStrength": 0.616055,
+    "relativePosition": 399,
+    "relativeStrength": 0.536131
+  },
+  "JJ77T": {
+    "hand": "JJ77T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2867,
+    "absoluteStrength": 0.615921,
+    "relativePosition": 400,
+    "relativeStrength": 0.534965
+  },
+  "JJ779": {
+    "hand": "JJ779",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2868,
+    "absoluteStrength": 0.615787,
+    "relativePosition": 401,
+    "relativeStrength": 0.5338
+  },
+  "JJ778": {
+    "hand": "JJ778",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2869,
+    "absoluteStrength": 0.615653,
+    "relativePosition": 402,
+    "relativeStrength": 0.532634
+  },
+  "JJ776": {
+    "hand": "JJ776",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2870,
+    "absoluteStrength": 0.615519,
+    "relativePosition": 403,
+    "relativeStrength": 0.531469
+  },
+  "JJ775": {
+    "hand": "JJ775",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2871,
+    "absoluteStrength": 0.615385,
+    "relativePosition": 404,
+    "relativeStrength": 0.530303
+  },
+  "JJ774": {
+    "hand": "JJ774",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2872,
+    "absoluteStrength": 0.615251,
+    "relativePosition": 405,
+    "relativeStrength": 0.529138
+  },
+  "JJ773": {
+    "hand": "JJ773",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2873,
+    "absoluteStrength": 0.615117,
+    "relativePosition": 406,
+    "relativeStrength": 0.527972
+  },
+  "JJ772": {
+    "hand": "JJ772",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2874,
+    "absoluteStrength": 0.614983,
+    "relativePosition": 407,
+    "relativeStrength": 0.526807
+  },
+  "JJ66A": {
+    "hand": "JJ66A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2875,
+    "absoluteStrength": 0.614849,
+    "relativePosition": 408,
+    "relativeStrength": 0.525641
+  },
+  "JJ66K": {
+    "hand": "JJ66K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2876,
+    "absoluteStrength": 0.614715,
+    "relativePosition": 409,
+    "relativeStrength": 0.524476
+  },
+  "JJ66Q": {
+    "hand": "JJ66Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2877,
+    "absoluteStrength": 0.614581,
+    "relativePosition": 410,
+    "relativeStrength": 0.52331
+  },
+  "JJ66T": {
+    "hand": "JJ66T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2878,
+    "absoluteStrength": 0.614447,
+    "relativePosition": 411,
+    "relativeStrength": 0.522145
+  },
+  "JJ669": {
+    "hand": "JJ669",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2879,
+    "absoluteStrength": 0.614313,
+    "relativePosition": 412,
+    "relativeStrength": 0.520979
+  },
+  "JJ668": {
+    "hand": "JJ668",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2880,
+    "absoluteStrength": 0.614179,
+    "relativePosition": 413,
+    "relativeStrength": 0.519814
+  },
+  "JJ667": {
+    "hand": "JJ667",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2881,
+    "absoluteStrength": 0.614044,
+    "relativePosition": 414,
+    "relativeStrength": 0.518648
+  },
+  "JJ665": {
+    "hand": "JJ665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2882,
+    "absoluteStrength": 0.61391,
+    "relativePosition": 415,
+    "relativeStrength": 0.517483
+  },
+  "JJ664": {
+    "hand": "JJ664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2883,
+    "absoluteStrength": 0.613776,
+    "relativePosition": 416,
+    "relativeStrength": 0.516317
+  },
+  "JJ663": {
+    "hand": "JJ663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2884,
+    "absoluteStrength": 0.613642,
+    "relativePosition": 417,
+    "relativeStrength": 0.515152
+  },
+  "JJ662": {
+    "hand": "JJ662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2885,
+    "absoluteStrength": 0.613508,
+    "relativePosition": 418,
+    "relativeStrength": 0.513986
+  },
+  "JJ55A": {
+    "hand": "JJ55A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2886,
+    "absoluteStrength": 0.613374,
+    "relativePosition": 419,
+    "relativeStrength": 0.512821
+  },
+  "JJ55K": {
+    "hand": "JJ55K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2887,
+    "absoluteStrength": 0.61324,
+    "relativePosition": 420,
+    "relativeStrength": 0.511655
+  },
+  "JJ55Q": {
+    "hand": "JJ55Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2888,
+    "absoluteStrength": 0.613106,
+    "relativePosition": 421,
+    "relativeStrength": 0.51049
+  },
+  "JJ55T": {
+    "hand": "JJ55T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2889,
+    "absoluteStrength": 0.612972,
+    "relativePosition": 422,
+    "relativeStrength": 0.509324
+  },
+  "JJ559": {
+    "hand": "JJ559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2890,
+    "absoluteStrength": 0.612838,
+    "relativePosition": 423,
+    "relativeStrength": 0.508159
+  },
+  "JJ558": {
+    "hand": "JJ558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2891,
+    "absoluteStrength": 0.612704,
+    "relativePosition": 424,
+    "relativeStrength": 0.506993
+  },
+  "JJ557": {
+    "hand": "JJ557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2892,
+    "absoluteStrength": 0.61257,
+    "relativePosition": 425,
+    "relativeStrength": 0.505828
+  },
+  "JJ556": {
+    "hand": "JJ556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2893,
+    "absoluteStrength": 0.612436,
+    "relativePosition": 426,
+    "relativeStrength": 0.504662
+  },
+  "JJ554": {
+    "hand": "JJ554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2894,
+    "absoluteStrength": 0.612302,
+    "relativePosition": 427,
+    "relativeStrength": 0.503497
+  },
+  "JJ553": {
+    "hand": "JJ553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2895,
+    "absoluteStrength": 0.612168,
+    "relativePosition": 428,
+    "relativeStrength": 0.502331
+  },
+  "JJ552": {
+    "hand": "JJ552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2896,
+    "absoluteStrength": 0.612034,
+    "relativePosition": 429,
+    "relativeStrength": 0.501166
+  },
+  "JJ44A": {
+    "hand": "JJ44A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2897,
+    "absoluteStrength": 0.6119,
+    "relativePosition": 430,
+    "relativeStrength": 0.5
+  },
+  "JJ44K": {
+    "hand": "JJ44K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2898,
+    "absoluteStrength": 0.611766,
+    "relativePosition": 431,
+    "relativeStrength": 0.498834
+  },
+  "JJ44Q": {
+    "hand": "JJ44Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2899,
+    "absoluteStrength": 0.611632,
+    "relativePosition": 432,
+    "relativeStrength": 0.497669
+  },
+  "JJ44T": {
+    "hand": "JJ44T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2900,
+    "absoluteStrength": 0.611498,
+    "relativePosition": 433,
+    "relativeStrength": 0.496503
+  },
+  "JJ449": {
+    "hand": "JJ449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2901,
+    "absoluteStrength": 0.611364,
+    "relativePosition": 434,
+    "relativeStrength": 0.495338
+  },
+  "JJ448": {
+    "hand": "JJ448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2902,
+    "absoluteStrength": 0.61123,
+    "relativePosition": 435,
+    "relativeStrength": 0.494172
+  },
+  "JJ447": {
+    "hand": "JJ447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2903,
+    "absoluteStrength": 0.611096,
+    "relativePosition": 436,
+    "relativeStrength": 0.493007
+  },
+  "JJ446": {
+    "hand": "JJ446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2904,
+    "absoluteStrength": 0.610962,
+    "relativePosition": 437,
+    "relativeStrength": 0.491841
+  },
+  "JJ445": {
+    "hand": "JJ445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2905,
+    "absoluteStrength": 0.610828,
+    "relativePosition": 438,
+    "relativeStrength": 0.490676
+  },
+  "JJ443": {
+    "hand": "JJ443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2906,
+    "absoluteStrength": 0.610694,
+    "relativePosition": 439,
+    "relativeStrength": 0.48951
+  },
+  "JJ442": {
+    "hand": "JJ442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2907,
+    "absoluteStrength": 0.61056,
+    "relativePosition": 440,
+    "relativeStrength": 0.488345
+  },
+  "JJ33A": {
+    "hand": "JJ33A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2908,
+    "absoluteStrength": 0.610426,
+    "relativePosition": 441,
+    "relativeStrength": 0.487179
+  },
+  "JJ33K": {
+    "hand": "JJ33K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2909,
+    "absoluteStrength": 0.610292,
+    "relativePosition": 442,
+    "relativeStrength": 0.486014
+  },
+  "JJ33Q": {
+    "hand": "JJ33Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2910,
+    "absoluteStrength": 0.610158,
+    "relativePosition": 443,
+    "relativeStrength": 0.484848
+  },
+  "JJ33T": {
+    "hand": "JJ33T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2911,
+    "absoluteStrength": 0.610024,
+    "relativePosition": 444,
+    "relativeStrength": 0.483683
+  },
+  "JJ339": {
+    "hand": "JJ339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2912,
+    "absoluteStrength": 0.60989,
+    "relativePosition": 445,
+    "relativeStrength": 0.482517
+  },
+  "JJ338": {
+    "hand": "JJ338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2913,
+    "absoluteStrength": 0.609756,
+    "relativePosition": 446,
+    "relativeStrength": 0.481352
+  },
+  "JJ337": {
+    "hand": "JJ337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2914,
+    "absoluteStrength": 0.609622,
+    "relativePosition": 447,
+    "relativeStrength": 0.480186
+  },
+  "JJ336": {
+    "hand": "JJ336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2915,
+    "absoluteStrength": 0.609488,
+    "relativePosition": 448,
+    "relativeStrength": 0.479021
+  },
+  "JJ335": {
+    "hand": "JJ335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2916,
+    "absoluteStrength": 0.609354,
+    "relativePosition": 449,
+    "relativeStrength": 0.477855
+  },
+  "JJ334": {
+    "hand": "JJ334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2917,
+    "absoluteStrength": 0.60922,
+    "relativePosition": 450,
+    "relativeStrength": 0.47669
+  },
+  "JJ332": {
+    "hand": "JJ332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2918,
+    "absoluteStrength": 0.609086,
+    "relativePosition": 451,
+    "relativeStrength": 0.475524
+  },
+  "JJ22A": {
+    "hand": "JJ22A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2919,
+    "absoluteStrength": 0.608952,
+    "relativePosition": 452,
+    "relativeStrength": 0.474359
+  },
+  "JJ22K": {
+    "hand": "JJ22K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2920,
+    "absoluteStrength": 0.608818,
+    "relativePosition": 453,
+    "relativeStrength": 0.473193
+  },
+  "JJ22Q": {
+    "hand": "JJ22Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2921,
+    "absoluteStrength": 0.608684,
+    "relativePosition": 454,
+    "relativeStrength": 0.472028
+  },
+  "JJ22T": {
+    "hand": "JJ22T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2922,
+    "absoluteStrength": 0.60855,
+    "relativePosition": 455,
+    "relativeStrength": 0.470862
+  },
+  "JJ229": {
+    "hand": "JJ229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2923,
+    "absoluteStrength": 0.608416,
+    "relativePosition": 456,
+    "relativeStrength": 0.469697
+  },
+  "JJ228": {
+    "hand": "JJ228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2924,
+    "absoluteStrength": 0.608282,
+    "relativePosition": 457,
+    "relativeStrength": 0.468531
+  },
+  "JJ227": {
+    "hand": "JJ227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2925,
+    "absoluteStrength": 0.608148,
+    "relativePosition": 458,
+    "relativeStrength": 0.467366
+  },
+  "JJ226": {
+    "hand": "JJ226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2926,
+    "absoluteStrength": 0.608014,
+    "relativePosition": 459,
+    "relativeStrength": 0.4662
+  },
+  "JJ225": {
+    "hand": "JJ225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2927,
+    "absoluteStrength": 0.60788,
+    "relativePosition": 460,
+    "relativeStrength": 0.465035
+  },
+  "JJ224": {
+    "hand": "JJ224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2928,
+    "absoluteStrength": 0.607746,
+    "relativePosition": 461,
+    "relativeStrength": 0.463869
+  },
+  "JJ223": {
+    "hand": "JJ223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2929,
+    "absoluteStrength": 0.607612,
+    "relativePosition": 462,
+    "relativeStrength": 0.462704
+  },
+  "TT99A": {
+    "hand": "TT99A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2930,
+    "absoluteStrength": 0.607478,
+    "relativePosition": 463,
+    "relativeStrength": 0.461538
+  },
+  "TT99K": {
+    "hand": "TT99K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2931,
+    "absoluteStrength": 0.607344,
+    "relativePosition": 464,
+    "relativeStrength": 0.460373
+  },
+  "TT99Q": {
+    "hand": "TT99Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2932,
+    "absoluteStrength": 0.60721,
+    "relativePosition": 465,
+    "relativeStrength": 0.459207
+  },
+  "TT99J": {
+    "hand": "TT99J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2933,
+    "absoluteStrength": 0.607076,
+    "relativePosition": 466,
+    "relativeStrength": 0.458042
+  },
+  "TT998": {
+    "hand": "TT998",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2934,
+    "absoluteStrength": 0.606942,
+    "relativePosition": 467,
+    "relativeStrength": 0.456876
+  },
+  "TT997": {
+    "hand": "TT997",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2935,
+    "absoluteStrength": 0.606808,
+    "relativePosition": 468,
+    "relativeStrength": 0.455711
+  },
+  "TT996": {
+    "hand": "TT996",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2936,
+    "absoluteStrength": 0.606674,
+    "relativePosition": 469,
+    "relativeStrength": 0.454545
+  },
+  "TT995": {
+    "hand": "TT995",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2937,
+    "absoluteStrength": 0.60654,
+    "relativePosition": 470,
+    "relativeStrength": 0.45338
+  },
+  "TT994": {
+    "hand": "TT994",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2938,
+    "absoluteStrength": 0.606406,
+    "relativePosition": 471,
+    "relativeStrength": 0.452214
+  },
+  "TT993": {
+    "hand": "TT993",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2939,
+    "absoluteStrength": 0.606272,
+    "relativePosition": 472,
+    "relativeStrength": 0.451049
+  },
+  "TT992": {
+    "hand": "TT992",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2940,
+    "absoluteStrength": 0.606138,
+    "relativePosition": 473,
+    "relativeStrength": 0.449883
+  },
+  "TT88A": {
+    "hand": "TT88A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2941,
+    "absoluteStrength": 0.606004,
+    "relativePosition": 474,
+    "relativeStrength": 0.448718
+  },
+  "TT88K": {
+    "hand": "TT88K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2942,
+    "absoluteStrength": 0.60587,
+    "relativePosition": 475,
+    "relativeStrength": 0.447552
+  },
+  "TT88Q": {
+    "hand": "TT88Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2943,
+    "absoluteStrength": 0.605736,
+    "relativePosition": 476,
+    "relativeStrength": 0.446387
+  },
+  "TT88J": {
+    "hand": "TT88J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2944,
+    "absoluteStrength": 0.605602,
+    "relativePosition": 477,
+    "relativeStrength": 0.445221
+  },
+  "TT889": {
+    "hand": "TT889",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2945,
+    "absoluteStrength": 0.605468,
+    "relativePosition": 478,
+    "relativeStrength": 0.444056
+  },
+  "TT887": {
+    "hand": "TT887",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2946,
+    "absoluteStrength": 0.605334,
+    "relativePosition": 479,
+    "relativeStrength": 0.44289
+  },
+  "TT886": {
+    "hand": "TT886",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2947,
+    "absoluteStrength": 0.6052,
+    "relativePosition": 480,
+    "relativeStrength": 0.441725
+  },
+  "TT885": {
+    "hand": "TT885",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2948,
+    "absoluteStrength": 0.605066,
+    "relativePosition": 481,
+    "relativeStrength": 0.440559
+  },
+  "TT884": {
+    "hand": "TT884",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2949,
+    "absoluteStrength": 0.604932,
+    "relativePosition": 482,
+    "relativeStrength": 0.439394
+  },
+  "TT883": {
+    "hand": "TT883",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2950,
+    "absoluteStrength": 0.604798,
+    "relativePosition": 483,
+    "relativeStrength": 0.438228
+  },
+  "TT882": {
+    "hand": "TT882",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2951,
+    "absoluteStrength": 0.604664,
+    "relativePosition": 484,
+    "relativeStrength": 0.437063
+  },
+  "TT77A": {
+    "hand": "TT77A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2952,
+    "absoluteStrength": 0.60453,
+    "relativePosition": 485,
+    "relativeStrength": 0.435897
+  },
+  "TT77K": {
+    "hand": "TT77K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2953,
+    "absoluteStrength": 0.604396,
+    "relativePosition": 486,
+    "relativeStrength": 0.434732
+  },
+  "TT77Q": {
+    "hand": "TT77Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2954,
+    "absoluteStrength": 0.604262,
+    "relativePosition": 487,
+    "relativeStrength": 0.433566
+  },
+  "TT77J": {
+    "hand": "TT77J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2955,
+    "absoluteStrength": 0.604128,
+    "relativePosition": 488,
+    "relativeStrength": 0.432401
+  },
+  "TT779": {
+    "hand": "TT779",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2956,
+    "absoluteStrength": 0.603994,
+    "relativePosition": 489,
+    "relativeStrength": 0.431235
+  },
+  "TT778": {
+    "hand": "TT778",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2957,
+    "absoluteStrength": 0.60386,
+    "relativePosition": 490,
+    "relativeStrength": 0.43007
+  },
+  "TT776": {
+    "hand": "TT776",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2958,
+    "absoluteStrength": 0.603726,
+    "relativePosition": 491,
+    "relativeStrength": 0.428904
+  },
+  "TT775": {
+    "hand": "TT775",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2959,
+    "absoluteStrength": 0.603592,
+    "relativePosition": 492,
+    "relativeStrength": 0.427739
+  },
+  "TT774": {
+    "hand": "TT774",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2960,
+    "absoluteStrength": 0.603458,
+    "relativePosition": 493,
+    "relativeStrength": 0.426573
+  },
+  "TT773": {
+    "hand": "TT773",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2961,
+    "absoluteStrength": 0.603324,
+    "relativePosition": 494,
+    "relativeStrength": 0.425408
+  },
+  "TT772": {
+    "hand": "TT772",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2962,
+    "absoluteStrength": 0.603189,
+    "relativePosition": 495,
+    "relativeStrength": 0.424242
+  },
+  "TT66A": {
+    "hand": "TT66A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2963,
+    "absoluteStrength": 0.603055,
+    "relativePosition": 496,
+    "relativeStrength": 0.423077
+  },
+  "TT66K": {
+    "hand": "TT66K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2964,
+    "absoluteStrength": 0.602921,
+    "relativePosition": 497,
+    "relativeStrength": 0.421911
+  },
+  "TT66Q": {
+    "hand": "TT66Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2965,
+    "absoluteStrength": 0.602787,
+    "relativePosition": 498,
+    "relativeStrength": 0.420746
+  },
+  "TT66J": {
+    "hand": "TT66J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2966,
+    "absoluteStrength": 0.602653,
+    "relativePosition": 499,
+    "relativeStrength": 0.41958
+  },
+  "TT669": {
+    "hand": "TT669",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2967,
+    "absoluteStrength": 0.602519,
+    "relativePosition": 500,
+    "relativeStrength": 0.418415
+  },
+  "TT668": {
+    "hand": "TT668",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2968,
+    "absoluteStrength": 0.602385,
+    "relativePosition": 501,
+    "relativeStrength": 0.417249
+  },
+  "TT667": {
+    "hand": "TT667",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2969,
+    "absoluteStrength": 0.602251,
+    "relativePosition": 502,
+    "relativeStrength": 0.416084
+  },
+  "TT665": {
+    "hand": "TT665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2970,
+    "absoluteStrength": 0.602117,
+    "relativePosition": 503,
+    "relativeStrength": 0.414918
+  },
+  "TT664": {
+    "hand": "TT664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2971,
+    "absoluteStrength": 0.601983,
+    "relativePosition": 504,
+    "relativeStrength": 0.413753
+  },
+  "TT663": {
+    "hand": "TT663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2972,
+    "absoluteStrength": 0.601849,
+    "relativePosition": 505,
+    "relativeStrength": 0.412587
+  },
+  "TT662": {
+    "hand": "TT662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2973,
+    "absoluteStrength": 0.601715,
+    "relativePosition": 506,
+    "relativeStrength": 0.411422
+  },
+  "TT55A": {
+    "hand": "TT55A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2974,
+    "absoluteStrength": 0.601581,
+    "relativePosition": 507,
+    "relativeStrength": 0.410256
+  },
+  "TT55K": {
+    "hand": "TT55K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2975,
+    "absoluteStrength": 0.601447,
+    "relativePosition": 508,
+    "relativeStrength": 0.409091
+  },
+  "TT55Q": {
+    "hand": "TT55Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2976,
+    "absoluteStrength": 0.601313,
+    "relativePosition": 509,
+    "relativeStrength": 0.407925
+  },
+  "TT55J": {
+    "hand": "TT55J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2977,
+    "absoluteStrength": 0.601179,
+    "relativePosition": 510,
+    "relativeStrength": 0.40676
+  },
+  "TT559": {
+    "hand": "TT559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2978,
+    "absoluteStrength": 0.601045,
+    "relativePosition": 511,
+    "relativeStrength": 0.405594
+  },
+  "TT558": {
+    "hand": "TT558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2979,
+    "absoluteStrength": 0.600911,
+    "relativePosition": 512,
+    "relativeStrength": 0.404429
+  },
+  "TT557": {
+    "hand": "TT557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2980,
+    "absoluteStrength": 0.600777,
+    "relativePosition": 513,
+    "relativeStrength": 0.403263
+  },
+  "TT556": {
+    "hand": "TT556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2981,
+    "absoluteStrength": 0.600643,
+    "relativePosition": 514,
+    "relativeStrength": 0.402098
+  },
+  "TT554": {
+    "hand": "TT554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2982,
+    "absoluteStrength": 0.600509,
+    "relativePosition": 515,
+    "relativeStrength": 0.400932
+  },
+  "TT553": {
+    "hand": "TT553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2983,
+    "absoluteStrength": 0.600375,
+    "relativePosition": 516,
+    "relativeStrength": 0.399767
+  },
+  "TT552": {
+    "hand": "TT552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2984,
+    "absoluteStrength": 0.600241,
+    "relativePosition": 517,
+    "relativeStrength": 0.398601
+  },
+  "TT44A": {
+    "hand": "TT44A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2985,
+    "absoluteStrength": 0.600107,
+    "relativePosition": 518,
+    "relativeStrength": 0.397436
+  },
+  "TT44K": {
+    "hand": "TT44K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2986,
+    "absoluteStrength": 0.599973,
+    "relativePosition": 519,
+    "relativeStrength": 0.39627
+  },
+  "TT44Q": {
+    "hand": "TT44Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2987,
+    "absoluteStrength": 0.599839,
+    "relativePosition": 520,
+    "relativeStrength": 0.395105
+  },
+  "TT44J": {
+    "hand": "TT44J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2988,
+    "absoluteStrength": 0.599705,
+    "relativePosition": 521,
+    "relativeStrength": 0.393939
+  },
+  "TT449": {
+    "hand": "TT449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2989,
+    "absoluteStrength": 0.599571,
+    "relativePosition": 522,
+    "relativeStrength": 0.392774
+  },
+  "TT448": {
+    "hand": "TT448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2990,
+    "absoluteStrength": 0.599437,
+    "relativePosition": 523,
+    "relativeStrength": 0.391608
+  },
+  "TT447": {
+    "hand": "TT447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2991,
+    "absoluteStrength": 0.599303,
+    "relativePosition": 524,
+    "relativeStrength": 0.390443
+  },
+  "TT446": {
+    "hand": "TT446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2992,
+    "absoluteStrength": 0.599169,
+    "relativePosition": 525,
+    "relativeStrength": 0.389277
+  },
+  "TT445": {
+    "hand": "TT445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2993,
+    "absoluteStrength": 0.599035,
+    "relativePosition": 526,
+    "relativeStrength": 0.388112
+  },
+  "TT443": {
+    "hand": "TT443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2994,
+    "absoluteStrength": 0.598901,
+    "relativePosition": 527,
+    "relativeStrength": 0.386946
+  },
+  "TT442": {
+    "hand": "TT442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2995,
+    "absoluteStrength": 0.598767,
+    "relativePosition": 528,
+    "relativeStrength": 0.385781
+  },
+  "TT33A": {
+    "hand": "TT33A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2996,
+    "absoluteStrength": 0.598633,
+    "relativePosition": 529,
+    "relativeStrength": 0.384615
+  },
+  "TT33K": {
+    "hand": "TT33K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2997,
+    "absoluteStrength": 0.598499,
+    "relativePosition": 530,
+    "relativeStrength": 0.38345
+  },
+  "TT33Q": {
+    "hand": "TT33Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2998,
+    "absoluteStrength": 0.598365,
+    "relativePosition": 531,
+    "relativeStrength": 0.382284
+  },
+  "TT33J": {
+    "hand": "TT33J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 2999,
+    "absoluteStrength": 0.598231,
+    "relativePosition": 532,
+    "relativeStrength": 0.381119
+  },
+  "TT339": {
+    "hand": "TT339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3000,
+    "absoluteStrength": 0.598097,
+    "relativePosition": 533,
+    "relativeStrength": 0.379953
+  },
+  "TT338": {
+    "hand": "TT338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3001,
+    "absoluteStrength": 0.597963,
+    "relativePosition": 534,
+    "relativeStrength": 0.378788
+  },
+  "TT337": {
+    "hand": "TT337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3002,
+    "absoluteStrength": 0.597829,
+    "relativePosition": 535,
+    "relativeStrength": 0.377622
+  },
+  "TT336": {
+    "hand": "TT336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3003,
+    "absoluteStrength": 0.597695,
+    "relativePosition": 536,
+    "relativeStrength": 0.376457
+  },
+  "TT335": {
+    "hand": "TT335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3004,
+    "absoluteStrength": 0.597561,
+    "relativePosition": 537,
+    "relativeStrength": 0.375291
+  },
+  "TT334": {
+    "hand": "TT334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3005,
+    "absoluteStrength": 0.597427,
+    "relativePosition": 538,
+    "relativeStrength": 0.374126
+  },
+  "TT332": {
+    "hand": "TT332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3006,
+    "absoluteStrength": 0.597293,
+    "relativePosition": 539,
+    "relativeStrength": 0.37296
+  },
+  "TT22A": {
+    "hand": "TT22A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3007,
+    "absoluteStrength": 0.597159,
+    "relativePosition": 540,
+    "relativeStrength": 0.371795
+  },
+  "TT22K": {
+    "hand": "TT22K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3008,
+    "absoluteStrength": 0.597025,
+    "relativePosition": 541,
+    "relativeStrength": 0.370629
+  },
+  "TT22Q": {
+    "hand": "TT22Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3009,
+    "absoluteStrength": 0.596891,
+    "relativePosition": 542,
+    "relativeStrength": 0.369464
+  },
+  "TT22J": {
+    "hand": "TT22J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3010,
+    "absoluteStrength": 0.596757,
+    "relativePosition": 543,
+    "relativeStrength": 0.368298
+  },
+  "TT229": {
+    "hand": "TT229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3011,
+    "absoluteStrength": 0.596623,
+    "relativePosition": 544,
+    "relativeStrength": 0.367133
+  },
+  "TT228": {
+    "hand": "TT228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3012,
+    "absoluteStrength": 0.596489,
+    "relativePosition": 545,
+    "relativeStrength": 0.365967
+  },
+  "TT227": {
+    "hand": "TT227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3013,
+    "absoluteStrength": 0.596355,
+    "relativePosition": 546,
+    "relativeStrength": 0.364802
+  },
+  "TT226": {
+    "hand": "TT226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3014,
+    "absoluteStrength": 0.596221,
+    "relativePosition": 547,
+    "relativeStrength": 0.363636
+  },
+  "TT225": {
+    "hand": "TT225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3015,
+    "absoluteStrength": 0.596087,
+    "relativePosition": 548,
+    "relativeStrength": 0.362471
+  },
+  "TT224": {
+    "hand": "TT224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3016,
+    "absoluteStrength": 0.595953,
+    "relativePosition": 549,
+    "relativeStrength": 0.361305
+  },
+  "TT223": {
+    "hand": "TT223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3017,
+    "absoluteStrength": 0.595819,
+    "relativePosition": 550,
+    "relativeStrength": 0.36014
+  },
+  "9988A": {
+    "hand": "9988A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3018,
+    "absoluteStrength": 0.595685,
+    "relativePosition": 551,
+    "relativeStrength": 0.358974
+  },
+  "9988K": {
+    "hand": "9988K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3019,
+    "absoluteStrength": 0.595551,
+    "relativePosition": 552,
+    "relativeStrength": 0.357809
+  },
+  "9988Q": {
+    "hand": "9988Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3020,
+    "absoluteStrength": 0.595417,
+    "relativePosition": 553,
+    "relativeStrength": 0.356643
+  },
+  "9988J": {
+    "hand": "9988J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3021,
+    "absoluteStrength": 0.595283,
+    "relativePosition": 554,
+    "relativeStrength": 0.355478
+  },
+  "9988T": {
+    "hand": "9988T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3022,
+    "absoluteStrength": 0.595149,
+    "relativePosition": 555,
+    "relativeStrength": 0.354312
+  },
+  "99887": {
+    "hand": "99887",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3023,
+    "absoluteStrength": 0.595015,
+    "relativePosition": 556,
+    "relativeStrength": 0.353147
+  },
+  "99886": {
+    "hand": "99886",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3024,
+    "absoluteStrength": 0.594881,
+    "relativePosition": 557,
+    "relativeStrength": 0.351981
+  },
+  "99885": {
+    "hand": "99885",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3025,
+    "absoluteStrength": 0.594747,
+    "relativePosition": 558,
+    "relativeStrength": 0.350816
+  },
+  "99884": {
+    "hand": "99884",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3026,
+    "absoluteStrength": 0.594613,
+    "relativePosition": 559,
+    "relativeStrength": 0.34965
+  },
+  "99883": {
+    "hand": "99883",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3027,
+    "absoluteStrength": 0.594479,
+    "relativePosition": 560,
+    "relativeStrength": 0.348485
+  },
+  "99882": {
+    "hand": "99882",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3028,
+    "absoluteStrength": 0.594345,
+    "relativePosition": 561,
+    "relativeStrength": 0.347319
+  },
+  "9977A": {
+    "hand": "9977A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3029,
+    "absoluteStrength": 0.594211,
+    "relativePosition": 562,
+    "relativeStrength": 0.346154
+  },
+  "9977K": {
+    "hand": "9977K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3030,
+    "absoluteStrength": 0.594077,
+    "relativePosition": 563,
+    "relativeStrength": 0.344988
+  },
+  "9977Q": {
+    "hand": "9977Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3031,
+    "absoluteStrength": 0.593943,
+    "relativePosition": 564,
+    "relativeStrength": 0.343823
+  },
+  "9977J": {
+    "hand": "9977J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3032,
+    "absoluteStrength": 0.593809,
+    "relativePosition": 565,
+    "relativeStrength": 0.342657
+  },
+  "9977T": {
+    "hand": "9977T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3033,
+    "absoluteStrength": 0.593675,
+    "relativePosition": 566,
+    "relativeStrength": 0.341492
+  },
+  "99778": {
+    "hand": "99778",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3034,
+    "absoluteStrength": 0.593541,
+    "relativePosition": 567,
+    "relativeStrength": 0.340326
+  },
+  "99776": {
+    "hand": "99776",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3035,
+    "absoluteStrength": 0.593407,
+    "relativePosition": 568,
+    "relativeStrength": 0.339161
+  },
+  "99775": {
+    "hand": "99775",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3036,
+    "absoluteStrength": 0.593273,
+    "relativePosition": 569,
+    "relativeStrength": 0.337995
+  },
+  "99774": {
+    "hand": "99774",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3037,
+    "absoluteStrength": 0.593139,
+    "relativePosition": 570,
+    "relativeStrength": 0.33683
+  },
+  "99773": {
+    "hand": "99773",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3038,
+    "absoluteStrength": 0.593005,
+    "relativePosition": 571,
+    "relativeStrength": 0.335664
+  },
+  "99772": {
+    "hand": "99772",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3039,
+    "absoluteStrength": 0.592871,
+    "relativePosition": 572,
+    "relativeStrength": 0.334499
+  },
+  "9966A": {
+    "hand": "9966A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3040,
+    "absoluteStrength": 0.592737,
+    "relativePosition": 573,
+    "relativeStrength": 0.333333
+  },
+  "9966K": {
+    "hand": "9966K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3041,
+    "absoluteStrength": 0.592603,
+    "relativePosition": 574,
+    "relativeStrength": 0.332168
+  },
+  "9966Q": {
+    "hand": "9966Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3042,
+    "absoluteStrength": 0.592469,
+    "relativePosition": 575,
+    "relativeStrength": 0.331002
+  },
+  "9966J": {
+    "hand": "9966J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3043,
+    "absoluteStrength": 0.592334,
+    "relativePosition": 576,
+    "relativeStrength": 0.329837
+  },
+  "9966T": {
+    "hand": "9966T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3044,
+    "absoluteStrength": 0.5922,
+    "relativePosition": 577,
+    "relativeStrength": 0.328671
+  },
+  "99668": {
+    "hand": "99668",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3045,
+    "absoluteStrength": 0.592066,
+    "relativePosition": 578,
+    "relativeStrength": 0.327506
+  },
+  "99667": {
+    "hand": "99667",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3046,
+    "absoluteStrength": 0.591932,
+    "relativePosition": 579,
+    "relativeStrength": 0.32634
+  },
+  "99665": {
+    "hand": "99665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3047,
+    "absoluteStrength": 0.591798,
+    "relativePosition": 580,
+    "relativeStrength": 0.325175
+  },
+  "99664": {
+    "hand": "99664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3048,
+    "absoluteStrength": 0.591664,
+    "relativePosition": 581,
+    "relativeStrength": 0.324009
+  },
+  "99663": {
+    "hand": "99663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3049,
+    "absoluteStrength": 0.59153,
+    "relativePosition": 582,
+    "relativeStrength": 0.322844
+  },
+  "99662": {
+    "hand": "99662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3050,
+    "absoluteStrength": 0.591396,
+    "relativePosition": 583,
+    "relativeStrength": 0.321678
+  },
+  "9955A": {
+    "hand": "9955A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3051,
+    "absoluteStrength": 0.591262,
+    "relativePosition": 584,
+    "relativeStrength": 0.320513
+  },
+  "9955K": {
+    "hand": "9955K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3052,
+    "absoluteStrength": 0.591128,
+    "relativePosition": 585,
+    "relativeStrength": 0.319347
+  },
+  "9955Q": {
+    "hand": "9955Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3053,
+    "absoluteStrength": 0.590994,
+    "relativePosition": 586,
+    "relativeStrength": 0.318182
+  },
+  "9955J": {
+    "hand": "9955J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3054,
+    "absoluteStrength": 0.59086,
+    "relativePosition": 587,
+    "relativeStrength": 0.317016
+  },
+  "9955T": {
+    "hand": "9955T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3055,
+    "absoluteStrength": 0.590726,
+    "relativePosition": 588,
+    "relativeStrength": 0.315851
+  },
+  "99558": {
+    "hand": "99558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3056,
+    "absoluteStrength": 0.590592,
+    "relativePosition": 589,
+    "relativeStrength": 0.314685
+  },
+  "99557": {
+    "hand": "99557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3057,
+    "absoluteStrength": 0.590458,
+    "relativePosition": 590,
+    "relativeStrength": 0.31352
+  },
+  "99556": {
+    "hand": "99556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3058,
+    "absoluteStrength": 0.590324,
+    "relativePosition": 591,
+    "relativeStrength": 0.312354
+  },
+  "99554": {
+    "hand": "99554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3059,
+    "absoluteStrength": 0.59019,
+    "relativePosition": 592,
+    "relativeStrength": 0.311189
+  },
+  "99553": {
+    "hand": "99553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3060,
+    "absoluteStrength": 0.590056,
+    "relativePosition": 593,
+    "relativeStrength": 0.310023
+  },
+  "99552": {
+    "hand": "99552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3061,
+    "absoluteStrength": 0.589922,
+    "relativePosition": 594,
+    "relativeStrength": 0.308858
+  },
+  "9944A": {
+    "hand": "9944A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3062,
+    "absoluteStrength": 0.589788,
+    "relativePosition": 595,
+    "relativeStrength": 0.307692
+  },
+  "9944K": {
+    "hand": "9944K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3063,
+    "absoluteStrength": 0.589654,
+    "relativePosition": 596,
+    "relativeStrength": 0.306527
+  },
+  "9944Q": {
+    "hand": "9944Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3064,
+    "absoluteStrength": 0.58952,
+    "relativePosition": 597,
+    "relativeStrength": 0.305361
+  },
+  "9944J": {
+    "hand": "9944J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3065,
+    "absoluteStrength": 0.589386,
+    "relativePosition": 598,
+    "relativeStrength": 0.304196
+  },
+  "9944T": {
+    "hand": "9944T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3066,
+    "absoluteStrength": 0.589252,
+    "relativePosition": 599,
+    "relativeStrength": 0.30303
+  },
+  "99448": {
+    "hand": "99448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3067,
+    "absoluteStrength": 0.589118,
+    "relativePosition": 600,
+    "relativeStrength": 0.301865
+  },
+  "99447": {
+    "hand": "99447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3068,
+    "absoluteStrength": 0.588984,
+    "relativePosition": 601,
+    "relativeStrength": 0.300699
+  },
+  "99446": {
+    "hand": "99446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3069,
+    "absoluteStrength": 0.58885,
+    "relativePosition": 602,
+    "relativeStrength": 0.299534
+  },
+  "99445": {
+    "hand": "99445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3070,
+    "absoluteStrength": 0.588716,
+    "relativePosition": 603,
+    "relativeStrength": 0.298368
+  },
+  "99443": {
+    "hand": "99443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3071,
+    "absoluteStrength": 0.588582,
+    "relativePosition": 604,
+    "relativeStrength": 0.297203
+  },
+  "99442": {
+    "hand": "99442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3072,
+    "absoluteStrength": 0.588448,
+    "relativePosition": 605,
+    "relativeStrength": 0.296037
+  },
+  "9933A": {
+    "hand": "9933A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3073,
+    "absoluteStrength": 0.588314,
+    "relativePosition": 606,
+    "relativeStrength": 0.294872
+  },
+  "9933K": {
+    "hand": "9933K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3074,
+    "absoluteStrength": 0.58818,
+    "relativePosition": 607,
+    "relativeStrength": 0.293706
+  },
+  "9933Q": {
+    "hand": "9933Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3075,
+    "absoluteStrength": 0.588046,
+    "relativePosition": 608,
+    "relativeStrength": 0.292541
+  },
+  "9933J": {
+    "hand": "9933J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3076,
+    "absoluteStrength": 0.587912,
+    "relativePosition": 609,
+    "relativeStrength": 0.291375
+  },
+  "9933T": {
+    "hand": "9933T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3077,
+    "absoluteStrength": 0.587778,
+    "relativePosition": 610,
+    "relativeStrength": 0.29021
+  },
+  "99338": {
+    "hand": "99338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3078,
+    "absoluteStrength": 0.587644,
+    "relativePosition": 611,
+    "relativeStrength": 0.289044
+  },
+  "99337": {
+    "hand": "99337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3079,
+    "absoluteStrength": 0.58751,
+    "relativePosition": 612,
+    "relativeStrength": 0.287879
+  },
+  "99336": {
+    "hand": "99336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3080,
+    "absoluteStrength": 0.587376,
+    "relativePosition": 613,
+    "relativeStrength": 0.286713
+  },
+  "99335": {
+    "hand": "99335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3081,
+    "absoluteStrength": 0.587242,
+    "relativePosition": 614,
+    "relativeStrength": 0.285548
+  },
+  "99334": {
+    "hand": "99334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3082,
+    "absoluteStrength": 0.587108,
+    "relativePosition": 615,
+    "relativeStrength": 0.284382
+  },
+  "99332": {
+    "hand": "99332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3083,
+    "absoluteStrength": 0.586974,
+    "relativePosition": 616,
+    "relativeStrength": 0.283217
+  },
+  "9922A": {
+    "hand": "9922A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3084,
+    "absoluteStrength": 0.58684,
+    "relativePosition": 617,
+    "relativeStrength": 0.282051
+  },
+  "9922K": {
+    "hand": "9922K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3085,
+    "absoluteStrength": 0.586706,
+    "relativePosition": 618,
+    "relativeStrength": 0.280886
+  },
+  "9922Q": {
+    "hand": "9922Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3086,
+    "absoluteStrength": 0.586572,
+    "relativePosition": 619,
+    "relativeStrength": 0.27972
+  },
+  "9922J": {
+    "hand": "9922J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3087,
+    "absoluteStrength": 0.586438,
+    "relativePosition": 620,
+    "relativeStrength": 0.278555
+  },
+  "9922T": {
+    "hand": "9922T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3088,
+    "absoluteStrength": 0.586304,
+    "relativePosition": 621,
+    "relativeStrength": 0.277389
+  },
+  "99228": {
+    "hand": "99228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3089,
+    "absoluteStrength": 0.58617,
+    "relativePosition": 622,
+    "relativeStrength": 0.276224
+  },
+  "99227": {
+    "hand": "99227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3090,
+    "absoluteStrength": 0.586036,
+    "relativePosition": 623,
+    "relativeStrength": 0.275058
+  },
+  "99226": {
+    "hand": "99226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3091,
+    "absoluteStrength": 0.585902,
+    "relativePosition": 624,
+    "relativeStrength": 0.273893
+  },
+  "99225": {
+    "hand": "99225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3092,
+    "absoluteStrength": 0.585768,
+    "relativePosition": 625,
+    "relativeStrength": 0.272727
+  },
+  "99224": {
+    "hand": "99224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3093,
+    "absoluteStrength": 0.585634,
+    "relativePosition": 626,
+    "relativeStrength": 0.271562
+  },
+  "99223": {
+    "hand": "99223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3094,
+    "absoluteStrength": 0.5855,
+    "relativePosition": 627,
+    "relativeStrength": 0.270396
+  },
+  "8877A": {
+    "hand": "8877A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3095,
+    "absoluteStrength": 0.585366,
+    "relativePosition": 628,
+    "relativeStrength": 0.269231
+  },
+  "8877K": {
+    "hand": "8877K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3096,
+    "absoluteStrength": 0.585232,
+    "relativePosition": 629,
+    "relativeStrength": 0.268065
+  },
+  "8877Q": {
+    "hand": "8877Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3097,
+    "absoluteStrength": 0.585098,
+    "relativePosition": 630,
+    "relativeStrength": 0.2669
+  },
+  "8877J": {
+    "hand": "8877J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3098,
+    "absoluteStrength": 0.584964,
+    "relativePosition": 631,
+    "relativeStrength": 0.265734
+  },
+  "8877T": {
+    "hand": "8877T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3099,
+    "absoluteStrength": 0.58483,
+    "relativePosition": 632,
+    "relativeStrength": 0.264569
+  },
+  "88779": {
+    "hand": "88779",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3100,
+    "absoluteStrength": 0.584696,
+    "relativePosition": 633,
+    "relativeStrength": 0.263403
+  },
+  "88776": {
+    "hand": "88776",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3101,
+    "absoluteStrength": 0.584562,
+    "relativePosition": 634,
+    "relativeStrength": 0.262238
+  },
+  "88775": {
+    "hand": "88775",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3102,
+    "absoluteStrength": 0.584428,
+    "relativePosition": 635,
+    "relativeStrength": 0.261072
+  },
+  "88774": {
+    "hand": "88774",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3103,
+    "absoluteStrength": 0.584294,
+    "relativePosition": 636,
+    "relativeStrength": 0.259907
+  },
+  "88773": {
+    "hand": "88773",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3104,
+    "absoluteStrength": 0.58416,
+    "relativePosition": 637,
+    "relativeStrength": 0.258741
+  },
+  "88772": {
+    "hand": "88772",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3105,
+    "absoluteStrength": 0.584026,
+    "relativePosition": 638,
+    "relativeStrength": 0.257576
+  },
+  "8866A": {
+    "hand": "8866A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3106,
+    "absoluteStrength": 0.583892,
+    "relativePosition": 639,
+    "relativeStrength": 0.25641
+  },
+  "8866K": {
+    "hand": "8866K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3107,
+    "absoluteStrength": 0.583758,
+    "relativePosition": 640,
+    "relativeStrength": 0.255245
+  },
+  "8866Q": {
+    "hand": "8866Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3108,
+    "absoluteStrength": 0.583624,
+    "relativePosition": 641,
+    "relativeStrength": 0.254079
+  },
+  "8866J": {
+    "hand": "8866J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3109,
+    "absoluteStrength": 0.58349,
+    "relativePosition": 642,
+    "relativeStrength": 0.252914
+  },
+  "8866T": {
+    "hand": "8866T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3110,
+    "absoluteStrength": 0.583356,
+    "relativePosition": 643,
+    "relativeStrength": 0.251748
+  },
+  "88669": {
+    "hand": "88669",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3111,
+    "absoluteStrength": 0.583222,
+    "relativePosition": 644,
+    "relativeStrength": 0.250583
+  },
+  "88667": {
+    "hand": "88667",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3112,
+    "absoluteStrength": 0.583088,
+    "relativePosition": 645,
+    "relativeStrength": 0.249417
+  },
+  "88665": {
+    "hand": "88665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3113,
+    "absoluteStrength": 0.582954,
+    "relativePosition": 646,
+    "relativeStrength": 0.248252
+  },
+  "88664": {
+    "hand": "88664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3114,
+    "absoluteStrength": 0.58282,
+    "relativePosition": 647,
+    "relativeStrength": 0.247086
+  },
+  "88663": {
+    "hand": "88663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3115,
+    "absoluteStrength": 0.582686,
+    "relativePosition": 648,
+    "relativeStrength": 0.245921
+  },
+  "88662": {
+    "hand": "88662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3116,
+    "absoluteStrength": 0.582552,
+    "relativePosition": 649,
+    "relativeStrength": 0.244755
+  },
+  "8855A": {
+    "hand": "8855A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3117,
+    "absoluteStrength": 0.582418,
+    "relativePosition": 650,
+    "relativeStrength": 0.24359
+  },
+  "8855K": {
+    "hand": "8855K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3118,
+    "absoluteStrength": 0.582284,
+    "relativePosition": 651,
+    "relativeStrength": 0.242424
+  },
+  "8855Q": {
+    "hand": "8855Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3119,
+    "absoluteStrength": 0.58215,
+    "relativePosition": 652,
+    "relativeStrength": 0.241259
+  },
+  "8855J": {
+    "hand": "8855J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3120,
+    "absoluteStrength": 0.582016,
+    "relativePosition": 653,
+    "relativeStrength": 0.240093
+  },
+  "8855T": {
+    "hand": "8855T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3121,
+    "absoluteStrength": 0.581882,
+    "relativePosition": 654,
+    "relativeStrength": 0.238928
+  },
+  "88559": {
+    "hand": "88559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3122,
+    "absoluteStrength": 0.581748,
+    "relativePosition": 655,
+    "relativeStrength": 0.237762
+  },
+  "88557": {
+    "hand": "88557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3123,
+    "absoluteStrength": 0.581614,
+    "relativePosition": 656,
+    "relativeStrength": 0.236597
+  },
+  "88556": {
+    "hand": "88556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3124,
+    "absoluteStrength": 0.581479,
+    "relativePosition": 657,
+    "relativeStrength": 0.235431
+  },
+  "88554": {
+    "hand": "88554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3125,
+    "absoluteStrength": 0.581345,
+    "relativePosition": 658,
+    "relativeStrength": 0.234266
+  },
+  "88553": {
+    "hand": "88553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3126,
+    "absoluteStrength": 0.581211,
+    "relativePosition": 659,
+    "relativeStrength": 0.2331
+  },
+  "88552": {
+    "hand": "88552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3127,
+    "absoluteStrength": 0.581077,
+    "relativePosition": 660,
+    "relativeStrength": 0.231935
+  },
+  "8844A": {
+    "hand": "8844A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3128,
+    "absoluteStrength": 0.580943,
+    "relativePosition": 661,
+    "relativeStrength": 0.230769
+  },
+  "8844K": {
+    "hand": "8844K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3129,
+    "absoluteStrength": 0.580809,
+    "relativePosition": 662,
+    "relativeStrength": 0.229604
+  },
+  "8844Q": {
+    "hand": "8844Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3130,
+    "absoluteStrength": 0.580675,
+    "relativePosition": 663,
+    "relativeStrength": 0.228438
+  },
+  "8844J": {
+    "hand": "8844J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3131,
+    "absoluteStrength": 0.580541,
+    "relativePosition": 664,
+    "relativeStrength": 0.227273
+  },
+  "8844T": {
+    "hand": "8844T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3132,
+    "absoluteStrength": 0.580407,
+    "relativePosition": 665,
+    "relativeStrength": 0.226107
+  },
+  "88449": {
+    "hand": "88449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3133,
+    "absoluteStrength": 0.580273,
+    "relativePosition": 666,
+    "relativeStrength": 0.224942
+  },
+  "88447": {
+    "hand": "88447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3134,
+    "absoluteStrength": 0.580139,
+    "relativePosition": 667,
+    "relativeStrength": 0.223776
+  },
+  "88446": {
+    "hand": "88446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3135,
+    "absoluteStrength": 0.580005,
+    "relativePosition": 668,
+    "relativeStrength": 0.222611
+  },
+  "88445": {
+    "hand": "88445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3136,
+    "absoluteStrength": 0.579871,
+    "relativePosition": 669,
+    "relativeStrength": 0.221445
+  },
+  "88443": {
+    "hand": "88443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3137,
+    "absoluteStrength": 0.579737,
+    "relativePosition": 670,
+    "relativeStrength": 0.22028
+  },
+  "88442": {
+    "hand": "88442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3138,
+    "absoluteStrength": 0.579603,
+    "relativePosition": 671,
+    "relativeStrength": 0.219114
+  },
+  "8833A": {
+    "hand": "8833A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3139,
+    "absoluteStrength": 0.579469,
+    "relativePosition": 672,
+    "relativeStrength": 0.217949
+  },
+  "8833K": {
+    "hand": "8833K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3140,
+    "absoluteStrength": 0.579335,
+    "relativePosition": 673,
+    "relativeStrength": 0.216783
+  },
+  "8833Q": {
+    "hand": "8833Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3141,
+    "absoluteStrength": 0.579201,
+    "relativePosition": 674,
+    "relativeStrength": 0.215618
+  },
+  "8833J": {
+    "hand": "8833J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3142,
+    "absoluteStrength": 0.579067,
+    "relativePosition": 675,
+    "relativeStrength": 0.214452
+  },
+  "8833T": {
+    "hand": "8833T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3143,
+    "absoluteStrength": 0.578933,
+    "relativePosition": 676,
+    "relativeStrength": 0.213287
+  },
+  "88339": {
+    "hand": "88339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3144,
+    "absoluteStrength": 0.578799,
+    "relativePosition": 677,
+    "relativeStrength": 0.212121
+  },
+  "88337": {
+    "hand": "88337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3145,
+    "absoluteStrength": 0.578665,
+    "relativePosition": 678,
+    "relativeStrength": 0.210956
+  },
+  "88336": {
+    "hand": "88336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3146,
+    "absoluteStrength": 0.578531,
+    "relativePosition": 679,
+    "relativeStrength": 0.20979
+  },
+  "88335": {
+    "hand": "88335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3147,
+    "absoluteStrength": 0.578397,
+    "relativePosition": 680,
+    "relativeStrength": 0.208625
+  },
+  "88334": {
+    "hand": "88334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3148,
+    "absoluteStrength": 0.578263,
+    "relativePosition": 681,
+    "relativeStrength": 0.207459
+  },
+  "88332": {
+    "hand": "88332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3149,
+    "absoluteStrength": 0.578129,
+    "relativePosition": 682,
+    "relativeStrength": 0.206294
+  },
+  "8822A": {
+    "hand": "8822A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3150,
+    "absoluteStrength": 0.577995,
+    "relativePosition": 683,
+    "relativeStrength": 0.205128
+  },
+  "8822K": {
+    "hand": "8822K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3151,
+    "absoluteStrength": 0.577861,
+    "relativePosition": 684,
+    "relativeStrength": 0.203963
+  },
+  "8822Q": {
+    "hand": "8822Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3152,
+    "absoluteStrength": 0.577727,
+    "relativePosition": 685,
+    "relativeStrength": 0.202797
+  },
+  "8822J": {
+    "hand": "8822J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3153,
+    "absoluteStrength": 0.577593,
+    "relativePosition": 686,
+    "relativeStrength": 0.201632
+  },
+  "8822T": {
+    "hand": "8822T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3154,
+    "absoluteStrength": 0.577459,
+    "relativePosition": 687,
+    "relativeStrength": 0.200466
+  },
+  "88229": {
+    "hand": "88229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3155,
+    "absoluteStrength": 0.577325,
+    "relativePosition": 688,
+    "relativeStrength": 0.199301
+  },
+  "88227": {
+    "hand": "88227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3156,
+    "absoluteStrength": 0.577191,
+    "relativePosition": 689,
+    "relativeStrength": 0.198135
+  },
+  "88226": {
+    "hand": "88226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3157,
+    "absoluteStrength": 0.577057,
+    "relativePosition": 690,
+    "relativeStrength": 0.19697
+  },
+  "88225": {
+    "hand": "88225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3158,
+    "absoluteStrength": 0.576923,
+    "relativePosition": 691,
+    "relativeStrength": 0.195804
+  },
+  "88224": {
+    "hand": "88224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3159,
+    "absoluteStrength": 0.576789,
+    "relativePosition": 692,
+    "relativeStrength": 0.194639
+  },
+  "88223": {
+    "hand": "88223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3160,
+    "absoluteStrength": 0.576655,
+    "relativePosition": 693,
+    "relativeStrength": 0.193473
+  },
+  "7766A": {
+    "hand": "7766A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3161,
+    "absoluteStrength": 0.576521,
+    "relativePosition": 694,
+    "relativeStrength": 0.192308
+  },
+  "7766K": {
+    "hand": "7766K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3162,
+    "absoluteStrength": 0.576387,
+    "relativePosition": 695,
+    "relativeStrength": 0.191142
+  },
+  "7766Q": {
+    "hand": "7766Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3163,
+    "absoluteStrength": 0.576253,
+    "relativePosition": 696,
+    "relativeStrength": 0.189977
+  },
+  "7766J": {
+    "hand": "7766J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3164,
+    "absoluteStrength": 0.576119,
+    "relativePosition": 697,
+    "relativeStrength": 0.188811
+  },
+  "7766T": {
+    "hand": "7766T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3165,
+    "absoluteStrength": 0.575985,
+    "relativePosition": 698,
+    "relativeStrength": 0.187646
+  },
+  "77669": {
+    "hand": "77669",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3166,
+    "absoluteStrength": 0.575851,
+    "relativePosition": 699,
+    "relativeStrength": 0.18648
+  },
+  "77668": {
+    "hand": "77668",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3167,
+    "absoluteStrength": 0.575717,
+    "relativePosition": 700,
+    "relativeStrength": 0.185315
+  },
+  "77665": {
+    "hand": "77665",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3168,
+    "absoluteStrength": 0.575583,
+    "relativePosition": 701,
+    "relativeStrength": 0.184149
+  },
+  "77664": {
+    "hand": "77664",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3169,
+    "absoluteStrength": 0.575449,
+    "relativePosition": 702,
+    "relativeStrength": 0.182984
+  },
+  "77663": {
+    "hand": "77663",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3170,
+    "absoluteStrength": 0.575315,
+    "relativePosition": 703,
+    "relativeStrength": 0.181818
+  },
+  "77662": {
+    "hand": "77662",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3171,
+    "absoluteStrength": 0.575181,
+    "relativePosition": 704,
+    "relativeStrength": 0.180653
+  },
+  "7755A": {
+    "hand": "7755A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3172,
+    "absoluteStrength": 0.575047,
+    "relativePosition": 705,
+    "relativeStrength": 0.179487
+  },
+  "7755K": {
+    "hand": "7755K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3173,
+    "absoluteStrength": 0.574913,
+    "relativePosition": 706,
+    "relativeStrength": 0.178322
+  },
+  "7755Q": {
+    "hand": "7755Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3174,
+    "absoluteStrength": 0.574779,
+    "relativePosition": 707,
+    "relativeStrength": 0.177156
+  },
+  "7755J": {
+    "hand": "7755J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3175,
+    "absoluteStrength": 0.574645,
+    "relativePosition": 708,
+    "relativeStrength": 0.175991
+  },
+  "7755T": {
+    "hand": "7755T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3176,
+    "absoluteStrength": 0.574511,
+    "relativePosition": 709,
+    "relativeStrength": 0.174825
+  },
+  "77559": {
+    "hand": "77559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3177,
+    "absoluteStrength": 0.574377,
+    "relativePosition": 710,
+    "relativeStrength": 0.17366
+  },
+  "77558": {
+    "hand": "77558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3178,
+    "absoluteStrength": 0.574243,
+    "relativePosition": 711,
+    "relativeStrength": 0.172494
+  },
+  "77556": {
+    "hand": "77556",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3179,
+    "absoluteStrength": 0.574109,
+    "relativePosition": 712,
+    "relativeStrength": 0.171329
+  },
+  "77554": {
+    "hand": "77554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3180,
+    "absoluteStrength": 0.573975,
+    "relativePosition": 713,
+    "relativeStrength": 0.170163
+  },
+  "77553": {
+    "hand": "77553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3181,
+    "absoluteStrength": 0.573841,
+    "relativePosition": 714,
+    "relativeStrength": 0.168998
+  },
+  "77552": {
+    "hand": "77552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3182,
+    "absoluteStrength": 0.573707,
+    "relativePosition": 715,
+    "relativeStrength": 0.167832
+  },
+  "7744A": {
+    "hand": "7744A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3183,
+    "absoluteStrength": 0.573573,
+    "relativePosition": 716,
+    "relativeStrength": 0.166667
+  },
+  "7744K": {
+    "hand": "7744K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3184,
+    "absoluteStrength": 0.573439,
+    "relativePosition": 717,
+    "relativeStrength": 0.165501
+  },
+  "7744Q": {
+    "hand": "7744Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3185,
+    "absoluteStrength": 0.573305,
+    "relativePosition": 718,
+    "relativeStrength": 0.164336
+  },
+  "7744J": {
+    "hand": "7744J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3186,
+    "absoluteStrength": 0.573171,
+    "relativePosition": 719,
+    "relativeStrength": 0.16317
+  },
+  "7744T": {
+    "hand": "7744T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3187,
+    "absoluteStrength": 0.573037,
+    "relativePosition": 720,
+    "relativeStrength": 0.162005
+  },
+  "77449": {
+    "hand": "77449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3188,
+    "absoluteStrength": 0.572903,
+    "relativePosition": 721,
+    "relativeStrength": 0.160839
+  },
+  "77448": {
+    "hand": "77448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3189,
+    "absoluteStrength": 0.572769,
+    "relativePosition": 722,
+    "relativeStrength": 0.159674
+  },
+  "77446": {
+    "hand": "77446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3190,
+    "absoluteStrength": 0.572635,
+    "relativePosition": 723,
+    "relativeStrength": 0.158508
+  },
+  "77445": {
+    "hand": "77445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3191,
+    "absoluteStrength": 0.572501,
+    "relativePosition": 724,
+    "relativeStrength": 0.157343
+  },
+  "77443": {
+    "hand": "77443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3192,
+    "absoluteStrength": 0.572367,
+    "relativePosition": 725,
+    "relativeStrength": 0.156177
+  },
+  "77442": {
+    "hand": "77442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3193,
+    "absoluteStrength": 0.572233,
+    "relativePosition": 726,
+    "relativeStrength": 0.155012
+  },
+  "7733A": {
+    "hand": "7733A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3194,
+    "absoluteStrength": 0.572099,
+    "relativePosition": 727,
+    "relativeStrength": 0.153846
+  },
+  "7733K": {
+    "hand": "7733K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3195,
+    "absoluteStrength": 0.571965,
+    "relativePosition": 728,
+    "relativeStrength": 0.152681
+  },
+  "7733Q": {
+    "hand": "7733Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3196,
+    "absoluteStrength": 0.571831,
+    "relativePosition": 729,
+    "relativeStrength": 0.151515
+  },
+  "7733J": {
+    "hand": "7733J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3197,
+    "absoluteStrength": 0.571697,
+    "relativePosition": 730,
+    "relativeStrength": 0.15035
+  },
+  "7733T": {
+    "hand": "7733T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3198,
+    "absoluteStrength": 0.571563,
+    "relativePosition": 731,
+    "relativeStrength": 0.149184
+  },
+  "77339": {
+    "hand": "77339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3199,
+    "absoluteStrength": 0.571429,
+    "relativePosition": 732,
+    "relativeStrength": 0.148019
+  },
+  "77338": {
+    "hand": "77338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3200,
+    "absoluteStrength": 0.571295,
+    "relativePosition": 733,
+    "relativeStrength": 0.146853
+  },
+  "77336": {
+    "hand": "77336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3201,
+    "absoluteStrength": 0.571161,
+    "relativePosition": 734,
+    "relativeStrength": 0.145688
+  },
+  "77335": {
+    "hand": "77335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3202,
+    "absoluteStrength": 0.571027,
+    "relativePosition": 735,
+    "relativeStrength": 0.144522
+  },
+  "77334": {
+    "hand": "77334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3203,
+    "absoluteStrength": 0.570893,
+    "relativePosition": 736,
+    "relativeStrength": 0.143357
+  },
+  "77332": {
+    "hand": "77332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3204,
+    "absoluteStrength": 0.570759,
+    "relativePosition": 737,
+    "relativeStrength": 0.142191
+  },
+  "7722A": {
+    "hand": "7722A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3205,
+    "absoluteStrength": 0.570624,
+    "relativePosition": 738,
+    "relativeStrength": 0.141026
+  },
+  "7722K": {
+    "hand": "7722K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3206,
+    "absoluteStrength": 0.57049,
+    "relativePosition": 739,
+    "relativeStrength": 0.13986
+  },
+  "7722Q": {
+    "hand": "7722Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3207,
+    "absoluteStrength": 0.570356,
+    "relativePosition": 740,
+    "relativeStrength": 0.138695
+  },
+  "7722J": {
+    "hand": "7722J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3208,
+    "absoluteStrength": 0.570222,
+    "relativePosition": 741,
+    "relativeStrength": 0.137529
+  },
+  "7722T": {
+    "hand": "7722T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3209,
+    "absoluteStrength": 0.570088,
+    "relativePosition": 742,
+    "relativeStrength": 0.136364
+  },
+  "77229": {
+    "hand": "77229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3210,
+    "absoluteStrength": 0.569954,
+    "relativePosition": 743,
+    "relativeStrength": 0.135198
+  },
+  "77228": {
+    "hand": "77228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3211,
+    "absoluteStrength": 0.56982,
+    "relativePosition": 744,
+    "relativeStrength": 0.134033
+  },
+  "77226": {
+    "hand": "77226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3212,
+    "absoluteStrength": 0.569686,
+    "relativePosition": 745,
+    "relativeStrength": 0.132867
+  },
+  "77225": {
+    "hand": "77225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3213,
+    "absoluteStrength": 0.569552,
+    "relativePosition": 746,
+    "relativeStrength": 0.131702
+  },
+  "77224": {
+    "hand": "77224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3214,
+    "absoluteStrength": 0.569418,
+    "relativePosition": 747,
+    "relativeStrength": 0.130536
+  },
+  "77223": {
+    "hand": "77223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3215,
+    "absoluteStrength": 0.569284,
+    "relativePosition": 748,
+    "relativeStrength": 0.129371
+  },
+  "6655A": {
+    "hand": "6655A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3216,
+    "absoluteStrength": 0.56915,
+    "relativePosition": 749,
+    "relativeStrength": 0.128205
+  },
+  "6655K": {
+    "hand": "6655K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3217,
+    "absoluteStrength": 0.569016,
+    "relativePosition": 750,
+    "relativeStrength": 0.12704
+  },
+  "6655Q": {
+    "hand": "6655Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3218,
+    "absoluteStrength": 0.568882,
+    "relativePosition": 751,
+    "relativeStrength": 0.125874
+  },
+  "6655J": {
+    "hand": "6655J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3219,
+    "absoluteStrength": 0.568748,
+    "relativePosition": 752,
+    "relativeStrength": 0.124709
+  },
+  "6655T": {
+    "hand": "6655T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3220,
+    "absoluteStrength": 0.568614,
+    "relativePosition": 753,
+    "relativeStrength": 0.123543
+  },
+  "66559": {
+    "hand": "66559",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3221,
+    "absoluteStrength": 0.56848,
+    "relativePosition": 754,
+    "relativeStrength": 0.122378
+  },
+  "66558": {
+    "hand": "66558",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3222,
+    "absoluteStrength": 0.568346,
+    "relativePosition": 755,
+    "relativeStrength": 0.121212
+  },
+  "66557": {
+    "hand": "66557",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3223,
+    "absoluteStrength": 0.568212,
+    "relativePosition": 756,
+    "relativeStrength": 0.120047
+  },
+  "66554": {
+    "hand": "66554",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3224,
+    "absoluteStrength": 0.568078,
+    "relativePosition": 757,
+    "relativeStrength": 0.118881
+  },
+  "66553": {
+    "hand": "66553",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3225,
+    "absoluteStrength": 0.567944,
+    "relativePosition": 758,
+    "relativeStrength": 0.117716
+  },
+  "66552": {
+    "hand": "66552",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3226,
+    "absoluteStrength": 0.56781,
+    "relativePosition": 759,
+    "relativeStrength": 0.11655
+  },
+  "6644A": {
+    "hand": "6644A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3227,
+    "absoluteStrength": 0.567676,
+    "relativePosition": 760,
+    "relativeStrength": 0.115385
+  },
+  "6644K": {
+    "hand": "6644K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3228,
+    "absoluteStrength": 0.567542,
+    "relativePosition": 761,
+    "relativeStrength": 0.114219
+  },
+  "6644Q": {
+    "hand": "6644Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3229,
+    "absoluteStrength": 0.567408,
+    "relativePosition": 762,
+    "relativeStrength": 0.113054
+  },
+  "6644J": {
+    "hand": "6644J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3230,
+    "absoluteStrength": 0.567274,
+    "relativePosition": 763,
+    "relativeStrength": 0.111888
+  },
+  "6644T": {
+    "hand": "6644T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3231,
+    "absoluteStrength": 0.56714,
+    "relativePosition": 764,
+    "relativeStrength": 0.110723
+  },
+  "66449": {
+    "hand": "66449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3232,
+    "absoluteStrength": 0.567006,
+    "relativePosition": 765,
+    "relativeStrength": 0.109557
+  },
+  "66448": {
+    "hand": "66448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3233,
+    "absoluteStrength": 0.566872,
+    "relativePosition": 766,
+    "relativeStrength": 0.108392
+  },
+  "66447": {
+    "hand": "66447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3234,
+    "absoluteStrength": 0.566738,
+    "relativePosition": 767,
+    "relativeStrength": 0.107226
+  },
+  "66445": {
+    "hand": "66445",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3235,
+    "absoluteStrength": 0.566604,
+    "relativePosition": 768,
+    "relativeStrength": 0.106061
+  },
+  "66443": {
+    "hand": "66443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3236,
+    "absoluteStrength": 0.56647,
+    "relativePosition": 769,
+    "relativeStrength": 0.104895
+  },
+  "66442": {
+    "hand": "66442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3237,
+    "absoluteStrength": 0.566336,
+    "relativePosition": 770,
+    "relativeStrength": 0.10373
+  },
+  "6633A": {
+    "hand": "6633A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3238,
+    "absoluteStrength": 0.566202,
+    "relativePosition": 771,
+    "relativeStrength": 0.102564
+  },
+  "6633K": {
+    "hand": "6633K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3239,
+    "absoluteStrength": 0.566068,
+    "relativePosition": 772,
+    "relativeStrength": 0.101399
+  },
+  "6633Q": {
+    "hand": "6633Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3240,
+    "absoluteStrength": 0.565934,
+    "relativePosition": 773,
+    "relativeStrength": 0.100233
+  },
+  "6633J": {
+    "hand": "6633J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3241,
+    "absoluteStrength": 0.5658,
+    "relativePosition": 774,
+    "relativeStrength": 0.099068
+  },
+  "6633T": {
+    "hand": "6633T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3242,
+    "absoluteStrength": 0.565666,
+    "relativePosition": 775,
+    "relativeStrength": 0.097902
+  },
+  "66339": {
+    "hand": "66339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3243,
+    "absoluteStrength": 0.565532,
+    "relativePosition": 776,
+    "relativeStrength": 0.096737
+  },
+  "66338": {
+    "hand": "66338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3244,
+    "absoluteStrength": 0.565398,
+    "relativePosition": 777,
+    "relativeStrength": 0.095571
+  },
+  "66337": {
+    "hand": "66337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3245,
+    "absoluteStrength": 0.565264,
+    "relativePosition": 778,
+    "relativeStrength": 0.094406
+  },
+  "66335": {
+    "hand": "66335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3246,
+    "absoluteStrength": 0.56513,
+    "relativePosition": 779,
+    "relativeStrength": 0.09324
+  },
+  "66334": {
+    "hand": "66334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3247,
+    "absoluteStrength": 0.564996,
+    "relativePosition": 780,
+    "relativeStrength": 0.092075
+  },
+  "66332": {
+    "hand": "66332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3248,
+    "absoluteStrength": 0.564862,
+    "relativePosition": 781,
+    "relativeStrength": 0.090909
+  },
+  "6622A": {
+    "hand": "6622A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3249,
+    "absoluteStrength": 0.564728,
+    "relativePosition": 782,
+    "relativeStrength": 0.089744
+  },
+  "6622K": {
+    "hand": "6622K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3250,
+    "absoluteStrength": 0.564594,
+    "relativePosition": 783,
+    "relativeStrength": 0.088578
+  },
+  "6622Q": {
+    "hand": "6622Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3251,
+    "absoluteStrength": 0.56446,
+    "relativePosition": 784,
+    "relativeStrength": 0.087413
+  },
+  "6622J": {
+    "hand": "6622J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3252,
+    "absoluteStrength": 0.564326,
+    "relativePosition": 785,
+    "relativeStrength": 0.086247
+  },
+  "6622T": {
+    "hand": "6622T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3253,
+    "absoluteStrength": 0.564192,
+    "relativePosition": 786,
+    "relativeStrength": 0.085082
+  },
+  "66229": {
+    "hand": "66229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3254,
+    "absoluteStrength": 0.564058,
+    "relativePosition": 787,
+    "relativeStrength": 0.083916
+  },
+  "66228": {
+    "hand": "66228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3255,
+    "absoluteStrength": 0.563924,
+    "relativePosition": 788,
+    "relativeStrength": 0.082751
+  },
+  "66227": {
+    "hand": "66227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3256,
+    "absoluteStrength": 0.56379,
+    "relativePosition": 789,
+    "relativeStrength": 0.081585
+  },
+  "66225": {
+    "hand": "66225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3257,
+    "absoluteStrength": 0.563656,
+    "relativePosition": 790,
+    "relativeStrength": 0.08042
+  },
+  "66224": {
+    "hand": "66224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3258,
+    "absoluteStrength": 0.563522,
+    "relativePosition": 791,
+    "relativeStrength": 0.079254
+  },
+  "66223": {
+    "hand": "66223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3259,
+    "absoluteStrength": 0.563388,
+    "relativePosition": 792,
+    "relativeStrength": 0.078089
+  },
+  "5544A": {
+    "hand": "5544A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3260,
+    "absoluteStrength": 0.563254,
+    "relativePosition": 793,
+    "relativeStrength": 0.076923
+  },
+  "5544K": {
+    "hand": "5544K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3261,
+    "absoluteStrength": 0.56312,
+    "relativePosition": 794,
+    "relativeStrength": 0.075758
+  },
+  "5544Q": {
+    "hand": "5544Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3262,
+    "absoluteStrength": 0.562986,
+    "relativePosition": 795,
+    "relativeStrength": 0.074592
+  },
+  "5544J": {
+    "hand": "5544J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3263,
+    "absoluteStrength": 0.562852,
+    "relativePosition": 796,
+    "relativeStrength": 0.073427
+  },
+  "5544T": {
+    "hand": "5544T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3264,
+    "absoluteStrength": 0.562718,
+    "relativePosition": 797,
+    "relativeStrength": 0.072261
+  },
+  "55449": {
+    "hand": "55449",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3265,
+    "absoluteStrength": 0.562584,
+    "relativePosition": 798,
+    "relativeStrength": 0.071096
+  },
+  "55448": {
+    "hand": "55448",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3266,
+    "absoluteStrength": 0.56245,
+    "relativePosition": 799,
+    "relativeStrength": 0.06993
+  },
+  "55447": {
+    "hand": "55447",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3267,
+    "absoluteStrength": 0.562316,
+    "relativePosition": 800,
+    "relativeStrength": 0.068765
+  },
+  "55446": {
+    "hand": "55446",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3268,
+    "absoluteStrength": 0.562182,
+    "relativePosition": 801,
+    "relativeStrength": 0.067599
+  },
+  "55443": {
+    "hand": "55443",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3269,
+    "absoluteStrength": 0.562048,
+    "relativePosition": 802,
+    "relativeStrength": 0.066434
+  },
+  "55442": {
+    "hand": "55442",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3270,
+    "absoluteStrength": 0.561914,
+    "relativePosition": 803,
+    "relativeStrength": 0.065268
+  },
+  "5533A": {
+    "hand": "5533A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3271,
+    "absoluteStrength": 0.56178,
+    "relativePosition": 804,
+    "relativeStrength": 0.064103
+  },
+  "5533K": {
+    "hand": "5533K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3272,
+    "absoluteStrength": 0.561646,
+    "relativePosition": 805,
+    "relativeStrength": 0.062937
+  },
+  "5533Q": {
+    "hand": "5533Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3273,
+    "absoluteStrength": 0.561512,
+    "relativePosition": 806,
+    "relativeStrength": 0.061772
+  },
+  "5533J": {
+    "hand": "5533J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3274,
+    "absoluteStrength": 0.561378,
+    "relativePosition": 807,
+    "relativeStrength": 0.060606
+  },
+  "5533T": {
+    "hand": "5533T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3275,
+    "absoluteStrength": 0.561244,
+    "relativePosition": 808,
+    "relativeStrength": 0.059441
+  },
+  "55339": {
+    "hand": "55339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3276,
+    "absoluteStrength": 0.56111,
+    "relativePosition": 809,
+    "relativeStrength": 0.058275
+  },
+  "55338": {
+    "hand": "55338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3277,
+    "absoluteStrength": 0.560976,
+    "relativePosition": 810,
+    "relativeStrength": 0.05711
+  },
+  "55337": {
+    "hand": "55337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3278,
+    "absoluteStrength": 0.560842,
+    "relativePosition": 811,
+    "relativeStrength": 0.055944
+  },
+  "55336": {
+    "hand": "55336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3279,
+    "absoluteStrength": 0.560708,
+    "relativePosition": 812,
+    "relativeStrength": 0.054779
+  },
+  "55334": {
+    "hand": "55334",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3280,
+    "absoluteStrength": 0.560574,
+    "relativePosition": 813,
+    "relativeStrength": 0.053613
+  },
+  "55332": {
+    "hand": "55332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3281,
+    "absoluteStrength": 0.56044,
+    "relativePosition": 814,
+    "relativeStrength": 0.052448
+  },
+  "5522A": {
+    "hand": "5522A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3282,
+    "absoluteStrength": 0.560306,
+    "relativePosition": 815,
+    "relativeStrength": 0.051282
+  },
+  "5522K": {
+    "hand": "5522K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3283,
+    "absoluteStrength": 0.560172,
+    "relativePosition": 816,
+    "relativeStrength": 0.050117
+  },
+  "5522Q": {
+    "hand": "5522Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3284,
+    "absoluteStrength": 0.560038,
+    "relativePosition": 817,
+    "relativeStrength": 0.048951
+  },
+  "5522J": {
+    "hand": "5522J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3285,
+    "absoluteStrength": 0.559904,
+    "relativePosition": 818,
+    "relativeStrength": 0.047786
+  },
+  "5522T": {
+    "hand": "5522T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3286,
+    "absoluteStrength": 0.559769,
+    "relativePosition": 819,
+    "relativeStrength": 0.04662
+  },
+  "55229": {
+    "hand": "55229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3287,
+    "absoluteStrength": 0.559635,
+    "relativePosition": 820,
+    "relativeStrength": 0.045455
+  },
+  "55228": {
+    "hand": "55228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3288,
+    "absoluteStrength": 0.559501,
+    "relativePosition": 821,
+    "relativeStrength": 0.044289
+  },
+  "55227": {
+    "hand": "55227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3289,
+    "absoluteStrength": 0.559367,
+    "relativePosition": 822,
+    "relativeStrength": 0.043124
+  },
+  "55226": {
+    "hand": "55226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3290,
+    "absoluteStrength": 0.559233,
+    "relativePosition": 823,
+    "relativeStrength": 0.041958
+  },
+  "55224": {
+    "hand": "55224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3291,
+    "absoluteStrength": 0.559099,
+    "relativePosition": 824,
+    "relativeStrength": 0.040793
+  },
+  "55223": {
+    "hand": "55223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3292,
+    "absoluteStrength": 0.558965,
+    "relativePosition": 825,
+    "relativeStrength": 0.039627
+  },
+  "4433A": {
+    "hand": "4433A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3293,
+    "absoluteStrength": 0.558831,
+    "relativePosition": 826,
+    "relativeStrength": 0.038462
+  },
+  "4433K": {
+    "hand": "4433K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3294,
+    "absoluteStrength": 0.558697,
+    "relativePosition": 827,
+    "relativeStrength": 0.037296
+  },
+  "4433Q": {
+    "hand": "4433Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3295,
+    "absoluteStrength": 0.558563,
+    "relativePosition": 828,
+    "relativeStrength": 0.036131
+  },
+  "4433J": {
+    "hand": "4433J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3296,
+    "absoluteStrength": 0.558429,
+    "relativePosition": 829,
+    "relativeStrength": 0.034965
+  },
+  "4433T": {
+    "hand": "4433T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3297,
+    "absoluteStrength": 0.558295,
+    "relativePosition": 830,
+    "relativeStrength": 0.0338
+  },
+  "44339": {
+    "hand": "44339",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3298,
+    "absoluteStrength": 0.558161,
+    "relativePosition": 831,
+    "relativeStrength": 0.032634
+  },
+  "44338": {
+    "hand": "44338",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3299,
+    "absoluteStrength": 0.558027,
+    "relativePosition": 832,
+    "relativeStrength": 0.031469
+  },
+  "44337": {
+    "hand": "44337",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3300,
+    "absoluteStrength": 0.557893,
+    "relativePosition": 833,
+    "relativeStrength": 0.030303
+  },
+  "44336": {
+    "hand": "44336",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3301,
+    "absoluteStrength": 0.557759,
+    "relativePosition": 834,
+    "relativeStrength": 0.029138
+  },
+  "44335": {
+    "hand": "44335",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3302,
+    "absoluteStrength": 0.557625,
+    "relativePosition": 835,
+    "relativeStrength": 0.027972
+  },
+  "44332": {
+    "hand": "44332",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3303,
+    "absoluteStrength": 0.557491,
+    "relativePosition": 836,
+    "relativeStrength": 0.026807
+  },
+  "4422A": {
+    "hand": "4422A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3304,
+    "absoluteStrength": 0.557357,
+    "relativePosition": 837,
+    "relativeStrength": 0.025641
+  },
+  "4422K": {
+    "hand": "4422K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3305,
+    "absoluteStrength": 0.557223,
+    "relativePosition": 838,
+    "relativeStrength": 0.024476
+  },
+  "4422Q": {
+    "hand": "4422Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3306,
+    "absoluteStrength": 0.557089,
+    "relativePosition": 839,
+    "relativeStrength": 0.02331
+  },
+  "4422J": {
+    "hand": "4422J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3307,
+    "absoluteStrength": 0.556955,
+    "relativePosition": 840,
+    "relativeStrength": 0.022145
+  },
+  "4422T": {
+    "hand": "4422T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3308,
+    "absoluteStrength": 0.556821,
+    "relativePosition": 841,
+    "relativeStrength": 0.020979
+  },
+  "44229": {
+    "hand": "44229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3309,
+    "absoluteStrength": 0.556687,
+    "relativePosition": 842,
+    "relativeStrength": 0.019814
+  },
+  "44228": {
+    "hand": "44228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3310,
+    "absoluteStrength": 0.556553,
+    "relativePosition": 843,
+    "relativeStrength": 0.018648
+  },
+  "44227": {
+    "hand": "44227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3311,
+    "absoluteStrength": 0.556419,
+    "relativePosition": 844,
+    "relativeStrength": 0.017483
+  },
+  "44226": {
+    "hand": "44226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3312,
+    "absoluteStrength": 0.556285,
+    "relativePosition": 845,
+    "relativeStrength": 0.016317
+  },
+  "44225": {
+    "hand": "44225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3313,
+    "absoluteStrength": 0.556151,
+    "relativePosition": 846,
+    "relativeStrength": 0.015152
+  },
+  "44223": {
+    "hand": "44223",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3314,
+    "absoluteStrength": 0.556017,
+    "relativePosition": 847,
+    "relativeStrength": 0.013986
+  },
+  "3322A": {
+    "hand": "3322A",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3315,
+    "absoluteStrength": 0.555883,
+    "relativePosition": 848,
+    "relativeStrength": 0.012821
+  },
+  "3322K": {
+    "hand": "3322K",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3316,
+    "absoluteStrength": 0.555749,
+    "relativePosition": 849,
+    "relativeStrength": 0.011655
+  },
+  "3322Q": {
+    "hand": "3322Q",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3317,
+    "absoluteStrength": 0.555615,
+    "relativePosition": 850,
+    "relativeStrength": 0.01049
+  },
+  "3322J": {
+    "hand": "3322J",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3318,
+    "absoluteStrength": 0.555481,
+    "relativePosition": 851,
+    "relativeStrength": 0.009324
+  },
+  "3322T": {
+    "hand": "3322T",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3319,
+    "absoluteStrength": 0.555347,
+    "relativePosition": 852,
+    "relativeStrength": 0.008159
+  },
+  "33229": {
+    "hand": "33229",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3320,
+    "absoluteStrength": 0.555213,
+    "relativePosition": 853,
+    "relativeStrength": 0.006993
+  },
+  "33228": {
+    "hand": "33228",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3321,
+    "absoluteStrength": 0.555079,
+    "relativePosition": 854,
+    "relativeStrength": 0.005828
+  },
+  "33227": {
+    "hand": "33227",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3322,
+    "absoluteStrength": 0.554945,
+    "relativePosition": 855,
+    "relativeStrength": 0.004662
+  },
+  "33226": {
+    "hand": "33226",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3323,
+    "absoluteStrength": 0.554811,
+    "relativePosition": 856,
+    "relativeStrength": 0.003497
+  },
+  "33225": {
+    "hand": "33225",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3324,
+    "absoluteStrength": 0.554677,
+    "relativePosition": 857,
+    "relativeStrength": 0.002331
+  },
+  "33224": {
+    "hand": "33224",
+    "ranking": "TWO_PAIR",
+    "absolutePosition": 3325,
+    "absoluteStrength": 0.554543,
+    "relativePosition": 858,
+    "relativeStrength": 0.001166
+  }
+}
