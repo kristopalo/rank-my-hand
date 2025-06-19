@@ -21,11 +21,10 @@ class EvaluationRequestTransformer {
         val cards = filteredInput
             .chunked(2)
             .mapNotNull { it ->
-                val abbr = "${it[0].uppercase()}${it[1].lowercase()}"
-                PlayingCard.fromAbbreviation(abbreviation = abbr)
+                val standardNotation = "${it[0].uppercase()}${it[1].lowercase()}"
+                PlayingCard.fromShortNotation(standardNotation = standardNotation)
             }
 
-        // TODO Kristo @ 08.06.2025 -> Temporary restriction
         require(cards.size == 5) {
             throw IllegalArgumentException("Evaluator only accepts a 5-card hand as an input for evaluation.")
         }

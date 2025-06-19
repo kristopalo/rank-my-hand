@@ -10,9 +10,7 @@ fun Collection<PlayingCard>.areSameSuit(): Boolean {
     val firstCard = this.first()
     val suitOfFirstCard = firstCard.suit
 
-    return this.all { card -> card.suit == suitOfFirstCard }
+    return all { card -> card.suit == suitOfFirstCard }
 }
 
-fun List<PlayingCard>.areUnique(): Boolean {
-    return this.size == this.distinct().size
-}
+fun List<PlayingCard>.areUnique(): Boolean = size == distinct().size

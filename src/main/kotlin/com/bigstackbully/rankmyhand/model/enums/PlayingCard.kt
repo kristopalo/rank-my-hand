@@ -63,14 +63,11 @@ enum class PlayingCard(
     KING_OF_CLUBS(rank = CardRank.KING, suit = Suit.CLUBS),
     ACE_OF_CLUBS(rank = CardRank.ACE, suit = Suit.CLUBS);
 
-    val abbreviation: String = "${rank.shortNotation.uppercase()}${suit.abbreviation.lowercase()}"
+    val standardNotation: String = "${rank.shortNotation.uppercase()}${suit.abbreviation.lowercase()}"
 
     companion object {
-        fun fromAbbreviation(abbreviation: String): PlayingCard? {
-            return entries.find { it.abbreviation == abbreviation }
+        fun fromShortNotation(standardNotation: String): PlayingCard? {
+            return entries.find { it.standardNotation == standardNotation }
         }
     }
 }
-
-val playingCardComparator = compareByDescending<PlayingCard> { it.rank.value }
-    .thenBy { it.suit.ordinal }

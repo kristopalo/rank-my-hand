@@ -8,9 +8,12 @@ import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.bigstackbully.rankmyhand.model.enums.HandRanking
 import com.bigstackbully.rankmyhand.service.utils.areInConsecutiveDescOrder
 import com.bigstackbully.rankmyhand.service.utils.areSuited
-import com.bigstackbully.rankmyhand.service.utils.valueEncoded
 import com.bigstackbully.rankmyhand.service.utils.highestRank
+import com.bigstackbully.rankmyhand.service.utils.isWheelStraight
 import com.bigstackbully.rankmyhand.service.utils.maxUnitSize
+import com.bigstackbully.rankmyhand.service.utils.rankingWithSerializedValue
+import com.bigstackbully.rankmyhand.service.utils.shortNotation
+import com.bigstackbully.rankmyhand.service.utils.standardNotation
 import org.springframework.stereotype.Service
 import java.util.SortedSet
 
@@ -23,12 +26,11 @@ class EvaluatorService(
         val hand = Hand(
             cards = evaluateHandCmd.cards
         )
+
         return evaluate(hand)
     }
 
     fun evaluate(hand: Hand): EvaluationResult {
-        val result: EvaluationResult
-
         val rankUnits = hand.cards
             .groupBy { it.rank }
             .map { (_, cards) -> RankUnit.of(cards) }
@@ -42,13 +44,15 @@ class EvaluatorService(
             else -> error("The number of rank units has to be between 2 and 5, inclusive.")
         }
 
-        val shortNotation = rankUnits.joinToString(separator = "") { it.ranksInStandardNotation }
+        val standardNotation = rankUnits.standardNotation()
+        val rankingWithSerializedValue = rankUnits.rankingWithSerializedValue(handRanking)
+        val shortNotation = rankUnits.shortNotation()
         val handStrength = handStrengthService.calculateHandStrength(handRanking, shortNotation)
 
         return EvaluationResult(
-            hand = hand.cards.joinToString(separator = " ") { it.abbreviation },
+            hand = standardNotation,
             handRanking = handRanking,
-            serializedValue = "${handRanking.strength}-${rankUnits.valueEncoded()}",
+            serializedValue = rankingWithSerializedValue,
             shortNotation = shortNotation,
             absolutePosition = handStrength.absolutePosition,
             absoluteStrength = handStrength.absoluteStrength,
@@ -83,21 +87,21 @@ class EvaluatorService(
     }
 
     private fun handleFiveRankUnitsSuited(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.areInConsecutiveDescOrder())
+        if (rankUnits.areInConsecutiveDescOrder() || rankUnits.isWheelStraight())
             return handleFiveRankUnitsSuitedStraight(rankUnits)
 
         return HandRanking.FLUSH
     }
 
     private fun handleFiveRankUnitsSuitedStraight(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.highestRank() == CardRank.ACE)
+        if (rankUnits.highestRank() == CardRank.ACE && !rankUnits.isWheelStraight())
             return HandRanking.ROYAL_FLUSH
 
         return HandRanking.STRAIGHT_FLUSH
     }
 
     private fun handleFiveRankUnitsOffsuit(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.areInConsecutiveDescOrder())
+        if (rankUnits.areInConsecutiveDescOrder() || rankUnits.isWheelStraight())
             return HandRanking.STRAIGHT
 
         return HandRanking.HIGH_CARD
