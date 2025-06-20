@@ -1,6 +1,5 @@
 package com.bigstackbully.rankmyhand.model.combination
 
-import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import java.io.InputStream
 
