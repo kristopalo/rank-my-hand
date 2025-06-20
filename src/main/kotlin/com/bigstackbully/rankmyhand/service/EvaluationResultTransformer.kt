@@ -12,9 +12,9 @@ class EvaluationResultTransformer {
         ranking = evaluationResult.handRanking,
         serializedValue = evaluationResult.serializedValue,
         shortNotation = evaluationResult.shortNotation,
-        absolutePosition = evaluationResult.absolutePosition,
-        absoluteStrength = evaluationResult.absoluteStrength,
-        relativePosition = evaluationResult.relativePosition,
-        relativeStrength = evaluationResult.relativeStrength
+        absolutePosition = evaluationResult.handStrength.absolutePosition,
+        absoluteStrength = evaluationResult.handStrength.absoluteStrength,
+        relativePosition = evaluationResult.handStrength.relativePosition,
+        relativeStrength = evaluationResult.handStrength.relativeStrength
     )
 }

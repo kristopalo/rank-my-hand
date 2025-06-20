@@ -7,8 +7,5 @@ data class EvaluationResult(
     val handRanking: HandRanking,
     val serializedValue: String,
     val shortNotation: String,
-    val absolutePosition: Int,
-    val absoluteStrength: Double,
-    val relativePosition: Int,
-    val relativeStrength: Double
+    val handStrength: HandStrength
 )

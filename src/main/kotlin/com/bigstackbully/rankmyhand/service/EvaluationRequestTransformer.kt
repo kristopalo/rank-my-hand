@@ -35,7 +35,7 @@ class EvaluationRequestTransformer {
         }
 
         return EvaluateHandCommand(
-            hand = Hand.of(cards.toSet())
+            hand = Hand.of(cards)
         )
     }
 }

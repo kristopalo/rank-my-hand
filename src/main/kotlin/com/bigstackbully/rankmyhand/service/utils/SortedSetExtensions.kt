@@ -2,7 +2,6 @@ package com.bigstackbully.rankmyhand.service.utils
 
 import com.bigstackbully.rankmyhand.model.RankUnit
 import com.bigstackbully.rankmyhand.model.enums.CardRank
-import com.bigstackbully.rankmyhand.model.enums.HandRanking
 import java.util.*
 
 fun SortedSet<RankUnit>.maxUnitSize(): Int? = maxOfOrNull { it.cards.size }
@@ -16,9 +15,6 @@ fun SortedSet<RankUnit>.areInConsecutiveDescOrder(): Boolean = map { it.rank.val
 fun SortedSet<RankUnit>.highestRank(): CardRank? = maxOfOrNull { it.rank }
 
 fun SortedSet<RankUnit>.serializedValue(): String = joinToString(separator = "-") { it.totalValue.toString() }
-
-fun SortedSet<RankUnit>.rankingWithSerializedValue(ranking: HandRanking): String =
-    "${ranking.strength}-${serializedValue()}"
 
 fun SortedSet<RankUnit>.standardNotation(): String = joinToString(separator = " ") { it.standardNotation }
 

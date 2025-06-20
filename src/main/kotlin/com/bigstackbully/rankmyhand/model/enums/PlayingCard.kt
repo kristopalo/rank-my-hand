@@ -3,7 +3,7 @@ package com.bigstackbully.rankmyhand.model.enums
 enum class PlayingCard(
     val rank: CardRank,
     val suit: Suit
-) {
+) : Comparable<PlayingCard> {
     // https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
     // https://www.baeldung.com/kotlin/enum
 

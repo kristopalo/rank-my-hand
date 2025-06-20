@@ -1,6 +1,5 @@
 package com.bigstackbully.rankmyhand.model.enums
 
-// TODO Kristo @ 12.06.2025 -> Maybe rename this to HandCategory
 enum class HandRanking(val strength: Int) {
     HIGH_CARD(strength = 1),
     ONE_PAIR(strength = 2),
