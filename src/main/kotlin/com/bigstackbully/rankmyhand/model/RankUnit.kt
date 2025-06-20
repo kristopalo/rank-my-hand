@@ -6,6 +6,8 @@ import com.bigstackbully.rankmyhand.model.enums.Suit
 
 data class RankUnit(
     val cards: Set<PlayingCard> = sortedSetOf()
+    // TODO Kristo 20.06.2025 -> val rank
+    // TODO Kristo 20.06.2025 -> val numberOfCards
 ) : Comparable<RankUnit> {
 
     companion object {

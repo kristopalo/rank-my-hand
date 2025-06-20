@@ -7,6 +7,7 @@ enum class PlayingCard(
     // https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
     // https://www.baeldung.com/kotlin/enum
 
+    LOW_ACE_OF_HEARTS(rank = CardRank.LOW_ACE, Suit.HEARTS),
     TWO_OF_HEARTS(rank = CardRank.TWO, suit = Suit.HEARTS),
     THREE_OF_HEARTS(rank = CardRank.THREE, suit = Suit.HEARTS),
     FOUR_OF_HEARTS(rank = CardRank.FOUR, suit = Suit.HEARTS),
@@ -21,6 +22,7 @@ enum class PlayingCard(
     KING_OF_HEARTS(rank = CardRank.KING, suit = Suit.HEARTS),
     ACE_OF_HEARTS(rank = CardRank.ACE, suit = Suit.HEARTS),
 
+    LOW_ACE_OF_SPADES(rank = CardRank.LOW_ACE, Suit.SPADES),
     TWO_OF_SPADES(rank = CardRank.TWO, suit = Suit.SPADES),
     THREE_OF_SPADES(rank = CardRank.THREE, suit = Suit.SPADES),
     FOUR_OF_SPADES(rank = CardRank.FOUR, suit = Suit.SPADES),
@@ -35,6 +37,7 @@ enum class PlayingCard(
     KING_OF_SPADES(rank = CardRank.KING, suit = Suit.SPADES),
     ACE_OF_SPADES(rank = CardRank.ACE, suit = Suit.SPADES),
 
+    LOW_ACE_OF_DIAMONDS(rank = CardRank.LOW_ACE, Suit.DIAMONDS),
     TWO_OF_DIAMONDS(rank = CardRank.TWO, suit = Suit.DIAMONDS),
     THREE_OF_DIAMONDS(rank = CardRank.THREE, suit = Suit.DIAMONDS),
     FOUR_OF_DIAMONDS(rank = CardRank.FOUR, suit = Suit.DIAMONDS),
@@ -49,6 +52,7 @@ enum class PlayingCard(
     KING_OF_DIAMONDS(rank = CardRank.KING, suit = Suit.DIAMONDS),
     ACE_OF_DIAMONDS(rank = CardRank.ACE, suit = Suit.DIAMONDS),
 
+    LOW_ACE_OF_CLUBS(rank = CardRank.LOW_ACE, Suit.CLUBS),
     TWO_OF_CLUBS(rank = CardRank.TWO, suit = Suit.CLUBS),
     THREE_OF_CLUBS(rank = CardRank.THREE, suit = Suit.CLUBS),
     FOUR_OF_CLUBS(rank = CardRank.FOUR, suit = Suit.CLUBS),
@@ -63,11 +67,13 @@ enum class PlayingCard(
     KING_OF_CLUBS(rank = CardRank.KING, suit = Suit.CLUBS),
     ACE_OF_CLUBS(rank = CardRank.ACE, suit = Suit.CLUBS);
 
-    val standardNotation: String = "${rank.shortNotation.uppercase()}${suit.abbreviation.lowercase()}"
+    val standardNotation: String = "${rank.shortNotation.uppercase()}${suit.shortNotation.lowercase()}"
 
     companion object {
         fun fromShortNotation(standardNotation: String): PlayingCard? {
-            return entries.find { it.standardNotation == standardNotation }
+            return entries
+                .filterNot { it.rank == CardRank.LOW_ACE }
+                .find { it.standardNotation == standardNotation }
         }
     }
 }

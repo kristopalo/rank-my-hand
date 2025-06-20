@@ -1,8 +1,7 @@
 package com.bigstackbully.rankmyhand.model.enums
 
 enum class CardRank(val shortNotation: String, val value: Int) {
-    // TODO ACE_LOW
-    ACE_LOW(shortNotation = "A", value = 1),
+    LOW_ACE(shortNotation = "A", value = 1),
     TWO(shortNotation = "2", value = 2),
     THREE(shortNotation = "3", value = 3),
     FOUR(shortNotation = "4", value = 4),
@@ -15,6 +14,5 @@ enum class CardRank(val shortNotation: String, val value: Int) {
     JACK(shortNotation = "J", value = 11),
     QUEEN(shortNotation = "Q", value = 12),
     KING(shortNotation = "K", value = 13),
-    // TODO ACE_HIGH
-    ACE(shortNotation = "A", value = 14); // Ace has dual values
+    ACE(shortNotation = "A", value = 14);
 }

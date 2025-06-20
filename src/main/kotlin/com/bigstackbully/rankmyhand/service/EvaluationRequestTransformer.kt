@@ -1,5 +1,6 @@
 package com.bigstackbully.rankmyhand.service
 
+import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.request.EvaluateHandRequest
@@ -34,7 +35,7 @@ class EvaluationRequestTransformer {
         }
 
         return EvaluateHandCommand(
-            cards = cards.toSet()
+            hand = Hand.of(cards.toSet())
         )
     }
 }

@@ -9,7 +9,7 @@ import com.bigstackbully.rankmyhand.model.enums.HandRanking
 import com.bigstackbully.rankmyhand.service.utils.areInConsecutiveDescOrder
 import com.bigstackbully.rankmyhand.service.utils.areSuited
 import com.bigstackbully.rankmyhand.service.utils.highestRank
-import com.bigstackbully.rankmyhand.service.utils.isWheelStraight
+import com.bigstackbully.rankmyhand.service.utils.areWheelStraight
 import com.bigstackbully.rankmyhand.service.utils.maxUnitSize
 import com.bigstackbully.rankmyhand.service.utils.rankingWithSerializedValue
 import com.bigstackbully.rankmyhand.service.utils.shortNotation
@@ -22,13 +22,7 @@ class EvaluatorService(
     private val handStrengthService: HandStrengthService
 ) {
 
-    fun evaluate(evaluateHandCmd: EvaluateHandCommand): EvaluationResult {
-        val hand = Hand(
-            cards = evaluateHandCmd.cards
-        )
-
-        return evaluate(hand)
-    }
+    fun evaluate(evaluateHandCmd: EvaluateHandCommand): EvaluationResult = evaluate(evaluateHandCmd.hand)
 
     fun evaluate(hand: Hand): EvaluationResult {
         val rankUnits = hand.cards
@@ -36,11 +30,12 @@ class EvaluatorService(
             .map { (_, cards) -> RankUnit.of(cards) }
             .toSortedSet()
 
+        // TODO Kristo @ 20.06.2025 -> We should inject hand here instead, not a sortedSet of rankUnits. A Hand should contain them internally.
         val handRanking = when (rankUnits.size) {
-            2 -> handleTwoRankUnits(rankUnits)
-            3 -> handleThreeRankUnits(rankUnits)
-            4 -> handleFourRankUnits(rankUnits)
-            5 -> handleFiveRankUnits(rankUnits)
+            2 -> handleHandWithTwoRankUnits(rankUnits)
+            3 -> handleHandWithThreeRankUnits(rankUnits)
+            4 -> handleHandWithFourRankUnits(rankUnits)
+            5 -> handleHandWithFiveRankUnits(rankUnits)
             else -> error("The number of rank units has to be between 2 and 5, inclusive.")
         }
 
@@ -61,25 +56,25 @@ class EvaluatorService(
         )
     }
 
-    private fun handleTwoRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
+    private fun handleHandWithTwoRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.maxUnitSize() == 4)
             return HandRanking.FOUR_OF_A_KIND
 
         return HandRanking.FULL_HOUSE
     }
 
-    private fun handleThreeRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
+    private fun handleHandWithThreeRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.maxUnitSize() == 3)
             return HandRanking.THREE_OF_A_KIND
 
         return HandRanking.TWO_PAIR
     }
 
-    private fun handleFourRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
+    private fun handleHandWithFourRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
         return HandRanking.ONE_PAIR
     }
 
-    private fun handleFiveRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
+    private fun handleHandWithFiveRankUnits(rankUnits: SortedSet<RankUnit>): HandRanking {
         if (rankUnits.areSuited())
             return handleFiveRankUnitsSuited(rankUnits)
 
@@ -87,21 +82,21 @@ class EvaluatorService(
     }
 
     private fun handleFiveRankUnitsSuited(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.areInConsecutiveDescOrder() || rankUnits.isWheelStraight())
+        if (rankUnits.areInConsecutiveDescOrder())
             return handleFiveRankUnitsSuitedStraight(rankUnits)
 
         return HandRanking.FLUSH
     }
 
     private fun handleFiveRankUnitsSuitedStraight(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.highestRank() == CardRank.ACE && !rankUnits.isWheelStraight())
+        if (rankUnits.highestRank() == CardRank.ACE)
             return HandRanking.ROYAL_FLUSH
 
         return HandRanking.STRAIGHT_FLUSH
     }
 
     private fun handleFiveRankUnitsOffsuit(rankUnits: SortedSet<RankUnit>): HandRanking {
-        if (rankUnits.areInConsecutiveDescOrder() || rankUnits.isWheelStraight())
+        if (rankUnits.areInConsecutiveDescOrder())
             return HandRanking.STRAIGHT
 
         return HandRanking.HIGH_CARD

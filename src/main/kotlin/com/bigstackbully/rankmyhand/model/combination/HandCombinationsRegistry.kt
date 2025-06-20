@@ -15,20 +15,6 @@ val TWO_PAIR_HANDS: Map<String, HandCombination> by lazy { loadHandCombinationsF
 val ONE_PAIR_HANDS: Map<String, HandCombination> by lazy { loadHandCombinationsFromResource("one_pair_hands.json") }
 val HIGH_CARD_HANDS: Map<String, HandCombination> by lazy { loadHandCombinationsFromResource("high_card_hands.json") }
 
-val WHEEL_STRAIGHT_RANKS: Set<CardRank> = setOf(
-    CardRank.FIVE,
-    CardRank.FOUR,
-    CardRank.THREE,
-    CardRank.TWO,
-    CardRank.ACE
-)
-
-val WHEEL_STRAIGHT_SHORT_NOTATION: String = WHEEL_STRAIGHT_RANKS.joinToString(separator = "") { it.shortNotation }
-
-val WHEEL_STRAIGHT_SERIALIZED_VALUE: String = WHEEL_STRAIGHT_RANKS.map { rank -> if (rank == CardRank.ACE) CardRank.ACE_LOW else rank }
-    .map { it.value }
-    .joinToString(separator = "-")
-
 fun loadHandCombinationsFromResource(resourceName: String): Map<String, HandCombination> {
     val mapper = jacksonObjectMapper()
     val stream: InputStream = object {}.javaClass.getResourceAsStream("/$resourceName")
