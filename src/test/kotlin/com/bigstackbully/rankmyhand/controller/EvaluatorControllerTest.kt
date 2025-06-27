@@ -4,9 +4,7 @@ import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.HandStrength
 import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
-import com.bigstackbully.rankmyhand.model.enums.HandRanking
 import com.bigstackbully.rankmyhand.model.enums.HandRanking.FULL_HOUSE
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard.*
 import com.bigstackbully.rankmyhand.model.request.EvaluateHandRequest
 import com.bigstackbully.rankmyhand.model.response.EvaluationResultResponse
@@ -15,6 +13,7 @@ import com.bigstackbully.rankmyhand.service.EvaluationResultTransformer
 import com.bigstackbully.rankmyhand.service.EvaluatorService
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
+import io.kotest.core.spec.style.ShouldSpec
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldBe
 import io.mockk.every
@@ -25,11 +24,9 @@ import org.springframework.http.MediaType
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.post
 import org.springframework.test.web.servlet.setup.MockMvcBuilders
-import kotlin.Double
-import kotlin.Int
 
 @WebMvcTest(EvaluatorController::class)
-class EvaluatorControllerTest : StringSpec({
+class EvaluatorControllerTest : ShouldSpec({
 
     val evaluationRequestTransformer = mockk<EvaluationRequestTransformer>()
     val evaluatorService = mockk<EvaluatorService>()
@@ -44,8 +41,8 @@ class EvaluatorControllerTest : StringSpec({
     val mockMvc: MockMvc = MockMvcBuilders.standaloneSetup(controller).build()
     val objectMapper = jacksonObjectMapper()
 
-    "should evaluate poker hand and return result" {
-        // Given
+    context("try to evaluate hand 'Ks Kh Kd Ac As'") {
+        // arrange
         val request = EvaluateHandRequest(hand = "Ks Kh Kd Ac As")
         val command = EvaluateHandCommand(hand = Hand.of(
             cards = listOf(
@@ -56,7 +53,7 @@ class EvaluatorControllerTest : StringSpec({
                 ACE_OF_HEARTS
             )
         ))
-        val result = EvaluationResult(
+        val evalResult = EvaluationResult(
             hand = "Ks Kh Kd As Ah",
             handRanking = FULL_HOUSE,
             serializedValue = "7-39-28",
@@ -81,16 +78,16 @@ class EvaluatorControllerTest : StringSpec({
         )
 
         every { evaluationRequestTransformer.toCommand(request) } returns command
-        every { evaluatorService.evaluate(command) } returns result
+        every { evaluatorService.evaluate(command) } returns evalResult
         every { evaluationResultTransformer.toResponse(any()) } returns expectedResponse
 
-        // When
+        // act
         val response = mockMvc.post("/api/evaluator/evaluate-hand") {
             contentType = MediaType.APPLICATION_JSON
             content = objectMapper.writeValueAsString(request)
         }.andReturn().response
 
-        // Then
+        // assert
         response.status shouldBe 200
         val parsedBody: EvaluationResultResponse = objectMapper.readValue(response.contentAsString)
         parsedBody shouldBe expectedResponse
@@ -98,7 +95,7 @@ class EvaluatorControllerTest : StringSpec({
         verifyOrder {
             evaluationRequestTransformer.toCommand(request)
             evaluatorService.evaluate(command)
-            evaluationResultTransformer.toResponse(result)
+            evaluationResultTransformer.toResponse(evalResult)
         }
     }
 })
