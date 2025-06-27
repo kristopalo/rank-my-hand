@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.controller
 
-import com.bigstackbully.rankmyhand.model.EvaluationResult
+import com.bigstackbully.rankmyhand.model.HandEvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.HandStrength
 import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
@@ -14,7 +14,6 @@ import com.bigstackbully.rankmyhand.service.EvaluatorService
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import io.kotest.core.spec.style.ShouldSpec
-import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldBe
 import io.mockk.every
 import io.mockk.mockk
@@ -53,7 +52,7 @@ class EvaluatorControllerTest : ShouldSpec({
                 ACE_OF_HEARTS
             )
         ))
-        val evalResult = EvaluationResult(
+        val evalResult = HandEvaluationResult(
             hand = "Ks Kh Kd As Ah",
             handRanking = FULL_HOUSE,
             serializedValue = "7-39-28",
