@@ -6,5 +6,5 @@ fun composeHandEvaluationContextForFullHouse(): HandEvaluationContext = HandEval
     request = composeHandEvaluationRequestForFullHouse(),
     command = composeHandEvaluationCommandForFullHouse(),
     result = composeHandEvaluationResultForFullHouse(),
-    response = composeEvaluationResultResponseForFullHouse()
+    response = composeHandEvaluationResponseForFullHouse()
 )

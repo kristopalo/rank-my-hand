@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.controller
 
 import com.bigstackbully.rankmyhand.model.request.HandEvaluationRequest
-import com.bigstackbully.rankmyhand.model.response.HandEvaluationResultResponse
+import com.bigstackbully.rankmyhand.model.response.HandEvaluationResponse
 import com.bigstackbully.rankmyhand.service.EvaluationRequestTransformer
 import com.bigstackbully.rankmyhand.service.EvaluationResultTransformer
 import com.bigstackbully.rankmyhand.service.EvaluatorService
@@ -21,7 +21,7 @@ class EvaluatorController(
 
     @CrossOrigin(origins = [])
     @PostMapping("/evaluate-hand")
-    fun evaluateHand(@RequestBody evalReq: HandEvaluationRequest): HandEvaluationResultResponse {
+    fun evaluateHand(@RequestBody evalReq: HandEvaluationRequest): HandEvaluationResponse {
         val evalHandCmd = evaluationRequestTransformer.toCommand(evaluateHandReq = evalReq)
         val evalResult = evaluatorService.evaluate(evaluateHandCmd = evalHandCmd)
         return evaluationResultTransformer.toResponse(evaluationResult = evalResult)

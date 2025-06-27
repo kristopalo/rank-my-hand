@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.controller
 
-import com.bigstackbully.rankmyhand.model.response.HandEvaluationResultResponse
+import com.bigstackbully.rankmyhand.model.response.HandEvaluationResponse
 import com.bigstackbully.rankmyhand.service.EvaluationRequestTransformer
 import com.bigstackbully.rankmyhand.service.EvaluationResultTransformer
 import com.bigstackbully.rankmyhand.service.EvaluatorService
@@ -54,7 +54,7 @@ class EvaluatorControllerTest : ShouldSpec({
 
         // assert
         response.status shouldBe 200
-        val parsedBody: HandEvaluationResultResponse = objectMapper.readValue(response.contentAsString)
+        val parsedBody: HandEvaluationResponse = objectMapper.readValue(response.contentAsString)
         parsedBody shouldBe expResponse
 
         verifyOrder {
