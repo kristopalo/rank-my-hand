@@ -2,13 +2,13 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.enums.CardRank
-import com.bigstackbully.rankmyhand.model.enums.HandRanking
+import com.bigstackbully.rankmyhand.model.enums.Ranking
 import org.springframework.stereotype.Service
 
 @Service
 class RankingService {
 
-    fun determineRanking(hand: Hand): HandRanking {
+    fun determineRanking(hand: Hand): Ranking {
         return when (hand.rankUnitCount) {
             2 -> evaluateHandWithTwoRankUnits(hand)
             3 -> evaluateHandWithThreeRankUnits(hand)
@@ -18,49 +18,49 @@ class RankingService {
         }
     }
 
-    private fun evaluateHandWithTwoRankUnits(hand: Hand): HandRanking {
+    private fun evaluateHandWithTwoRankUnits(hand: Hand): Ranking {
         if (hand.maxUnitSize == 4)
-            return HandRanking.FOUR_OF_A_KIND
+            return Ranking.FOUR_OF_A_KIND
 
-        return HandRanking.FULL_HOUSE
+        return Ranking.FULL_HOUSE
     }
 
-    private fun evaluateHandWithThreeRankUnits(hand: Hand): HandRanking {
+    private fun evaluateHandWithThreeRankUnits(hand: Hand): Ranking {
         if (hand.maxUnitSize == 3)
-            return HandRanking.THREE_OF_A_KIND
+            return Ranking.THREE_OF_A_KIND
 
-        return HandRanking.TWO_PAIR
+        return Ranking.TWO_PAIR
     }
 
-    private fun evaluateHandWithFourRankUnits(): HandRanking {
-        return HandRanking.ONE_PAIR
+    private fun evaluateHandWithFourRankUnits(): Ranking {
+        return Ranking.ONE_PAIR
     }
 
-    private fun evaluateHandWithFiveRankUnits(hand: Hand): HandRanking {
+    private fun evaluateHandWithFiveRankUnits(hand: Hand): Ranking {
         if (hand.isSuited)
             return handleFiveRankUnitsSuited(hand)
 
         return handleFiveRankUnitsOffsuit(hand)
     }
 
-    private fun handleFiveRankUnitsSuited(hand: Hand): HandRanking {
+    private fun handleFiveRankUnitsSuited(hand: Hand): Ranking {
         if (hand.areCardsInConsecutiveDescOrder)
             return handleFiveRankUnitsSuitedStraight(hand)
 
-        return HandRanking.FLUSH
+        return Ranking.FLUSH
     }
 
-    private fun handleFiveRankUnitsSuitedStraight(hand: Hand): HandRanking {
+    private fun handleFiveRankUnitsSuitedStraight(hand: Hand): Ranking {
         if (hand.highestRank == CardRank.ACE)
-            return HandRanking.ROYAL_FLUSH
+            return Ranking.ROYAL_FLUSH
 
-        return HandRanking.STRAIGHT_FLUSH
+        return Ranking.STRAIGHT_FLUSH
     }
 
-    private fun handleFiveRankUnitsOffsuit(hand: Hand): HandRanking {
+    private fun handleFiveRankUnitsOffsuit(hand: Hand): Ranking {
         if (hand.areCardsInConsecutiveDescOrder)
-            return HandRanking.STRAIGHT
+            return Ranking.STRAIGHT
 
-        return HandRanking.HIGH_CARD
+        return Ranking.HIGH_CARD
     }
 }

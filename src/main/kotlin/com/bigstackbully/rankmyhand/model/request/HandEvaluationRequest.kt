@@ -1,5 +1,5 @@
 package com.bigstackbully.rankmyhand.model.request
 
-data class EvaluateHandRequest(
+data class HandEvaluationRequest(
     val hand: String
 )

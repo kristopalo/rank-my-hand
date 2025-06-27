@@ -1,16 +1,10 @@
 package com.bigstackbully.rankmyhand.controller
 
-import com.bigstackbully.rankmyhand.model.HandEvaluationResult
-import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.HandStrength
-import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
-import com.bigstackbully.rankmyhand.model.enums.HandRanking.FULL_HOUSE
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard.*
-import com.bigstackbully.rankmyhand.model.request.EvaluateHandRequest
-import com.bigstackbully.rankmyhand.model.response.EvaluationResultResponse
+import com.bigstackbully.rankmyhand.model.response.HandEvaluationResultResponse
 import com.bigstackbully.rankmyhand.service.EvaluationRequestTransformer
 import com.bigstackbully.rankmyhand.service.EvaluationResultTransformer
 import com.bigstackbully.rankmyhand.service.EvaluatorService
+import com.bigstackbully.rankmyhand.testdata.composeHandEvaluationContextForFullHouse
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import io.kotest.core.spec.style.ShouldSpec
@@ -42,58 +36,30 @@ class EvaluatorControllerTest : ShouldSpec({
 
     context("try to evaluate hand 'Ks Kh Kd Ac As'") {
         // arrange
-        val request = EvaluateHandRequest(hand = "Ks Kh Kd Ac As")
-        val command = EvaluateHandCommand(hand = Hand.of(
-            cards = listOf(
-                KING_OF_SPADES,
-                KING_OF_HEARTS,
-                KING_OF_DIAMONDS,
-                ACE_OF_SPADES,
-                ACE_OF_HEARTS
-            )
-        ))
-        val evalResult = HandEvaluationResult(
-            hand = "Ks Kh Kd As Ah",
-            handRanking = FULL_HOUSE,
-            serializedValue = "7-39-28",
-            shortNotation = "KKKAA",
-            handStrength = HandStrength(
-                absolutePosition = 179,
-                absoluteStrength = 0.976146,
-                relativePosition = 13,
-                relativeStrength = 0.923077
-            )
-        )
+        val evalContext = composeHandEvaluationContextForFullHouse()
+        val evalReq = evalContext.request
+        val evalCmd = evalContext.command
+        val evalResult = evalContext.result
+        val expResponse = evalContext.response
 
-        val expectedResponse = EvaluationResultResponse(
-            hand = "Ks Kh Kd Ac As",
-            ranking = FULL_HOUSE,
-            shortNotation = "KKKAA",
-            serializedValue = "7-39-28",
-            absolutePosition = 179,
-            absoluteStrength = 0.976146,
-            relativePosition = 13,
-            relativeStrength = 0.923077
-        )
-
-        every { evaluationRequestTransformer.toCommand(request) } returns command
-        every { evaluatorService.evaluate(command) } returns evalResult
-        every { evaluationResultTransformer.toResponse(any()) } returns expectedResponse
+        every { evaluationRequestTransformer.toCommand(evalReq) } returns evalCmd
+        every { evaluatorService.evaluate(evalCmd) } returns evalResult
+        every { evaluationResultTransformer.toResponse(any()) } returns expResponse
 
         // act
         val response = mockMvc.post("/api/evaluator/evaluate-hand") {
             contentType = MediaType.APPLICATION_JSON
-            content = objectMapper.writeValueAsString(request)
+            content = objectMapper.writeValueAsString(evalReq)
         }.andReturn().response
 
         // assert
         response.status shouldBe 200
-        val parsedBody: EvaluationResultResponse = objectMapper.readValue(response.contentAsString)
-        parsedBody shouldBe expectedResponse
+        val parsedBody: HandEvaluationResultResponse = objectMapper.readValue(response.contentAsString)
+        parsedBody shouldBe expResponse
 
         verifyOrder {
-            evaluationRequestTransformer.toCommand(request)
-            evaluatorService.evaluate(command)
+            evaluationRequestTransformer.toCommand(evalReq)
+            evaluatorService.evaluate(evalCmd)
             evaluationResultTransformer.toResponse(evalResult)
         }
     }

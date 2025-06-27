@@ -1,9 +1,9 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.command.EvaluateHandCommand
+import com.bigstackbully.rankmyhand.model.command.HandEvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
-import com.bigstackbully.rankmyhand.model.request.EvaluateHandRequest
+import com.bigstackbully.rankmyhand.model.request.HandEvaluationRequest
 import com.bigstackbully.rankmyhand.service.utils.areUnique
 import com.bigstackbully.rankmyhand.service.utils.hasEvenNumberOfCharacters
 import org.springframework.stereotype.Service
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service
 @Service
 class EvaluationRequestTransformer {
 
-    fun toCommand(evaluateHandReq: EvaluateHandRequest): EvaluateHandCommand {
+    fun toCommand(evaluateHandReq: HandEvaluationRequest): HandEvaluationCommand {
         val input = evaluateHandReq.hand
         val filteredInput = input.filter { it.isLetterOrDigit() }
 
@@ -34,7 +34,7 @@ class EvaluationRequestTransformer {
             throw IllegalArgumentException("All cards in the provided hand have to be unique.")
         }
 
-        return EvaluateHandCommand(
+        return HandEvaluationCommand(
             hand = Hand.of(cards)
         )
     }

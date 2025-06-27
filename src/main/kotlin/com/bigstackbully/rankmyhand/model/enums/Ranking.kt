@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.model.enums
 
-enum class HandRanking(val strength: Int) {
+enum class Ranking(val strength: Int) {
     HIGH_CARD(strength = 1),
     ONE_PAIR(strength = 2),
     TWO_PAIR(strength = 3),

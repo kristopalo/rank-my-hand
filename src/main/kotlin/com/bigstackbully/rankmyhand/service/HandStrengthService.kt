@@ -11,18 +11,18 @@ import com.bigstackbully.rankmyhand.model.combination.ROYAL_FLUSH_HANDS
 import com.bigstackbully.rankmyhand.model.combination.STRAIGHT_FLUSH_HANDS
 import com.bigstackbully.rankmyhand.model.combination.STRAIGHT_HANDS
 import com.bigstackbully.rankmyhand.model.combination.THREE_OF_A_KIND_HANDS
-import com.bigstackbully.rankmyhand.model.enums.HandRanking
-import com.bigstackbully.rankmyhand.model.enums.HandRanking.*
+import com.bigstackbully.rankmyhand.model.enums.Ranking
+import com.bigstackbully.rankmyhand.model.enums.Ranking.*
 import org.springframework.stereotype.Service
 
 @Service
 class HandStrengthService {
 
     fun calculateHandStrength(
-        handRanking: HandRanking,
+        ranking: Ranking,
         shortNotation: String
     ): HandStrength {
-        val mapOfHandCombinations = when (handRanking) {
+        val mapOfHandCombinations = when (ranking) {
             ROYAL_FLUSH -> ROYAL_FLUSH_HANDS
             STRAIGHT_FLUSH -> STRAIGHT_FLUSH_HANDS
             FOUR_OF_A_KIND -> FOUR_OF_A_KIND_HANDS

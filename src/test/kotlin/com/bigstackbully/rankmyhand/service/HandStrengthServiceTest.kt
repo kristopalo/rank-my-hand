@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.HandStrength
-import com.bigstackbully.rankmyhand.model.enums.HandRanking.*
+import com.bigstackbully.rankmyhand.model.enums.Ranking.*
 import io.kotest.core.spec.style.ShouldSpec
 import io.kotest.matchers.shouldBe
 
@@ -31,7 +31,7 @@ class HandStrengthServiceTest() : ShouldSpec({
             should("correctly calculate hand strength -> ranking: '$ranking' | hand: '$shortNotation'") {
                 // act
                 val actHandStrength = handStrengthService.calculateHandStrength(
-                    handRanking = ranking,
+                    ranking = ranking,
                     shortNotation = shortNotation
                 )
 
@@ -63,7 +63,7 @@ class HandStrengthServiceTest() : ShouldSpec({
             should("correctly calculate hand strength -> ranking: '$ranking' | hand: '$shortNotation'") {
                 // act
                 val actHandStrength = handStrengthService.calculateHandStrength(
-                    handRanking = ranking,
+                    ranking = ranking,
                     shortNotation = shortNotation
                 )
 
