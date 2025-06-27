@@ -18,7 +18,7 @@ class EvaluatorService(
         val ranking = when (hand.rankUnitCount) {
             2 -> evaluateHandWithTwoRankUnits(hand)
             3 -> evaluateHandWithThreeRankUnits(hand)
-            4 -> evaluateHandWithFourRankUnits(hand)
+            4 -> evaluateHandWithFourRankUnits()
             5 -> evaluateHandWithFiveRankUnits(hand)
             else -> error("The number of rank units has to be between 2 and 5, inclusive.")
         }
@@ -54,7 +54,7 @@ class EvaluatorService(
         return HandRanking.TWO_PAIR
     }
 
-    private fun evaluateHandWithFourRankUnits(hand: Hand): HandRanking {
+    private fun evaluateHandWithFourRankUnits(): HandRanking {
         return HandRanking.ONE_PAIR
     }
 

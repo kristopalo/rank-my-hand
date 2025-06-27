@@ -36,6 +36,10 @@ dependencies {
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0")
+	// Kotest core + assertions
+	testImplementation("io.kotest:kotest-runner-junit5:5.9.0") // or latest
+	testImplementation("io.kotest:kotest-assertions-core:5.9.0")
+	testImplementation("io.mockk:mockk:1.14.3")
 }
 
 kotlin {
