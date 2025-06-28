@@ -7,21 +7,6 @@ enum class PlayingCard(
     // https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
     // https://www.baeldung.com/kotlin/enum
 
-    LOW_ACE_OF_HEARTS(rank = CardRank.LOW_ACE, Suit.HEARTS),
-    TWO_OF_HEARTS(rank = CardRank.TWO, suit = Suit.HEARTS),
-    THREE_OF_HEARTS(rank = CardRank.THREE, suit = Suit.HEARTS),
-    FOUR_OF_HEARTS(rank = CardRank.FOUR, suit = Suit.HEARTS),
-    FIVE_OF_HEARTS(rank = CardRank.FIVE, suit = Suit.HEARTS),
-    SIX_OF_HEARTS(rank = CardRank.SIX, suit = Suit.HEARTS),
-    SEVEN_OF_HEARTS(rank = CardRank.SEVEN, suit = Suit.HEARTS),
-    EIGHT_OF_HEARTS(rank = CardRank.EIGHT, suit = Suit.HEARTS),
-    NINE_OF_HEARTS(rank = CardRank.NINE, suit = Suit.HEARTS),
-    TEN_OF_HEARTS(rank = CardRank.TEN, suit = Suit.HEARTS),
-    JACK_OF_HEARTS(rank = CardRank.JACK, suit = Suit.HEARTS),
-    QUEEN_OF_HEARTS(rank = CardRank.QUEEN, suit = Suit.HEARTS),
-    KING_OF_HEARTS(rank = CardRank.KING, suit = Suit.HEARTS),
-    ACE_OF_HEARTS(rank = CardRank.ACE, suit = Suit.HEARTS),
-
     LOW_ACE_OF_SPADES(rank = CardRank.LOW_ACE, Suit.SPADES),
     TWO_OF_SPADES(rank = CardRank.TWO, suit = Suit.SPADES),
     THREE_OF_SPADES(rank = CardRank.THREE, suit = Suit.SPADES),
@@ -36,6 +21,21 @@ enum class PlayingCard(
     QUEEN_OF_SPADES(rank = CardRank.QUEEN, suit = Suit.SPADES),
     KING_OF_SPADES(rank = CardRank.KING, suit = Suit.SPADES),
     ACE_OF_SPADES(rank = CardRank.ACE, suit = Suit.SPADES),
+
+    LOW_ACE_OF_HEARTS(rank = CardRank.LOW_ACE, Suit.HEARTS),
+    TWO_OF_HEARTS(rank = CardRank.TWO, suit = Suit.HEARTS),
+    THREE_OF_HEARTS(rank = CardRank.THREE, suit = Suit.HEARTS),
+    FOUR_OF_HEARTS(rank = CardRank.FOUR, suit = Suit.HEARTS),
+    FIVE_OF_HEARTS(rank = CardRank.FIVE, suit = Suit.HEARTS),
+    SIX_OF_HEARTS(rank = CardRank.SIX, suit = Suit.HEARTS),
+    SEVEN_OF_HEARTS(rank = CardRank.SEVEN, suit = Suit.HEARTS),
+    EIGHT_OF_HEARTS(rank = CardRank.EIGHT, suit = Suit.HEARTS),
+    NINE_OF_HEARTS(rank = CardRank.NINE, suit = Suit.HEARTS),
+    TEN_OF_HEARTS(rank = CardRank.TEN, suit = Suit.HEARTS),
+    JACK_OF_HEARTS(rank = CardRank.JACK, suit = Suit.HEARTS),
+    QUEEN_OF_HEARTS(rank = CardRank.QUEEN, suit = Suit.HEARTS),
+    KING_OF_HEARTS(rank = CardRank.KING, suit = Suit.HEARTS),
+    ACE_OF_HEARTS(rank = CardRank.ACE, suit = Suit.HEARTS),
 
     LOW_ACE_OF_DIAMONDS(rank = CardRank.LOW_ACE, Suit.DIAMONDS),
     TWO_OF_DIAMONDS(rank = CardRank.TWO, suit = Suit.DIAMONDS),
@@ -68,6 +68,8 @@ enum class PlayingCard(
     ACE_OF_CLUBS(rank = CardRank.ACE, suit = Suit.CLUBS);
 
     val standardNotation: String = "${rank.shortNotation.uppercase()}${suit.shortNotation.lowercase()}"
+    val displayName: String = name
+        .split("_").joinToString(separator = " ") { "${it.first().uppercase()}${it.substring(1).lowercase()}" }
 
     companion object {
         fun fromShortNotation(standardNotation: String): PlayingCard? {
