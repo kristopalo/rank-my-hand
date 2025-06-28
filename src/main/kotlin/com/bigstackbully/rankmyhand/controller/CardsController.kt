@@ -1,6 +1,7 @@
 package com.bigstackbully.rankmyhand.controller
 
 import com.bigstackbully.rankmyhand.model.dto.PlayingCardDto
+import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.response.GetAllCardsResponse
 import com.bigstackbully.rankmyhand.service.PlayingCardService
 import org.springframework.web.bind.annotation.CrossOrigin
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/api/cards")
+@RequestMapping("/api/playing-cards")
 class CardsController(
     private val cardService: PlayingCardService
 ) {
@@ -17,20 +18,25 @@ class CardsController(
     @CrossOrigin(origins = [])
     @GetMapping()
     fun getAllCards(): GetAllCardsResponse {
-        val cardDtos = cardService.getAllCards()
+        val cards = cardService.getAllCards()
+            .sortedWith(
+                compareBy<PlayingCard> { it.suit.ordinal }
+                    .thenByDescending { it.rank.value }
+            )
             .map { pc ->
                 PlayingCardDto(
                     code = pc.standardNotation,
+                    enum = pc.name,
                     rank = pc.rank.name,
-                    suit = pc.suit.name,
-                    enumName = pc.name,
-                    displayName = pc.displayName,
                     value = pc.rank.value,
+                    suit = pc.suit.name,
+                    suitEmoji = pc.suit.emoji,
+                    displayName = pc.displayName
                 )
             }
 
         return GetAllCardsResponse(
-            cards = cardDtos
+            cards = cards
         )
     }
 }

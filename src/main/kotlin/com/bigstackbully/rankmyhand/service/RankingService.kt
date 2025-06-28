@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service
 @Service
 class RankingService {
 
+    fun getAllRankings(): List<Ranking> {
+        return Ranking.entries
+    }
+
     fun determineRanking(hand: Hand): Ranking {
         return when (hand.rankUnitCount) {
             2 -> evaluateHandWithTwoRankUnits(hand)

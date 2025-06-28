@@ -70,6 +70,7 @@ enum class PlayingCard(
     val standardNotation: String = "${rank.shortNotation.uppercase()}${suit.shortNotation.lowercase()}"
     val displayName: String = name
         .split("_").joinToString(separator = " ") { "${it.first().uppercase()}${it.substring(1).lowercase()}" }
+    val emojiName: String = "${rank.shortNotation}${suit.emoji}"
 
     companion object {
         fun fromShortNotation(standardNotation: String): PlayingCard? {
