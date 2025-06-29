@@ -1,11 +1,14 @@
 package com.bigstackbully.rankmyhand.model.dto
 
 data class PlayingCardDto(
-    val code: String,
-    val enum: String,
+    val key: String,
+    val name: String,
     val rank: String,
-    val value: Int,
+    val rankKey: String,
+    val rankValue: Int,
     val suit: String,
+    val suitKey: String,
     val suitEmoji: String,
-    val displayName: String
+    val displayName: String,
+    val standardNotation: String
 )

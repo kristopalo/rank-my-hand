@@ -12,7 +12,7 @@ enum class Ranking(val strength: Int) {
     STRAIGHT_FLUSH(strength = 9),
     ROYAL_FLUSH(strength = 10);
 
-    val code: String = name
+    val key: String = name
         .split("_").joinToString(separator = "") { it.first().uppercase() }
     val displayName: String = name
         .split("_").joinToString(separator = " ") { "${it.first().uppercase()}${it.substring(1).lowercase()}" }

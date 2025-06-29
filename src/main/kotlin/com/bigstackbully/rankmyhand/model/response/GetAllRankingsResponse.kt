@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.model.response
 
-import com.bigstackbully.rankmyhand.model.dto.RankingDto
+import com.bigstackbully.rankmyhand.model.dto.HandRankingDto
 
 data class GetAllRankingsResponse(
-    val handRankings: List<RankingDto>
+    val handRankings: List<HandRankingDto>
 )

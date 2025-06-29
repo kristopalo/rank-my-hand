@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.controller
 
-import com.bigstackbully.rankmyhand.model.dto.RankingDto
+import com.bigstackbully.rankmyhand.model.dto.HandRankingDto
 import com.bigstackbully.rankmyhand.model.response.GetAllRankingsResponse
 import com.bigstackbully.rankmyhand.service.RankingService
 import org.springframework.web.bind.annotation.CrossOrigin
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/hand-rankings")
-class RankingsController(
+class HandRankingsController(
     private val rankingService: RankingService
 ) {
 
@@ -20,9 +20,9 @@ class RankingsController(
         val rankings = rankingService.getAllRankings()
             .sortedByDescending { it.strength }
             .map { r ->
-                RankingDto(
-                    code = r.code,
-                    enumName = r.name,
+                HandRankingDto(
+                    key = r.key,
+                    name = r.name,
                     displayName = r.displayName,
                     strength = r.strength
                 )

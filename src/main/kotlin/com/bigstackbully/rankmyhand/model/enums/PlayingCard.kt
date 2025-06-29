@@ -67,10 +67,16 @@ enum class PlayingCard(
     KING_OF_CLUBS(rank = CardRank.KING, suit = Suit.CLUBS),
     ACE_OF_CLUBS(rank = CardRank.ACE, suit = Suit.CLUBS);
 
-    val standardNotation: String = "${rank.shortNotation.uppercase()}${suit.shortNotation.lowercase()}"
+    val standardNotation: String = "${rank.key.uppercase()}${suit.standardNotation.lowercase()}"
+    val key: String = standardNotation.uppercase()
     val displayName: String = name
-        .split("_").joinToString(separator = " ") { "${it.first().uppercase()}${it.substring(1).lowercase()}" }
-    val emojiName: String = "${rank.shortNotation}${suit.emoji}"
+        .split("_")
+        .joinToString(" ") { word ->
+            if (word == "OF") "of"
+            else word.lowercase().replaceFirstChar { it.uppercase() }
+        }
+
+    val emojiName: String = "${rank.key}${suit.emoji}"
 
     companion object {
         fun fromShortNotation(standardNotation: String): PlayingCard? {
