@@ -16,33 +16,26 @@ import com.bigstackbully.rankmyhand.model.enums.Ranking.*
 import org.springframework.stereotype.Service
 
 @Service
-class HandStrengthService {
+class HandStrengthService(
+    val handCombinationService: HandCombinationService
+) {
 
     fun calculateHandStrength(
         ranking: Ranking,
         shortNotation: String
     ): HandStrength {
-        val mapOfHandCombinations = when (ranking) {
-            ROYAL_FLUSH -> ROYAL_FLUSH_HANDS
-            STRAIGHT_FLUSH -> STRAIGHT_FLUSH_HANDS
-            FOUR_OF_A_KIND -> FOUR_OF_A_KIND_HANDS
-            FULL_HOUSE -> FULL_HOUSE_HANDS
-            FLUSH -> FLUSH_HANDS
-            STRAIGHT -> STRAIGHT_HANDS
-            THREE_OF_A_KIND -> THREE_OF_A_KIND_HANDS
-            TWO_PAIR -> TWO_PAIR_HANDS
-            ONE_PAIR -> ONE_PAIR_HANDS
-            HIGH_CARD -> HIGH_CARD_HANDS
-        }
-
-        val handCombination = mapOfHandCombinations[shortNotation]
-            ?: throw IllegalArgumentException("No such key found in the map of hand combinations: $shortNotation")
-
-        return HandStrength(
-            absolutePosition = handCombination.absolutePosition,
-            absoluteStrength = handCombination.absoluteStrength,
-            relativePosition = handCombination.relativePosition,
-            relativeStrength = handCombination.relativeStrength
+        val handCombination = handCombinationService.getHandCombination(
+            ranking = ranking,
+            shortNotation = shortNotation
         )
+
+        return with(handCombination) {
+            HandStrength(
+                absolutePosition = absolutePosition,
+                absoluteStrength = absoluteStrength,
+                relativePosition = relativePosition,
+                relativeStrength = relativeStrength
+            )
+        }
     }
 }

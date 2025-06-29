@@ -3,12 +3,23 @@ package com.bigstackbully.rankmyhand.service
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.bigstackbully.rankmyhand.model.enums.Ranking
+import com.bigstackbully.rankmyhand.model.exception.EnumNotFoundException
 import org.springframework.stereotype.Service
 
 @Service
 class RankingService {
 
     fun getAllRankings(): List<Ranking> = Ranking.entries
+
+    fun getAllRankingsSortedByStrengthDesc(): List<Ranking> = getAllRankings().sortedByDescending { it.strength }
+
+    fun getRankingByKey(key: String): Ranking? = getAllRankings().firstOrNull { it.key.equals(key, ignoreCase = true) }
+
+    fun getRankingByName(name: String): Ranking? =
+        getAllRankings().firstOrNull { it.name.equals(name, ignoreCase = true) }
+
+    fun getRankingByKeyOrName(identifier: String): Ranking = getRankingByKey(identifier) ?: getRankingByName(identifier)
+    ?: throw EnumNotFoundException(identifier = identifier, enumClass = Ranking::class)
 
     fun determineRanking(hand: Hand): Ranking {
         return when (hand.rankUnitCount) {
