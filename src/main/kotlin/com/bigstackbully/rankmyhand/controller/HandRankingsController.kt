@@ -16,8 +16,8 @@ class HandRankingsController(
 
     @CrossOrigin(origins = [])
     @GetMapping()
-    fun getAllRankings(): GetAllRankingsResponse {
-        val rankings = rankingService.getAllRankings()
+    fun getAllHandRankings(): GetAllRankingsResponse = GetAllRankingsResponse(
+        handRankings = rankingService.getAllRankings()
             .sortedByDescending { it.strength }
             .map { r ->
                 HandRankingDto(
@@ -27,9 +27,5 @@ class HandRankingsController(
                     strength = r.strength
                 )
             }
-
-        return GetAllRankingsResponse(
-            handRankings = rankings
-        )
-    }
+    )
 }

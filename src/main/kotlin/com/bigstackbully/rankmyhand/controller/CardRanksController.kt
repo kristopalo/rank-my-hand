@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.controller
 
 import com.bigstackbully.rankmyhand.model.dto.CardRankDto
 import com.bigstackbully.rankmyhand.model.response.GetAllCardRanksResponse
-import com.bigstackbully.rankmyhand.service.CardRanksService
+import com.bigstackbully.rankmyhand.service.CardRankService
 import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/api/card-ranks")
 class CardRanksController(
-    private val cardRanksService: CardRanksService
+    private val cardRankService: CardRankService
 ) {
 
     @CrossOrigin(origins = [])
     @GetMapping()
-    fun getAllRankings(): GetAllCardRanksResponse {
-        val cardRanks = cardRanksService.getAllCardRanks()
+    fun getAllCardRanks(): GetAllCardRanksResponse = GetAllCardRanksResponse(
+        cardRanks = cardRankService.getAllCardRanks()
             .sortedByDescending { it.value }
             .map { cr ->
                 with(cr) {
@@ -28,9 +28,5 @@ class CardRanksController(
                     )
                 }
             }
-
-        return GetAllCardRanksResponse(
-            cardRanks = cardRanks
-        )
-    }
+    )
 }

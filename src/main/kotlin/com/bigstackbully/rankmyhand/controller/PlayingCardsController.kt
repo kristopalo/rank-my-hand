@@ -17,8 +17,8 @@ class PlayingCardsController(
 
     @CrossOrigin(origins = [])
     @GetMapping()
-    fun getAllCards(): GetAllPlayingCardsResponse {
-        val cards = cardService.getAllCards()
+    fun getAllPlayingCards(): GetAllPlayingCardsResponse = GetAllPlayingCardsResponse(
+        playingCards = cardService.getAllCards()
             .sortedWith(
                 compareBy<PlayingCard> { it.suit.ordinal }
                     .thenByDescending { it.rank.value }
@@ -39,9 +39,5 @@ class PlayingCardsController(
                     )
                 }
             }
-
-        return GetAllPlayingCardsResponse(
-            playingCards = cards
-        )
-    }
+    )
 }
