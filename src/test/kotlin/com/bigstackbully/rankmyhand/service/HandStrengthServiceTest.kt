@@ -7,7 +7,8 @@ import io.kotest.matchers.shouldBe
 
 class HandStrengthServiceTest() : ShouldSpec({
 
-    val handStrengthService = HandStrengthService()
+    val handCombinationService = HandCombinationService()
+    val handStrengthService = HandStrengthService(handCombinationService = handCombinationService)
 
     context("calculate hand strengths for the strongest hands of each ranking") {
         // arrange
