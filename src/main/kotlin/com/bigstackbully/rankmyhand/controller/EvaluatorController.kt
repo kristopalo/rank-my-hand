@@ -19,7 +19,6 @@ class EvaluatorController(
     private val evaluationResultTransformer: EvaluationResultTransformer
 ) {
 
-    @CrossOrigin(origins = [])
     @PostMapping("/evaluate-hand")
     fun evaluateHand(@RequestBody evalReq: HandEvaluationRequest): HandEvaluationResponse {
         val evalHandCmd = evaluationRequestTransformer.toCommand(evaluateHandReq = evalReq)

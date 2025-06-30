@@ -14,7 +14,6 @@ class CardRanksController(
     private val cardRankService: CardRankService
 ) {
 
-    @CrossOrigin(origins = [])
     @GetMapping()
     fun getAllCardRanks(): GetAllCardRanksResponse = GetAllCardRanksResponse(
         cardRanks = cardRankService.getAllCardRanks()

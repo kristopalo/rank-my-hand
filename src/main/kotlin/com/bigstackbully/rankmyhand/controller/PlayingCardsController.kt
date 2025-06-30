@@ -15,7 +15,6 @@ class PlayingCardsController(
     private val cardService: PlayingCardService
 ) {
 
-    @CrossOrigin(origins = [])
     @GetMapping()
     fun getAllPlayingCards(): GetAllPlayingCardsResponse = GetAllPlayingCardsResponse(
         playingCards = cardService.getAllCards()

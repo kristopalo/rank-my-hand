@@ -1,6 +1,7 @@
 package com.bigstackbully.rankmyhand.model.exception
 
 import com.bigstackbully.rankmyhand.model.enums.interfaces.KeyedEnum
+import java.lang.IllegalArgumentException
 import kotlin.reflect.KClass
 
 const val ITEM_SEPARATOR = ", "
@@ -8,11 +9,11 @@ const val ITEM_SEPARATOR = ", "
 class EnumNotFoundException(
     identifier: String,
     enumClass: KClass<out Enum<*>>
-) : RuntimeException(
+) : IllegalArgumentException(
     buildString {
-        append("Enum value not found with the following identifier: '$identifier'.")
+        append("Invalid identifier '$identifier'.")
         append(" ")
-        append("Please choose the identifier's value from the list of supported keys or names in ${enumClass.simpleName}.")
+        append("No matching value found in enum class '${enumClass.simpleName}'.")
         append(" ")
 
         // Get enum entries using reflection
@@ -22,8 +23,13 @@ class EnumNotFoundException(
         val keyed = entries.filterIsInstance<KeyedEnum>()
 
         if (keyed.isNotEmpty()) {
+            append("Please use one of the supported keys or names as an identifier.")
+            append(" ")
             append("Supported keys: [${keyed.joinToString(ITEM_SEPARATOR) { it.key }}].")
+        } else {
+            append("Please use one of the supported names as an identifier.")
         }
+
         append(" ")
         append("Supported names: [${entries.joinToString(ITEM_SEPARATOR) { it.name }}].")
     }

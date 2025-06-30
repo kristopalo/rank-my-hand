@@ -15,4 +15,20 @@ enum class CardRank(val key: String, val value: Int) {
     QUEEN(key = "Q", value = 12),
     KING(key = "K", value = 13),
     ACE(key = "A", value = 14);
+
+    companion object {
+        fun keys(): List<String> = entries
+            .filterNot { it == LOW_ACE }
+            .sortedByDescending { it.value }
+            .map { it.key }
+
+        fun containsKey(key: String): Boolean {
+            return keys().contains(key)
+        }
+
+        fun fromKeyOrThrow(key: String): CardRank {
+            return entries.filterNot { it == LOW_ACE }.find { it.key == key }
+                ?: throw IllegalArgumentException("Unable to find a matching card rank for key '$key'.")
+        }
+    }
 }

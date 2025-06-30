@@ -14,7 +14,6 @@ class SuitsController(
     private val suitService: SuitService
 ) {
 
-    @CrossOrigin(origins = [])
     @GetMapping()
     fun getAllSuits(): GetAllSuitsResponse = GetAllSuitsResponse(
         suits = suitService.getAllSuits()

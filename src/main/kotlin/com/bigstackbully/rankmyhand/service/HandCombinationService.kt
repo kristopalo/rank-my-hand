@@ -1,5 +1,6 @@
 package com.bigstackbully.rankmyhand.service
 
+import com.bigstackbully.rankmyhand.model.RankGroup
 import com.bigstackbully.rankmyhand.model.combination.FLUSH_HANDS
 import com.bigstackbully.rankmyhand.model.combination.FOUR_OF_A_KIND_HANDS
 import com.bigstackbully.rankmyhand.model.combination.FULL_HOUSE_HANDS
@@ -33,11 +34,20 @@ class HandCombinationService {
 
     fun getHandCombination(
         ranking: Ranking,
+        rankGroups: List<RankGroup>
+    ): HandCombination {
+        val shortNotation = rankGroups.joinToString(separator = "") { it.ranks.joinToString(separator = "") { it.key } }
+        return getHandCombination(ranking, shortNotation)
+    }
+
+    // TODO Kristo @ 30.06.2025 -> We should make this function private
+    fun getHandCombination(
+        ranking: Ranking,
         shortNotation: String
     ): HandCombination {
         val mapOfHandCombinations = getMapOfHandCombinations(ranking)
         return mapOfHandCombinations[shortNotation]
-            ?: throw IllegalArgumentException("No such key found in the map of hand combinations: $shortNotation")
+            ?: throw IllegalArgumentException("Hand ranking '${ranking.name}' (key = '${ranking.key}') does not have a hand combination of '$shortNotation'.")
     }
 
     fun getMapOfHandCombinations(ranking: Ranking): Map<String, HandCombination> {
