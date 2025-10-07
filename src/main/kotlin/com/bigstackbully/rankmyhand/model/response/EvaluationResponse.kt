@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.model.response
 
 import com.bigstackbully.rankmyhand.model.enums.Ranking
 
-data class HandEvaluationResponse(
+data class EvaluationResponse(
     val hand: String,
     val ranking: Ranking,
     val shortNotation: String,

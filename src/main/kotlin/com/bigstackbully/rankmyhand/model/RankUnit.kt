@@ -28,6 +28,10 @@ data class RankUnit(
     val standardNotation: String = cards.joinToString(separator = " ") { card -> card.standardNotation }
     val shortNotation: String = cards.joinToString(separator = "") { card -> card.rank.key }
 
+    val isFourOfAKind: Boolean = numberOfCards == 4
+    val isThreeOfAKind: Boolean = numberOfCards == 3
+    val isPair: Boolean = numberOfCards == 2
+
     override fun compareTo(other: RankUnit): Int {
         return compareByDescending<RankUnit> { it.numberOfCards }
             .thenByDescending { it.rank.value }

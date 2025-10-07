@@ -1,11 +1,10 @@
 package com.bigstackbully.rankmyhand.controller
 
-import com.bigstackbully.rankmyhand.model.request.HandEvaluationRequest
-import com.bigstackbully.rankmyhand.model.response.HandEvaluationResponse
+import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
+import com.bigstackbully.rankmyhand.model.response.EvaluationResponse
 import com.bigstackbully.rankmyhand.service.EvaluationRequestTransformer
 import com.bigstackbully.rankmyhand.service.EvaluationResultTransformer
 import com.bigstackbully.rankmyhand.service.EvaluatorService
-import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
@@ -19,10 +18,10 @@ class EvaluatorController(
     private val evaluationResultTransformer: EvaluationResultTransformer
 ) {
 
-    @PostMapping("/evaluate-hand")
-    fun evaluateHand(@RequestBody evalReq: HandEvaluationRequest): HandEvaluationResponse {
-        val evalHandCmd = evaluationRequestTransformer.toCommand(evaluateHandReq = evalReq)
-        val evalResult = evaluatorService.evaluate(evaluateHandCmd = evalHandCmd)
+    @PostMapping("/evaluate")
+    fun evaluateHand(@RequestBody evalReq: EvaluationRequest): EvaluationResponse {
+        val evaluationCmd = evaluationRequestTransformer.toCommand(evaluationReq = evalReq)
+        val evalResult = evaluatorService.evaluate(evaluateHandCmd = evaluationCmd)
         return evaluationResultTransformer.toResponse(evaluationResult = evalResult)
     }
 }

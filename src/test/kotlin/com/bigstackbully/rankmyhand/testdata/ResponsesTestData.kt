@@ -1,15 +1,15 @@
 package com.bigstackbully.rankmyhand.testdata
 
 import com.bigstackbully.rankmyhand.model.HandEvaluationResult
-import com.bigstackbully.rankmyhand.model.response.HandEvaluationResponse
+import com.bigstackbully.rankmyhand.model.response.EvaluationResponse
 
-fun composeHandEvaluationResponseForFullHouse(): HandEvaluationResponse {
+fun composeHandEvaluationResponseForFullHouse(): EvaluationResponse {
     return composeHandEvaluationResponse(
         handEvalResult = composeHandEvaluationResultForFullHouse()
     )
 }
 
-fun composeHandEvaluationResponse(handEvalResult: HandEvaluationResult) = HandEvaluationResponse(
+fun composeHandEvaluationResponse(handEvalResult: HandEvaluationResult) = EvaluationResponse(
     hand = handEvalResult.hand,
     ranking = handEvalResult.ranking,
     shortNotation = handEvalResult.shortNotation,

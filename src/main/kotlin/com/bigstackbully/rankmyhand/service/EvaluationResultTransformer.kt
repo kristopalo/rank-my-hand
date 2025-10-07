@@ -1,13 +1,13 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.HandEvaluationResult
-import com.bigstackbully.rankmyhand.model.response.HandEvaluationResponse
+import com.bigstackbully.rankmyhand.model.response.EvaluationResponse
 import org.springframework.stereotype.Service
 
 @Service
 class EvaluationResultTransformer {
 
-    fun toResponse(evaluationResult: HandEvaluationResult): HandEvaluationResponse = HandEvaluationResponse(
+    fun toResponse(evaluationResult: HandEvaluationResult): EvaluationResponse = EvaluationResponse(
         hand = evaluationResult.hand,
         ranking = evaluationResult.ranking,
         serializedValue = evaluationResult.serializedValue,

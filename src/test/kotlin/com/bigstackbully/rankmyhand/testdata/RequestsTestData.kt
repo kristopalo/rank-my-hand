@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.testdata
 
-import com.bigstackbully.rankmyhand.model.request.HandEvaluationRequest
+import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
 
-fun composeHandEvaluationRequestForFullHouse(): HandEvaluationRequest =
-    HandEvaluationRequest(hand = "As Ah Ad Ks Kh")
+fun composeHandEvaluationRequestForFullHouse(): EvaluationRequest =
+    EvaluationRequest(cards = "As Ah Ad Ks Kh")

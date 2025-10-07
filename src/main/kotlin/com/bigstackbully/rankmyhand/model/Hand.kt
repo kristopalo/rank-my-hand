@@ -32,11 +32,18 @@ data class Hand(
     val isSuited: Boolean = rankUnits.areSuited()
     val areCardsInConsecutiveDescOrder: Boolean = rankUnits.areInConsecutiveDescOrder()
 
+    val containsFourOfAKind: Boolean = containsRankUnitWithSize(4)
+    val containsThreeOfAKind: Boolean = containsRankUnitWithSize(3)
+    val containsTwoPairs: Boolean = rankUnits.count { it.isPair } == 2
+    val containsPair: Boolean = containsRankUnitWithSize(2)
+
+    fun containsRankUnitWithSize(size: Int) = rankUnits.any { it.numberOfCards == size }
+
     companion object {
         fun of(cards: List<PlayingCard>): Hand {
-            require(cards.size == 5) {
-                "A hand can only contain exactly 5 playing cards."
-            }
+//            require(cards.size == 5) {
+//                "A hand can only contain exactly 5 playing cards."
+//            }
 
             val normalizedCards = if (cards.areWheelStraight()) {
                 cards.map { card ->
