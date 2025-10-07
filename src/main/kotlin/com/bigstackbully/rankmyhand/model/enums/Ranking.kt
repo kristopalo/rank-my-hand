@@ -13,10 +13,10 @@ val isSuited = { hand: Hand -> hand.isSuited }
 val isStraight = { hand: Hand -> hand.areCardsInConsecutiveDescOrder }
 
 val isAceHigh: (Hand) -> Boolean = { hand -> hand.highestRank == CardRank.ACE }
-val hasFourOfAKind: (Hand) -> Boolean = { hand -> hand.containsFourOfAKind }
-val hasThreeOfAKind: (Hand) -> Boolean = { hand -> hand.containsThreeOfAKind }
-val hasTwoPairs: (Hand) -> Boolean = { hand -> hand.containsTwoPairs }
-val hasPair: (Hand) -> Boolean = { hand -> hand.containsPair }
+val hasFourOfAKind: (Hand) -> Boolean = { hand -> hand.hasFourOfAKind }
+val hasThreeOfAKind: (Hand) -> Boolean = { hand -> hand.hasThreeOfAKind }
+val hasTwoPairs: (Hand) -> Boolean = { hand -> hand.hasTwoPair }
+val hasPair: (Hand) -> Boolean = { hand -> hand.hasPair }
 
 enum class Ranking(
     val strength: Int,

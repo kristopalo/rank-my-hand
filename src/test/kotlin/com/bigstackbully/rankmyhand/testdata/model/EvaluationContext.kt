@@ -1,13 +1,13 @@
 package com.bigstackbully.rankmyhand.testdata.model
 
-import com.bigstackbully.rankmyhand.model.HandEvaluationResult
-import com.bigstackbully.rankmyhand.model.command.HandEvaluationCommand
+import com.bigstackbully.rankmyhand.model.EvaluationResult
+import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
 import com.bigstackbully.rankmyhand.model.response.EvaluationResponse
 
-data class HandEvaluationContext(
+data class EvaluationContext(
     val request: EvaluationRequest,
-    val command: HandEvaluationCommand,
-    val result: HandEvaluationResult,
+    val command: EvaluationCommand,
+    val result: EvaluationResult,
     val response: EvaluationResponse
 )

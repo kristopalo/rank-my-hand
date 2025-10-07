@@ -2,7 +2,6 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
-import com.bigstackbully.rankmyhand.model.command.HandEvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
 import com.bigstackbully.rankmyhand.service.utils.areUnique
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Service
 @Service
 class EvaluationRequestTransformer {
 
-    fun toCommand(evaluationReq: EvaluationRequest): HandEvaluationCommand {
+    fun toCommand(evaluationReq: EvaluationRequest): EvaluationCommand {
         val input = evaluationReq.cards
         val filteredInput = input.filter { it.isLetterOrDigit() }
 
@@ -35,27 +34,8 @@ class EvaluationRequestTransformer {
             throw IllegalArgumentException("At least one card must be provided.")
         }
 
-        val allPossibleHands = cards.allFiveCardHands()
-
         return EvaluationCommand(
-            hands = allPossibleHands
+            cards = cards
         )
-    }
-
-    fun List<PlayingCard>.allFiveCardHands() = combinations(5)
-        .map { cards -> Hand.of(cards) }
-
-    fun <PlayingCard> List<PlayingCard>.combinations(k: Int): Sequence<List<PlayingCard>> = sequence {
-        if (k == 0) {
-            yield(emptyList())
-        } else {
-            for (i in indices) {
-                val head = this@combinations[i]
-                val tail = drop(i + 1)
-                for (combo in tail.combinations(k - 1)) {
-                    yield(listOf(head) + combo)
-                }
-            }
-        }
     }
 }

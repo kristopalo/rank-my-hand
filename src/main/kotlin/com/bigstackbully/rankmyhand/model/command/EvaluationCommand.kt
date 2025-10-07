@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.model.command
 
-import com.bigstackbully.rankmyhand.model.Hand
+import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 
 data class EvaluationCommand(
-    val hands: List<Hand>
+    val cards: List<PlayingCard>
 )

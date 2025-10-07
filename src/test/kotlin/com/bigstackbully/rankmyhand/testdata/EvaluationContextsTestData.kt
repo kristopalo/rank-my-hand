@@ -1,10 +1,10 @@
 package com.bigstackbully.rankmyhand.testdata
 
-import com.bigstackbully.rankmyhand.testdata.model.HandEvaluationContext
+import com.bigstackbully.rankmyhand.testdata.model.EvaluationContext
 
-fun composeHandEvaluationContextForFullHouse(): HandEvaluationContext = HandEvaluationContext(
-    request = composeHandEvaluationRequestForFullHouse(),
-    command = composeHandEvaluationCommandForFullHouse(),
-    result = composeHandEvaluationResultForFullHouse(),
-    response = composeHandEvaluationResponseForFullHouse()
+fun composeHandEvaluationContextForFullHouse(): EvaluationContext = EvaluationContext(
+    request = composeEvaluationRequestForFullHouse(),
+    command = composeEvaluationCommandForFullHouse(),
+    result = composeEvaluationResultForFullHouse(),
+    response = composeEvaluationResponseForFullHouse()
 )

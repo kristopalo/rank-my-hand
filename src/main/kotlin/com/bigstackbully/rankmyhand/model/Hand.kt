@@ -12,8 +12,6 @@ import com.bigstackbully.rankmyhand.service.utils.serializedValue
 import com.bigstackbully.rankmyhand.service.utils.shortNotation
 import com.bigstackbully.rankmyhand.service.utils.standardNotation
 import java.util.SortedSet
-import kotlin.collections.component1
-import kotlin.collections.component2
 
 data class Hand(
     private val rankUnits: SortedSet<RankUnit> = sortedSetOf()
@@ -32,10 +30,10 @@ data class Hand(
     val isSuited: Boolean = rankUnits.areSuited()
     val areCardsInConsecutiveDescOrder: Boolean = rankUnits.areInConsecutiveDescOrder()
 
-    val containsFourOfAKind: Boolean = containsRankUnitWithSize(4)
-    val containsThreeOfAKind: Boolean = containsRankUnitWithSize(3)
-    val containsTwoPairs: Boolean = rankUnits.count { it.isPair } == 2
-    val containsPair: Boolean = containsRankUnitWithSize(2)
+    val hasFourOfAKind: Boolean = containsRankUnitWithSize(4)
+    val hasThreeOfAKind: Boolean = containsRankUnitWithSize(3)
+    val hasTwoPair: Boolean = rankUnits.count { it.isPair } == 2
+    val hasPair: Boolean = containsRankUnitWithSize(2)
 
     fun containsRankUnitWithSize(size: Int) = rankUnits.any { it.numberOfCards == size }
 

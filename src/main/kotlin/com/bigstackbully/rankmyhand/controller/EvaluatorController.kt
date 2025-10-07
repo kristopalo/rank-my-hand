@@ -20,8 +20,8 @@ class EvaluatorController(
 
     @PostMapping("/evaluate")
     fun evaluateHand(@RequestBody evalReq: EvaluationRequest): EvaluationResponse {
-        val evaluationCmd = evaluationRequestTransformer.toCommand(evaluationReq = evalReq)
-        val evalResult = evaluatorService.evaluate(evaluateHandCmd = evaluationCmd)
+        val evalCmd = evaluationRequestTransformer.toCommand(evaluationReq = evalReq)
+        val evalResult = evaluatorService.evaluate(evaluationCmd = evalCmd)
         return evaluationResultTransformer.toResponse(evaluationResult = evalResult)
     }
 }

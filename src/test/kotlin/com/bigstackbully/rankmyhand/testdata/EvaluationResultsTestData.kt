@@ -1,10 +1,10 @@
 package com.bigstackbully.rankmyhand.testdata
 
-import com.bigstackbully.rankmyhand.model.HandEvaluationResult
+import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.HandStrength
 import com.bigstackbully.rankmyhand.model.enums.Ranking.FULL_HOUSE
 
-fun composeHandEvaluationResultForFullHouse(): HandEvaluationResult = HandEvaluationResult(
+fun composeEvaluationResultForFullHouse(): EvaluationResult = EvaluationResult(
     hand = "As Ah Ad Ks Kh",
     ranking = FULL_HOUSE,
     serializedValue = "7-42-26",

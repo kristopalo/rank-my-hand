@@ -13,6 +13,7 @@ import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verifyOrder
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
+import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.post
@@ -47,13 +48,14 @@ class EvaluatorControllerTest : ShouldSpec({
         every { evaluationResultTransformer.toResponse(any()) } returns expResponse
 
         // act
-        val response = mockMvc.post("/api/evaluator/evaluate-hand") {
+        val response = mockMvc.post("/api/evaluator/evaluate") {
             contentType = MediaType.APPLICATION_JSON
             content = objectMapper.writeValueAsString(evalReq)
         }.andReturn().response
 
         // assert
-        response.status shouldBe 200
+        response.status shouldBe HttpStatus.OK.value()
+
         val parsedBody: EvaluationResponse = objectMapper.readValue(response.contentAsString)
         parsedBody shouldBe expResponse
 
