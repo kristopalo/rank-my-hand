@@ -161,7 +161,7 @@
       displayCards(hand);
 
       $.ajax({
-        url: 'http://localhost:8080/api/evaluator/evaluate-hand',
+        url: 'http://localhost:8080/api/evaluator/evaluate',
         method: 'POST',
         contentType: 'application/json',
         data: JSON.stringify({ hand }),

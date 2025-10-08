@@ -5,6 +5,11 @@ import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 
 fun List<PlayingCard>.areUnique(): Boolean = size == distinct().size
 
+fun List<PlayingCard>.areStraight(): Boolean {
+    val sortedRanks = map { it.rank.value }.sortedDescending()
+    return sortedRanks.zipWithNext().all { (a, b) -> a - 1 == b }
+}
+
 fun Collection<PlayingCard>.areWheelStraight(): Boolean {
     val ranks = map { it.rank }
     return size == 5 && ranks.containsAll(listOf(

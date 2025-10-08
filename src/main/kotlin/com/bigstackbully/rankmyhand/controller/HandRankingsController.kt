@@ -18,7 +18,7 @@ class HandRankingsController(
 ) {
 
     @GetMapping()
-    fun getAllHandRankings(): List<HandRankingDto> = rankingService.getAllRankingsSortedByStrengthDesc()
+    fun getAllHandRankings(): List<HandRankingDto> = rankingService.getAllRankingsSortedByStrengthInDescOrder()
         .map { hr -> HandRankingDto.of(hr) }
 
     @GetMapping("/{rankingId}")

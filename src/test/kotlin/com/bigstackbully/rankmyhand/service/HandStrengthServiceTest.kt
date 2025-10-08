@@ -2,15 +2,16 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.HandStrength
 import com.bigstackbully.rankmyhand.model.enums.Ranking.*
-import io.kotest.core.spec.style.ShouldSpec
 import io.kotest.matchers.shouldBe
+import org.junit.jupiter.api.Test
 
-class HandStrengthServiceTest() : ShouldSpec({
+class HandStrengthServiceTest {
 
     val handCombinationService = HandCombinationService()
     val handStrengthService = HandStrengthService(handCombinationService = handCombinationService)
 
-    context("calculate hand strengths for the strongest hands of each ranking") {
+    @Test
+    fun `should calculate hand strengths for strongest hands of each ranking`() {
         // arrange
         val testCases = mapOf(
             ROYAL_FLUSH to Pair("AKQJT", HandStrength(1, 1.0, 1, 1.0)),
@@ -29,20 +30,19 @@ class HandStrengthServiceTest() : ShouldSpec({
             // arrange
             val (shortNotation, expHandStrength) = rankingHandStrengthPair
 
-            should("correctly calculate hand strength -> ranking: '$ranking' | hand: '$shortNotation'") {
-                // act
-                val actHandStrength = handStrengthService.calculateHandStrength(
-                    ranking = ranking,
-                    shortNotation = shortNotation
-                )
+            // act
+            val actHandStrength = handStrengthService.calculateHandStrength(
+                ranking = ranking,
+                shortNotation = shortNotation
+            )
 
-                // assert
-                actHandStrength.shouldBe(expHandStrength)
-            }
+            // assert
+            actHandStrength.shouldBe(expHandStrength)
         }
     }
 
-    context("calculate hand strengths for the weakest hands of each ranking") {
+    @Test
+    fun `should calculate hand strengths for weakest hands of each ranking`() {
         // arrange
         val testCases = mapOf(
             ROYAL_FLUSH to Pair("AKQJT", HandStrength(1, 1.0, 1, 1.0)),
@@ -61,16 +61,15 @@ class HandStrengthServiceTest() : ShouldSpec({
             // arrange
             val (shortNotation, expHandStrength) = rankingHandStrengthPair
 
-            should("correctly calculate hand strength -> ranking: '$ranking' | hand: '$shortNotation'") {
-                // act
-                val actHandStrength = handStrengthService.calculateHandStrength(
-                    ranking = ranking,
-                    shortNotation = shortNotation
-                )
+            // act
+            val actHandStrength = handStrengthService.calculateHandStrength(
+                ranking = ranking,
+                shortNotation = shortNotation
+            )
 
-                // assert
-                actHandStrength.shouldBe(expHandStrength)
-            }
+            // assert
+            actHandStrength.shouldBe(expHandStrength)
+
         }
     }
-})
+}

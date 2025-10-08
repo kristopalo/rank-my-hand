@@ -2,21 +2,18 @@ package com.bigstackbully.rankmyhand.model.enums
 
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.enums.interfaces.KeyedEnum
-
-val hasFiveCards: (Hand) -> Boolean = { hand -> hand.cards.size == 5 }
-val hasAtLeastFourCards: (Hand) -> Boolean = { hand -> hand.cards.size >= 4 }
-val hasAtLeastThreeCards: (Hand) -> Boolean = { hand -> hand.cards.size >= 3 }
-val hasAtLeastTwoCards: (Hand) -> Boolean = { hand -> hand.cards.size >= 2 }
-val hasAtLeastOneCard: (Hand) -> Boolean = { hand -> hand.cards.isNotEmpty() }
-
-val isSuited = { hand: Hand -> hand.isSuited }
-val isStraight = { hand: Hand -> hand.areCardsInConsecutiveDescOrder }
-
-val isAceHigh: (Hand) -> Boolean = { hand -> hand.highestRank == CardRank.ACE }
-val hasFourOfAKind: (Hand) -> Boolean = { hand -> hand.hasFourOfAKind }
-val hasThreeOfAKind: (Hand) -> Boolean = { hand -> hand.hasThreeOfAKind }
-val hasTwoPairs: (Hand) -> Boolean = { hand -> hand.hasTwoPair }
-val hasPair: (Hand) -> Boolean = { hand -> hand.hasPair }
+import com.bigstackbully.rankmyhand.model.conditions.hasAtLeastFourCards
+import com.bigstackbully.rankmyhand.model.conditions.hasAtLeastOneCard
+import com.bigstackbully.rankmyhand.model.conditions.hasAtLeastThreeCards
+import com.bigstackbully.rankmyhand.model.conditions.hasAtLeastTwoCards
+import com.bigstackbully.rankmyhand.model.conditions.hasFiveCards
+import com.bigstackbully.rankmyhand.model.conditions.hasFourOfAKind
+import com.bigstackbully.rankmyhand.model.conditions.hasPair
+import com.bigstackbully.rankmyhand.model.conditions.hasThreeOfAKind
+import com.bigstackbully.rankmyhand.model.conditions.hasTwoPairs
+import com.bigstackbully.rankmyhand.model.conditions.isAceHigh
+import com.bigstackbully.rankmyhand.model.conditions.isStraight
+import com.bigstackbully.rankmyhand.model.conditions.isSuited
 
 enum class Ranking(
     val strength: Int,

@@ -7,35 +7,37 @@ import com.bigstackbully.rankmyhand.service.EvaluatorService
 import com.bigstackbully.rankmyhand.testdata.composeHandEvaluationContextForFullHouse
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import io.kotest.core.spec.style.ShouldSpec
+import com.ninjasquad.springmockk.MockkBean
 import io.kotest.matchers.shouldBe
 import io.mockk.every
-import io.mockk.mockk
 import io.mockk.verifyOrder
+import org.junit.jupiter.api.Test
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
 import org.springframework.http.HttpStatus
 import org.springframework.http.MediaType
 import org.springframework.test.web.servlet.MockMvc
 import org.springframework.test.web.servlet.post
-import org.springframework.test.web.servlet.setup.MockMvcBuilders
 
 @WebMvcTest(EvaluatorController::class)
-class EvaluatorControllerTest : ShouldSpec({
+class EvaluatorControllerTest {
 
-    val evaluationRequestTransformer = mockk<EvaluationRequestTransformer>()
-    val evaluatorService = mockk<EvaluatorService>()
-    val evaluationResultTransformer = mockk<EvaluationResultTransformer>()
+    @Autowired
+    lateinit var mockMvc: MockMvc
 
-    val controller = EvaluatorController(
-        evaluationRequestTransformer,
-        evaluatorService,
-        evaluationResultTransformer
-    )
+    @MockkBean
+    lateinit var evaluationRequestTransformer: EvaluationRequestTransformer
 
-    val mockMvc: MockMvc = MockMvcBuilders.standaloneSetup(controller).build()
+    @MockkBean
+    lateinit var evaluatorService: EvaluatorService
+
+    @MockkBean
+    lateinit var evaluationResultTransformer: EvaluationResultTransformer
+
     val objectMapper = jacksonObjectMapper()
 
-    context("try to evaluate hand 'Ks Kh Kd Ac As'") {
+    @Test
+    fun `try to evaluate hand 'Ks Kh Kd Ac As'`() {
         // arrange
         val evalContext = composeHandEvaluationContextForFullHouse()
         val evalReq = evalContext.request
@@ -65,4 +67,4 @@ class EvaluatorControllerTest : ShouldSpec({
             evaluationResultTransformer.toResponse(evalResult)
         }
     }
-})
+}

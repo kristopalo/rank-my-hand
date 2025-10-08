@@ -21,7 +21,8 @@ class EvaluatorService(
     }
 
     fun evaluate(hand: Hand): EvaluationResult {
-        val ranking = rankingService.determineRanking(hand)
+        val ranking = rankingService.evaluateRanking(hand)
+
         val standardNotation = hand.standardNotation
         val rankingWithSerializedValue = "${ranking.strength}-${hand.serializedValue}"
         val shortNotation = hand.shortNotation
