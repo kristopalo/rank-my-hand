@@ -14,8 +14,9 @@ class RankingService {
 
     fun getRankingByKey(key: String): Ranking? = getAllRankings().firstOrNull { it.key.equals(key, ignoreCase = true) }
 
-    fun getRankingByName(name: String): Ranking? =
-        getAllRankings().firstOrNull { it.name.equals(name, ignoreCase = true) }
+    fun getRankingByName(name: String): Ranking? = getAllRankings().firstOrNull {
+        it.name.equals(name, ignoreCase = true)
+    }
 
     fun getRankingByKeyOrName(identifier: String): Ranking = getRankingByKey(identifier) ?: getRankingByName(identifier)
     ?: throw EnumNotFoundException(identifier = identifier, enumClass = Ranking::class)

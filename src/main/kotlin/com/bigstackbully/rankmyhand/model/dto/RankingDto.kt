@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.model.dto
 
 import com.bigstackbully.rankmyhand.model.enums.Ranking
 
-data class HandRankingDto(
+data class RankingDto(
     val key: String,
     val name: String,
     val displayName: String,
@@ -10,9 +10,9 @@ data class HandRankingDto(
 ) {
 
     companion object {
-        fun of(handRanking: Ranking): HandRankingDto {
+        fun of(handRanking: Ranking): RankingDto {
             return with(handRanking) {
-                HandRankingDto(
+                RankingDto(
                     key = key,
                     name = name,
                     displayName = displayName,

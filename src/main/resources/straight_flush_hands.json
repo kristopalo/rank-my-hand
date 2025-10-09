@@ -1,6 +1,7 @@
 {
-  "KQJT9": {
-    "hand": "KQJT9",
+  "KQJT9s": {
+    "hand": "KQJT9s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 2,
     "absoluteStrength": 0.999866,
@@ -22,8 +23,9 @@
       0
     ]
   },
-  "QJT98": {
-    "hand": "QJT98",
+  "QJT98s": {
+    "hand": "QJT98s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 3,
     "absoluteStrength": 0.999732,
@@ -45,8 +47,9 @@
       0
     ]
   },
-  "JT987": {
-    "hand": "JT987",
+  "JT987s": {
+    "hand": "JT987s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 4,
     "absoluteStrength": 0.999598,
@@ -68,8 +71,9 @@
       0
     ]
   },
-  "T9876": {
-    "hand": "T9876",
+  "T9876s": {
+    "hand": "T9876s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 5,
     "absoluteStrength": 0.999464,
@@ -91,8 +95,9 @@
       0
     ]
   },
-  "98765": {
-    "hand": 98765,
+  "98765s": {
+    "hand": "98765s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 6,
     "absoluteStrength": 0.99933,
@@ -114,8 +119,9 @@
       0
     ]
   },
-  "87654": {
-    "hand": 87654,
+  "87654s": {
+    "hand": "87654s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 7,
     "absoluteStrength": 0.999196,
@@ -137,8 +143,9 @@
       0
     ]
   },
-  "76543": {
-    "hand": 76543,
+  "76543s": {
+    "hand": "76543s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 8,
     "absoluteStrength": 0.999062,
@@ -160,8 +167,9 @@
       0
     ]
   },
-  "65432": {
-    "hand": 65432,
+  "65432s": {
+    "hand": "65432s",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 9,
     "absoluteStrength": 0.998928,
@@ -183,8 +191,9 @@
       0
     ]
   },
-  "5432A": {
-    "hand": "5432A",
+  "5432As": {
+    "hand": "5432As",
+    "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 10,
     "absoluteStrength": 0.998794,

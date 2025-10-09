@@ -1,6 +1,7 @@
 {
-  "AKQJT": {
-    "hand": "AKQJT",
+  "AKQJTo": {
+    "hand": "AKQJTo",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1600,
     "absoluteStrength": 0.785714,
@@ -22,8 +23,9 @@
       1
     ]
   },
-  "KQJT9": {
-    "hand": "KQJT9",
+  "KQJT9o": {
+    "hand": "KQJT9o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1601,
     "absoluteStrength": 0.78558,
@@ -45,8 +47,9 @@
       0
     ]
   },
-  "QJT98": {
-    "hand": "QJT98",
+  "QJT98o": {
+    "hand": "QJT98o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1602,
     "absoluteStrength": 0.785446,
@@ -68,8 +71,9 @@
       0
     ]
   },
-  "JT987": {
-    "hand": "JT987",
+  "JT987o": {
+    "hand": "JT987o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1603,
     "absoluteStrength": 0.785312,
@@ -91,8 +95,9 @@
       0
     ]
   },
-  "T9876": {
-    "hand": "T9876",
+  "T9876o": {
+    "hand": "T9876o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1604,
     "absoluteStrength": 0.785178,
@@ -114,8 +119,9 @@
       0
     ]
   },
-  "98765": {
-    "hand": "98765",
+  "98765o": {
+    "hand": "98765o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1605,
     "absoluteStrength": 0.785044,
@@ -137,8 +143,9 @@
       0
     ]
   },
-  "87654": {
-    "hand": "87654",
+  "87654o": {
+    "hand": "87654o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1606,
     "absoluteStrength": 0.78491,
@@ -160,8 +167,9 @@
       0
     ]
   },
-  "76543": {
-    "hand": "76543",
+  "76543o": {
+    "hand": "76543o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1607,
     "absoluteStrength": 0.784776,
@@ -183,8 +191,9 @@
       0
     ]
   },
-  "65432": {
-    "hand": "65432",
+  "65432o": {
+    "hand": "65432o",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1608,
     "absoluteStrength": 0.784642,
@@ -206,8 +215,9 @@
       0
     ]
   },
-  "5432A": {
-    "hand": "5432A",
+  "5432Ao": {
+    "hand": "5432Ao",
+    "isSuited": false,
     "ranking": "STRAIGHT",
     "absolutePosition": 1609,
     "absoluteStrength": 0.784508,

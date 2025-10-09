@@ -26,7 +26,14 @@ import com.bigstackbully.rankmyhand.model.enums.Ranking.TWO_PAIR
 import org.springframework.stereotype.Service
 
 @Service
-class HandCombinationService {
+class HandCombinationService(
+    private val rankingService: RankingService
+) {
+
+    fun getAllHandCombinations(): List<HandCombination> {
+        val allRankings = rankingService.getAllRankings()
+        return allRankings.flatMap { ranking -> getAllHandCombinationsForRanking(ranking) }
+    }
 
     fun getAllHandCombinationsForRanking(
         ranking: Ranking

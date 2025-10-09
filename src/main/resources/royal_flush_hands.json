@@ -1,6 +1,7 @@
 {
-  "AKQJT": {
-    "hand": "AKQJT",
+  "AKQJTs": {
+    "hand": "AKQJTs",
+    "isSuited": true,
     "ranking": "ROYAL_FLUSH",
     "absolutePosition": 1,
     "absoluteStrength": 1.0,

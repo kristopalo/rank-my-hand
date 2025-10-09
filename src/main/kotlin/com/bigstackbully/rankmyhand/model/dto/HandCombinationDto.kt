@@ -5,7 +5,8 @@ import kotlin.Int
 
 data class HandCombinationDto(
     val hand: String,
-    val handRanking: String,
+    val isSuited: Boolean,
+    val ranking: String,
     val absolutePosition: Int,
     val absoluteStrength: Double,
     val relativePosition: Int,
@@ -16,7 +17,8 @@ data class HandCombinationDto(
             return with(handCombination) {
                 HandCombinationDto(
                     hand = hand,
-                    handRanking = ranking.name,
+                    isSuited = isSuited,
+                    ranking = ranking.name,
                     absolutePosition = absolutePosition,
                     absoluteStrength = absoluteStrength,
                     relativePosition = relativePosition,

@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.controller
 
 import com.bigstackbully.rankmyhand.model.RankGroup
 import com.bigstackbully.rankmyhand.model.dto.HandCombinationDto
-import com.bigstackbully.rankmyhand.model.dto.HandRankingDto
+import com.bigstackbully.rankmyhand.model.dto.RankingDto
 import com.bigstackbully.rankmyhand.model.enums.CardRank
 import com.bigstackbully.rankmyhand.model.exception.ITEM_SEPARATOR
 import com.bigstackbully.rankmyhand.service.HandCombinationService
@@ -11,31 +11,31 @@ import org.springframework.web.bind.annotation.*
 
 
 @RestController
-@RequestMapping("/api/hand-rankings")
-class HandRankingsController(
+@RequestMapping("/api/rankings")
+class RankingsController(
     private val rankingService: RankingService,
     private val handCombinationService: HandCombinationService
 ) {
 
     @GetMapping()
-    fun getAllHandRankings(): List<HandRankingDto> = rankingService.getAllRankingsSortedByStrengthInDescOrder()
-        .map { hr -> HandRankingDto.of(hr) }
+    fun getAllRankings(): List<RankingDto> = rankingService.getAllRankingsSortedByStrengthInDescOrder()
+        .map { hr -> RankingDto.of(hr) }
 
     @GetMapping("/{rankingId}")
-    fun getHandRankingByKeyOrName(@PathVariable rankingId: String): HandRankingDto {
-        val handRanking = rankingService.getRankingByKeyOrName(rankingId)
-        return HandRankingDto.of(handRanking)
+    fun getRankingByKeyOrName(@PathVariable rankingId: String): RankingDto {
+        val ranking = rankingService.getRankingByKeyOrName(rankingId)
+        return RankingDto.of(ranking)
     }
 
     @GetMapping("/{rankingId}/hand-combinations")
-    fun getAllHandCombinations(@PathVariable rankingId: String): List<HandCombinationDto> {
-        val handRanking = rankingService.getRankingByKeyOrName(rankingId)
-        return handCombinationService.getAllHandCombinationsForRanking(ranking = handRanking)
+    fun getAllHandCombinationsForRanking(@PathVariable rankingId: String): List<HandCombinationDto> {
+        val ranking = rankingService.getRankingByKeyOrName(rankingId)
+        return handCombinationService.getAllHandCombinationsForRanking(ranking = ranking)
             .map { hr -> HandCombinationDto.of(hr) }
     }
 
     @GetMapping("/{rankingId}/hand-combinations/{shortNotation}")
-    fun getAllHandCombinations(
+    fun getHandCombination(
         @PathVariable rankingId: String,
         @PathVariable shortNotation: String
     ): HandCombinationDto {
@@ -63,9 +63,9 @@ class HandRankingsController(
                     .thenByDescending { it.totalValue }
             )
 
-        val handRanking = rankingService.getRankingByKeyOrName(rankingId)
+        val ranking = rankingService.getRankingByKeyOrName(rankingId)
         val handCombination = handCombinationService.getHandCombination(
-            ranking = handRanking,
+            ranking = ranking,
             rankGroups = rankGroups
         )
 
