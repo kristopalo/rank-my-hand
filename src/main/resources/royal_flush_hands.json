@@ -5,6 +5,21 @@
     "absolutePosition": 1,
     "absoluteStrength": 1.0,
     "relativePosition": 1,
-    "relativeStrength": 1.0
+    "relativeStrength": 1.0,
+    "rankCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
   }
 }

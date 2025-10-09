@@ -5,7 +5,22 @@
     "absolutePosition": 1600,
     "absoluteStrength": 0.785714,
     "relativePosition": 1,
-    "relativeStrength": 1.0
+    "relativeStrength": 1.0,
+    "rankCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
   },
   "KQJT9": {
     "hand": "KQJT9",
@@ -13,7 +28,22 @@
     "absolutePosition": 1601,
     "absoluteStrength": 0.78558,
     "relativePosition": 2,
-    "relativeStrength": 0.9
+    "relativeStrength": 0.9,
+    "rankCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
   },
   "QJT98": {
     "hand": "QJT98",
@@ -21,7 +51,22 @@
     "absolutePosition": 1602,
     "absoluteStrength": 0.785446,
     "relativePosition": 3,
-    "relativeStrength": 0.8
+    "relativeStrength": 0.8,
+    "rankCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
   },
   "JT987": {
     "hand": "JT987",
@@ -29,7 +74,22 @@
     "absolutePosition": 1603,
     "absoluteStrength": 0.785312,
     "relativePosition": 4,
-    "relativeStrength": 0.7
+    "relativeStrength": 0.7,
+    "rankCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
   },
   "T9876": {
     "hand": "T9876",
@@ -37,7 +97,22 @@
     "absolutePosition": 1604,
     "absoluteStrength": 0.785178,
     "relativePosition": 5,
-    "relativeStrength": 0.6
+    "relativeStrength": 0.6,
+    "rankCounts": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "98765": {
     "hand": "98765",
@@ -45,7 +120,22 @@
     "absolutePosition": 1605,
     "absoluteStrength": 0.785044,
     "relativePosition": 6,
-    "relativeStrength": 0.5
+    "relativeStrength": 0.5,
+    "rankCounts": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "87654": {
     "hand": "87654",
@@ -53,7 +143,22 @@
     "absolutePosition": 1606,
     "absoluteStrength": 0.78491,
     "relativePosition": 7,
-    "relativeStrength": 0.4
+    "relativeStrength": 0.4,
+    "rankCounts": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "76543": {
     "hand": "76543",
@@ -61,7 +166,22 @@
     "absolutePosition": 1607,
     "absoluteStrength": 0.784776,
     "relativePosition": 8,
-    "relativeStrength": 0.3
+    "relativeStrength": 0.3,
+    "rankCounts": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "65432": {
     "hand": "65432",
@@ -69,7 +189,22 @@
     "absolutePosition": 1608,
     "absoluteStrength": 0.784642,
     "relativePosition": 9,
-    "relativeStrength": 0.2
+    "relativeStrength": 0.2,
+    "rankCounts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "5432A": {
     "hand": "5432A",
@@ -77,6 +212,21 @@
     "absolutePosition": 1609,
     "absoluteStrength": 0.784508,
     "relativePosition": 10,
-    "relativeStrength": 0.1
+    "relativeStrength": 0.1,
+    "rankCounts": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
   }
 }
