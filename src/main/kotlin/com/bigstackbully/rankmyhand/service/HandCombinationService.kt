@@ -43,18 +43,27 @@ class HandCombinationService(
         ranking: Ranking,
         rankGroups: List<RankGroup>
     ): HandCombination {
-        val shortNotation = rankGroups.joinToString(separator = "") { it.ranks.joinToString(separator = "") { it.key } }
-        return getHandCombination(ranking, shortNotation)
+        val suitSuffix = if (ranking in listOf(FLUSH, STRAIGHT_FLUSH, ROYAL_FLUSH)) {
+            "s"
+        } else {
+            "o"
+        }
+
+        val shorthandNotation = rankGroups.joinToString(separator = "") {
+            it.ranks.joinToString(separator = "") { rank -> rank.key }
+        } + suitSuffix
+
+        return getHandCombination(ranking, shorthandNotation)
     }
 
     // TODO Kristo @ 30.06.2025 -> We should make this function private
     fun getHandCombination(
         ranking: Ranking,
-        shortNotation: String
+        shorthandNotation: String
     ): HandCombination {
         val mapOfHandCombinations = getMapOfHandCombinations(ranking)
-        return mapOfHandCombinations[shortNotation]
-            ?: throw IllegalArgumentException("Hand ranking '${ranking.name}' (key = '${ranking.key}') does not have a hand combination of '$shortNotation'.")
+        return mapOfHandCombinations[shorthandNotation]
+            ?: throw IllegalArgumentException("Hand ranking '${ranking.name}' (key = '${ranking.key}') does not have a hand combination of '$shorthandNotation'.")
     }
 
     fun getMapOfHandCombinations(ranking: Ranking): Map<String, HandCombination> {

@@ -25,18 +25,18 @@ class EvaluatorService(
 
         val standardNotation = hand.standardNotation
         val rankingWithSerializedValue = "${ranking.strength}-${hand.serializedValue}"
-        val shortNotation = hand.shortNotation
+        val shorthandNotation = hand.shorthandNotation
 
         val handStrength = handStrengthService.calculateHandStrength(
             ranking = ranking,
-            shortNotation = shortNotation
+            shorthandNotation = shorthandNotation,
         )
 
         return EvaluationResult(
             hand = standardNotation,
             ranking = ranking,
             serializedValue = rankingWithSerializedValue,
-            shortNotation = shortNotation,
+            shortNotation = shorthandNotation,
             handStrength = handStrength
         )
     }

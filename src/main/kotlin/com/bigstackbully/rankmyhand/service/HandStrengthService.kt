@@ -11,11 +11,11 @@ class HandStrengthService(
 
     fun calculateHandStrength(
         ranking: Ranking,
-        shortNotation: String
+        shorthandNotation: String
     ): HandStrength {
         val handCombination = handCombinationService.getHandCombination(
             ranking = ranking,
-            shortNotation = shortNotation
+            shorthandNotation = shorthandNotation
         )
 
         return with(handCombination) {

@@ -32,6 +32,7 @@ data class Hand(
 
     val standardNotation: String = rankUnits.standardNotation()
     val shortNotation: String = rankUnits.shortNotation()
+    val shorthandNotation: String = shortNotation + if (isSuited) "s" else "o"
     val serializedValue: String = rankUnits.serializedValue()
 
     override fun toString(): String {

@@ -39,18 +39,20 @@ class RankingsController(
         @PathVariable rankingId: String,
         @PathVariable shortNotation: String
     ): HandCombinationDto {
-        val shortNotationFormatted = shortNotation.trim().uppercase()
+        val shorthandFormatted = shortNotation.trim().uppercase()
 
-        require(shortNotationFormatted.length == 5) {
+        require(shorthandFormatted.length == 5) {
             "Path parameter 'shortNotation' must contain exactly 5 characters."
         }
 
-        val (validRankKeys, invalidRankKeys) = shortNotationFormatted
+        val (validRankKeys, invalidRankKeys) = shorthandFormatted
             .map { key -> key.toString() }
             .partition { CardRank.containsKey(it) }
 
         require(invalidRankKeys.isEmpty()) {
-            "Found invalid rank keys in the 'shortNotation' path parameter: [${invalidRankKeys.joinToString(separator = ITEM_SEPARATOR)}]. Supported keys: [${CardRank.keys().joinToString(separator = ITEM_SEPARATOR)}]."
+            "Found invalid rank keys in the 'shortNotation' path parameter: [${invalidRankKeys.joinToString(separator = ITEM_SEPARATOR)}]. Supported keys: [${
+                CardRank.keys().joinToString(separator = ITEM_SEPARATOR)
+            }]."
         }
 
         // TODO Kristo @ 30.06.2025 -> Normalize the shortNotation
@@ -64,6 +66,7 @@ class RankingsController(
             )
 
         val ranking = rankingService.getRankingByKeyOrName(rankingId)
+
         val handCombination = handCombinationService.getHandCombination(
             ranking = ranking,
             rankGroups = rankGroups
