@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.model.enums
 
-enum class CardRank(val key: String, val value: Int) {
+enum class Rank(val key: String, val value: Int) {
     LOW_ACE(key = "A", value = 1),
     TWO(key = "2", value = 2),
     THREE(key = "3", value = 3),
@@ -26,9 +26,15 @@ enum class CardRank(val key: String, val value: Int) {
             return keys().contains(key)
         }
 
-        fun fromKeyOrThrow(key: String): CardRank {
+        fun fromKeyOrThrow(key: String): Rank {
             return entries.filterNot { it == LOW_ACE }.find { it.key == key }
                 ?: throw IllegalArgumentException("Unable to find a matching card rank for key '$key'.")
         }
+
+        val sortByRankCountThenByRankValueComparator: Comparator<Map.Entry<Rank, List<Rank>>> =
+            compareByDescending<Map.Entry<Rank, List<Rank>>> { it.value.size }
+                .thenByDescending { it.key.value }
     }
+
+    override fun toString() = key
 }

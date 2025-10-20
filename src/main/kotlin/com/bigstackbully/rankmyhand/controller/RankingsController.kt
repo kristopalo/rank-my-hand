@@ -1,12 +1,13 @@
 package com.bigstackbully.rankmyhand.controller
 
-import com.bigstackbully.rankmyhand.model.RankGroup
 import com.bigstackbully.rankmyhand.model.dto.HandCombinationDto
 import com.bigstackbully.rankmyhand.model.dto.RankingDto
-import com.bigstackbully.rankmyhand.model.enums.CardRank
+import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.exception.ITEM_SEPARATOR
+import com.bigstackbully.rankmyhand.model.notation.RankNotation
 import com.bigstackbully.rankmyhand.service.HandCombinationService
 import com.bigstackbully.rankmyhand.service.RankingService
+import com.bigstackbully.rankmyhand.utils.EMPTY_STRING
 import org.springframework.web.bind.annotation.*
 
 
@@ -34,42 +35,36 @@ class RankingsController(
             .map { hr -> HandCombinationDto.of(hr) }
     }
 
-    @GetMapping("/{rankingId}/hand-combinations/{shortNotation}")
+    @GetMapping("/{rankingId}/hand-combinations/{rankNotation}")
     fun getHandCombination(
         @PathVariable rankingId: String,
-        @PathVariable shortNotation: String
+        @PathVariable rankNotation: String
     ): HandCombinationDto {
-        val shorthandFormatted = shortNotation.trim().uppercase()
+        val rankNtFormatted = rankNotation.trim().uppercase()
 
-        require(shorthandFormatted.length == 5) {
-            "Path parameter 'shortNotation' must contain exactly 5 characters."
+        require(rankNtFormatted.length == 5) {
+            "Path parameter 'rankNotation' must contain exactly 5 characters."
         }
 
-        val (validRankKeys, invalidRankKeys) = shorthandFormatted
+        val (validRankKeys, invalidRankKeys) = rankNtFormatted
             .map { key -> key.toString() }
-            .partition { CardRank.containsKey(it) }
+            .partition { Rank.containsKey(it) }
 
         require(invalidRankKeys.isEmpty()) {
-            "Found invalid rank keys in the 'shortNotation' path parameter: [${invalidRankKeys.joinToString(separator = ITEM_SEPARATOR)}]. Supported keys: [${
-                CardRank.keys().joinToString(separator = ITEM_SEPARATOR)
+            "Found invalid rank keys in the 'rankNotation' path parameter: [${invalidRankKeys.joinToString(separator = ITEM_SEPARATOR)}]. Supported values are: [${
+                Rank.keys().joinToString(separator = ITEM_SEPARATOR)
             }]."
         }
 
-        // TODO Kristo @ 30.06.2025 -> Normalize the shortNotation
-        val rankGroups = validRankKeys
-            .map { key -> CardRank.fromKeyOrThrow(key) }
-            .groupBy { it }
-            .map { (_, ranks) -> RankGroup(ranks = ranks) }
-            .sortedWith(
-                compareByDescending<RankGroup> { it.groupSize }
-                    .thenByDescending { it.totalValue }
-            )
+        val validRanksFormatted = validRankKeys.joinToString(separator = EMPTY_STRING)
 
+        // TODO Kristo @ 30.06.2025 -> Normalize the shortNotation
+        val rankNt = RankNotation.from(validRanksFormatted)
         val ranking = rankingService.getRankingByKeyOrName(rankingId)
 
         val handCombination = handCombinationService.getHandCombination(
             ranking = ranking,
-            rankGroups = rankGroups
+            rankNotation = rankNt
         )
 
         return HandCombinationDto.of(handCombination)

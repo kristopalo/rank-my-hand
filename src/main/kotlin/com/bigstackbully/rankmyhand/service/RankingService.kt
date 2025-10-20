@@ -10,6 +10,8 @@ class RankingService {
 
     fun getAllRankings() = Ranking.entries
 
+    fun getAllRankingsSortedByStrengthInAscOrder() = getAllRankings().sortedBy { it.strength }
+
     fun getAllRankingsSortedByStrengthInDescOrder() = getAllRankings().sortedByDescending { it.strength }
 
     fun getRankingByKey(key: String): Ranking? = getAllRankings().firstOrNull { it.key.equals(key, ignoreCase = true) }

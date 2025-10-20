@@ -1,8 +1,10 @@
 package com.bigstackbully.rankmyhand.model
 
-import com.bigstackbully.rankmyhand.model.enums.CardRank
+import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.enums.Suit
+import com.bigstackbully.rankmyhand.utils.EMPTY_STRING
+import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
 
 data class RankUnit(
     val cards: Set<PlayingCard> = setOf()
@@ -21,16 +23,17 @@ data class RankUnit(
         }
     }
 
-    val rank: CardRank = cards.first().rank
+    val rank: Rank = cards.first().rank
     val suits: List<Suit> = cards.map { card -> card.suit }
     val numberOfCards: Int = cards.size
     val totalValue: Int = cards.sumOf { card -> card.rank.value }
-    val standardNotation: String = cards.joinToString(separator = " ") { card -> card.standardNotation }
-    val shortNotation: String = cards.joinToString(separator = "") { card -> card.rank.key }
 
     val isFourOfAKind: Boolean = numberOfCards == 4
     val isThreeOfAKind: Boolean = numberOfCards == 3
     val isPair: Boolean = numberOfCards == 2
+
+    val rankNotation: String = cards.joinToString(separator = EMPTY_STRING) { it.rank.key }
+    val standardNotation: String = cards.joinToString(separator = SINGLE_SPACE) { it.standardNotation }
 
     override fun compareTo(other: RankUnit): Int {
         return compareByDescending<RankUnit> { it.numberOfCards }

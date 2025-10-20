@@ -1,6 +1,6 @@
 {
-  "KQJT9s": {
-    "hand": "KQJT9s",
+  "KQJT9": {
+    "hand": "KQJT9",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 2,
@@ -23,8 +23,8 @@
       0
     ]
   },
-  "QJT98s": {
-    "hand": "QJT98s",
+  "QJT98": {
+    "hand": "QJT98",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 3,
@@ -47,8 +47,8 @@
       0
     ]
   },
-  "JT987s": {
-    "hand": "JT987s",
+  "JT987": {
+    "hand": "JT987",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 4,
@@ -71,8 +71,8 @@
       0
     ]
   },
-  "T9876s": {
-    "hand": "T9876s",
+  "T9876": {
+    "hand": "T9876",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 5,
@@ -95,8 +95,8 @@
       0
     ]
   },
-  "98765s": {
-    "hand": "98765s",
+  "98765": {
+    "hand": "98765",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 6,
@@ -119,8 +119,8 @@
       0
     ]
   },
-  "87654s": {
-    "hand": "87654s",
+  "87654": {
+    "hand": "87654",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 7,
@@ -143,8 +143,8 @@
       0
     ]
   },
-  "76543s": {
-    "hand": "76543s",
+  "76543": {
+    "hand": "76543",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 8,
@@ -167,8 +167,8 @@
       0
     ]
   },
-  "65432s": {
-    "hand": "65432s",
+  "65432": {
+    "hand": "65432",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 9,
@@ -191,8 +191,8 @@
       0
     ]
   },
-  "5432As": {
-    "hand": "5432As",
+  "5432A": {
+    "hand": "5432A",
     "isSuited": true,
     "ranking": "STRAIGHT_FLUSH",
     "absolutePosition": 10,

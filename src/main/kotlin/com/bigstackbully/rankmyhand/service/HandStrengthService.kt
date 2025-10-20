@@ -2,6 +2,7 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.HandStrength
 import com.bigstackbully.rankmyhand.model.enums.Ranking
+import com.bigstackbully.rankmyhand.model.notation.RankNotation
 import org.springframework.stereotype.Service
 
 @Service
@@ -11,11 +12,14 @@ class HandStrengthService(
 
     fun calculateHandStrength(
         ranking: Ranking,
-        shorthandNotation: String
+        rankNotation: RankNotation
     ): HandStrength {
+        // TODO Kristo @ 09.10.2025 -> If shorthand is still a draw (cards.size < 5), then do the following:
+        // TODO ...find the worst possible hand combination
+
         val handCombination = handCombinationService.getHandCombination(
             ranking = ranking,
-            shorthandNotation = shorthandNotation
+            rankNotation = rankNotation
         )
 
         return with(handCombination) {

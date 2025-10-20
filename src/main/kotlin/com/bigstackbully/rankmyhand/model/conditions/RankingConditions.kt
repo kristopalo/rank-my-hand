@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.model.conditions
 
 import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.enums.CardRank
+import com.bigstackbully.rankmyhand.model.enums.Rank
 
 val hasFiveCards: (Hand) -> Boolean = { hand -> hand.cards.size == 5 }
 val hasAtLeastFourCards: (Hand) -> Boolean = { hand -> hand.cards.size >= 4 }
@@ -12,7 +12,7 @@ val hasAtLeastOneCard: (Hand) -> Boolean = { hand -> hand.cards.isNotEmpty() }
 val isSuited = { hand: Hand -> hand.isSuited }
 val isStraight = { hand: Hand -> hand.areCardsInConsecutiveDescOrder }
 
-val isAceHigh: (Hand) -> Boolean = { hand -> hand.highestRank == CardRank.ACE }
+val isAceHigh: (Hand) -> Boolean = { hand -> hand.highestRank == Rank.ACE }
 val hasFourOfAKind: (Hand) -> Boolean = { hand -> hand.hasFourOfAKind }
 val hasThreeOfAKind: (Hand) -> Boolean = { hand -> hand.hasThreeOfAKind }
 val hasTwoPairs: (Hand) -> Boolean = { hand -> hand.hasTwoPairs }

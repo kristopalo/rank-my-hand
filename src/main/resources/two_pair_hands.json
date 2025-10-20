@@ -1,6 +1,6 @@
 {
-  "AAKKQo": {
-    "hand": "AAKKQo",
+  "AAKKQ": {
+    "hand": "AAKKQ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2468,
@@ -23,8 +23,8 @@
       2
     ]
   },
-  "AAKKJo": {
-    "hand": "AAKKJo",
+  "AAKKJ": {
+    "hand": "AAKKJ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2469,
@@ -47,8 +47,8 @@
       2
     ]
   },
-  "AAKKTo": {
-    "hand": "AAKKTo",
+  "AAKKT": {
+    "hand": "AAKKT",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2470,
@@ -71,8 +71,8 @@
       2
     ]
   },
-  "AAKK9o": {
-    "hand": "AAKK9o",
+  "AAKK9": {
+    "hand": "AAKK9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2471,
@@ -95,8 +95,8 @@
       2
     ]
   },
-  "AAKK8o": {
-    "hand": "AAKK8o",
+  "AAKK8": {
+    "hand": "AAKK8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2472,
@@ -119,8 +119,8 @@
       2
     ]
   },
-  "AAKK7o": {
-    "hand": "AAKK7o",
+  "AAKK7": {
+    "hand": "AAKK7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2473,
@@ -143,8 +143,8 @@
       2
     ]
   },
-  "AAKK6o": {
-    "hand": "AAKK6o",
+  "AAKK6": {
+    "hand": "AAKK6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2474,
@@ -167,8 +167,8 @@
       2
     ]
   },
-  "AAKK5o": {
-    "hand": "AAKK5o",
+  "AAKK5": {
+    "hand": "AAKK5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2475,
@@ -191,8 +191,8 @@
       2
     ]
   },
-  "AAKK4o": {
-    "hand": "AAKK4o",
+  "AAKK4": {
+    "hand": "AAKK4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2476,
@@ -215,8 +215,8 @@
       2
     ]
   },
-  "AAKK3o": {
-    "hand": "AAKK3o",
+  "AAKK3": {
+    "hand": "AAKK3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2477,
@@ -239,8 +239,8 @@
       2
     ]
   },
-  "AAKK2o": {
-    "hand": "AAKK2o",
+  "AAKK2": {
+    "hand": "AAKK2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2478,
@@ -263,8 +263,8 @@
       2
     ]
   },
-  "AAQQKo": {
-    "hand": "AAQQKo",
+  "AAQQK": {
+    "hand": "AAQQK",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2479,
@@ -287,8 +287,8 @@
       2
     ]
   },
-  "AAQQJo": {
-    "hand": "AAQQJo",
+  "AAQQJ": {
+    "hand": "AAQQJ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2480,
@@ -311,8 +311,8 @@
       2
     ]
   },
-  "AAQQTo": {
-    "hand": "AAQQTo",
+  "AAQQT": {
+    "hand": "AAQQT",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2481,
@@ -335,8 +335,8 @@
       2
     ]
   },
-  "AAQQ9o": {
-    "hand": "AAQQ9o",
+  "AAQQ9": {
+    "hand": "AAQQ9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2482,
@@ -359,8 +359,8 @@
       2
     ]
   },
-  "AAQQ8o": {
-    "hand": "AAQQ8o",
+  "AAQQ8": {
+    "hand": "AAQQ8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2483,
@@ -383,8 +383,8 @@
       2
     ]
   },
-  "AAQQ7o": {
-    "hand": "AAQQ7o",
+  "AAQQ7": {
+    "hand": "AAQQ7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2484,
@@ -407,8 +407,8 @@
       2
     ]
   },
-  "AAQQ6o": {
-    "hand": "AAQQ6o",
+  "AAQQ6": {
+    "hand": "AAQQ6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2485,
@@ -431,8 +431,8 @@
       2
     ]
   },
-  "AAQQ5o": {
-    "hand": "AAQQ5o",
+  "AAQQ5": {
+    "hand": "AAQQ5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2486,
@@ -455,8 +455,8 @@
       2
     ]
   },
-  "AAQQ4o": {
-    "hand": "AAQQ4o",
+  "AAQQ4": {
+    "hand": "AAQQ4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2487,
@@ -479,8 +479,8 @@
       2
     ]
   },
-  "AAQQ3o": {
-    "hand": "AAQQ3o",
+  "AAQQ3": {
+    "hand": "AAQQ3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2488,
@@ -503,8 +503,8 @@
       2
     ]
   },
-  "AAQQ2o": {
-    "hand": "AAQQ2o",
+  "AAQQ2": {
+    "hand": "AAQQ2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2489,
@@ -527,8 +527,8 @@
       2
     ]
   },
-  "AAJJKo": {
-    "hand": "AAJJKo",
+  "AAJJK": {
+    "hand": "AAJJK",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2490,
@@ -551,8 +551,8 @@
       2
     ]
   },
-  "AAJJQo": {
-    "hand": "AAJJQo",
+  "AAJJQ": {
+    "hand": "AAJJQ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2491,
@@ -575,8 +575,8 @@
       2
     ]
   },
-  "AAJJTo": {
-    "hand": "AAJJTo",
+  "AAJJT": {
+    "hand": "AAJJT",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2492,
@@ -599,8 +599,8 @@
       2
     ]
   },
-  "AAJJ9o": {
-    "hand": "AAJJ9o",
+  "AAJJ9": {
+    "hand": "AAJJ9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2493,
@@ -623,8 +623,8 @@
       2
     ]
   },
-  "AAJJ8o": {
-    "hand": "AAJJ8o",
+  "AAJJ8": {
+    "hand": "AAJJ8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2494,
@@ -647,8 +647,8 @@
       2
     ]
   },
-  "AAJJ7o": {
-    "hand": "AAJJ7o",
+  "AAJJ7": {
+    "hand": "AAJJ7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2495,
@@ -671,8 +671,8 @@
       2
     ]
   },
-  "AAJJ6o": {
-    "hand": "AAJJ6o",
+  "AAJJ6": {
+    "hand": "AAJJ6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2496,
@@ -695,8 +695,8 @@
       2
     ]
   },
-  "AAJJ5o": {
-    "hand": "AAJJ5o",
+  "AAJJ5": {
+    "hand": "AAJJ5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2497,
@@ -719,8 +719,8 @@
       2
     ]
   },
-  "AAJJ4o": {
-    "hand": "AAJJ4o",
+  "AAJJ4": {
+    "hand": "AAJJ4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2498,
@@ -743,8 +743,8 @@
       2
     ]
   },
-  "AAJJ3o": {
-    "hand": "AAJJ3o",
+  "AAJJ3": {
+    "hand": "AAJJ3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2499,
@@ -767,8 +767,8 @@
       2
     ]
   },
-  "AAJJ2o": {
-    "hand": "AAJJ2o",
+  "AAJJ2": {
+    "hand": "AAJJ2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2500,
@@ -791,8 +791,8 @@
       2
     ]
   },
-  "AATTKo": {
-    "hand": "AATTKo",
+  "AATTK": {
+    "hand": "AATTK",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2501,
@@ -815,8 +815,8 @@
       2
     ]
   },
-  "AATTQo": {
-    "hand": "AATTQo",
+  "AATTQ": {
+    "hand": "AATTQ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2502,
@@ -839,8 +839,8 @@
       2
     ]
   },
-  "AATTJo": {
-    "hand": "AATTJo",
+  "AATTJ": {
+    "hand": "AATTJ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2503,
@@ -863,8 +863,8 @@
       2
     ]
   },
-  "AATT9o": {
-    "hand": "AATT9o",
+  "AATT9": {
+    "hand": "AATT9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2504,
@@ -887,8 +887,8 @@
       2
     ]
   },
-  "AATT8o": {
-    "hand": "AATT8o",
+  "AATT8": {
+    "hand": "AATT8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2505,
@@ -911,8 +911,8 @@
       2
     ]
   },
-  "AATT7o": {
-    "hand": "AATT7o",
+  "AATT7": {
+    "hand": "AATT7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2506,
@@ -935,8 +935,8 @@
       2
     ]
   },
-  "AATT6o": {
-    "hand": "AATT6o",
+  "AATT6": {
+    "hand": "AATT6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2507,
@@ -959,8 +959,8 @@
       2
     ]
   },
-  "AATT5o": {
-    "hand": "AATT5o",
+  "AATT5": {
+    "hand": "AATT5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2508,
@@ -983,8 +983,8 @@
       2
     ]
   },
-  "AATT4o": {
-    "hand": "AATT4o",
+  "AATT4": {
+    "hand": "AATT4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2509,
@@ -1007,8 +1007,8 @@
       2
     ]
   },
-  "AATT3o": {
-    "hand": "AATT3o",
+  "AATT3": {
+    "hand": "AATT3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2510,
@@ -1031,8 +1031,8 @@
       2
     ]
   },
-  "AATT2o": {
-    "hand": "AATT2o",
+  "AATT2": {
+    "hand": "AATT2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2511,
@@ -1055,8 +1055,8 @@
       2
     ]
   },
-  "AA99Ko": {
-    "hand": "AA99Ko",
+  "AA99K": {
+    "hand": "AA99K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2512,
@@ -1079,8 +1079,8 @@
       2
     ]
   },
-  "AA99Qo": {
-    "hand": "AA99Qo",
+  "AA99Q": {
+    "hand": "AA99Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2513,
@@ -1103,8 +1103,8 @@
       2
     ]
   },
-  "AA99Jo": {
-    "hand": "AA99Jo",
+  "AA99J": {
+    "hand": "AA99J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2514,
@@ -1127,8 +1127,8 @@
       2
     ]
   },
-  "AA99To": {
-    "hand": "AA99To",
+  "AA99T": {
+    "hand": "AA99T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2515,
@@ -1151,8 +1151,8 @@
       2
     ]
   },
-  "AA998o": {
-    "hand": "AA998o",
+  "AA998": {
+    "hand": "AA998",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2516,
@@ -1175,8 +1175,8 @@
       2
     ]
   },
-  "AA997o": {
-    "hand": "AA997o",
+  "AA997": {
+    "hand": "AA997",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2517,
@@ -1199,8 +1199,8 @@
       2
     ]
   },
-  "AA996o": {
-    "hand": "AA996o",
+  "AA996": {
+    "hand": "AA996",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2518,
@@ -1223,8 +1223,8 @@
       2
     ]
   },
-  "AA995o": {
-    "hand": "AA995o",
+  "AA995": {
+    "hand": "AA995",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2519,
@@ -1247,8 +1247,8 @@
       2
     ]
   },
-  "AA994o": {
-    "hand": "AA994o",
+  "AA994": {
+    "hand": "AA994",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2520,
@@ -1271,8 +1271,8 @@
       2
     ]
   },
-  "AA993o": {
-    "hand": "AA993o",
+  "AA993": {
+    "hand": "AA993",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2521,
@@ -1295,8 +1295,8 @@
       2
     ]
   },
-  "AA992o": {
-    "hand": "AA992o",
+  "AA992": {
+    "hand": "AA992",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2522,
@@ -1319,8 +1319,8 @@
       2
     ]
   },
-  "AA88Ko": {
-    "hand": "AA88Ko",
+  "AA88K": {
+    "hand": "AA88K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2523,
@@ -1343,8 +1343,8 @@
       2
     ]
   },
-  "AA88Qo": {
-    "hand": "AA88Qo",
+  "AA88Q": {
+    "hand": "AA88Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2524,
@@ -1367,8 +1367,8 @@
       2
     ]
   },
-  "AA88Jo": {
-    "hand": "AA88Jo",
+  "AA88J": {
+    "hand": "AA88J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2525,
@@ -1391,8 +1391,8 @@
       2
     ]
   },
-  "AA88To": {
-    "hand": "AA88To",
+  "AA88T": {
+    "hand": "AA88T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2526,
@@ -1415,8 +1415,8 @@
       2
     ]
   },
-  "AA889o": {
-    "hand": "AA889o",
+  "AA889": {
+    "hand": "AA889",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2527,
@@ -1439,8 +1439,8 @@
       2
     ]
   },
-  "AA887o": {
-    "hand": "AA887o",
+  "AA887": {
+    "hand": "AA887",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2528,
@@ -1463,8 +1463,8 @@
       2
     ]
   },
-  "AA886o": {
-    "hand": "AA886o",
+  "AA886": {
+    "hand": "AA886",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2529,
@@ -1487,8 +1487,8 @@
       2
     ]
   },
-  "AA885o": {
-    "hand": "AA885o",
+  "AA885": {
+    "hand": "AA885",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2530,
@@ -1511,8 +1511,8 @@
       2
     ]
   },
-  "AA884o": {
-    "hand": "AA884o",
+  "AA884": {
+    "hand": "AA884",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2531,
@@ -1535,8 +1535,8 @@
       2
     ]
   },
-  "AA883o": {
-    "hand": "AA883o",
+  "AA883": {
+    "hand": "AA883",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2532,
@@ -1559,8 +1559,8 @@
       2
     ]
   },
-  "AA882o": {
-    "hand": "AA882o",
+  "AA882": {
+    "hand": "AA882",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2533,
@@ -1583,8 +1583,8 @@
       2
     ]
   },
-  "AA77Ko": {
-    "hand": "AA77Ko",
+  "AA77K": {
+    "hand": "AA77K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2534,
@@ -1607,8 +1607,8 @@
       2
     ]
   },
-  "AA77Qo": {
-    "hand": "AA77Qo",
+  "AA77Q": {
+    "hand": "AA77Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2535,
@@ -1631,8 +1631,8 @@
       2
     ]
   },
-  "AA77Jo": {
-    "hand": "AA77Jo",
+  "AA77J": {
+    "hand": "AA77J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2536,
@@ -1655,8 +1655,8 @@
       2
     ]
   },
-  "AA77To": {
-    "hand": "AA77To",
+  "AA77T": {
+    "hand": "AA77T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2537,
@@ -1679,8 +1679,8 @@
       2
     ]
   },
-  "AA779o": {
-    "hand": "AA779o",
+  "AA779": {
+    "hand": "AA779",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2538,
@@ -1703,8 +1703,8 @@
       2
     ]
   },
-  "AA778o": {
-    "hand": "AA778o",
+  "AA778": {
+    "hand": "AA778",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2539,
@@ -1727,8 +1727,8 @@
       2
     ]
   },
-  "AA776o": {
-    "hand": "AA776o",
+  "AA776": {
+    "hand": "AA776",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2540,
@@ -1751,8 +1751,8 @@
       2
     ]
   },
-  "AA775o": {
-    "hand": "AA775o",
+  "AA775": {
+    "hand": "AA775",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2541,
@@ -1775,8 +1775,8 @@
       2
     ]
   },
-  "AA774o": {
-    "hand": "AA774o",
+  "AA774": {
+    "hand": "AA774",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2542,
@@ -1799,8 +1799,8 @@
       2
     ]
   },
-  "AA773o": {
-    "hand": "AA773o",
+  "AA773": {
+    "hand": "AA773",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2543,
@@ -1823,8 +1823,8 @@
       2
     ]
   },
-  "AA772o": {
-    "hand": "AA772o",
+  "AA772": {
+    "hand": "AA772",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2544,
@@ -1847,8 +1847,8 @@
       2
     ]
   },
-  "AA66Ko": {
-    "hand": "AA66Ko",
+  "AA66K": {
+    "hand": "AA66K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2545,
@@ -1871,8 +1871,8 @@
       2
     ]
   },
-  "AA66Qo": {
-    "hand": "AA66Qo",
+  "AA66Q": {
+    "hand": "AA66Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2546,
@@ -1895,8 +1895,8 @@
       2
     ]
   },
-  "AA66Jo": {
-    "hand": "AA66Jo",
+  "AA66J": {
+    "hand": "AA66J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2547,
@@ -1919,8 +1919,8 @@
       2
     ]
   },
-  "AA66To": {
-    "hand": "AA66To",
+  "AA66T": {
+    "hand": "AA66T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2548,
@@ -1943,8 +1943,8 @@
       2
     ]
   },
-  "AA669o": {
-    "hand": "AA669o",
+  "AA669": {
+    "hand": "AA669",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2549,
@@ -1967,8 +1967,8 @@
       2
     ]
   },
-  "AA668o": {
-    "hand": "AA668o",
+  "AA668": {
+    "hand": "AA668",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2550,
@@ -1991,8 +1991,8 @@
       2
     ]
   },
-  "AA667o": {
-    "hand": "AA667o",
+  "AA667": {
+    "hand": "AA667",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2551,
@@ -2015,8 +2015,8 @@
       2
     ]
   },
-  "AA665o": {
-    "hand": "AA665o",
+  "AA665": {
+    "hand": "AA665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2552,
@@ -2039,8 +2039,8 @@
       2
     ]
   },
-  "AA664o": {
-    "hand": "AA664o",
+  "AA664": {
+    "hand": "AA664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2553,
@@ -2063,8 +2063,8 @@
       2
     ]
   },
-  "AA663o": {
-    "hand": "AA663o",
+  "AA663": {
+    "hand": "AA663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2554,
@@ -2087,8 +2087,8 @@
       2
     ]
   },
-  "AA662o": {
-    "hand": "AA662o",
+  "AA662": {
+    "hand": "AA662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2555,
@@ -2111,8 +2111,8 @@
       2
     ]
   },
-  "AA55Ko": {
-    "hand": "AA55Ko",
+  "AA55K": {
+    "hand": "AA55K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2556,
@@ -2135,8 +2135,8 @@
       2
     ]
   },
-  "AA55Qo": {
-    "hand": "AA55Qo",
+  "AA55Q": {
+    "hand": "AA55Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2557,
@@ -2159,8 +2159,8 @@
       2
     ]
   },
-  "AA55Jo": {
-    "hand": "AA55Jo",
+  "AA55J": {
+    "hand": "AA55J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2558,
@@ -2183,8 +2183,8 @@
       2
     ]
   },
-  "AA55To": {
-    "hand": "AA55To",
+  "AA55T": {
+    "hand": "AA55T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2559,
@@ -2207,8 +2207,8 @@
       2
     ]
   },
-  "AA559o": {
-    "hand": "AA559o",
+  "AA559": {
+    "hand": "AA559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2560,
@@ -2231,8 +2231,8 @@
       2
     ]
   },
-  "AA558o": {
-    "hand": "AA558o",
+  "AA558": {
+    "hand": "AA558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2561,
@@ -2255,8 +2255,8 @@
       2
     ]
   },
-  "AA557o": {
-    "hand": "AA557o",
+  "AA557": {
+    "hand": "AA557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2562,
@@ -2279,8 +2279,8 @@
       2
     ]
   },
-  "AA556o": {
-    "hand": "AA556o",
+  "AA556": {
+    "hand": "AA556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2563,
@@ -2303,8 +2303,8 @@
       2
     ]
   },
-  "AA554o": {
-    "hand": "AA554o",
+  "AA554": {
+    "hand": "AA554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2564,
@@ -2327,8 +2327,8 @@
       2
     ]
   },
-  "AA553o": {
-    "hand": "AA553o",
+  "AA553": {
+    "hand": "AA553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2565,
@@ -2351,8 +2351,8 @@
       2
     ]
   },
-  "AA552o": {
-    "hand": "AA552o",
+  "AA552": {
+    "hand": "AA552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2566,
@@ -2375,8 +2375,8 @@
       2
     ]
   },
-  "AA44Ko": {
-    "hand": "AA44Ko",
+  "AA44K": {
+    "hand": "AA44K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2567,
@@ -2399,8 +2399,8 @@
       2
     ]
   },
-  "AA44Qo": {
-    "hand": "AA44Qo",
+  "AA44Q": {
+    "hand": "AA44Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2568,
@@ -2423,8 +2423,8 @@
       2
     ]
   },
-  "AA44Jo": {
-    "hand": "AA44Jo",
+  "AA44J": {
+    "hand": "AA44J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2569,
@@ -2447,8 +2447,8 @@
       2
     ]
   },
-  "AA44To": {
-    "hand": "AA44To",
+  "AA44T": {
+    "hand": "AA44T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2570,
@@ -2471,8 +2471,8 @@
       2
     ]
   },
-  "AA449o": {
-    "hand": "AA449o",
+  "AA449": {
+    "hand": "AA449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2571,
@@ -2495,8 +2495,8 @@
       2
     ]
   },
-  "AA448o": {
-    "hand": "AA448o",
+  "AA448": {
+    "hand": "AA448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2572,
@@ -2519,8 +2519,8 @@
       2
     ]
   },
-  "AA447o": {
-    "hand": "AA447o",
+  "AA447": {
+    "hand": "AA447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2573,
@@ -2543,8 +2543,8 @@
       2
     ]
   },
-  "AA446o": {
-    "hand": "AA446o",
+  "AA446": {
+    "hand": "AA446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2574,
@@ -2567,8 +2567,8 @@
       2
     ]
   },
-  "AA445o": {
-    "hand": "AA445o",
+  "AA445": {
+    "hand": "AA445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2575,
@@ -2591,8 +2591,8 @@
       2
     ]
   },
-  "AA443o": {
-    "hand": "AA443o",
+  "AA443": {
+    "hand": "AA443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2576,
@@ -2615,8 +2615,8 @@
       2
     ]
   },
-  "AA442o": {
-    "hand": "AA442o",
+  "AA442": {
+    "hand": "AA442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2577,
@@ -2639,8 +2639,8 @@
       2
     ]
   },
-  "AA33Ko": {
-    "hand": "AA33Ko",
+  "AA33K": {
+    "hand": "AA33K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2578,
@@ -2663,8 +2663,8 @@
       2
     ]
   },
-  "AA33Qo": {
-    "hand": "AA33Qo",
+  "AA33Q": {
+    "hand": "AA33Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2579,
@@ -2687,8 +2687,8 @@
       2
     ]
   },
-  "AA33Jo": {
-    "hand": "AA33Jo",
+  "AA33J": {
+    "hand": "AA33J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2580,
@@ -2711,8 +2711,8 @@
       2
     ]
   },
-  "AA33To": {
-    "hand": "AA33To",
+  "AA33T": {
+    "hand": "AA33T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2581,
@@ -2735,8 +2735,8 @@
       2
     ]
   },
-  "AA339o": {
-    "hand": "AA339o",
+  "AA339": {
+    "hand": "AA339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2582,
@@ -2759,8 +2759,8 @@
       2
     ]
   },
-  "AA338o": {
-    "hand": "AA338o",
+  "AA338": {
+    "hand": "AA338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2583,
@@ -2783,8 +2783,8 @@
       2
     ]
   },
-  "AA337o": {
-    "hand": "AA337o",
+  "AA337": {
+    "hand": "AA337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2584,
@@ -2807,8 +2807,8 @@
       2
     ]
   },
-  "AA336o": {
-    "hand": "AA336o",
+  "AA336": {
+    "hand": "AA336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2585,
@@ -2831,8 +2831,8 @@
       2
     ]
   },
-  "AA335o": {
-    "hand": "AA335o",
+  "AA335": {
+    "hand": "AA335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2586,
@@ -2855,8 +2855,8 @@
       2
     ]
   },
-  "AA334o": {
-    "hand": "AA334o",
+  "AA334": {
+    "hand": "AA334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2587,
@@ -2879,8 +2879,8 @@
       2
     ]
   },
-  "AA332o": {
-    "hand": "AA332o",
+  "AA332": {
+    "hand": "AA332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2588,
@@ -2903,8 +2903,8 @@
       2
     ]
   },
-  "AA22Ko": {
-    "hand": "AA22Ko",
+  "AA22K": {
+    "hand": "AA22K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2589,
@@ -2927,8 +2927,8 @@
       2
     ]
   },
-  "AA22Qo": {
-    "hand": "AA22Qo",
+  "AA22Q": {
+    "hand": "AA22Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2590,
@@ -2951,8 +2951,8 @@
       2
     ]
   },
-  "AA22Jo": {
-    "hand": "AA22Jo",
+  "AA22J": {
+    "hand": "AA22J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2591,
@@ -2975,8 +2975,8 @@
       2
     ]
   },
-  "AA22To": {
-    "hand": "AA22To",
+  "AA22T": {
+    "hand": "AA22T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2592,
@@ -2999,8 +2999,8 @@
       2
     ]
   },
-  "AA229o": {
-    "hand": "AA229o",
+  "AA229": {
+    "hand": "AA229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2593,
@@ -3023,8 +3023,8 @@
       2
     ]
   },
-  "AA228o": {
-    "hand": "AA228o",
+  "AA228": {
+    "hand": "AA228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2594,
@@ -3047,8 +3047,8 @@
       2
     ]
   },
-  "AA227o": {
-    "hand": "AA227o",
+  "AA227": {
+    "hand": "AA227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2595,
@@ -3071,8 +3071,8 @@
       2
     ]
   },
-  "AA226o": {
-    "hand": "AA226o",
+  "AA226": {
+    "hand": "AA226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2596,
@@ -3095,8 +3095,8 @@
       2
     ]
   },
-  "AA225o": {
-    "hand": "AA225o",
+  "AA225": {
+    "hand": "AA225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2597,
@@ -3119,8 +3119,8 @@
       2
     ]
   },
-  "AA224o": {
-    "hand": "AA224o",
+  "AA224": {
+    "hand": "AA224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2598,
@@ -3143,8 +3143,8 @@
       2
     ]
   },
-  "AA223o": {
-    "hand": "AA223o",
+  "AA223": {
+    "hand": "AA223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2599,
@@ -3167,8 +3167,8 @@
       2
     ]
   },
-  "KKQQAo": {
-    "hand": "KKQQAo",
+  "KKQQA": {
+    "hand": "KKQQA",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2600,
@@ -3191,8 +3191,8 @@
       1
     ]
   },
-  "KKQQJo": {
-    "hand": "KKQQJo",
+  "KKQQJ": {
+    "hand": "KKQQJ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2601,
@@ -3215,8 +3215,8 @@
       0
     ]
   },
-  "KKQQTo": {
-    "hand": "KKQQTo",
+  "KKQQT": {
+    "hand": "KKQQT",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2602,
@@ -3239,8 +3239,8 @@
       0
     ]
   },
-  "KKQQ9o": {
-    "hand": "KKQQ9o",
+  "KKQQ9": {
+    "hand": "KKQQ9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2603,
@@ -3263,8 +3263,8 @@
       0
     ]
   },
-  "KKQQ8o": {
-    "hand": "KKQQ8o",
+  "KKQQ8": {
+    "hand": "KKQQ8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2604,
@@ -3287,8 +3287,8 @@
       0
     ]
   },
-  "KKQQ7o": {
-    "hand": "KKQQ7o",
+  "KKQQ7": {
+    "hand": "KKQQ7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2605,
@@ -3311,8 +3311,8 @@
       0
     ]
   },
-  "KKQQ6o": {
-    "hand": "KKQQ6o",
+  "KKQQ6": {
+    "hand": "KKQQ6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2606,
@@ -3335,8 +3335,8 @@
       0
     ]
   },
-  "KKQQ5o": {
-    "hand": "KKQQ5o",
+  "KKQQ5": {
+    "hand": "KKQQ5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2607,
@@ -3359,8 +3359,8 @@
       0
     ]
   },
-  "KKQQ4o": {
-    "hand": "KKQQ4o",
+  "KKQQ4": {
+    "hand": "KKQQ4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2608,
@@ -3383,8 +3383,8 @@
       0
     ]
   },
-  "KKQQ3o": {
-    "hand": "KKQQ3o",
+  "KKQQ3": {
+    "hand": "KKQQ3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2609,
@@ -3407,8 +3407,8 @@
       0
     ]
   },
-  "KKQQ2o": {
-    "hand": "KKQQ2o",
+  "KKQQ2": {
+    "hand": "KKQQ2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2610,
@@ -3431,8 +3431,8 @@
       0
     ]
   },
-  "KKJJAo": {
-    "hand": "KKJJAo",
+  "KKJJA": {
+    "hand": "KKJJA",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2611,
@@ -3455,8 +3455,8 @@
       1
     ]
   },
-  "KKJJQo": {
-    "hand": "KKJJQo",
+  "KKJJQ": {
+    "hand": "KKJJQ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2612,
@@ -3479,8 +3479,8 @@
       0
     ]
   },
-  "KKJJTo": {
-    "hand": "KKJJTo",
+  "KKJJT": {
+    "hand": "KKJJT",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2613,
@@ -3503,8 +3503,8 @@
       0
     ]
   },
-  "KKJJ9o": {
-    "hand": "KKJJ9o",
+  "KKJJ9": {
+    "hand": "KKJJ9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2614,
@@ -3527,8 +3527,8 @@
       0
     ]
   },
-  "KKJJ8o": {
-    "hand": "KKJJ8o",
+  "KKJJ8": {
+    "hand": "KKJJ8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2615,
@@ -3551,8 +3551,8 @@
       0
     ]
   },
-  "KKJJ7o": {
-    "hand": "KKJJ7o",
+  "KKJJ7": {
+    "hand": "KKJJ7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2616,
@@ -3575,8 +3575,8 @@
       0
     ]
   },
-  "KKJJ6o": {
-    "hand": "KKJJ6o",
+  "KKJJ6": {
+    "hand": "KKJJ6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2617,
@@ -3599,8 +3599,8 @@
       0
     ]
   },
-  "KKJJ5o": {
-    "hand": "KKJJ5o",
+  "KKJJ5": {
+    "hand": "KKJJ5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2618,
@@ -3623,8 +3623,8 @@
       0
     ]
   },
-  "KKJJ4o": {
-    "hand": "KKJJ4o",
+  "KKJJ4": {
+    "hand": "KKJJ4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2619,
@@ -3647,8 +3647,8 @@
       0
     ]
   },
-  "KKJJ3o": {
-    "hand": "KKJJ3o",
+  "KKJJ3": {
+    "hand": "KKJJ3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2620,
@@ -3671,8 +3671,8 @@
       0
     ]
   },
-  "KKJJ2o": {
-    "hand": "KKJJ2o",
+  "KKJJ2": {
+    "hand": "KKJJ2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2621,
@@ -3695,8 +3695,8 @@
       0
     ]
   },
-  "KKTTAo": {
-    "hand": "KKTTAo",
+  "KKTTA": {
+    "hand": "KKTTA",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2622,
@@ -3719,8 +3719,8 @@
       1
     ]
   },
-  "KKTTQo": {
-    "hand": "KKTTQo",
+  "KKTTQ": {
+    "hand": "KKTTQ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2623,
@@ -3743,8 +3743,8 @@
       0
     ]
   },
-  "KKTTJo": {
-    "hand": "KKTTJo",
+  "KKTTJ": {
+    "hand": "KKTTJ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2624,
@@ -3767,8 +3767,8 @@
       0
     ]
   },
-  "KKTT9o": {
-    "hand": "KKTT9o",
+  "KKTT9": {
+    "hand": "KKTT9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2625,
@@ -3791,8 +3791,8 @@
       0
     ]
   },
-  "KKTT8o": {
-    "hand": "KKTT8o",
+  "KKTT8": {
+    "hand": "KKTT8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2626,
@@ -3815,8 +3815,8 @@
       0
     ]
   },
-  "KKTT7o": {
-    "hand": "KKTT7o",
+  "KKTT7": {
+    "hand": "KKTT7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2627,
@@ -3839,8 +3839,8 @@
       0
     ]
   },
-  "KKTT6o": {
-    "hand": "KKTT6o",
+  "KKTT6": {
+    "hand": "KKTT6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2628,
@@ -3863,8 +3863,8 @@
       0
     ]
   },
-  "KKTT5o": {
-    "hand": "KKTT5o",
+  "KKTT5": {
+    "hand": "KKTT5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2629,
@@ -3887,8 +3887,8 @@
       0
     ]
   },
-  "KKTT4o": {
-    "hand": "KKTT4o",
+  "KKTT4": {
+    "hand": "KKTT4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2630,
@@ -3911,8 +3911,8 @@
       0
     ]
   },
-  "KKTT3o": {
-    "hand": "KKTT3o",
+  "KKTT3": {
+    "hand": "KKTT3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2631,
@@ -3935,8 +3935,8 @@
       0
     ]
   },
-  "KKTT2o": {
-    "hand": "KKTT2o",
+  "KKTT2": {
+    "hand": "KKTT2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2632,
@@ -3959,8 +3959,8 @@
       0
     ]
   },
-  "KK99Ao": {
-    "hand": "KK99Ao",
+  "KK99A": {
+    "hand": "KK99A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2633,
@@ -3983,8 +3983,8 @@
       1
     ]
   },
-  "KK99Qo": {
-    "hand": "KK99Qo",
+  "KK99Q": {
+    "hand": "KK99Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2634,
@@ -4007,8 +4007,8 @@
       0
     ]
   },
-  "KK99Jo": {
-    "hand": "KK99Jo",
+  "KK99J": {
+    "hand": "KK99J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2635,
@@ -4031,8 +4031,8 @@
       0
     ]
   },
-  "KK99To": {
-    "hand": "KK99To",
+  "KK99T": {
+    "hand": "KK99T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2636,
@@ -4055,8 +4055,8 @@
       0
     ]
   },
-  "KK998o": {
-    "hand": "KK998o",
+  "KK998": {
+    "hand": "KK998",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2637,
@@ -4079,8 +4079,8 @@
       0
     ]
   },
-  "KK997o": {
-    "hand": "KK997o",
+  "KK997": {
+    "hand": "KK997",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2638,
@@ -4103,8 +4103,8 @@
       0
     ]
   },
-  "KK996o": {
-    "hand": "KK996o",
+  "KK996": {
+    "hand": "KK996",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2639,
@@ -4127,8 +4127,8 @@
       0
     ]
   },
-  "KK995o": {
-    "hand": "KK995o",
+  "KK995": {
+    "hand": "KK995",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2640,
@@ -4151,8 +4151,8 @@
       0
     ]
   },
-  "KK994o": {
-    "hand": "KK994o",
+  "KK994": {
+    "hand": "KK994",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2641,
@@ -4175,8 +4175,8 @@
       0
     ]
   },
-  "KK993o": {
-    "hand": "KK993o",
+  "KK993": {
+    "hand": "KK993",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2642,
@@ -4199,8 +4199,8 @@
       0
     ]
   },
-  "KK992o": {
-    "hand": "KK992o",
+  "KK992": {
+    "hand": "KK992",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2643,
@@ -4223,8 +4223,8 @@
       0
     ]
   },
-  "KK88Ao": {
-    "hand": "KK88Ao",
+  "KK88A": {
+    "hand": "KK88A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2644,
@@ -4247,8 +4247,8 @@
       1
     ]
   },
-  "KK88Qo": {
-    "hand": "KK88Qo",
+  "KK88Q": {
+    "hand": "KK88Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2645,
@@ -4271,8 +4271,8 @@
       0
     ]
   },
-  "KK88Jo": {
-    "hand": "KK88Jo",
+  "KK88J": {
+    "hand": "KK88J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2646,
@@ -4295,8 +4295,8 @@
       0
     ]
   },
-  "KK88To": {
-    "hand": "KK88To",
+  "KK88T": {
+    "hand": "KK88T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2647,
@@ -4319,8 +4319,8 @@
       0
     ]
   },
-  "KK889o": {
-    "hand": "KK889o",
+  "KK889": {
+    "hand": "KK889",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2648,
@@ -4343,8 +4343,8 @@
       0
     ]
   },
-  "KK887o": {
-    "hand": "KK887o",
+  "KK887": {
+    "hand": "KK887",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2649,
@@ -4367,8 +4367,8 @@
       0
     ]
   },
-  "KK886o": {
-    "hand": "KK886o",
+  "KK886": {
+    "hand": "KK886",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2650,
@@ -4391,8 +4391,8 @@
       0
     ]
   },
-  "KK885o": {
-    "hand": "KK885o",
+  "KK885": {
+    "hand": "KK885",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2651,
@@ -4415,8 +4415,8 @@
       0
     ]
   },
-  "KK884o": {
-    "hand": "KK884o",
+  "KK884": {
+    "hand": "KK884",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2652,
@@ -4439,8 +4439,8 @@
       0
     ]
   },
-  "KK883o": {
-    "hand": "KK883o",
+  "KK883": {
+    "hand": "KK883",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2653,
@@ -4463,8 +4463,8 @@
       0
     ]
   },
-  "KK882o": {
-    "hand": "KK882o",
+  "KK882": {
+    "hand": "KK882",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2654,
@@ -4487,8 +4487,8 @@
       0
     ]
   },
-  "KK77Ao": {
-    "hand": "KK77Ao",
+  "KK77A": {
+    "hand": "KK77A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2655,
@@ -4511,8 +4511,8 @@
       1
     ]
   },
-  "KK77Qo": {
-    "hand": "KK77Qo",
+  "KK77Q": {
+    "hand": "KK77Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2656,
@@ -4535,8 +4535,8 @@
       0
     ]
   },
-  "KK77Jo": {
-    "hand": "KK77Jo",
+  "KK77J": {
+    "hand": "KK77J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2657,
@@ -4559,8 +4559,8 @@
       0
     ]
   },
-  "KK77To": {
-    "hand": "KK77To",
+  "KK77T": {
+    "hand": "KK77T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2658,
@@ -4583,8 +4583,8 @@
       0
     ]
   },
-  "KK779o": {
-    "hand": "KK779o",
+  "KK779": {
+    "hand": "KK779",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2659,
@@ -4607,8 +4607,8 @@
       0
     ]
   },
-  "KK778o": {
-    "hand": "KK778o",
+  "KK778": {
+    "hand": "KK778",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2660,
@@ -4631,8 +4631,8 @@
       0
     ]
   },
-  "KK776o": {
-    "hand": "KK776o",
+  "KK776": {
+    "hand": "KK776",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2661,
@@ -4655,8 +4655,8 @@
       0
     ]
   },
-  "KK775o": {
-    "hand": "KK775o",
+  "KK775": {
+    "hand": "KK775",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2662,
@@ -4679,8 +4679,8 @@
       0
     ]
   },
-  "KK774o": {
-    "hand": "KK774o",
+  "KK774": {
+    "hand": "KK774",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2663,
@@ -4703,8 +4703,8 @@
       0
     ]
   },
-  "KK773o": {
-    "hand": "KK773o",
+  "KK773": {
+    "hand": "KK773",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2664,
@@ -4727,8 +4727,8 @@
       0
     ]
   },
-  "KK772o": {
-    "hand": "KK772o",
+  "KK772": {
+    "hand": "KK772",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2665,
@@ -4751,8 +4751,8 @@
       0
     ]
   },
-  "KK66Ao": {
-    "hand": "KK66Ao",
+  "KK66A": {
+    "hand": "KK66A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2666,
@@ -4775,8 +4775,8 @@
       1
     ]
   },
-  "KK66Qo": {
-    "hand": "KK66Qo",
+  "KK66Q": {
+    "hand": "KK66Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2667,
@@ -4799,8 +4799,8 @@
       0
     ]
   },
-  "KK66Jo": {
-    "hand": "KK66Jo",
+  "KK66J": {
+    "hand": "KK66J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2668,
@@ -4823,8 +4823,8 @@
       0
     ]
   },
-  "KK66To": {
-    "hand": "KK66To",
+  "KK66T": {
+    "hand": "KK66T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2669,
@@ -4847,8 +4847,8 @@
       0
     ]
   },
-  "KK669o": {
-    "hand": "KK669o",
+  "KK669": {
+    "hand": "KK669",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2670,
@@ -4871,8 +4871,8 @@
       0
     ]
   },
-  "KK668o": {
-    "hand": "KK668o",
+  "KK668": {
+    "hand": "KK668",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2671,
@@ -4895,8 +4895,8 @@
       0
     ]
   },
-  "KK667o": {
-    "hand": "KK667o",
+  "KK667": {
+    "hand": "KK667",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2672,
@@ -4919,8 +4919,8 @@
       0
     ]
   },
-  "KK665o": {
-    "hand": "KK665o",
+  "KK665": {
+    "hand": "KK665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2673,
@@ -4943,8 +4943,8 @@
       0
     ]
   },
-  "KK664o": {
-    "hand": "KK664o",
+  "KK664": {
+    "hand": "KK664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2674,
@@ -4967,8 +4967,8 @@
       0
     ]
   },
-  "KK663o": {
-    "hand": "KK663o",
+  "KK663": {
+    "hand": "KK663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2675,
@@ -4991,8 +4991,8 @@
       0
     ]
   },
-  "KK662o": {
-    "hand": "KK662o",
+  "KK662": {
+    "hand": "KK662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2676,
@@ -5015,8 +5015,8 @@
       0
     ]
   },
-  "KK55Ao": {
-    "hand": "KK55Ao",
+  "KK55A": {
+    "hand": "KK55A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2677,
@@ -5039,8 +5039,8 @@
       1
     ]
   },
-  "KK55Qo": {
-    "hand": "KK55Qo",
+  "KK55Q": {
+    "hand": "KK55Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2678,
@@ -5063,8 +5063,8 @@
       0
     ]
   },
-  "KK55Jo": {
-    "hand": "KK55Jo",
+  "KK55J": {
+    "hand": "KK55J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2679,
@@ -5087,8 +5087,8 @@
       0
     ]
   },
-  "KK55To": {
-    "hand": "KK55To",
+  "KK55T": {
+    "hand": "KK55T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2680,
@@ -5111,8 +5111,8 @@
       0
     ]
   },
-  "KK559o": {
-    "hand": "KK559o",
+  "KK559": {
+    "hand": "KK559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2681,
@@ -5135,8 +5135,8 @@
       0
     ]
   },
-  "KK558o": {
-    "hand": "KK558o",
+  "KK558": {
+    "hand": "KK558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2682,
@@ -5159,8 +5159,8 @@
       0
     ]
   },
-  "KK557o": {
-    "hand": "KK557o",
+  "KK557": {
+    "hand": "KK557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2683,
@@ -5183,8 +5183,8 @@
       0
     ]
   },
-  "KK556o": {
-    "hand": "KK556o",
+  "KK556": {
+    "hand": "KK556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2684,
@@ -5207,8 +5207,8 @@
       0
     ]
   },
-  "KK554o": {
-    "hand": "KK554o",
+  "KK554": {
+    "hand": "KK554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2685,
@@ -5231,8 +5231,8 @@
       0
     ]
   },
-  "KK553o": {
-    "hand": "KK553o",
+  "KK553": {
+    "hand": "KK553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2686,
@@ -5255,8 +5255,8 @@
       0
     ]
   },
-  "KK552o": {
-    "hand": "KK552o",
+  "KK552": {
+    "hand": "KK552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2687,
@@ -5279,8 +5279,8 @@
       0
     ]
   },
-  "KK44Ao": {
-    "hand": "KK44Ao",
+  "KK44A": {
+    "hand": "KK44A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2688,
@@ -5303,8 +5303,8 @@
       1
     ]
   },
-  "KK44Qo": {
-    "hand": "KK44Qo",
+  "KK44Q": {
+    "hand": "KK44Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2689,
@@ -5327,8 +5327,8 @@
       0
     ]
   },
-  "KK44Jo": {
-    "hand": "KK44Jo",
+  "KK44J": {
+    "hand": "KK44J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2690,
@@ -5351,8 +5351,8 @@
       0
     ]
   },
-  "KK44To": {
-    "hand": "KK44To",
+  "KK44T": {
+    "hand": "KK44T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2691,
@@ -5375,8 +5375,8 @@
       0
     ]
   },
-  "KK449o": {
-    "hand": "KK449o",
+  "KK449": {
+    "hand": "KK449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2692,
@@ -5399,8 +5399,8 @@
       0
     ]
   },
-  "KK448o": {
-    "hand": "KK448o",
+  "KK448": {
+    "hand": "KK448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2693,
@@ -5423,8 +5423,8 @@
       0
     ]
   },
-  "KK447o": {
-    "hand": "KK447o",
+  "KK447": {
+    "hand": "KK447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2694,
@@ -5447,8 +5447,8 @@
       0
     ]
   },
-  "KK446o": {
-    "hand": "KK446o",
+  "KK446": {
+    "hand": "KK446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2695,
@@ -5471,8 +5471,8 @@
       0
     ]
   },
-  "KK445o": {
-    "hand": "KK445o",
+  "KK445": {
+    "hand": "KK445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2696,
@@ -5495,8 +5495,8 @@
       0
     ]
   },
-  "KK443o": {
-    "hand": "KK443o",
+  "KK443": {
+    "hand": "KK443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2697,
@@ -5519,8 +5519,8 @@
       0
     ]
   },
-  "KK442o": {
-    "hand": "KK442o",
+  "KK442": {
+    "hand": "KK442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2698,
@@ -5543,8 +5543,8 @@
       0
     ]
   },
-  "KK33Ao": {
-    "hand": "KK33Ao",
+  "KK33A": {
+    "hand": "KK33A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2699,
@@ -5567,8 +5567,8 @@
       1
     ]
   },
-  "KK33Qo": {
-    "hand": "KK33Qo",
+  "KK33Q": {
+    "hand": "KK33Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2700,
@@ -5591,8 +5591,8 @@
       0
     ]
   },
-  "KK33Jo": {
-    "hand": "KK33Jo",
+  "KK33J": {
+    "hand": "KK33J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2701,
@@ -5615,8 +5615,8 @@
       0
     ]
   },
-  "KK33To": {
-    "hand": "KK33To",
+  "KK33T": {
+    "hand": "KK33T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2702,
@@ -5639,8 +5639,8 @@
       0
     ]
   },
-  "KK339o": {
-    "hand": "KK339o",
+  "KK339": {
+    "hand": "KK339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2703,
@@ -5663,8 +5663,8 @@
       0
     ]
   },
-  "KK338o": {
-    "hand": "KK338o",
+  "KK338": {
+    "hand": "KK338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2704,
@@ -5687,8 +5687,8 @@
       0
     ]
   },
-  "KK337o": {
-    "hand": "KK337o",
+  "KK337": {
+    "hand": "KK337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2705,
@@ -5711,8 +5711,8 @@
       0
     ]
   },
-  "KK336o": {
-    "hand": "KK336o",
+  "KK336": {
+    "hand": "KK336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2706,
@@ -5735,8 +5735,8 @@
       0
     ]
   },
-  "KK335o": {
-    "hand": "KK335o",
+  "KK335": {
+    "hand": "KK335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2707,
@@ -5759,8 +5759,8 @@
       0
     ]
   },
-  "KK334o": {
-    "hand": "KK334o",
+  "KK334": {
+    "hand": "KK334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2708,
@@ -5783,8 +5783,8 @@
       0
     ]
   },
-  "KK332o": {
-    "hand": "KK332o",
+  "KK332": {
+    "hand": "KK332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2709,
@@ -5807,8 +5807,8 @@
       0
     ]
   },
-  "KK22Ao": {
-    "hand": "KK22Ao",
+  "KK22A": {
+    "hand": "KK22A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2710,
@@ -5831,8 +5831,8 @@
       1
     ]
   },
-  "KK22Qo": {
-    "hand": "KK22Qo",
+  "KK22Q": {
+    "hand": "KK22Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2711,
@@ -5855,8 +5855,8 @@
       0
     ]
   },
-  "KK22Jo": {
-    "hand": "KK22Jo",
+  "KK22J": {
+    "hand": "KK22J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2712,
@@ -5879,8 +5879,8 @@
       0
     ]
   },
-  "KK22To": {
-    "hand": "KK22To",
+  "KK22T": {
+    "hand": "KK22T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2713,
@@ -5903,8 +5903,8 @@
       0
     ]
   },
-  "KK229o": {
-    "hand": "KK229o",
+  "KK229": {
+    "hand": "KK229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2714,
@@ -5927,8 +5927,8 @@
       0
     ]
   },
-  "KK228o": {
-    "hand": "KK228o",
+  "KK228": {
+    "hand": "KK228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2715,
@@ -5951,8 +5951,8 @@
       0
     ]
   },
-  "KK227o": {
-    "hand": "KK227o",
+  "KK227": {
+    "hand": "KK227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2716,
@@ -5975,8 +5975,8 @@
       0
     ]
   },
-  "KK226o": {
-    "hand": "KK226o",
+  "KK226": {
+    "hand": "KK226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2717,
@@ -5999,8 +5999,8 @@
       0
     ]
   },
-  "KK225o": {
-    "hand": "KK225o",
+  "KK225": {
+    "hand": "KK225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2718,
@@ -6023,8 +6023,8 @@
       0
     ]
   },
-  "KK224o": {
-    "hand": "KK224o",
+  "KK224": {
+    "hand": "KK224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2719,
@@ -6047,8 +6047,8 @@
       0
     ]
   },
-  "KK223o": {
-    "hand": "KK223o",
+  "KK223": {
+    "hand": "KK223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2720,
@@ -6071,8 +6071,8 @@
       0
     ]
   },
-  "QQJJAo": {
-    "hand": "QQJJAo",
+  "QQJJA": {
+    "hand": "QQJJA",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2721,
@@ -6095,8 +6095,8 @@
       1
     ]
   },
-  "QQJJKo": {
-    "hand": "QQJJKo",
+  "QQJJK": {
+    "hand": "QQJJK",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2722,
@@ -6119,8 +6119,8 @@
       0
     ]
   },
-  "QQJJTo": {
-    "hand": "QQJJTo",
+  "QQJJT": {
+    "hand": "QQJJT",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2723,
@@ -6143,8 +6143,8 @@
       0
     ]
   },
-  "QQJJ9o": {
-    "hand": "QQJJ9o",
+  "QQJJ9": {
+    "hand": "QQJJ9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2724,
@@ -6167,8 +6167,8 @@
       0
     ]
   },
-  "QQJJ8o": {
-    "hand": "QQJJ8o",
+  "QQJJ8": {
+    "hand": "QQJJ8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2725,
@@ -6191,8 +6191,8 @@
       0
     ]
   },
-  "QQJJ7o": {
-    "hand": "QQJJ7o",
+  "QQJJ7": {
+    "hand": "QQJJ7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2726,
@@ -6215,8 +6215,8 @@
       0
     ]
   },
-  "QQJJ6o": {
-    "hand": "QQJJ6o",
+  "QQJJ6": {
+    "hand": "QQJJ6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2727,
@@ -6239,8 +6239,8 @@
       0
     ]
   },
-  "QQJJ5o": {
-    "hand": "QQJJ5o",
+  "QQJJ5": {
+    "hand": "QQJJ5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2728,
@@ -6263,8 +6263,8 @@
       0
     ]
   },
-  "QQJJ4o": {
-    "hand": "QQJJ4o",
+  "QQJJ4": {
+    "hand": "QQJJ4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2729,
@@ -6287,8 +6287,8 @@
       0
     ]
   },
-  "QQJJ3o": {
-    "hand": "QQJJ3o",
+  "QQJJ3": {
+    "hand": "QQJJ3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2730,
@@ -6311,8 +6311,8 @@
       0
     ]
   },
-  "QQJJ2o": {
-    "hand": "QQJJ2o",
+  "QQJJ2": {
+    "hand": "QQJJ2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2731,
@@ -6335,8 +6335,8 @@
       0
     ]
   },
-  "QQTTAo": {
-    "hand": "QQTTAo",
+  "QQTTA": {
+    "hand": "QQTTA",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2732,
@@ -6359,8 +6359,8 @@
       1
     ]
   },
-  "QQTTKo": {
-    "hand": "QQTTKo",
+  "QQTTK": {
+    "hand": "QQTTK",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2733,
@@ -6383,8 +6383,8 @@
       0
     ]
   },
-  "QQTTJo": {
-    "hand": "QQTTJo",
+  "QQTTJ": {
+    "hand": "QQTTJ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2734,
@@ -6407,8 +6407,8 @@
       0
     ]
   },
-  "QQTT9o": {
-    "hand": "QQTT9o",
+  "QQTT9": {
+    "hand": "QQTT9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2735,
@@ -6431,8 +6431,8 @@
       0
     ]
   },
-  "QQTT8o": {
-    "hand": "QQTT8o",
+  "QQTT8": {
+    "hand": "QQTT8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2736,
@@ -6455,8 +6455,8 @@
       0
     ]
   },
-  "QQTT7o": {
-    "hand": "QQTT7o",
+  "QQTT7": {
+    "hand": "QQTT7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2737,
@@ -6479,8 +6479,8 @@
       0
     ]
   },
-  "QQTT6o": {
-    "hand": "QQTT6o",
+  "QQTT6": {
+    "hand": "QQTT6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2738,
@@ -6503,8 +6503,8 @@
       0
     ]
   },
-  "QQTT5o": {
-    "hand": "QQTT5o",
+  "QQTT5": {
+    "hand": "QQTT5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2739,
@@ -6527,8 +6527,8 @@
       0
     ]
   },
-  "QQTT4o": {
-    "hand": "QQTT4o",
+  "QQTT4": {
+    "hand": "QQTT4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2740,
@@ -6551,8 +6551,8 @@
       0
     ]
   },
-  "QQTT3o": {
-    "hand": "QQTT3o",
+  "QQTT3": {
+    "hand": "QQTT3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2741,
@@ -6575,8 +6575,8 @@
       0
     ]
   },
-  "QQTT2o": {
-    "hand": "QQTT2o",
+  "QQTT2": {
+    "hand": "QQTT2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2742,
@@ -6599,8 +6599,8 @@
       0
     ]
   },
-  "QQ99Ao": {
-    "hand": "QQ99Ao",
+  "QQ99A": {
+    "hand": "QQ99A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2743,
@@ -6623,8 +6623,8 @@
       1
     ]
   },
-  "QQ99Ko": {
-    "hand": "QQ99Ko",
+  "QQ99K": {
+    "hand": "QQ99K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2744,
@@ -6647,8 +6647,8 @@
       0
     ]
   },
-  "QQ99Jo": {
-    "hand": "QQ99Jo",
+  "QQ99J": {
+    "hand": "QQ99J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2745,
@@ -6671,8 +6671,8 @@
       0
     ]
   },
-  "QQ99To": {
-    "hand": "QQ99To",
+  "QQ99T": {
+    "hand": "QQ99T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2746,
@@ -6695,8 +6695,8 @@
       0
     ]
   },
-  "QQ998o": {
-    "hand": "QQ998o",
+  "QQ998": {
+    "hand": "QQ998",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2747,
@@ -6719,8 +6719,8 @@
       0
     ]
   },
-  "QQ997o": {
-    "hand": "QQ997o",
+  "QQ997": {
+    "hand": "QQ997",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2748,
@@ -6743,8 +6743,8 @@
       0
     ]
   },
-  "QQ996o": {
-    "hand": "QQ996o",
+  "QQ996": {
+    "hand": "QQ996",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2749,
@@ -6767,8 +6767,8 @@
       0
     ]
   },
-  "QQ995o": {
-    "hand": "QQ995o",
+  "QQ995": {
+    "hand": "QQ995",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2750,
@@ -6791,8 +6791,8 @@
       0
     ]
   },
-  "QQ994o": {
-    "hand": "QQ994o",
+  "QQ994": {
+    "hand": "QQ994",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2751,
@@ -6815,8 +6815,8 @@
       0
     ]
   },
-  "QQ993o": {
-    "hand": "QQ993o",
+  "QQ993": {
+    "hand": "QQ993",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2752,
@@ -6839,8 +6839,8 @@
       0
     ]
   },
-  "QQ992o": {
-    "hand": "QQ992o",
+  "QQ992": {
+    "hand": "QQ992",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2753,
@@ -6863,8 +6863,8 @@
       0
     ]
   },
-  "QQ88Ao": {
-    "hand": "QQ88Ao",
+  "QQ88A": {
+    "hand": "QQ88A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2754,
@@ -6887,8 +6887,8 @@
       1
     ]
   },
-  "QQ88Ko": {
-    "hand": "QQ88Ko",
+  "QQ88K": {
+    "hand": "QQ88K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2755,
@@ -6911,8 +6911,8 @@
       0
     ]
   },
-  "QQ88Jo": {
-    "hand": "QQ88Jo",
+  "QQ88J": {
+    "hand": "QQ88J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2756,
@@ -6935,8 +6935,8 @@
       0
     ]
   },
-  "QQ88To": {
-    "hand": "QQ88To",
+  "QQ88T": {
+    "hand": "QQ88T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2757,
@@ -6959,8 +6959,8 @@
       0
     ]
   },
-  "QQ889o": {
-    "hand": "QQ889o",
+  "QQ889": {
+    "hand": "QQ889",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2758,
@@ -6983,8 +6983,8 @@
       0
     ]
   },
-  "QQ887o": {
-    "hand": "QQ887o",
+  "QQ887": {
+    "hand": "QQ887",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2759,
@@ -7007,8 +7007,8 @@
       0
     ]
   },
-  "QQ886o": {
-    "hand": "QQ886o",
+  "QQ886": {
+    "hand": "QQ886",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2760,
@@ -7031,8 +7031,8 @@
       0
     ]
   },
-  "QQ885o": {
-    "hand": "QQ885o",
+  "QQ885": {
+    "hand": "QQ885",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2761,
@@ -7055,8 +7055,8 @@
       0
     ]
   },
-  "QQ884o": {
-    "hand": "QQ884o",
+  "QQ884": {
+    "hand": "QQ884",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2762,
@@ -7079,8 +7079,8 @@
       0
     ]
   },
-  "QQ883o": {
-    "hand": "QQ883o",
+  "QQ883": {
+    "hand": "QQ883",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2763,
@@ -7103,8 +7103,8 @@
       0
     ]
   },
-  "QQ882o": {
-    "hand": "QQ882o",
+  "QQ882": {
+    "hand": "QQ882",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2764,
@@ -7127,8 +7127,8 @@
       0
     ]
   },
-  "QQ77Ao": {
-    "hand": "QQ77Ao",
+  "QQ77A": {
+    "hand": "QQ77A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2765,
@@ -7151,8 +7151,8 @@
       1
     ]
   },
-  "QQ77Ko": {
-    "hand": "QQ77Ko",
+  "QQ77K": {
+    "hand": "QQ77K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2766,
@@ -7175,8 +7175,8 @@
       0
     ]
   },
-  "QQ77Jo": {
-    "hand": "QQ77Jo",
+  "QQ77J": {
+    "hand": "QQ77J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2767,
@@ -7199,8 +7199,8 @@
       0
     ]
   },
-  "QQ77To": {
-    "hand": "QQ77To",
+  "QQ77T": {
+    "hand": "QQ77T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2768,
@@ -7223,8 +7223,8 @@
       0
     ]
   },
-  "QQ779o": {
-    "hand": "QQ779o",
+  "QQ779": {
+    "hand": "QQ779",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2769,
@@ -7247,8 +7247,8 @@
       0
     ]
   },
-  "QQ778o": {
-    "hand": "QQ778o",
+  "QQ778": {
+    "hand": "QQ778",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2770,
@@ -7271,8 +7271,8 @@
       0
     ]
   },
-  "QQ776o": {
-    "hand": "QQ776o",
+  "QQ776": {
+    "hand": "QQ776",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2771,
@@ -7295,8 +7295,8 @@
       0
     ]
   },
-  "QQ775o": {
-    "hand": "QQ775o",
+  "QQ775": {
+    "hand": "QQ775",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2772,
@@ -7319,8 +7319,8 @@
       0
     ]
   },
-  "QQ774o": {
-    "hand": "QQ774o",
+  "QQ774": {
+    "hand": "QQ774",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2773,
@@ -7343,8 +7343,8 @@
       0
     ]
   },
-  "QQ773o": {
-    "hand": "QQ773o",
+  "QQ773": {
+    "hand": "QQ773",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2774,
@@ -7367,8 +7367,8 @@
       0
     ]
   },
-  "QQ772o": {
-    "hand": "QQ772o",
+  "QQ772": {
+    "hand": "QQ772",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2775,
@@ -7391,8 +7391,8 @@
       0
     ]
   },
-  "QQ66Ao": {
-    "hand": "QQ66Ao",
+  "QQ66A": {
+    "hand": "QQ66A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2776,
@@ -7415,8 +7415,8 @@
       1
     ]
   },
-  "QQ66Ko": {
-    "hand": "QQ66Ko",
+  "QQ66K": {
+    "hand": "QQ66K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2777,
@@ -7439,8 +7439,8 @@
       0
     ]
   },
-  "QQ66Jo": {
-    "hand": "QQ66Jo",
+  "QQ66J": {
+    "hand": "QQ66J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2778,
@@ -7463,8 +7463,8 @@
       0
     ]
   },
-  "QQ66To": {
-    "hand": "QQ66To",
+  "QQ66T": {
+    "hand": "QQ66T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2779,
@@ -7487,8 +7487,8 @@
       0
     ]
   },
-  "QQ669o": {
-    "hand": "QQ669o",
+  "QQ669": {
+    "hand": "QQ669",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2780,
@@ -7511,8 +7511,8 @@
       0
     ]
   },
-  "QQ668o": {
-    "hand": "QQ668o",
+  "QQ668": {
+    "hand": "QQ668",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2781,
@@ -7535,8 +7535,8 @@
       0
     ]
   },
-  "QQ667o": {
-    "hand": "QQ667o",
+  "QQ667": {
+    "hand": "QQ667",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2782,
@@ -7559,8 +7559,8 @@
       0
     ]
   },
-  "QQ665o": {
-    "hand": "QQ665o",
+  "QQ665": {
+    "hand": "QQ665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2783,
@@ -7583,8 +7583,8 @@
       0
     ]
   },
-  "QQ664o": {
-    "hand": "QQ664o",
+  "QQ664": {
+    "hand": "QQ664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2784,
@@ -7607,8 +7607,8 @@
       0
     ]
   },
-  "QQ663o": {
-    "hand": "QQ663o",
+  "QQ663": {
+    "hand": "QQ663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2785,
@@ -7631,8 +7631,8 @@
       0
     ]
   },
-  "QQ662o": {
-    "hand": "QQ662o",
+  "QQ662": {
+    "hand": "QQ662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2786,
@@ -7655,8 +7655,8 @@
       0
     ]
   },
-  "QQ55Ao": {
-    "hand": "QQ55Ao",
+  "QQ55A": {
+    "hand": "QQ55A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2787,
@@ -7679,8 +7679,8 @@
       1
     ]
   },
-  "QQ55Ko": {
-    "hand": "QQ55Ko",
+  "QQ55K": {
+    "hand": "QQ55K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2788,
@@ -7703,8 +7703,8 @@
       0
     ]
   },
-  "QQ55Jo": {
-    "hand": "QQ55Jo",
+  "QQ55J": {
+    "hand": "QQ55J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2789,
@@ -7727,8 +7727,8 @@
       0
     ]
   },
-  "QQ55To": {
-    "hand": "QQ55To",
+  "QQ55T": {
+    "hand": "QQ55T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2790,
@@ -7751,8 +7751,8 @@
       0
     ]
   },
-  "QQ559o": {
-    "hand": "QQ559o",
+  "QQ559": {
+    "hand": "QQ559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2791,
@@ -7775,8 +7775,8 @@
       0
     ]
   },
-  "QQ558o": {
-    "hand": "QQ558o",
+  "QQ558": {
+    "hand": "QQ558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2792,
@@ -7799,8 +7799,8 @@
       0
     ]
   },
-  "QQ557o": {
-    "hand": "QQ557o",
+  "QQ557": {
+    "hand": "QQ557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2793,
@@ -7823,8 +7823,8 @@
       0
     ]
   },
-  "QQ556o": {
-    "hand": "QQ556o",
+  "QQ556": {
+    "hand": "QQ556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2794,
@@ -7847,8 +7847,8 @@
       0
     ]
   },
-  "QQ554o": {
-    "hand": "QQ554o",
+  "QQ554": {
+    "hand": "QQ554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2795,
@@ -7871,8 +7871,8 @@
       0
     ]
   },
-  "QQ553o": {
-    "hand": "QQ553o",
+  "QQ553": {
+    "hand": "QQ553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2796,
@@ -7895,8 +7895,8 @@
       0
     ]
   },
-  "QQ552o": {
-    "hand": "QQ552o",
+  "QQ552": {
+    "hand": "QQ552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2797,
@@ -7919,8 +7919,8 @@
       0
     ]
   },
-  "QQ44Ao": {
-    "hand": "QQ44Ao",
+  "QQ44A": {
+    "hand": "QQ44A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2798,
@@ -7943,8 +7943,8 @@
       1
     ]
   },
-  "QQ44Ko": {
-    "hand": "QQ44Ko",
+  "QQ44K": {
+    "hand": "QQ44K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2799,
@@ -7967,8 +7967,8 @@
       0
     ]
   },
-  "QQ44Jo": {
-    "hand": "QQ44Jo",
+  "QQ44J": {
+    "hand": "QQ44J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2800,
@@ -7991,8 +7991,8 @@
       0
     ]
   },
-  "QQ44To": {
-    "hand": "QQ44To",
+  "QQ44T": {
+    "hand": "QQ44T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2801,
@@ -8015,8 +8015,8 @@
       0
     ]
   },
-  "QQ449o": {
-    "hand": "QQ449o",
+  "QQ449": {
+    "hand": "QQ449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2802,
@@ -8039,8 +8039,8 @@
       0
     ]
   },
-  "QQ448o": {
-    "hand": "QQ448o",
+  "QQ448": {
+    "hand": "QQ448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2803,
@@ -8063,8 +8063,8 @@
       0
     ]
   },
-  "QQ447o": {
-    "hand": "QQ447o",
+  "QQ447": {
+    "hand": "QQ447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2804,
@@ -8087,8 +8087,8 @@
       0
     ]
   },
-  "QQ446o": {
-    "hand": "QQ446o",
+  "QQ446": {
+    "hand": "QQ446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2805,
@@ -8111,8 +8111,8 @@
       0
     ]
   },
-  "QQ445o": {
-    "hand": "QQ445o",
+  "QQ445": {
+    "hand": "QQ445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2806,
@@ -8135,8 +8135,8 @@
       0
     ]
   },
-  "QQ443o": {
-    "hand": "QQ443o",
+  "QQ443": {
+    "hand": "QQ443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2807,
@@ -8159,8 +8159,8 @@
       0
     ]
   },
-  "QQ442o": {
-    "hand": "QQ442o",
+  "QQ442": {
+    "hand": "QQ442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2808,
@@ -8183,8 +8183,8 @@
       0
     ]
   },
-  "QQ33Ao": {
-    "hand": "QQ33Ao",
+  "QQ33A": {
+    "hand": "QQ33A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2809,
@@ -8207,8 +8207,8 @@
       1
     ]
   },
-  "QQ33Ko": {
-    "hand": "QQ33Ko",
+  "QQ33K": {
+    "hand": "QQ33K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2810,
@@ -8231,8 +8231,8 @@
       0
     ]
   },
-  "QQ33Jo": {
-    "hand": "QQ33Jo",
+  "QQ33J": {
+    "hand": "QQ33J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2811,
@@ -8255,8 +8255,8 @@
       0
     ]
   },
-  "QQ33To": {
-    "hand": "QQ33To",
+  "QQ33T": {
+    "hand": "QQ33T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2812,
@@ -8279,8 +8279,8 @@
       0
     ]
   },
-  "QQ339o": {
-    "hand": "QQ339o",
+  "QQ339": {
+    "hand": "QQ339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2813,
@@ -8303,8 +8303,8 @@
       0
     ]
   },
-  "QQ338o": {
-    "hand": "QQ338o",
+  "QQ338": {
+    "hand": "QQ338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2814,
@@ -8327,8 +8327,8 @@
       0
     ]
   },
-  "QQ337o": {
-    "hand": "QQ337o",
+  "QQ337": {
+    "hand": "QQ337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2815,
@@ -8351,8 +8351,8 @@
       0
     ]
   },
-  "QQ336o": {
-    "hand": "QQ336o",
+  "QQ336": {
+    "hand": "QQ336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2816,
@@ -8375,8 +8375,8 @@
       0
     ]
   },
-  "QQ335o": {
-    "hand": "QQ335o",
+  "QQ335": {
+    "hand": "QQ335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2817,
@@ -8399,8 +8399,8 @@
       0
     ]
   },
-  "QQ334o": {
-    "hand": "QQ334o",
+  "QQ334": {
+    "hand": "QQ334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2818,
@@ -8423,8 +8423,8 @@
       0
     ]
   },
-  "QQ332o": {
-    "hand": "QQ332o",
+  "QQ332": {
+    "hand": "QQ332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2819,
@@ -8447,8 +8447,8 @@
       0
     ]
   },
-  "QQ22Ao": {
-    "hand": "QQ22Ao",
+  "QQ22A": {
+    "hand": "QQ22A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2820,
@@ -8471,8 +8471,8 @@
       1
     ]
   },
-  "QQ22Ko": {
-    "hand": "QQ22Ko",
+  "QQ22K": {
+    "hand": "QQ22K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2821,
@@ -8495,8 +8495,8 @@
       0
     ]
   },
-  "QQ22Jo": {
-    "hand": "QQ22Jo",
+  "QQ22J": {
+    "hand": "QQ22J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2822,
@@ -8519,8 +8519,8 @@
       0
     ]
   },
-  "QQ22To": {
-    "hand": "QQ22To",
+  "QQ22T": {
+    "hand": "QQ22T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2823,
@@ -8543,8 +8543,8 @@
       0
     ]
   },
-  "QQ229o": {
-    "hand": "QQ229o",
+  "QQ229": {
+    "hand": "QQ229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2824,
@@ -8567,8 +8567,8 @@
       0
     ]
   },
-  "QQ228o": {
-    "hand": "QQ228o",
+  "QQ228": {
+    "hand": "QQ228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2825,
@@ -8591,8 +8591,8 @@
       0
     ]
   },
-  "QQ227o": {
-    "hand": "QQ227o",
+  "QQ227": {
+    "hand": "QQ227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2826,
@@ -8615,8 +8615,8 @@
       0
     ]
   },
-  "QQ226o": {
-    "hand": "QQ226o",
+  "QQ226": {
+    "hand": "QQ226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2827,
@@ -8639,8 +8639,8 @@
       0
     ]
   },
-  "QQ225o": {
-    "hand": "QQ225o",
+  "QQ225": {
+    "hand": "QQ225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2828,
@@ -8663,8 +8663,8 @@
       0
     ]
   },
-  "QQ224o": {
-    "hand": "QQ224o",
+  "QQ224": {
+    "hand": "QQ224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2829,
@@ -8687,8 +8687,8 @@
       0
     ]
   },
-  "QQ223o": {
-    "hand": "QQ223o",
+  "QQ223": {
+    "hand": "QQ223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2830,
@@ -8711,8 +8711,8 @@
       0
     ]
   },
-  "JJTTAo": {
-    "hand": "JJTTAo",
+  "JJTTA": {
+    "hand": "JJTTA",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2831,
@@ -8735,8 +8735,8 @@
       1
     ]
   },
-  "JJTTKo": {
-    "hand": "JJTTKo",
+  "JJTTK": {
+    "hand": "JJTTK",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2832,
@@ -8759,8 +8759,8 @@
       0
     ]
   },
-  "JJTTQo": {
-    "hand": "JJTTQo",
+  "JJTTQ": {
+    "hand": "JJTTQ",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2833,
@@ -8783,8 +8783,8 @@
       0
     ]
   },
-  "JJTT9o": {
-    "hand": "JJTT9o",
+  "JJTT9": {
+    "hand": "JJTT9",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2834,
@@ -8807,8 +8807,8 @@
       0
     ]
   },
-  "JJTT8o": {
-    "hand": "JJTT8o",
+  "JJTT8": {
+    "hand": "JJTT8",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2835,
@@ -8831,8 +8831,8 @@
       0
     ]
   },
-  "JJTT7o": {
-    "hand": "JJTT7o",
+  "JJTT7": {
+    "hand": "JJTT7",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2836,
@@ -8855,8 +8855,8 @@
       0
     ]
   },
-  "JJTT6o": {
-    "hand": "JJTT6o",
+  "JJTT6": {
+    "hand": "JJTT6",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2837,
@@ -8879,8 +8879,8 @@
       0
     ]
   },
-  "JJTT5o": {
-    "hand": "JJTT5o",
+  "JJTT5": {
+    "hand": "JJTT5",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2838,
@@ -8903,8 +8903,8 @@
       0
     ]
   },
-  "JJTT4o": {
-    "hand": "JJTT4o",
+  "JJTT4": {
+    "hand": "JJTT4",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2839,
@@ -8927,8 +8927,8 @@
       0
     ]
   },
-  "JJTT3o": {
-    "hand": "JJTT3o",
+  "JJTT3": {
+    "hand": "JJTT3",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2840,
@@ -8951,8 +8951,8 @@
       0
     ]
   },
-  "JJTT2o": {
-    "hand": "JJTT2o",
+  "JJTT2": {
+    "hand": "JJTT2",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2841,
@@ -8975,8 +8975,8 @@
       0
     ]
   },
-  "JJ99Ao": {
-    "hand": "JJ99Ao",
+  "JJ99A": {
+    "hand": "JJ99A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2842,
@@ -8999,8 +8999,8 @@
       1
     ]
   },
-  "JJ99Ko": {
-    "hand": "JJ99Ko",
+  "JJ99K": {
+    "hand": "JJ99K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2843,
@@ -9023,8 +9023,8 @@
       0
     ]
   },
-  "JJ99Qo": {
-    "hand": "JJ99Qo",
+  "JJ99Q": {
+    "hand": "JJ99Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2844,
@@ -9047,8 +9047,8 @@
       0
     ]
   },
-  "JJ99To": {
-    "hand": "JJ99To",
+  "JJ99T": {
+    "hand": "JJ99T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2845,
@@ -9071,8 +9071,8 @@
       0
     ]
   },
-  "JJ998o": {
-    "hand": "JJ998o",
+  "JJ998": {
+    "hand": "JJ998",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2846,
@@ -9095,8 +9095,8 @@
       0
     ]
   },
-  "JJ997o": {
-    "hand": "JJ997o",
+  "JJ997": {
+    "hand": "JJ997",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2847,
@@ -9119,8 +9119,8 @@
       0
     ]
   },
-  "JJ996o": {
-    "hand": "JJ996o",
+  "JJ996": {
+    "hand": "JJ996",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2848,
@@ -9143,8 +9143,8 @@
       0
     ]
   },
-  "JJ995o": {
-    "hand": "JJ995o",
+  "JJ995": {
+    "hand": "JJ995",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2849,
@@ -9167,8 +9167,8 @@
       0
     ]
   },
-  "JJ994o": {
-    "hand": "JJ994o",
+  "JJ994": {
+    "hand": "JJ994",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2850,
@@ -9191,8 +9191,8 @@
       0
     ]
   },
-  "JJ993o": {
-    "hand": "JJ993o",
+  "JJ993": {
+    "hand": "JJ993",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2851,
@@ -9215,8 +9215,8 @@
       0
     ]
   },
-  "JJ992o": {
-    "hand": "JJ992o",
+  "JJ992": {
+    "hand": "JJ992",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2852,
@@ -9239,8 +9239,8 @@
       0
     ]
   },
-  "JJ88Ao": {
-    "hand": "JJ88Ao",
+  "JJ88A": {
+    "hand": "JJ88A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2853,
@@ -9263,8 +9263,8 @@
       1
     ]
   },
-  "JJ88Ko": {
-    "hand": "JJ88Ko",
+  "JJ88K": {
+    "hand": "JJ88K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2854,
@@ -9287,8 +9287,8 @@
       0
     ]
   },
-  "JJ88Qo": {
-    "hand": "JJ88Qo",
+  "JJ88Q": {
+    "hand": "JJ88Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2855,
@@ -9311,8 +9311,8 @@
       0
     ]
   },
-  "JJ88To": {
-    "hand": "JJ88To",
+  "JJ88T": {
+    "hand": "JJ88T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2856,
@@ -9335,8 +9335,8 @@
       0
     ]
   },
-  "JJ889o": {
-    "hand": "JJ889o",
+  "JJ889": {
+    "hand": "JJ889",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2857,
@@ -9359,8 +9359,8 @@
       0
     ]
   },
-  "JJ887o": {
-    "hand": "JJ887o",
+  "JJ887": {
+    "hand": "JJ887",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2858,
@@ -9383,8 +9383,8 @@
       0
     ]
   },
-  "JJ886o": {
-    "hand": "JJ886o",
+  "JJ886": {
+    "hand": "JJ886",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2859,
@@ -9407,8 +9407,8 @@
       0
     ]
   },
-  "JJ885o": {
-    "hand": "JJ885o",
+  "JJ885": {
+    "hand": "JJ885",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2860,
@@ -9431,8 +9431,8 @@
       0
     ]
   },
-  "JJ884o": {
-    "hand": "JJ884o",
+  "JJ884": {
+    "hand": "JJ884",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2861,
@@ -9455,8 +9455,8 @@
       0
     ]
   },
-  "JJ883o": {
-    "hand": "JJ883o",
+  "JJ883": {
+    "hand": "JJ883",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2862,
@@ -9479,8 +9479,8 @@
       0
     ]
   },
-  "JJ882o": {
-    "hand": "JJ882o",
+  "JJ882": {
+    "hand": "JJ882",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2863,
@@ -9503,8 +9503,8 @@
       0
     ]
   },
-  "JJ77Ao": {
-    "hand": "JJ77Ao",
+  "JJ77A": {
+    "hand": "JJ77A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2864,
@@ -9527,8 +9527,8 @@
       1
     ]
   },
-  "JJ77Ko": {
-    "hand": "JJ77Ko",
+  "JJ77K": {
+    "hand": "JJ77K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2865,
@@ -9551,8 +9551,8 @@
       0
     ]
   },
-  "JJ77Qo": {
-    "hand": "JJ77Qo",
+  "JJ77Q": {
+    "hand": "JJ77Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2866,
@@ -9575,8 +9575,8 @@
       0
     ]
   },
-  "JJ77To": {
-    "hand": "JJ77To",
+  "JJ77T": {
+    "hand": "JJ77T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2867,
@@ -9599,8 +9599,8 @@
       0
     ]
   },
-  "JJ779o": {
-    "hand": "JJ779o",
+  "JJ779": {
+    "hand": "JJ779",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2868,
@@ -9623,8 +9623,8 @@
       0
     ]
   },
-  "JJ778o": {
-    "hand": "JJ778o",
+  "JJ778": {
+    "hand": "JJ778",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2869,
@@ -9647,8 +9647,8 @@
       0
     ]
   },
-  "JJ776o": {
-    "hand": "JJ776o",
+  "JJ776": {
+    "hand": "JJ776",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2870,
@@ -9671,8 +9671,8 @@
       0
     ]
   },
-  "JJ775o": {
-    "hand": "JJ775o",
+  "JJ775": {
+    "hand": "JJ775",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2871,
@@ -9695,8 +9695,8 @@
       0
     ]
   },
-  "JJ774o": {
-    "hand": "JJ774o",
+  "JJ774": {
+    "hand": "JJ774",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2872,
@@ -9719,8 +9719,8 @@
       0
     ]
   },
-  "JJ773o": {
-    "hand": "JJ773o",
+  "JJ773": {
+    "hand": "JJ773",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2873,
@@ -9743,8 +9743,8 @@
       0
     ]
   },
-  "JJ772o": {
-    "hand": "JJ772o",
+  "JJ772": {
+    "hand": "JJ772",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2874,
@@ -9767,8 +9767,8 @@
       0
     ]
   },
-  "JJ66Ao": {
-    "hand": "JJ66Ao",
+  "JJ66A": {
+    "hand": "JJ66A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2875,
@@ -9791,8 +9791,8 @@
       1
     ]
   },
-  "JJ66Ko": {
-    "hand": "JJ66Ko",
+  "JJ66K": {
+    "hand": "JJ66K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2876,
@@ -9815,8 +9815,8 @@
       0
     ]
   },
-  "JJ66Qo": {
-    "hand": "JJ66Qo",
+  "JJ66Q": {
+    "hand": "JJ66Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2877,
@@ -9839,8 +9839,8 @@
       0
     ]
   },
-  "JJ66To": {
-    "hand": "JJ66To",
+  "JJ66T": {
+    "hand": "JJ66T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2878,
@@ -9863,8 +9863,8 @@
       0
     ]
   },
-  "JJ669o": {
-    "hand": "JJ669o",
+  "JJ669": {
+    "hand": "JJ669",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2879,
@@ -9887,8 +9887,8 @@
       0
     ]
   },
-  "JJ668o": {
-    "hand": "JJ668o",
+  "JJ668": {
+    "hand": "JJ668",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2880,
@@ -9911,8 +9911,8 @@
       0
     ]
   },
-  "JJ667o": {
-    "hand": "JJ667o",
+  "JJ667": {
+    "hand": "JJ667",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2881,
@@ -9935,8 +9935,8 @@
       0
     ]
   },
-  "JJ665o": {
-    "hand": "JJ665o",
+  "JJ665": {
+    "hand": "JJ665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2882,
@@ -9959,8 +9959,8 @@
       0
     ]
   },
-  "JJ664o": {
-    "hand": "JJ664o",
+  "JJ664": {
+    "hand": "JJ664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2883,
@@ -9983,8 +9983,8 @@
       0
     ]
   },
-  "JJ663o": {
-    "hand": "JJ663o",
+  "JJ663": {
+    "hand": "JJ663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2884,
@@ -10007,8 +10007,8 @@
       0
     ]
   },
-  "JJ662o": {
-    "hand": "JJ662o",
+  "JJ662": {
+    "hand": "JJ662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2885,
@@ -10031,8 +10031,8 @@
       0
     ]
   },
-  "JJ55Ao": {
-    "hand": "JJ55Ao",
+  "JJ55A": {
+    "hand": "JJ55A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2886,
@@ -10055,8 +10055,8 @@
       1
     ]
   },
-  "JJ55Ko": {
-    "hand": "JJ55Ko",
+  "JJ55K": {
+    "hand": "JJ55K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2887,
@@ -10079,8 +10079,8 @@
       0
     ]
   },
-  "JJ55Qo": {
-    "hand": "JJ55Qo",
+  "JJ55Q": {
+    "hand": "JJ55Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2888,
@@ -10103,8 +10103,8 @@
       0
     ]
   },
-  "JJ55To": {
-    "hand": "JJ55To",
+  "JJ55T": {
+    "hand": "JJ55T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2889,
@@ -10127,8 +10127,8 @@
       0
     ]
   },
-  "JJ559o": {
-    "hand": "JJ559o",
+  "JJ559": {
+    "hand": "JJ559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2890,
@@ -10151,8 +10151,8 @@
       0
     ]
   },
-  "JJ558o": {
-    "hand": "JJ558o",
+  "JJ558": {
+    "hand": "JJ558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2891,
@@ -10175,8 +10175,8 @@
       0
     ]
   },
-  "JJ557o": {
-    "hand": "JJ557o",
+  "JJ557": {
+    "hand": "JJ557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2892,
@@ -10199,8 +10199,8 @@
       0
     ]
   },
-  "JJ556o": {
-    "hand": "JJ556o",
+  "JJ556": {
+    "hand": "JJ556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2893,
@@ -10223,8 +10223,8 @@
       0
     ]
   },
-  "JJ554o": {
-    "hand": "JJ554o",
+  "JJ554": {
+    "hand": "JJ554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2894,
@@ -10247,8 +10247,8 @@
       0
     ]
   },
-  "JJ553o": {
-    "hand": "JJ553o",
+  "JJ553": {
+    "hand": "JJ553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2895,
@@ -10271,8 +10271,8 @@
       0
     ]
   },
-  "JJ552o": {
-    "hand": "JJ552o",
+  "JJ552": {
+    "hand": "JJ552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2896,
@@ -10295,8 +10295,8 @@
       0
     ]
   },
-  "JJ44Ao": {
-    "hand": "JJ44Ao",
+  "JJ44A": {
+    "hand": "JJ44A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2897,
@@ -10319,8 +10319,8 @@
       1
     ]
   },
-  "JJ44Ko": {
-    "hand": "JJ44Ko",
+  "JJ44K": {
+    "hand": "JJ44K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2898,
@@ -10343,8 +10343,8 @@
       0
     ]
   },
-  "JJ44Qo": {
-    "hand": "JJ44Qo",
+  "JJ44Q": {
+    "hand": "JJ44Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2899,
@@ -10367,8 +10367,8 @@
       0
     ]
   },
-  "JJ44To": {
-    "hand": "JJ44To",
+  "JJ44T": {
+    "hand": "JJ44T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2900,
@@ -10391,8 +10391,8 @@
       0
     ]
   },
-  "JJ449o": {
-    "hand": "JJ449o",
+  "JJ449": {
+    "hand": "JJ449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2901,
@@ -10415,8 +10415,8 @@
       0
     ]
   },
-  "JJ448o": {
-    "hand": "JJ448o",
+  "JJ448": {
+    "hand": "JJ448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2902,
@@ -10439,8 +10439,8 @@
       0
     ]
   },
-  "JJ447o": {
-    "hand": "JJ447o",
+  "JJ447": {
+    "hand": "JJ447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2903,
@@ -10463,8 +10463,8 @@
       0
     ]
   },
-  "JJ446o": {
-    "hand": "JJ446o",
+  "JJ446": {
+    "hand": "JJ446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2904,
@@ -10487,8 +10487,8 @@
       0
     ]
   },
-  "JJ445o": {
-    "hand": "JJ445o",
+  "JJ445": {
+    "hand": "JJ445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2905,
@@ -10511,8 +10511,8 @@
       0
     ]
   },
-  "JJ443o": {
-    "hand": "JJ443o",
+  "JJ443": {
+    "hand": "JJ443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2906,
@@ -10535,8 +10535,8 @@
       0
     ]
   },
-  "JJ442o": {
-    "hand": "JJ442o",
+  "JJ442": {
+    "hand": "JJ442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2907,
@@ -10559,8 +10559,8 @@
       0
     ]
   },
-  "JJ33Ao": {
-    "hand": "JJ33Ao",
+  "JJ33A": {
+    "hand": "JJ33A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2908,
@@ -10583,8 +10583,8 @@
       1
     ]
   },
-  "JJ33Ko": {
-    "hand": "JJ33Ko",
+  "JJ33K": {
+    "hand": "JJ33K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2909,
@@ -10607,8 +10607,8 @@
       0
     ]
   },
-  "JJ33Qo": {
-    "hand": "JJ33Qo",
+  "JJ33Q": {
+    "hand": "JJ33Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2910,
@@ -10631,8 +10631,8 @@
       0
     ]
   },
-  "JJ33To": {
-    "hand": "JJ33To",
+  "JJ33T": {
+    "hand": "JJ33T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2911,
@@ -10655,8 +10655,8 @@
       0
     ]
   },
-  "JJ339o": {
-    "hand": "JJ339o",
+  "JJ339": {
+    "hand": "JJ339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2912,
@@ -10679,8 +10679,8 @@
       0
     ]
   },
-  "JJ338o": {
-    "hand": "JJ338o",
+  "JJ338": {
+    "hand": "JJ338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2913,
@@ -10703,8 +10703,8 @@
       0
     ]
   },
-  "JJ337o": {
-    "hand": "JJ337o",
+  "JJ337": {
+    "hand": "JJ337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2914,
@@ -10727,8 +10727,8 @@
       0
     ]
   },
-  "JJ336o": {
-    "hand": "JJ336o",
+  "JJ336": {
+    "hand": "JJ336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2915,
@@ -10751,8 +10751,8 @@
       0
     ]
   },
-  "JJ335o": {
-    "hand": "JJ335o",
+  "JJ335": {
+    "hand": "JJ335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2916,
@@ -10775,8 +10775,8 @@
       0
     ]
   },
-  "JJ334o": {
-    "hand": "JJ334o",
+  "JJ334": {
+    "hand": "JJ334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2917,
@@ -10799,8 +10799,8 @@
       0
     ]
   },
-  "JJ332o": {
-    "hand": "JJ332o",
+  "JJ332": {
+    "hand": "JJ332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2918,
@@ -10823,8 +10823,8 @@
       0
     ]
   },
-  "JJ22Ao": {
-    "hand": "JJ22Ao",
+  "JJ22A": {
+    "hand": "JJ22A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2919,
@@ -10847,8 +10847,8 @@
       1
     ]
   },
-  "JJ22Ko": {
-    "hand": "JJ22Ko",
+  "JJ22K": {
+    "hand": "JJ22K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2920,
@@ -10871,8 +10871,8 @@
       0
     ]
   },
-  "JJ22Qo": {
-    "hand": "JJ22Qo",
+  "JJ22Q": {
+    "hand": "JJ22Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2921,
@@ -10895,8 +10895,8 @@
       0
     ]
   },
-  "JJ22To": {
-    "hand": "JJ22To",
+  "JJ22T": {
+    "hand": "JJ22T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2922,
@@ -10919,8 +10919,8 @@
       0
     ]
   },
-  "JJ229o": {
-    "hand": "JJ229o",
+  "JJ229": {
+    "hand": "JJ229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2923,
@@ -10943,8 +10943,8 @@
       0
     ]
   },
-  "JJ228o": {
-    "hand": "JJ228o",
+  "JJ228": {
+    "hand": "JJ228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2924,
@@ -10967,8 +10967,8 @@
       0
     ]
   },
-  "JJ227o": {
-    "hand": "JJ227o",
+  "JJ227": {
+    "hand": "JJ227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2925,
@@ -10991,8 +10991,8 @@
       0
     ]
   },
-  "JJ226o": {
-    "hand": "JJ226o",
+  "JJ226": {
+    "hand": "JJ226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2926,
@@ -11015,8 +11015,8 @@
       0
     ]
   },
-  "JJ225o": {
-    "hand": "JJ225o",
+  "JJ225": {
+    "hand": "JJ225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2927,
@@ -11039,8 +11039,8 @@
       0
     ]
   },
-  "JJ224o": {
-    "hand": "JJ224o",
+  "JJ224": {
+    "hand": "JJ224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2928,
@@ -11063,8 +11063,8 @@
       0
     ]
   },
-  "JJ223o": {
-    "hand": "JJ223o",
+  "JJ223": {
+    "hand": "JJ223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2929,
@@ -11087,8 +11087,8 @@
       0
     ]
   },
-  "TT99Ao": {
-    "hand": "TT99Ao",
+  "TT99A": {
+    "hand": "TT99A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2930,
@@ -11111,8 +11111,8 @@
       1
     ]
   },
-  "TT99Ko": {
-    "hand": "TT99Ko",
+  "TT99K": {
+    "hand": "TT99K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2931,
@@ -11135,8 +11135,8 @@
       0
     ]
   },
-  "TT99Qo": {
-    "hand": "TT99Qo",
+  "TT99Q": {
+    "hand": "TT99Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2932,
@@ -11159,8 +11159,8 @@
       0
     ]
   },
-  "TT99Jo": {
-    "hand": "TT99Jo",
+  "TT99J": {
+    "hand": "TT99J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2933,
@@ -11183,8 +11183,8 @@
       0
     ]
   },
-  "TT998o": {
-    "hand": "TT998o",
+  "TT998": {
+    "hand": "TT998",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2934,
@@ -11207,8 +11207,8 @@
       0
     ]
   },
-  "TT997o": {
-    "hand": "TT997o",
+  "TT997": {
+    "hand": "TT997",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2935,
@@ -11231,8 +11231,8 @@
       0
     ]
   },
-  "TT996o": {
-    "hand": "TT996o",
+  "TT996": {
+    "hand": "TT996",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2936,
@@ -11255,8 +11255,8 @@
       0
     ]
   },
-  "TT995o": {
-    "hand": "TT995o",
+  "TT995": {
+    "hand": "TT995",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2937,
@@ -11279,8 +11279,8 @@
       0
     ]
   },
-  "TT994o": {
-    "hand": "TT994o",
+  "TT994": {
+    "hand": "TT994",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2938,
@@ -11303,8 +11303,8 @@
       0
     ]
   },
-  "TT993o": {
-    "hand": "TT993o",
+  "TT993": {
+    "hand": "TT993",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2939,
@@ -11327,8 +11327,8 @@
       0
     ]
   },
-  "TT992o": {
-    "hand": "TT992o",
+  "TT992": {
+    "hand": "TT992",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2940,
@@ -11351,8 +11351,8 @@
       0
     ]
   },
-  "TT88Ao": {
-    "hand": "TT88Ao",
+  "TT88A": {
+    "hand": "TT88A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2941,
@@ -11375,8 +11375,8 @@
       1
     ]
   },
-  "TT88Ko": {
-    "hand": "TT88Ko",
+  "TT88K": {
+    "hand": "TT88K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2942,
@@ -11399,8 +11399,8 @@
       0
     ]
   },
-  "TT88Qo": {
-    "hand": "TT88Qo",
+  "TT88Q": {
+    "hand": "TT88Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2943,
@@ -11423,8 +11423,8 @@
       0
     ]
   },
-  "TT88Jo": {
-    "hand": "TT88Jo",
+  "TT88J": {
+    "hand": "TT88J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2944,
@@ -11447,8 +11447,8 @@
       0
     ]
   },
-  "TT889o": {
-    "hand": "TT889o",
+  "TT889": {
+    "hand": "TT889",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2945,
@@ -11471,8 +11471,8 @@
       0
     ]
   },
-  "TT887o": {
-    "hand": "TT887o",
+  "TT887": {
+    "hand": "TT887",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2946,
@@ -11495,8 +11495,8 @@
       0
     ]
   },
-  "TT886o": {
-    "hand": "TT886o",
+  "TT886": {
+    "hand": "TT886",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2947,
@@ -11519,8 +11519,8 @@
       0
     ]
   },
-  "TT885o": {
-    "hand": "TT885o",
+  "TT885": {
+    "hand": "TT885",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2948,
@@ -11543,8 +11543,8 @@
       0
     ]
   },
-  "TT884o": {
-    "hand": "TT884o",
+  "TT884": {
+    "hand": "TT884",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2949,
@@ -11567,8 +11567,8 @@
       0
     ]
   },
-  "TT883o": {
-    "hand": "TT883o",
+  "TT883": {
+    "hand": "TT883",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2950,
@@ -11591,8 +11591,8 @@
       0
     ]
   },
-  "TT882o": {
-    "hand": "TT882o",
+  "TT882": {
+    "hand": "TT882",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2951,
@@ -11615,8 +11615,8 @@
       0
     ]
   },
-  "TT77Ao": {
-    "hand": "TT77Ao",
+  "TT77A": {
+    "hand": "TT77A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2952,
@@ -11639,8 +11639,8 @@
       1
     ]
   },
-  "TT77Ko": {
-    "hand": "TT77Ko",
+  "TT77K": {
+    "hand": "TT77K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2953,
@@ -11663,8 +11663,8 @@
       0
     ]
   },
-  "TT77Qo": {
-    "hand": "TT77Qo",
+  "TT77Q": {
+    "hand": "TT77Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2954,
@@ -11687,8 +11687,8 @@
       0
     ]
   },
-  "TT77Jo": {
-    "hand": "TT77Jo",
+  "TT77J": {
+    "hand": "TT77J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2955,
@@ -11711,8 +11711,8 @@
       0
     ]
   },
-  "TT779o": {
-    "hand": "TT779o",
+  "TT779": {
+    "hand": "TT779",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2956,
@@ -11735,8 +11735,8 @@
       0
     ]
   },
-  "TT778o": {
-    "hand": "TT778o",
+  "TT778": {
+    "hand": "TT778",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2957,
@@ -11759,8 +11759,8 @@
       0
     ]
   },
-  "TT776o": {
-    "hand": "TT776o",
+  "TT776": {
+    "hand": "TT776",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2958,
@@ -11783,8 +11783,8 @@
       0
     ]
   },
-  "TT775o": {
-    "hand": "TT775o",
+  "TT775": {
+    "hand": "TT775",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2959,
@@ -11807,8 +11807,8 @@
       0
     ]
   },
-  "TT774o": {
-    "hand": "TT774o",
+  "TT774": {
+    "hand": "TT774",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2960,
@@ -11831,8 +11831,8 @@
       0
     ]
   },
-  "TT773o": {
-    "hand": "TT773o",
+  "TT773": {
+    "hand": "TT773",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2961,
@@ -11855,8 +11855,8 @@
       0
     ]
   },
-  "TT772o": {
-    "hand": "TT772o",
+  "TT772": {
+    "hand": "TT772",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2962,
@@ -11879,8 +11879,8 @@
       0
     ]
   },
-  "TT66Ao": {
-    "hand": "TT66Ao",
+  "TT66A": {
+    "hand": "TT66A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2963,
@@ -11903,8 +11903,8 @@
       1
     ]
   },
-  "TT66Ko": {
-    "hand": "TT66Ko",
+  "TT66K": {
+    "hand": "TT66K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2964,
@@ -11927,8 +11927,8 @@
       0
     ]
   },
-  "TT66Qo": {
-    "hand": "TT66Qo",
+  "TT66Q": {
+    "hand": "TT66Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2965,
@@ -11951,8 +11951,8 @@
       0
     ]
   },
-  "TT66Jo": {
-    "hand": "TT66Jo",
+  "TT66J": {
+    "hand": "TT66J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2966,
@@ -11975,8 +11975,8 @@
       0
     ]
   },
-  "TT669o": {
-    "hand": "TT669o",
+  "TT669": {
+    "hand": "TT669",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2967,
@@ -11999,8 +11999,8 @@
       0
     ]
   },
-  "TT668o": {
-    "hand": "TT668o",
+  "TT668": {
+    "hand": "TT668",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2968,
@@ -12023,8 +12023,8 @@
       0
     ]
   },
-  "TT667o": {
-    "hand": "TT667o",
+  "TT667": {
+    "hand": "TT667",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2969,
@@ -12047,8 +12047,8 @@
       0
     ]
   },
-  "TT665o": {
-    "hand": "TT665o",
+  "TT665": {
+    "hand": "TT665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2970,
@@ -12071,8 +12071,8 @@
       0
     ]
   },
-  "TT664o": {
-    "hand": "TT664o",
+  "TT664": {
+    "hand": "TT664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2971,
@@ -12095,8 +12095,8 @@
       0
     ]
   },
-  "TT663o": {
-    "hand": "TT663o",
+  "TT663": {
+    "hand": "TT663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2972,
@@ -12119,8 +12119,8 @@
       0
     ]
   },
-  "TT662o": {
-    "hand": "TT662o",
+  "TT662": {
+    "hand": "TT662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2973,
@@ -12143,8 +12143,8 @@
       0
     ]
   },
-  "TT55Ao": {
-    "hand": "TT55Ao",
+  "TT55A": {
+    "hand": "TT55A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2974,
@@ -12167,8 +12167,8 @@
       1
     ]
   },
-  "TT55Ko": {
-    "hand": "TT55Ko",
+  "TT55K": {
+    "hand": "TT55K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2975,
@@ -12191,8 +12191,8 @@
       0
     ]
   },
-  "TT55Qo": {
-    "hand": "TT55Qo",
+  "TT55Q": {
+    "hand": "TT55Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2976,
@@ -12215,8 +12215,8 @@
       0
     ]
   },
-  "TT55Jo": {
-    "hand": "TT55Jo",
+  "TT55J": {
+    "hand": "TT55J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2977,
@@ -12239,8 +12239,8 @@
       0
     ]
   },
-  "TT559o": {
-    "hand": "TT559o",
+  "TT559": {
+    "hand": "TT559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2978,
@@ -12263,8 +12263,8 @@
       0
     ]
   },
-  "TT558o": {
-    "hand": "TT558o",
+  "TT558": {
+    "hand": "TT558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2979,
@@ -12287,8 +12287,8 @@
       0
     ]
   },
-  "TT557o": {
-    "hand": "TT557o",
+  "TT557": {
+    "hand": "TT557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2980,
@@ -12311,8 +12311,8 @@
       0
     ]
   },
-  "TT556o": {
-    "hand": "TT556o",
+  "TT556": {
+    "hand": "TT556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2981,
@@ -12335,8 +12335,8 @@
       0
     ]
   },
-  "TT554o": {
-    "hand": "TT554o",
+  "TT554": {
+    "hand": "TT554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2982,
@@ -12359,8 +12359,8 @@
       0
     ]
   },
-  "TT553o": {
-    "hand": "TT553o",
+  "TT553": {
+    "hand": "TT553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2983,
@@ -12383,8 +12383,8 @@
       0
     ]
   },
-  "TT552o": {
-    "hand": "TT552o",
+  "TT552": {
+    "hand": "TT552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2984,
@@ -12407,8 +12407,8 @@
       0
     ]
   },
-  "TT44Ao": {
-    "hand": "TT44Ao",
+  "TT44A": {
+    "hand": "TT44A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2985,
@@ -12431,8 +12431,8 @@
       1
     ]
   },
-  "TT44Ko": {
-    "hand": "TT44Ko",
+  "TT44K": {
+    "hand": "TT44K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2986,
@@ -12455,8 +12455,8 @@
       0
     ]
   },
-  "TT44Qo": {
-    "hand": "TT44Qo",
+  "TT44Q": {
+    "hand": "TT44Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2987,
@@ -12479,8 +12479,8 @@
       0
     ]
   },
-  "TT44Jo": {
-    "hand": "TT44Jo",
+  "TT44J": {
+    "hand": "TT44J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2988,
@@ -12503,8 +12503,8 @@
       0
     ]
   },
-  "TT449o": {
-    "hand": "TT449o",
+  "TT449": {
+    "hand": "TT449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2989,
@@ -12527,8 +12527,8 @@
       0
     ]
   },
-  "TT448o": {
-    "hand": "TT448o",
+  "TT448": {
+    "hand": "TT448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2990,
@@ -12551,8 +12551,8 @@
       0
     ]
   },
-  "TT447o": {
-    "hand": "TT447o",
+  "TT447": {
+    "hand": "TT447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2991,
@@ -12575,8 +12575,8 @@
       0
     ]
   },
-  "TT446o": {
-    "hand": "TT446o",
+  "TT446": {
+    "hand": "TT446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2992,
@@ -12599,8 +12599,8 @@
       0
     ]
   },
-  "TT445o": {
-    "hand": "TT445o",
+  "TT445": {
+    "hand": "TT445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2993,
@@ -12623,8 +12623,8 @@
       0
     ]
   },
-  "TT443o": {
-    "hand": "TT443o",
+  "TT443": {
+    "hand": "TT443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2994,
@@ -12647,8 +12647,8 @@
       0
     ]
   },
-  "TT442o": {
-    "hand": "TT442o",
+  "TT442": {
+    "hand": "TT442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2995,
@@ -12671,8 +12671,8 @@
       0
     ]
   },
-  "TT33Ao": {
-    "hand": "TT33Ao",
+  "TT33A": {
+    "hand": "TT33A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2996,
@@ -12695,8 +12695,8 @@
       1
     ]
   },
-  "TT33Ko": {
-    "hand": "TT33Ko",
+  "TT33K": {
+    "hand": "TT33K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2997,
@@ -12719,8 +12719,8 @@
       0
     ]
   },
-  "TT33Qo": {
-    "hand": "TT33Qo",
+  "TT33Q": {
+    "hand": "TT33Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2998,
@@ -12743,8 +12743,8 @@
       0
     ]
   },
-  "TT33Jo": {
-    "hand": "TT33Jo",
+  "TT33J": {
+    "hand": "TT33J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 2999,
@@ -12767,8 +12767,8 @@
       0
     ]
   },
-  "TT339o": {
-    "hand": "TT339o",
+  "TT339": {
+    "hand": "TT339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3000,
@@ -12791,8 +12791,8 @@
       0
     ]
   },
-  "TT338o": {
-    "hand": "TT338o",
+  "TT338": {
+    "hand": "TT338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3001,
@@ -12815,8 +12815,8 @@
       0
     ]
   },
-  "TT337o": {
-    "hand": "TT337o",
+  "TT337": {
+    "hand": "TT337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3002,
@@ -12839,8 +12839,8 @@
       0
     ]
   },
-  "TT336o": {
-    "hand": "TT336o",
+  "TT336": {
+    "hand": "TT336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3003,
@@ -12863,8 +12863,8 @@
       0
     ]
   },
-  "TT335o": {
-    "hand": "TT335o",
+  "TT335": {
+    "hand": "TT335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3004,
@@ -12887,8 +12887,8 @@
       0
     ]
   },
-  "TT334o": {
-    "hand": "TT334o",
+  "TT334": {
+    "hand": "TT334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3005,
@@ -12911,8 +12911,8 @@
       0
     ]
   },
-  "TT332o": {
-    "hand": "TT332o",
+  "TT332": {
+    "hand": "TT332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3006,
@@ -12935,8 +12935,8 @@
       0
     ]
   },
-  "TT22Ao": {
-    "hand": "TT22Ao",
+  "TT22A": {
+    "hand": "TT22A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3007,
@@ -12959,8 +12959,8 @@
       1
     ]
   },
-  "TT22Ko": {
-    "hand": "TT22Ko",
+  "TT22K": {
+    "hand": "TT22K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3008,
@@ -12983,8 +12983,8 @@
       0
     ]
   },
-  "TT22Qo": {
-    "hand": "TT22Qo",
+  "TT22Q": {
+    "hand": "TT22Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3009,
@@ -13007,8 +13007,8 @@
       0
     ]
   },
-  "TT22Jo": {
-    "hand": "TT22Jo",
+  "TT22J": {
+    "hand": "TT22J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3010,
@@ -13031,8 +13031,8 @@
       0
     ]
   },
-  "TT229o": {
-    "hand": "TT229o",
+  "TT229": {
+    "hand": "TT229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3011,
@@ -13055,8 +13055,8 @@
       0
     ]
   },
-  "TT228o": {
-    "hand": "TT228o",
+  "TT228": {
+    "hand": "TT228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3012,
@@ -13079,8 +13079,8 @@
       0
     ]
   },
-  "TT227o": {
-    "hand": "TT227o",
+  "TT227": {
+    "hand": "TT227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3013,
@@ -13103,8 +13103,8 @@
       0
     ]
   },
-  "TT226o": {
-    "hand": "TT226o",
+  "TT226": {
+    "hand": "TT226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3014,
@@ -13127,8 +13127,8 @@
       0
     ]
   },
-  "TT225o": {
-    "hand": "TT225o",
+  "TT225": {
+    "hand": "TT225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3015,
@@ -13151,8 +13151,8 @@
       0
     ]
   },
-  "TT224o": {
-    "hand": "TT224o",
+  "TT224": {
+    "hand": "TT224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3016,
@@ -13175,8 +13175,8 @@
       0
     ]
   },
-  "TT223o": {
-    "hand": "TT223o",
+  "TT223": {
+    "hand": "TT223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3017,
@@ -13199,8 +13199,8 @@
       0
     ]
   },
-  "9988Ao": {
-    "hand": "9988Ao",
+  "9988A": {
+    "hand": "9988A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3018,
@@ -13223,8 +13223,8 @@
       1
     ]
   },
-  "9988Ko": {
-    "hand": "9988Ko",
+  "9988K": {
+    "hand": "9988K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3019,
@@ -13247,8 +13247,8 @@
       0
     ]
   },
-  "9988Qo": {
-    "hand": "9988Qo",
+  "9988Q": {
+    "hand": "9988Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3020,
@@ -13271,8 +13271,8 @@
       0
     ]
   },
-  "9988Jo": {
-    "hand": "9988Jo",
+  "9988J": {
+    "hand": "9988J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3021,
@@ -13295,8 +13295,8 @@
       0
     ]
   },
-  "9988To": {
-    "hand": "9988To",
+  "9988T": {
+    "hand": "9988T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3022,
@@ -13319,8 +13319,8 @@
       0
     ]
   },
-  "99887o": {
-    "hand": "99887o",
+  "99887": {
+    "hand": "99887",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3023,
@@ -13343,8 +13343,8 @@
       0
     ]
   },
-  "99886o": {
-    "hand": "99886o",
+  "99886": {
+    "hand": "99886",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3024,
@@ -13367,8 +13367,8 @@
       0
     ]
   },
-  "99885o": {
-    "hand": "99885o",
+  "99885": {
+    "hand": "99885",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3025,
@@ -13391,8 +13391,8 @@
       0
     ]
   },
-  "99884o": {
-    "hand": "99884o",
+  "99884": {
+    "hand": "99884",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3026,
@@ -13415,8 +13415,8 @@
       0
     ]
   },
-  "99883o": {
-    "hand": "99883o",
+  "99883": {
+    "hand": "99883",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3027,
@@ -13439,8 +13439,8 @@
       0
     ]
   },
-  "99882o": {
-    "hand": "99882o",
+  "99882": {
+    "hand": "99882",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3028,
@@ -13463,8 +13463,8 @@
       0
     ]
   },
-  "9977Ao": {
-    "hand": "9977Ao",
+  "9977A": {
+    "hand": "9977A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3029,
@@ -13487,8 +13487,8 @@
       1
     ]
   },
-  "9977Ko": {
-    "hand": "9977Ko",
+  "9977K": {
+    "hand": "9977K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3030,
@@ -13511,8 +13511,8 @@
       0
     ]
   },
-  "9977Qo": {
-    "hand": "9977Qo",
+  "9977Q": {
+    "hand": "9977Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3031,
@@ -13535,8 +13535,8 @@
       0
     ]
   },
-  "9977Jo": {
-    "hand": "9977Jo",
+  "9977J": {
+    "hand": "9977J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3032,
@@ -13559,8 +13559,8 @@
       0
     ]
   },
-  "9977To": {
-    "hand": "9977To",
+  "9977T": {
+    "hand": "9977T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3033,
@@ -13583,8 +13583,8 @@
       0
     ]
   },
-  "99778o": {
-    "hand": "99778o",
+  "99778": {
+    "hand": "99778",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3034,
@@ -13607,8 +13607,8 @@
       0
     ]
   },
-  "99776o": {
-    "hand": "99776o",
+  "99776": {
+    "hand": "99776",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3035,
@@ -13631,8 +13631,8 @@
       0
     ]
   },
-  "99775o": {
-    "hand": "99775o",
+  "99775": {
+    "hand": "99775",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3036,
@@ -13655,8 +13655,8 @@
       0
     ]
   },
-  "99774o": {
-    "hand": "99774o",
+  "99774": {
+    "hand": "99774",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3037,
@@ -13679,8 +13679,8 @@
       0
     ]
   },
-  "99773o": {
-    "hand": "99773o",
+  "99773": {
+    "hand": "99773",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3038,
@@ -13703,8 +13703,8 @@
       0
     ]
   },
-  "99772o": {
-    "hand": "99772o",
+  "99772": {
+    "hand": "99772",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3039,
@@ -13727,8 +13727,8 @@
       0
     ]
   },
-  "9966Ao": {
-    "hand": "9966Ao",
+  "9966A": {
+    "hand": "9966A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3040,
@@ -13751,8 +13751,8 @@
       1
     ]
   },
-  "9966Ko": {
-    "hand": "9966Ko",
+  "9966K": {
+    "hand": "9966K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3041,
@@ -13775,8 +13775,8 @@
       0
     ]
   },
-  "9966Qo": {
-    "hand": "9966Qo",
+  "9966Q": {
+    "hand": "9966Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3042,
@@ -13799,8 +13799,8 @@
       0
     ]
   },
-  "9966Jo": {
-    "hand": "9966Jo",
+  "9966J": {
+    "hand": "9966J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3043,
@@ -13823,8 +13823,8 @@
       0
     ]
   },
-  "9966To": {
-    "hand": "9966To",
+  "9966T": {
+    "hand": "9966T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3044,
@@ -13847,8 +13847,8 @@
       0
     ]
   },
-  "99668o": {
-    "hand": "99668o",
+  "99668": {
+    "hand": "99668",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3045,
@@ -13871,8 +13871,8 @@
       0
     ]
   },
-  "99667o": {
-    "hand": "99667o",
+  "99667": {
+    "hand": "99667",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3046,
@@ -13895,8 +13895,8 @@
       0
     ]
   },
-  "99665o": {
-    "hand": "99665o",
+  "99665": {
+    "hand": "99665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3047,
@@ -13919,8 +13919,8 @@
       0
     ]
   },
-  "99664o": {
-    "hand": "99664o",
+  "99664": {
+    "hand": "99664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3048,
@@ -13943,8 +13943,8 @@
       0
     ]
   },
-  "99663o": {
-    "hand": "99663o",
+  "99663": {
+    "hand": "99663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3049,
@@ -13967,8 +13967,8 @@
       0
     ]
   },
-  "99662o": {
-    "hand": "99662o",
+  "99662": {
+    "hand": "99662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3050,
@@ -13991,8 +13991,8 @@
       0
     ]
   },
-  "9955Ao": {
-    "hand": "9955Ao",
+  "9955A": {
+    "hand": "9955A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3051,
@@ -14015,8 +14015,8 @@
       1
     ]
   },
-  "9955Ko": {
-    "hand": "9955Ko",
+  "9955K": {
+    "hand": "9955K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3052,
@@ -14039,8 +14039,8 @@
       0
     ]
   },
-  "9955Qo": {
-    "hand": "9955Qo",
+  "9955Q": {
+    "hand": "9955Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3053,
@@ -14063,8 +14063,8 @@
       0
     ]
   },
-  "9955Jo": {
-    "hand": "9955Jo",
+  "9955J": {
+    "hand": "9955J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3054,
@@ -14087,8 +14087,8 @@
       0
     ]
   },
-  "9955To": {
-    "hand": "9955To",
+  "9955T": {
+    "hand": "9955T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3055,
@@ -14111,8 +14111,8 @@
       0
     ]
   },
-  "99558o": {
-    "hand": "99558o",
+  "99558": {
+    "hand": "99558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3056,
@@ -14135,8 +14135,8 @@
       0
     ]
   },
-  "99557o": {
-    "hand": "99557o",
+  "99557": {
+    "hand": "99557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3057,
@@ -14159,8 +14159,8 @@
       0
     ]
   },
-  "99556o": {
-    "hand": "99556o",
+  "99556": {
+    "hand": "99556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3058,
@@ -14183,8 +14183,8 @@
       0
     ]
   },
-  "99554o": {
-    "hand": "99554o",
+  "99554": {
+    "hand": "99554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3059,
@@ -14207,8 +14207,8 @@
       0
     ]
   },
-  "99553o": {
-    "hand": "99553o",
+  "99553": {
+    "hand": "99553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3060,
@@ -14231,8 +14231,8 @@
       0
     ]
   },
-  "99552o": {
-    "hand": "99552o",
+  "99552": {
+    "hand": "99552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3061,
@@ -14255,8 +14255,8 @@
       0
     ]
   },
-  "9944Ao": {
-    "hand": "9944Ao",
+  "9944A": {
+    "hand": "9944A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3062,
@@ -14279,8 +14279,8 @@
       1
     ]
   },
-  "9944Ko": {
-    "hand": "9944Ko",
+  "9944K": {
+    "hand": "9944K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3063,
@@ -14303,8 +14303,8 @@
       0
     ]
   },
-  "9944Qo": {
-    "hand": "9944Qo",
+  "9944Q": {
+    "hand": "9944Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3064,
@@ -14327,8 +14327,8 @@
       0
     ]
   },
-  "9944Jo": {
-    "hand": "9944Jo",
+  "9944J": {
+    "hand": "9944J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3065,
@@ -14351,8 +14351,8 @@
       0
     ]
   },
-  "9944To": {
-    "hand": "9944To",
+  "9944T": {
+    "hand": "9944T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3066,
@@ -14375,8 +14375,8 @@
       0
     ]
   },
-  "99448o": {
-    "hand": "99448o",
+  "99448": {
+    "hand": "99448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3067,
@@ -14399,8 +14399,8 @@
       0
     ]
   },
-  "99447o": {
-    "hand": "99447o",
+  "99447": {
+    "hand": "99447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3068,
@@ -14423,8 +14423,8 @@
       0
     ]
   },
-  "99446o": {
-    "hand": "99446o",
+  "99446": {
+    "hand": "99446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3069,
@@ -14447,8 +14447,8 @@
       0
     ]
   },
-  "99445o": {
-    "hand": "99445o",
+  "99445": {
+    "hand": "99445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3070,
@@ -14471,8 +14471,8 @@
       0
     ]
   },
-  "99443o": {
-    "hand": "99443o",
+  "99443": {
+    "hand": "99443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3071,
@@ -14495,8 +14495,8 @@
       0
     ]
   },
-  "99442o": {
-    "hand": "99442o",
+  "99442": {
+    "hand": "99442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3072,
@@ -14519,8 +14519,8 @@
       0
     ]
   },
-  "9933Ao": {
-    "hand": "9933Ao",
+  "9933A": {
+    "hand": "9933A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3073,
@@ -14543,8 +14543,8 @@
       1
     ]
   },
-  "9933Ko": {
-    "hand": "9933Ko",
+  "9933K": {
+    "hand": "9933K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3074,
@@ -14567,8 +14567,8 @@
       0
     ]
   },
-  "9933Qo": {
-    "hand": "9933Qo",
+  "9933Q": {
+    "hand": "9933Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3075,
@@ -14591,8 +14591,8 @@
       0
     ]
   },
-  "9933Jo": {
-    "hand": "9933Jo",
+  "9933J": {
+    "hand": "9933J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3076,
@@ -14615,8 +14615,8 @@
       0
     ]
   },
-  "9933To": {
-    "hand": "9933To",
+  "9933T": {
+    "hand": "9933T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3077,
@@ -14639,8 +14639,8 @@
       0
     ]
   },
-  "99338o": {
-    "hand": "99338o",
+  "99338": {
+    "hand": "99338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3078,
@@ -14663,8 +14663,8 @@
       0
     ]
   },
-  "99337o": {
-    "hand": "99337o",
+  "99337": {
+    "hand": "99337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3079,
@@ -14687,8 +14687,8 @@
       0
     ]
   },
-  "99336o": {
-    "hand": "99336o",
+  "99336": {
+    "hand": "99336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3080,
@@ -14711,8 +14711,8 @@
       0
     ]
   },
-  "99335o": {
-    "hand": "99335o",
+  "99335": {
+    "hand": "99335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3081,
@@ -14735,8 +14735,8 @@
       0
     ]
   },
-  "99334o": {
-    "hand": "99334o",
+  "99334": {
+    "hand": "99334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3082,
@@ -14759,8 +14759,8 @@
       0
     ]
   },
-  "99332o": {
-    "hand": "99332o",
+  "99332": {
+    "hand": "99332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3083,
@@ -14783,8 +14783,8 @@
       0
     ]
   },
-  "9922Ao": {
-    "hand": "9922Ao",
+  "9922A": {
+    "hand": "9922A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3084,
@@ -14807,8 +14807,8 @@
       1
     ]
   },
-  "9922Ko": {
-    "hand": "9922Ko",
+  "9922K": {
+    "hand": "9922K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3085,
@@ -14831,8 +14831,8 @@
       0
     ]
   },
-  "9922Qo": {
-    "hand": "9922Qo",
+  "9922Q": {
+    "hand": "9922Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3086,
@@ -14855,8 +14855,8 @@
       0
     ]
   },
-  "9922Jo": {
-    "hand": "9922Jo",
+  "9922J": {
+    "hand": "9922J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3087,
@@ -14879,8 +14879,8 @@
       0
     ]
   },
-  "9922To": {
-    "hand": "9922To",
+  "9922T": {
+    "hand": "9922T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3088,
@@ -14903,8 +14903,8 @@
       0
     ]
   },
-  "99228o": {
-    "hand": "99228o",
+  "99228": {
+    "hand": "99228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3089,
@@ -14927,8 +14927,8 @@
       0
     ]
   },
-  "99227o": {
-    "hand": "99227o",
+  "99227": {
+    "hand": "99227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3090,
@@ -14951,8 +14951,8 @@
       0
     ]
   },
-  "99226o": {
-    "hand": "99226o",
+  "99226": {
+    "hand": "99226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3091,
@@ -14975,8 +14975,8 @@
       0
     ]
   },
-  "99225o": {
-    "hand": "99225o",
+  "99225": {
+    "hand": "99225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3092,
@@ -14999,8 +14999,8 @@
       0
     ]
   },
-  "99224o": {
-    "hand": "99224o",
+  "99224": {
+    "hand": "99224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3093,
@@ -15023,8 +15023,8 @@
       0
     ]
   },
-  "99223o": {
-    "hand": "99223o",
+  "99223": {
+    "hand": "99223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3094,
@@ -15047,8 +15047,8 @@
       0
     ]
   },
-  "8877Ao": {
-    "hand": "8877Ao",
+  "8877A": {
+    "hand": "8877A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3095,
@@ -15071,8 +15071,8 @@
       1
     ]
   },
-  "8877Ko": {
-    "hand": "8877Ko",
+  "8877K": {
+    "hand": "8877K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3096,
@@ -15095,8 +15095,8 @@
       0
     ]
   },
-  "8877Qo": {
-    "hand": "8877Qo",
+  "8877Q": {
+    "hand": "8877Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3097,
@@ -15119,8 +15119,8 @@
       0
     ]
   },
-  "8877Jo": {
-    "hand": "8877Jo",
+  "8877J": {
+    "hand": "8877J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3098,
@@ -15143,8 +15143,8 @@
       0
     ]
   },
-  "8877To": {
-    "hand": "8877To",
+  "8877T": {
+    "hand": "8877T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3099,
@@ -15167,8 +15167,8 @@
       0
     ]
   },
-  "88779o": {
-    "hand": "88779o",
+  "88779": {
+    "hand": "88779",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3100,
@@ -15191,8 +15191,8 @@
       0
     ]
   },
-  "88776o": {
-    "hand": "88776o",
+  "88776": {
+    "hand": "88776",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3101,
@@ -15215,8 +15215,8 @@
       0
     ]
   },
-  "88775o": {
-    "hand": "88775o",
+  "88775": {
+    "hand": "88775",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3102,
@@ -15239,8 +15239,8 @@
       0
     ]
   },
-  "88774o": {
-    "hand": "88774o",
+  "88774": {
+    "hand": "88774",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3103,
@@ -15263,8 +15263,8 @@
       0
     ]
   },
-  "88773o": {
-    "hand": "88773o",
+  "88773": {
+    "hand": "88773",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3104,
@@ -15287,8 +15287,8 @@
       0
     ]
   },
-  "88772o": {
-    "hand": "88772o",
+  "88772": {
+    "hand": "88772",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3105,
@@ -15311,8 +15311,8 @@
       0
     ]
   },
-  "8866Ao": {
-    "hand": "8866Ao",
+  "8866A": {
+    "hand": "8866A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3106,
@@ -15335,8 +15335,8 @@
       1
     ]
   },
-  "8866Ko": {
-    "hand": "8866Ko",
+  "8866K": {
+    "hand": "8866K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3107,
@@ -15359,8 +15359,8 @@
       0
     ]
   },
-  "8866Qo": {
-    "hand": "8866Qo",
+  "8866Q": {
+    "hand": "8866Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3108,
@@ -15383,8 +15383,8 @@
       0
     ]
   },
-  "8866Jo": {
-    "hand": "8866Jo",
+  "8866J": {
+    "hand": "8866J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3109,
@@ -15407,8 +15407,8 @@
       0
     ]
   },
-  "8866To": {
-    "hand": "8866To",
+  "8866T": {
+    "hand": "8866T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3110,
@@ -15431,8 +15431,8 @@
       0
     ]
   },
-  "88669o": {
-    "hand": "88669o",
+  "88669": {
+    "hand": "88669",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3111,
@@ -15455,8 +15455,8 @@
       0
     ]
   },
-  "88667o": {
-    "hand": "88667o",
+  "88667": {
+    "hand": "88667",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3112,
@@ -15479,8 +15479,8 @@
       0
     ]
   },
-  "88665o": {
-    "hand": "88665o",
+  "88665": {
+    "hand": "88665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3113,
@@ -15503,8 +15503,8 @@
       0
     ]
   },
-  "88664o": {
-    "hand": "88664o",
+  "88664": {
+    "hand": "88664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3114,
@@ -15527,8 +15527,8 @@
       0
     ]
   },
-  "88663o": {
-    "hand": "88663o",
+  "88663": {
+    "hand": "88663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3115,
@@ -15551,8 +15551,8 @@
       0
     ]
   },
-  "88662o": {
-    "hand": "88662o",
+  "88662": {
+    "hand": "88662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3116,
@@ -15575,8 +15575,8 @@
       0
     ]
   },
-  "8855Ao": {
-    "hand": "8855Ao",
+  "8855A": {
+    "hand": "8855A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3117,
@@ -15599,8 +15599,8 @@
       1
     ]
   },
-  "8855Ko": {
-    "hand": "8855Ko",
+  "8855K": {
+    "hand": "8855K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3118,
@@ -15623,8 +15623,8 @@
       0
     ]
   },
-  "8855Qo": {
-    "hand": "8855Qo",
+  "8855Q": {
+    "hand": "8855Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3119,
@@ -15647,8 +15647,8 @@
       0
     ]
   },
-  "8855Jo": {
-    "hand": "8855Jo",
+  "8855J": {
+    "hand": "8855J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3120,
@@ -15671,8 +15671,8 @@
       0
     ]
   },
-  "8855To": {
-    "hand": "8855To",
+  "8855T": {
+    "hand": "8855T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3121,
@@ -15695,8 +15695,8 @@
       0
     ]
   },
-  "88559o": {
-    "hand": "88559o",
+  "88559": {
+    "hand": "88559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3122,
@@ -15719,8 +15719,8 @@
       0
     ]
   },
-  "88557o": {
-    "hand": "88557o",
+  "88557": {
+    "hand": "88557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3123,
@@ -15743,8 +15743,8 @@
       0
     ]
   },
-  "88556o": {
-    "hand": "88556o",
+  "88556": {
+    "hand": "88556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3124,
@@ -15767,8 +15767,8 @@
       0
     ]
   },
-  "88554o": {
-    "hand": "88554o",
+  "88554": {
+    "hand": "88554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3125,
@@ -15791,8 +15791,8 @@
       0
     ]
   },
-  "88553o": {
-    "hand": "88553o",
+  "88553": {
+    "hand": "88553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3126,
@@ -15815,8 +15815,8 @@
       0
     ]
   },
-  "88552o": {
-    "hand": "88552o",
+  "88552": {
+    "hand": "88552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3127,
@@ -15839,8 +15839,8 @@
       0
     ]
   },
-  "8844Ao": {
-    "hand": "8844Ao",
+  "8844A": {
+    "hand": "8844A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3128,
@@ -15863,8 +15863,8 @@
       1
     ]
   },
-  "8844Ko": {
-    "hand": "8844Ko",
+  "8844K": {
+    "hand": "8844K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3129,
@@ -15887,8 +15887,8 @@
       0
     ]
   },
-  "8844Qo": {
-    "hand": "8844Qo",
+  "8844Q": {
+    "hand": "8844Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3130,
@@ -15911,8 +15911,8 @@
       0
     ]
   },
-  "8844Jo": {
-    "hand": "8844Jo",
+  "8844J": {
+    "hand": "8844J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3131,
@@ -15935,8 +15935,8 @@
       0
     ]
   },
-  "8844To": {
-    "hand": "8844To",
+  "8844T": {
+    "hand": "8844T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3132,
@@ -15959,8 +15959,8 @@
       0
     ]
   },
-  "88449o": {
-    "hand": "88449o",
+  "88449": {
+    "hand": "88449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3133,
@@ -15983,8 +15983,8 @@
       0
     ]
   },
-  "88447o": {
-    "hand": "88447o",
+  "88447": {
+    "hand": "88447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3134,
@@ -16007,8 +16007,8 @@
       0
     ]
   },
-  "88446o": {
-    "hand": "88446o",
+  "88446": {
+    "hand": "88446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3135,
@@ -16031,8 +16031,8 @@
       0
     ]
   },
-  "88445o": {
-    "hand": "88445o",
+  "88445": {
+    "hand": "88445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3136,
@@ -16055,8 +16055,8 @@
       0
     ]
   },
-  "88443o": {
-    "hand": "88443o",
+  "88443": {
+    "hand": "88443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3137,
@@ -16079,8 +16079,8 @@
       0
     ]
   },
-  "88442o": {
-    "hand": "88442o",
+  "88442": {
+    "hand": "88442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3138,
@@ -16103,8 +16103,8 @@
       0
     ]
   },
-  "8833Ao": {
-    "hand": "8833Ao",
+  "8833A": {
+    "hand": "8833A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3139,
@@ -16127,8 +16127,8 @@
       1
     ]
   },
-  "8833Ko": {
-    "hand": "8833Ko",
+  "8833K": {
+    "hand": "8833K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3140,
@@ -16151,8 +16151,8 @@
       0
     ]
   },
-  "8833Qo": {
-    "hand": "8833Qo",
+  "8833Q": {
+    "hand": "8833Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3141,
@@ -16175,8 +16175,8 @@
       0
     ]
   },
-  "8833Jo": {
-    "hand": "8833Jo",
+  "8833J": {
+    "hand": "8833J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3142,
@@ -16199,8 +16199,8 @@
       0
     ]
   },
-  "8833To": {
-    "hand": "8833To",
+  "8833T": {
+    "hand": "8833T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3143,
@@ -16223,8 +16223,8 @@
       0
     ]
   },
-  "88339o": {
-    "hand": "88339o",
+  "88339": {
+    "hand": "88339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3144,
@@ -16247,8 +16247,8 @@
       0
     ]
   },
-  "88337o": {
-    "hand": "88337o",
+  "88337": {
+    "hand": "88337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3145,
@@ -16271,8 +16271,8 @@
       0
     ]
   },
-  "88336o": {
-    "hand": "88336o",
+  "88336": {
+    "hand": "88336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3146,
@@ -16295,8 +16295,8 @@
       0
     ]
   },
-  "88335o": {
-    "hand": "88335o",
+  "88335": {
+    "hand": "88335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3147,
@@ -16319,8 +16319,8 @@
       0
     ]
   },
-  "88334o": {
-    "hand": "88334o",
+  "88334": {
+    "hand": "88334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3148,
@@ -16343,8 +16343,8 @@
       0
     ]
   },
-  "88332o": {
-    "hand": "88332o",
+  "88332": {
+    "hand": "88332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3149,
@@ -16367,8 +16367,8 @@
       0
     ]
   },
-  "8822Ao": {
-    "hand": "8822Ao",
+  "8822A": {
+    "hand": "8822A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3150,
@@ -16391,8 +16391,8 @@
       1
     ]
   },
-  "8822Ko": {
-    "hand": "8822Ko",
+  "8822K": {
+    "hand": "8822K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3151,
@@ -16415,8 +16415,8 @@
       0
     ]
   },
-  "8822Qo": {
-    "hand": "8822Qo",
+  "8822Q": {
+    "hand": "8822Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3152,
@@ -16439,8 +16439,8 @@
       0
     ]
   },
-  "8822Jo": {
-    "hand": "8822Jo",
+  "8822J": {
+    "hand": "8822J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3153,
@@ -16463,8 +16463,8 @@
       0
     ]
   },
-  "8822To": {
-    "hand": "8822To",
+  "8822T": {
+    "hand": "8822T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3154,
@@ -16487,8 +16487,8 @@
       0
     ]
   },
-  "88229o": {
-    "hand": "88229o",
+  "88229": {
+    "hand": "88229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3155,
@@ -16511,8 +16511,8 @@
       0
     ]
   },
-  "88227o": {
-    "hand": "88227o",
+  "88227": {
+    "hand": "88227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3156,
@@ -16535,8 +16535,8 @@
       0
     ]
   },
-  "88226o": {
-    "hand": "88226o",
+  "88226": {
+    "hand": "88226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3157,
@@ -16559,8 +16559,8 @@
       0
     ]
   },
-  "88225o": {
-    "hand": "88225o",
+  "88225": {
+    "hand": "88225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3158,
@@ -16583,8 +16583,8 @@
       0
     ]
   },
-  "88224o": {
-    "hand": "88224o",
+  "88224": {
+    "hand": "88224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3159,
@@ -16607,8 +16607,8 @@
       0
     ]
   },
-  "88223o": {
-    "hand": "88223o",
+  "88223": {
+    "hand": "88223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3160,
@@ -16631,8 +16631,8 @@
       0
     ]
   },
-  "7766Ao": {
-    "hand": "7766Ao",
+  "7766A": {
+    "hand": "7766A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3161,
@@ -16655,8 +16655,8 @@
       1
     ]
   },
-  "7766Ko": {
-    "hand": "7766Ko",
+  "7766K": {
+    "hand": "7766K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3162,
@@ -16679,8 +16679,8 @@
       0
     ]
   },
-  "7766Qo": {
-    "hand": "7766Qo",
+  "7766Q": {
+    "hand": "7766Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3163,
@@ -16703,8 +16703,8 @@
       0
     ]
   },
-  "7766Jo": {
-    "hand": "7766Jo",
+  "7766J": {
+    "hand": "7766J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3164,
@@ -16727,8 +16727,8 @@
       0
     ]
   },
-  "7766To": {
-    "hand": "7766To",
+  "7766T": {
+    "hand": "7766T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3165,
@@ -16751,8 +16751,8 @@
       0
     ]
   },
-  "77669o": {
-    "hand": "77669o",
+  "77669": {
+    "hand": "77669",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3166,
@@ -16775,8 +16775,8 @@
       0
     ]
   },
-  "77668o": {
-    "hand": "77668o",
+  "77668": {
+    "hand": "77668",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3167,
@@ -16799,8 +16799,8 @@
       0
     ]
   },
-  "77665o": {
-    "hand": "77665o",
+  "77665": {
+    "hand": "77665",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3168,
@@ -16823,8 +16823,8 @@
       0
     ]
   },
-  "77664o": {
-    "hand": "77664o",
+  "77664": {
+    "hand": "77664",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3169,
@@ -16847,8 +16847,8 @@
       0
     ]
   },
-  "77663o": {
-    "hand": "77663o",
+  "77663": {
+    "hand": "77663",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3170,
@@ -16871,8 +16871,8 @@
       0
     ]
   },
-  "77662o": {
-    "hand": "77662o",
+  "77662": {
+    "hand": "77662",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3171,
@@ -16895,8 +16895,8 @@
       0
     ]
   },
-  "7755Ao": {
-    "hand": "7755Ao",
+  "7755A": {
+    "hand": "7755A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3172,
@@ -16919,8 +16919,8 @@
       1
     ]
   },
-  "7755Ko": {
-    "hand": "7755Ko",
+  "7755K": {
+    "hand": "7755K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3173,
@@ -16943,8 +16943,8 @@
       0
     ]
   },
-  "7755Qo": {
-    "hand": "7755Qo",
+  "7755Q": {
+    "hand": "7755Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3174,
@@ -16967,8 +16967,8 @@
       0
     ]
   },
-  "7755Jo": {
-    "hand": "7755Jo",
+  "7755J": {
+    "hand": "7755J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3175,
@@ -16991,8 +16991,8 @@
       0
     ]
   },
-  "7755To": {
-    "hand": "7755To",
+  "7755T": {
+    "hand": "7755T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3176,
@@ -17015,8 +17015,8 @@
       0
     ]
   },
-  "77559o": {
-    "hand": "77559o",
+  "77559": {
+    "hand": "77559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3177,
@@ -17039,8 +17039,8 @@
       0
     ]
   },
-  "77558o": {
-    "hand": "77558o",
+  "77558": {
+    "hand": "77558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3178,
@@ -17063,8 +17063,8 @@
       0
     ]
   },
-  "77556o": {
-    "hand": "77556o",
+  "77556": {
+    "hand": "77556",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3179,
@@ -17087,8 +17087,8 @@
       0
     ]
   },
-  "77554o": {
-    "hand": "77554o",
+  "77554": {
+    "hand": "77554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3180,
@@ -17111,8 +17111,8 @@
       0
     ]
   },
-  "77553o": {
-    "hand": "77553o",
+  "77553": {
+    "hand": "77553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3181,
@@ -17135,8 +17135,8 @@
       0
     ]
   },
-  "77552o": {
-    "hand": "77552o",
+  "77552": {
+    "hand": "77552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3182,
@@ -17159,8 +17159,8 @@
       0
     ]
   },
-  "7744Ao": {
-    "hand": "7744Ao",
+  "7744A": {
+    "hand": "7744A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3183,
@@ -17183,8 +17183,8 @@
       1
     ]
   },
-  "7744Ko": {
-    "hand": "7744Ko",
+  "7744K": {
+    "hand": "7744K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3184,
@@ -17207,8 +17207,8 @@
       0
     ]
   },
-  "7744Qo": {
-    "hand": "7744Qo",
+  "7744Q": {
+    "hand": "7744Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3185,
@@ -17231,8 +17231,8 @@
       0
     ]
   },
-  "7744Jo": {
-    "hand": "7744Jo",
+  "7744J": {
+    "hand": "7744J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3186,
@@ -17255,8 +17255,8 @@
       0
     ]
   },
-  "7744To": {
-    "hand": "7744To",
+  "7744T": {
+    "hand": "7744T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3187,
@@ -17279,8 +17279,8 @@
       0
     ]
   },
-  "77449o": {
-    "hand": "77449o",
+  "77449": {
+    "hand": "77449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3188,
@@ -17303,8 +17303,8 @@
       0
     ]
   },
-  "77448o": {
-    "hand": "77448o",
+  "77448": {
+    "hand": "77448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3189,
@@ -17327,8 +17327,8 @@
       0
     ]
   },
-  "77446o": {
-    "hand": "77446o",
+  "77446": {
+    "hand": "77446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3190,
@@ -17351,8 +17351,8 @@
       0
     ]
   },
-  "77445o": {
-    "hand": "77445o",
+  "77445": {
+    "hand": "77445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3191,
@@ -17375,8 +17375,8 @@
       0
     ]
   },
-  "77443o": {
-    "hand": "77443o",
+  "77443": {
+    "hand": "77443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3192,
@@ -17399,8 +17399,8 @@
       0
     ]
   },
-  "77442o": {
-    "hand": "77442o",
+  "77442": {
+    "hand": "77442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3193,
@@ -17423,8 +17423,8 @@
       0
     ]
   },
-  "7733Ao": {
-    "hand": "7733Ao",
+  "7733A": {
+    "hand": "7733A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3194,
@@ -17447,8 +17447,8 @@
       1
     ]
   },
-  "7733Ko": {
-    "hand": "7733Ko",
+  "7733K": {
+    "hand": "7733K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3195,
@@ -17471,8 +17471,8 @@
       0
     ]
   },
-  "7733Qo": {
-    "hand": "7733Qo",
+  "7733Q": {
+    "hand": "7733Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3196,
@@ -17495,8 +17495,8 @@
       0
     ]
   },
-  "7733Jo": {
-    "hand": "7733Jo",
+  "7733J": {
+    "hand": "7733J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3197,
@@ -17519,8 +17519,8 @@
       0
     ]
   },
-  "7733To": {
-    "hand": "7733To",
+  "7733T": {
+    "hand": "7733T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3198,
@@ -17543,8 +17543,8 @@
       0
     ]
   },
-  "77339o": {
-    "hand": "77339o",
+  "77339": {
+    "hand": "77339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3199,
@@ -17567,8 +17567,8 @@
       0
     ]
   },
-  "77338o": {
-    "hand": "77338o",
+  "77338": {
+    "hand": "77338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3200,
@@ -17591,8 +17591,8 @@
       0
     ]
   },
-  "77336o": {
-    "hand": "77336o",
+  "77336": {
+    "hand": "77336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3201,
@@ -17615,8 +17615,8 @@
       0
     ]
   },
-  "77335o": {
-    "hand": "77335o",
+  "77335": {
+    "hand": "77335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3202,
@@ -17639,8 +17639,8 @@
       0
     ]
   },
-  "77334o": {
-    "hand": "77334o",
+  "77334": {
+    "hand": "77334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3203,
@@ -17663,8 +17663,8 @@
       0
     ]
   },
-  "77332o": {
-    "hand": "77332o",
+  "77332": {
+    "hand": "77332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3204,
@@ -17687,8 +17687,8 @@
       0
     ]
   },
-  "7722Ao": {
-    "hand": "7722Ao",
+  "7722A": {
+    "hand": "7722A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3205,
@@ -17711,8 +17711,8 @@
       1
     ]
   },
-  "7722Ko": {
-    "hand": "7722Ko",
+  "7722K": {
+    "hand": "7722K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3206,
@@ -17735,8 +17735,8 @@
       0
     ]
   },
-  "7722Qo": {
-    "hand": "7722Qo",
+  "7722Q": {
+    "hand": "7722Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3207,
@@ -17759,8 +17759,8 @@
       0
     ]
   },
-  "7722Jo": {
-    "hand": "7722Jo",
+  "7722J": {
+    "hand": "7722J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3208,
@@ -17783,8 +17783,8 @@
       0
     ]
   },
-  "7722To": {
-    "hand": "7722To",
+  "7722T": {
+    "hand": "7722T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3209,
@@ -17807,8 +17807,8 @@
       0
     ]
   },
-  "77229o": {
-    "hand": "77229o",
+  "77229": {
+    "hand": "77229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3210,
@@ -17831,8 +17831,8 @@
       0
     ]
   },
-  "77228o": {
-    "hand": "77228o",
+  "77228": {
+    "hand": "77228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3211,
@@ -17855,8 +17855,8 @@
       0
     ]
   },
-  "77226o": {
-    "hand": "77226o",
+  "77226": {
+    "hand": "77226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3212,
@@ -17879,8 +17879,8 @@
       0
     ]
   },
-  "77225o": {
-    "hand": "77225o",
+  "77225": {
+    "hand": "77225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3213,
@@ -17903,8 +17903,8 @@
       0
     ]
   },
-  "77224o": {
-    "hand": "77224o",
+  "77224": {
+    "hand": "77224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3214,
@@ -17927,8 +17927,8 @@
       0
     ]
   },
-  "77223o": {
-    "hand": "77223o",
+  "77223": {
+    "hand": "77223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3215,
@@ -17951,8 +17951,8 @@
       0
     ]
   },
-  "6655Ao": {
-    "hand": "6655Ao",
+  "6655A": {
+    "hand": "6655A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3216,
@@ -17975,8 +17975,8 @@
       1
     ]
   },
-  "6655Ko": {
-    "hand": "6655Ko",
+  "6655K": {
+    "hand": "6655K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3217,
@@ -17999,8 +17999,8 @@
       0
     ]
   },
-  "6655Qo": {
-    "hand": "6655Qo",
+  "6655Q": {
+    "hand": "6655Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3218,
@@ -18023,8 +18023,8 @@
       0
     ]
   },
-  "6655Jo": {
-    "hand": "6655Jo",
+  "6655J": {
+    "hand": "6655J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3219,
@@ -18047,8 +18047,8 @@
       0
     ]
   },
-  "6655To": {
-    "hand": "6655To",
+  "6655T": {
+    "hand": "6655T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3220,
@@ -18071,8 +18071,8 @@
       0
     ]
   },
-  "66559o": {
-    "hand": "66559o",
+  "66559": {
+    "hand": "66559",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3221,
@@ -18095,8 +18095,8 @@
       0
     ]
   },
-  "66558o": {
-    "hand": "66558o",
+  "66558": {
+    "hand": "66558",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3222,
@@ -18119,8 +18119,8 @@
       0
     ]
   },
-  "66557o": {
-    "hand": "66557o",
+  "66557": {
+    "hand": "66557",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3223,
@@ -18143,8 +18143,8 @@
       0
     ]
   },
-  "66554o": {
-    "hand": "66554o",
+  "66554": {
+    "hand": "66554",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3224,
@@ -18167,8 +18167,8 @@
       0
     ]
   },
-  "66553o": {
-    "hand": "66553o",
+  "66553": {
+    "hand": "66553",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3225,
@@ -18191,8 +18191,8 @@
       0
     ]
   },
-  "66552o": {
-    "hand": "66552o",
+  "66552": {
+    "hand": "66552",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3226,
@@ -18215,8 +18215,8 @@
       0
     ]
   },
-  "6644Ao": {
-    "hand": "6644Ao",
+  "6644A": {
+    "hand": "6644A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3227,
@@ -18239,8 +18239,8 @@
       1
     ]
   },
-  "6644Ko": {
-    "hand": "6644Ko",
+  "6644K": {
+    "hand": "6644K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3228,
@@ -18263,8 +18263,8 @@
       0
     ]
   },
-  "6644Qo": {
-    "hand": "6644Qo",
+  "6644Q": {
+    "hand": "6644Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3229,
@@ -18287,8 +18287,8 @@
       0
     ]
   },
-  "6644Jo": {
-    "hand": "6644Jo",
+  "6644J": {
+    "hand": "6644J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3230,
@@ -18311,8 +18311,8 @@
       0
     ]
   },
-  "6644To": {
-    "hand": "6644To",
+  "6644T": {
+    "hand": "6644T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3231,
@@ -18335,8 +18335,8 @@
       0
     ]
   },
-  "66449o": {
-    "hand": "66449o",
+  "66449": {
+    "hand": "66449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3232,
@@ -18359,8 +18359,8 @@
       0
     ]
   },
-  "66448o": {
-    "hand": "66448o",
+  "66448": {
+    "hand": "66448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3233,
@@ -18383,8 +18383,8 @@
       0
     ]
   },
-  "66447o": {
-    "hand": "66447o",
+  "66447": {
+    "hand": "66447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3234,
@@ -18407,8 +18407,8 @@
       0
     ]
   },
-  "66445o": {
-    "hand": "66445o",
+  "66445": {
+    "hand": "66445",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3235,
@@ -18431,8 +18431,8 @@
       0
     ]
   },
-  "66443o": {
-    "hand": "66443o",
+  "66443": {
+    "hand": "66443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3236,
@@ -18455,8 +18455,8 @@
       0
     ]
   },
-  "66442o": {
-    "hand": "66442o",
+  "66442": {
+    "hand": "66442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3237,
@@ -18479,8 +18479,8 @@
       0
     ]
   },
-  "6633Ao": {
-    "hand": "6633Ao",
+  "6633A": {
+    "hand": "6633A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3238,
@@ -18503,8 +18503,8 @@
       1
     ]
   },
-  "6633Ko": {
-    "hand": "6633Ko",
+  "6633K": {
+    "hand": "6633K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3239,
@@ -18527,8 +18527,8 @@
       0
     ]
   },
-  "6633Qo": {
-    "hand": "6633Qo",
+  "6633Q": {
+    "hand": "6633Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3240,
@@ -18551,8 +18551,8 @@
       0
     ]
   },
-  "6633Jo": {
-    "hand": "6633Jo",
+  "6633J": {
+    "hand": "6633J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3241,
@@ -18575,8 +18575,8 @@
       0
     ]
   },
-  "6633To": {
-    "hand": "6633To",
+  "6633T": {
+    "hand": "6633T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3242,
@@ -18599,8 +18599,8 @@
       0
     ]
   },
-  "66339o": {
-    "hand": "66339o",
+  "66339": {
+    "hand": "66339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3243,
@@ -18623,8 +18623,8 @@
       0
     ]
   },
-  "66338o": {
-    "hand": "66338o",
+  "66338": {
+    "hand": "66338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3244,
@@ -18647,8 +18647,8 @@
       0
     ]
   },
-  "66337o": {
-    "hand": "66337o",
+  "66337": {
+    "hand": "66337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3245,
@@ -18671,8 +18671,8 @@
       0
     ]
   },
-  "66335o": {
-    "hand": "66335o",
+  "66335": {
+    "hand": "66335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3246,
@@ -18695,8 +18695,8 @@
       0
     ]
   },
-  "66334o": {
-    "hand": "66334o",
+  "66334": {
+    "hand": "66334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3247,
@@ -18719,8 +18719,8 @@
       0
     ]
   },
-  "66332o": {
-    "hand": "66332o",
+  "66332": {
+    "hand": "66332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3248,
@@ -18743,8 +18743,8 @@
       0
     ]
   },
-  "6622Ao": {
-    "hand": "6622Ao",
+  "6622A": {
+    "hand": "6622A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3249,
@@ -18767,8 +18767,8 @@
       1
     ]
   },
-  "6622Ko": {
-    "hand": "6622Ko",
+  "6622K": {
+    "hand": "6622K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3250,
@@ -18791,8 +18791,8 @@
       0
     ]
   },
-  "6622Qo": {
-    "hand": "6622Qo",
+  "6622Q": {
+    "hand": "6622Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3251,
@@ -18815,8 +18815,8 @@
       0
     ]
   },
-  "6622Jo": {
-    "hand": "6622Jo",
+  "6622J": {
+    "hand": "6622J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3252,
@@ -18839,8 +18839,8 @@
       0
     ]
   },
-  "6622To": {
-    "hand": "6622To",
+  "6622T": {
+    "hand": "6622T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3253,
@@ -18863,8 +18863,8 @@
       0
     ]
   },
-  "66229o": {
-    "hand": "66229o",
+  "66229": {
+    "hand": "66229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3254,
@@ -18887,8 +18887,8 @@
       0
     ]
   },
-  "66228o": {
-    "hand": "66228o",
+  "66228": {
+    "hand": "66228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3255,
@@ -18911,8 +18911,8 @@
       0
     ]
   },
-  "66227o": {
-    "hand": "66227o",
+  "66227": {
+    "hand": "66227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3256,
@@ -18935,8 +18935,8 @@
       0
     ]
   },
-  "66225o": {
-    "hand": "66225o",
+  "66225": {
+    "hand": "66225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3257,
@@ -18959,8 +18959,8 @@
       0
     ]
   },
-  "66224o": {
-    "hand": "66224o",
+  "66224": {
+    "hand": "66224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3258,
@@ -18983,8 +18983,8 @@
       0
     ]
   },
-  "66223o": {
-    "hand": "66223o",
+  "66223": {
+    "hand": "66223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3259,
@@ -19007,8 +19007,8 @@
       0
     ]
   },
-  "5544Ao": {
-    "hand": "5544Ao",
+  "5544A": {
+    "hand": "5544A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3260,
@@ -19031,8 +19031,8 @@
       1
     ]
   },
-  "5544Ko": {
-    "hand": "5544Ko",
+  "5544K": {
+    "hand": "5544K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3261,
@@ -19055,8 +19055,8 @@
       0
     ]
   },
-  "5544Qo": {
-    "hand": "5544Qo",
+  "5544Q": {
+    "hand": "5544Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3262,
@@ -19079,8 +19079,8 @@
       0
     ]
   },
-  "5544Jo": {
-    "hand": "5544Jo",
+  "5544J": {
+    "hand": "5544J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3263,
@@ -19103,8 +19103,8 @@
       0
     ]
   },
-  "5544To": {
-    "hand": "5544To",
+  "5544T": {
+    "hand": "5544T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3264,
@@ -19127,8 +19127,8 @@
       0
     ]
   },
-  "55449o": {
-    "hand": "55449o",
+  "55449": {
+    "hand": "55449",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3265,
@@ -19151,8 +19151,8 @@
       0
     ]
   },
-  "55448o": {
-    "hand": "55448o",
+  "55448": {
+    "hand": "55448",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3266,
@@ -19175,8 +19175,8 @@
       0
     ]
   },
-  "55447o": {
-    "hand": "55447o",
+  "55447": {
+    "hand": "55447",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3267,
@@ -19199,8 +19199,8 @@
       0
     ]
   },
-  "55446o": {
-    "hand": "55446o",
+  "55446": {
+    "hand": "55446",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3268,
@@ -19223,8 +19223,8 @@
       0
     ]
   },
-  "55443o": {
-    "hand": "55443o",
+  "55443": {
+    "hand": "55443",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3269,
@@ -19247,8 +19247,8 @@
       0
     ]
   },
-  "55442o": {
-    "hand": "55442o",
+  "55442": {
+    "hand": "55442",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3270,
@@ -19271,8 +19271,8 @@
       0
     ]
   },
-  "5533Ao": {
-    "hand": "5533Ao",
+  "5533A": {
+    "hand": "5533A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3271,
@@ -19295,8 +19295,8 @@
       1
     ]
   },
-  "5533Ko": {
-    "hand": "5533Ko",
+  "5533K": {
+    "hand": "5533K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3272,
@@ -19319,8 +19319,8 @@
       0
     ]
   },
-  "5533Qo": {
-    "hand": "5533Qo",
+  "5533Q": {
+    "hand": "5533Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3273,
@@ -19343,8 +19343,8 @@
       0
     ]
   },
-  "5533Jo": {
-    "hand": "5533Jo",
+  "5533J": {
+    "hand": "5533J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3274,
@@ -19367,8 +19367,8 @@
       0
     ]
   },
-  "5533To": {
-    "hand": "5533To",
+  "5533T": {
+    "hand": "5533T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3275,
@@ -19391,8 +19391,8 @@
       0
     ]
   },
-  "55339o": {
-    "hand": "55339o",
+  "55339": {
+    "hand": "55339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3276,
@@ -19415,8 +19415,8 @@
       0
     ]
   },
-  "55338o": {
-    "hand": "55338o",
+  "55338": {
+    "hand": "55338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3277,
@@ -19439,8 +19439,8 @@
       0
     ]
   },
-  "55337o": {
-    "hand": "55337o",
+  "55337": {
+    "hand": "55337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3278,
@@ -19463,8 +19463,8 @@
       0
     ]
   },
-  "55336o": {
-    "hand": "55336o",
+  "55336": {
+    "hand": "55336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3279,
@@ -19487,8 +19487,8 @@
       0
     ]
   },
-  "55334o": {
-    "hand": "55334o",
+  "55334": {
+    "hand": "55334",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3280,
@@ -19511,8 +19511,8 @@
       0
     ]
   },
-  "55332o": {
-    "hand": "55332o",
+  "55332": {
+    "hand": "55332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3281,
@@ -19535,8 +19535,8 @@
       0
     ]
   },
-  "5522Ao": {
-    "hand": "5522Ao",
+  "5522A": {
+    "hand": "5522A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3282,
@@ -19559,8 +19559,8 @@
       1
     ]
   },
-  "5522Ko": {
-    "hand": "5522Ko",
+  "5522K": {
+    "hand": "5522K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3283,
@@ -19583,8 +19583,8 @@
       0
     ]
   },
-  "5522Qo": {
-    "hand": "5522Qo",
+  "5522Q": {
+    "hand": "5522Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3284,
@@ -19607,8 +19607,8 @@
       0
     ]
   },
-  "5522Jo": {
-    "hand": "5522Jo",
+  "5522J": {
+    "hand": "5522J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3285,
@@ -19631,8 +19631,8 @@
       0
     ]
   },
-  "5522To": {
-    "hand": "5522To",
+  "5522T": {
+    "hand": "5522T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3286,
@@ -19655,8 +19655,8 @@
       0
     ]
   },
-  "55229o": {
-    "hand": "55229o",
+  "55229": {
+    "hand": "55229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3287,
@@ -19679,8 +19679,8 @@
       0
     ]
   },
-  "55228o": {
-    "hand": "55228o",
+  "55228": {
+    "hand": "55228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3288,
@@ -19703,8 +19703,8 @@
       0
     ]
   },
-  "55227o": {
-    "hand": "55227o",
+  "55227": {
+    "hand": "55227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3289,
@@ -19727,8 +19727,8 @@
       0
     ]
   },
-  "55226o": {
-    "hand": "55226o",
+  "55226": {
+    "hand": "55226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3290,
@@ -19751,8 +19751,8 @@
       0
     ]
   },
-  "55224o": {
-    "hand": "55224o",
+  "55224": {
+    "hand": "55224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3291,
@@ -19775,8 +19775,8 @@
       0
     ]
   },
-  "55223o": {
-    "hand": "55223o",
+  "55223": {
+    "hand": "55223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3292,
@@ -19799,8 +19799,8 @@
       0
     ]
   },
-  "4433Ao": {
-    "hand": "4433Ao",
+  "4433A": {
+    "hand": "4433A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3293,
@@ -19823,8 +19823,8 @@
       1
     ]
   },
-  "4433Ko": {
-    "hand": "4433Ko",
+  "4433K": {
+    "hand": "4433K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3294,
@@ -19847,8 +19847,8 @@
       0
     ]
   },
-  "4433Qo": {
-    "hand": "4433Qo",
+  "4433Q": {
+    "hand": "4433Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3295,
@@ -19871,8 +19871,8 @@
       0
     ]
   },
-  "4433Jo": {
-    "hand": "4433Jo",
+  "4433J": {
+    "hand": "4433J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3296,
@@ -19895,8 +19895,8 @@
       0
     ]
   },
-  "4433To": {
-    "hand": "4433To",
+  "4433T": {
+    "hand": "4433T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3297,
@@ -19919,8 +19919,8 @@
       0
     ]
   },
-  "44339o": {
-    "hand": "44339o",
+  "44339": {
+    "hand": "44339",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3298,
@@ -19943,8 +19943,8 @@
       0
     ]
   },
-  "44338o": {
-    "hand": "44338o",
+  "44338": {
+    "hand": "44338",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3299,
@@ -19967,8 +19967,8 @@
       0
     ]
   },
-  "44337o": {
-    "hand": "44337o",
+  "44337": {
+    "hand": "44337",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3300,
@@ -19991,8 +19991,8 @@
       0
     ]
   },
-  "44336o": {
-    "hand": "44336o",
+  "44336": {
+    "hand": "44336",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3301,
@@ -20015,8 +20015,8 @@
       0
     ]
   },
-  "44335o": {
-    "hand": "44335o",
+  "44335": {
+    "hand": "44335",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3302,
@@ -20039,8 +20039,8 @@
       0
     ]
   },
-  "44332o": {
-    "hand": "44332o",
+  "44332": {
+    "hand": "44332",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3303,
@@ -20063,8 +20063,8 @@
       0
     ]
   },
-  "4422Ao": {
-    "hand": "4422Ao",
+  "4422A": {
+    "hand": "4422A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3304,
@@ -20087,8 +20087,8 @@
       1
     ]
   },
-  "4422Ko": {
-    "hand": "4422Ko",
+  "4422K": {
+    "hand": "4422K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3305,
@@ -20111,8 +20111,8 @@
       0
     ]
   },
-  "4422Qo": {
-    "hand": "4422Qo",
+  "4422Q": {
+    "hand": "4422Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3306,
@@ -20135,8 +20135,8 @@
       0
     ]
   },
-  "4422Jo": {
-    "hand": "4422Jo",
+  "4422J": {
+    "hand": "4422J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3307,
@@ -20159,8 +20159,8 @@
       0
     ]
   },
-  "4422To": {
-    "hand": "4422To",
+  "4422T": {
+    "hand": "4422T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3308,
@@ -20183,8 +20183,8 @@
       0
     ]
   },
-  "44229o": {
-    "hand": "44229o",
+  "44229": {
+    "hand": "44229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3309,
@@ -20207,8 +20207,8 @@
       0
     ]
   },
-  "44228o": {
-    "hand": "44228o",
+  "44228": {
+    "hand": "44228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3310,
@@ -20231,8 +20231,8 @@
       0
     ]
   },
-  "44227o": {
-    "hand": "44227o",
+  "44227": {
+    "hand": "44227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3311,
@@ -20255,8 +20255,8 @@
       0
     ]
   },
-  "44226o": {
-    "hand": "44226o",
+  "44226": {
+    "hand": "44226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3312,
@@ -20279,8 +20279,8 @@
       0
     ]
   },
-  "44225o": {
-    "hand": "44225o",
+  "44225": {
+    "hand": "44225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3313,
@@ -20303,8 +20303,8 @@
       0
     ]
   },
-  "44223o": {
-    "hand": "44223o",
+  "44223": {
+    "hand": "44223",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3314,
@@ -20327,8 +20327,8 @@
       0
     ]
   },
-  "3322Ao": {
-    "hand": "3322Ao",
+  "3322A": {
+    "hand": "3322A",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3315,
@@ -20351,8 +20351,8 @@
       1
     ]
   },
-  "3322Ko": {
-    "hand": "3322Ko",
+  "3322K": {
+    "hand": "3322K",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3316,
@@ -20375,8 +20375,8 @@
       0
     ]
   },
-  "3322Qo": {
-    "hand": "3322Qo",
+  "3322Q": {
+    "hand": "3322Q",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3317,
@@ -20399,8 +20399,8 @@
       0
     ]
   },
-  "3322Jo": {
-    "hand": "3322Jo",
+  "3322J": {
+    "hand": "3322J",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3318,
@@ -20423,8 +20423,8 @@
       0
     ]
   },
-  "3322To": {
-    "hand": "3322To",
+  "3322T": {
+    "hand": "3322T",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3319,
@@ -20447,8 +20447,8 @@
       0
     ]
   },
-  "33229o": {
-    "hand": "33229o",
+  "33229": {
+    "hand": "33229",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3320,
@@ -20471,8 +20471,8 @@
       0
     ]
   },
-  "33228o": {
-    "hand": "33228o",
+  "33228": {
+    "hand": "33228",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3321,
@@ -20495,8 +20495,8 @@
       0
     ]
   },
-  "33227o": {
-    "hand": "33227o",
+  "33227": {
+    "hand": "33227",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3322,
@@ -20519,8 +20519,8 @@
       0
     ]
   },
-  "33226o": {
-    "hand": "33226o",
+  "33226": {
+    "hand": "33226",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3323,
@@ -20543,8 +20543,8 @@
       0
     ]
   },
-  "33225o": {
-    "hand": "33225o",
+  "33225": {
+    "hand": "33225",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3324,
@@ -20567,8 +20567,8 @@
       0
     ]
   },
-  "33224o": {
-    "hand": "33224o",
+  "33224": {
+    "hand": "33224",
     "isSuited": false,
     "ranking": "TWO_PAIR",
     "absolutePosition": 3325,

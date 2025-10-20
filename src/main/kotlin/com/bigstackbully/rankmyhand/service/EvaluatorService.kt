@@ -13,7 +13,12 @@ class EvaluatorService(
 ) {
     fun evaluate(evaluationCmd: EvaluationCommand): EvaluationResult {
         val cards = evaluationCmd.cards
-        val allPossibleHands = cards.allFiveCardHands()
+
+        val allPossibleHands = if (cards.size >= 5) {
+            cards.allFiveCardHands()
+        } else {
+            listOf(Hand.of(cards))
+        }
 
         return allPossibleHands
             .map { hand -> evaluate(hand = hand) }
@@ -25,18 +30,18 @@ class EvaluatorService(
 
         val standardNotation = hand.standardNotation
         val rankingWithSerializedValue = "${ranking.strength}-${hand.serializedValue}"
-        val shorthandNotation = hand.shorthandNotation
+        val rankNotation = hand.rankNotation
 
         val handStrength = handStrengthService.calculateHandStrength(
             ranking = ranking,
-            shorthandNotation = shorthandNotation,
+            rankNotation = rankNotation
         )
 
         return EvaluationResult(
-            hand = standardNotation,
+            hand = standardNotation.toString(),
             ranking = ranking,
             serializedValue = rankingWithSerializedValue,
-            shortNotation = shorthandNotation,
+            shortNotation = rankNotation.toString(),
             handStrength = handStrength
         )
     }
