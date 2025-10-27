@@ -18,13 +18,35 @@ data class SignatureNotation(
     override val isSuited: Boolean = false
 ) : HasRanks, SuitAware {
 
+    init {
+        require(!isSuited || ranks.distinct().size == ranks.size) {
+            "A suited signature notation (isSuited = true) cannot contain duplicate ranks: $ranks"
+        }
+
+        require(!(ranks.size == 1 && !isSuited)) {
+            "A signature notation with a single rank must be suited (isSuited = true): $ranks"
+        }
+    }
+
     override fun toString() = "${ranks.toRankNotation()}${if (isSuited) SUITED else OFF_SUIT}"
 
     companion object {
 
-        fun from(input: String) = {
-            val ranks = input.map { char -> Rank.fromKeyOrThrow(char.toString()) }
-            SignatureNotation(ranks)
+        fun from(input: String): SignatureNotation {
+            val lastCharacter = input.takeLast(1)
+
+            val iSuited = when (lastCharacter) {
+                SUITED -> true
+                OFF_SUIT -> false
+                else -> throw IllegalArgumentException("Signature notation must end with either '$SUITED' or '$OFF_SUIT'. Found: '$lastCharacter'")
+            }
+
+            val ranks = input.dropLast(1).map { Rank.fromKeyOrThrow(it.toString()) }
+
+            return SignatureNotation(
+                ranks = ranks,
+                isSuited = iSuited
+            )
         }
 
         fun from(hand: Hand) {

@@ -1,7 +1,5 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.RankGroup
 import com.bigstackbully.rankmyhand.model.combination.FLUSH_HANDS
 import com.bigstackbully.rankmyhand.model.combination.FOUR_OF_A_KIND_HANDS
 import com.bigstackbully.rankmyhand.model.combination.FULL_HOUSE_HANDS
@@ -25,7 +23,7 @@ import com.bigstackbully.rankmyhand.model.enums.Ranking.STRAIGHT_FLUSH
 import com.bigstackbully.rankmyhand.model.enums.Ranking.THREE_OF_A_KIND
 import com.bigstackbully.rankmyhand.model.enums.Ranking.TWO_PAIR
 import com.bigstackbully.rankmyhand.model.notation.RankNotation
-import com.bigstackbully.rankmyhand.utils.EMPTY_STRING
+import com.bigstackbully.rankmyhand.model.notation.SignatureNotation
 import org.springframework.stereotype.Service
 
 @Service
@@ -33,54 +31,43 @@ class HandCombinationService(
     private val rankingService: RankingService
 ) {
 
-
-
     companion object {
         private const val RANKS: String = "23456789TJQKA"
     }
 
     // TODO Kristo @ 14.10.2025 -> It's actually not very feasible to calculate the best possible hand combination this way
     // TODO ...because even if we already have a draw of 4 cards (including ACE), there are still 3 cards to be dealt.
-    // TODO ...and one or more of those 3 cards could also be an ACE, so we might end up with FOAF or TOAK.
-    fun findBestPossibleHandCombination(
-        hand: Hand
+    // TODO ...and one or more of those 3 cards could also be an ACE, so we might end up with FOAK or TOAK.
+
+    fun findWorstPossibleHandCombination(
+        signatureNotation: SignatureNotation
     ): HandCombination? {
-        val allRankings = rankingService.getAllRankingsSortedByStrengthInDescOrder()
+        val allRankings = rankingService.getAllRankingsSortedByStrengthInAscOrder()
 
-        val rankCountsOfHand = hand.cards.map { card ->
-            val rankIndex = RANKS.indexOf(card.rank.key)
+        val hRanks = signatureNotation.ranks
 
-            if (rankIndex < 0)
-                throw IllegalArgumentException("Invalid card rank: ${card.rank.key}")
+        val hRankCounts = RANKS.map { rank ->
+            val count = hRanks.count { it.key == rank.toString() }
+            count
+        }
 
-            rankIndex
-        }.toList()
+        // TODO Kristo @ 27.10.2025 -> Take into account the isSuited property of the signature notation
 
         for (ranking in allRankings) {
             val mapOfHandCombinations = getMapOfHandCombinations(ranking = ranking)
 
-            for (handCombination in mapOfHandCombinations.values) {
-                val rankCountsOfHandCombination = handCombination.rankCounts
+            val handCombinationsInAscOrder = mapOfHandCombinations.values.sortedByDescending { it.absolutePosition }
 
-                if (rankCountsOfHandCombination.zip(rankCountsOfHand).all { (rcOfHandCombo, rcOfHand) ->  rcOfHand >= rcOfHandCombo})
-                    return handCombination
+            for (hc in handCombinationsInAscOrder) {
+                val hcRankCounts = hc.rankCounts
+
+                if (hcRankCounts.zip(hRankCounts).all { (hcRankCount, hRankCount) ->  hRankCount <= hcRankCount})
+                    return hc
             }
         }
 
         return null
     }
-
-    fun findWorstPossibleHandCombination(
-        hand: Hand
-    ): HandCombination? {
-
-        return null
-    }
-
-    // TODO Kristo @ 30.06.2025 -> Implement this function
-//    fun findWorstPossibleHandCombination(shorthand: SignatureNotation): HandCombination? {
-//
-//    }
 
     fun getAllHandCombinations(): List<HandCombination> {
         val allRankings = rankingService.getAllRankings()
