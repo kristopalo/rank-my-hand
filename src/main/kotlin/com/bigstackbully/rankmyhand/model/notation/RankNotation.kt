@@ -17,7 +17,7 @@ data class RankNotation(
     companion object {
 
         fun from(rankUnits: SortedSet<RankUnit>): RankNotation {
-            val ranks = rankUnits.ranks()
+            val ranks = rankUnits.flatMap { it.cards }.map { it.rank }
             return of(ranks)
         }
 
