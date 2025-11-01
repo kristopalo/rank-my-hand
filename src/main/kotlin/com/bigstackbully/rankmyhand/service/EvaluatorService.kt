@@ -4,12 +4,14 @@ import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
+import com.bigstackbully.rankmyhand.model.response.HandEvaluationResult
 import org.springframework.stereotype.Service
 
 @Service
 class EvaluatorService(
     private val rankingService: RankingService,
-    private val handStrengthService: HandStrengthService
+    private val handStrengthService: HandStrengthService,
+    private val potentialDrawService: PotentialDrawService
 ) {
     fun evaluate(evaluationCmd: EvaluationCommand): EvaluationResult {
         val cards = evaluationCmd.cards
@@ -20,29 +22,40 @@ class EvaluatorService(
             listOf(Hand.of(cards))
         }
 
-        return allPossibleHands
-            .map { hand -> evaluate(hand = hand) }
+        // TODO Kristo @ 02.11.2025 -> Find current best hand with its ranking and hand strength
+
+        val bestHandEvalResult = allPossibleHands
+            .map { hand -> evaluateHand(hand = hand) }
             .maxBy { it.handStrength.absoluteStrength }
+
+        // TODO Kristo @ 02.11.2025 -> Find all possible / feasible ways to improve this hand and provide them with the probabilities
+        val handContext = evaluationCmd.handContext
+        val potentialDraws = potentialDrawService.evaluatePotentialDraws(handContext)
+
+        with(bestHandEvalResult) {
+            return EvaluationResult(
+                hand = hand.standardNotation.toString(),
+                ranking = ranking,
+                serializedValue = hand.serializedValue,
+                shortNotation = hand.rankNotation.toString(),
+                handStrength = handStrength
+            )
+        }
     }
 
-    fun evaluate(hand: Hand): EvaluationResult {
+    fun evaluateHand(hand: Hand): HandEvaluationResult {
         val ranking = rankingService.evaluateRanking(hand)
 
-        val standardNotation = hand.standardNotation
-        val rankingWithSerializedValue = "${ranking.strength}-${hand.serializedValue}"
         val rankNotation = hand.rankNotation
-
         val handStrength = handStrengthService.calculateHandStrength(
             ranking = ranking,
             rankNotation = rankNotation
         )
 
-        return EvaluationResult(
-            hand = standardNotation.toString(),
+        return HandEvaluationResult(
+            hand = hand,
             ranking = ranking,
-            serializedValue = rankingWithSerializedValue,
-            shortNotation = rankNotation.toString(),
-            handStrength = handStrength
+            handStrength = handStrength,
         )
     }
 
