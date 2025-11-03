@@ -1,5 +1,6 @@
 package com.bigstackbully.rankmyhand.model
 
+import com.bigstackbully.rankmyhand.model.characteristic.HasCards
 import com.bigstackbully.rankmyhand.model.characteristic.HasRanks
 import com.bigstackbully.rankmyhand.model.characteristic.SuitAware
 import com.bigstackbully.rankmyhand.model.enums.Rank
@@ -21,10 +22,10 @@ import java.util.SortedSet
 
 data class Hand(
     private val rankUnits: SortedSet<RankUnit> = sortedSetOf()
-) : HasRanks, SuitAware {
+) : HasRanks, SuitAware, HasCards {
 
-    val cards: List<PlayingCard> = rankUnits.map { it.cards }
-        .flatten()
+    override val cards: List<PlayingCard> = rankUnits
+        .flatMap { it.cards }
         .sortedWith(compareByDescending<PlayingCard> { it.rank.value }.thenBy { it.suit.ordinal })
 
     override val ranks = rankUnits.ranks()

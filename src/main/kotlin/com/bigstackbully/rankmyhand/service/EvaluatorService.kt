@@ -2,6 +2,7 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
+import com.bigstackbully.rankmyhand.model.HandContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.response.HandEvaluationResult
@@ -13,23 +14,12 @@ class EvaluatorService(
     private val handStrengthService: HandStrengthService,
     private val potentialDrawService: PotentialDrawService
 ) {
+
     fun evaluate(evaluationCmd: EvaluationCommand): EvaluationResult {
-        val cards = evaluationCmd.cards
-
-        val allPossibleHands = if (cards.size >= 5) {
-            cards.allFiveCardHands()
-        } else {
-            listOf(Hand.of(cards))
-        }
-
-        // TODO Kristo @ 02.11.2025 -> Find current best hand with its ranking and hand strength
-
-        val bestHandEvalResult = allPossibleHands
-            .map { hand -> evaluateHand(hand = hand) }
-            .maxBy { it.handStrength.absoluteStrength }
-
-        // TODO Kristo @ 02.11.2025 -> Find all possible / feasible ways to improve this hand and provide them with the probabilities
         val handContext = evaluationCmd.handContext
+
+        val bestHandEvalResult = findBestHand(handContext)
+        // TODO Kristo @ 02.11.2025 -> Find all possible / feasible ways to improve this hand and provide them with the probabilities
         val potentialDraws = potentialDrawService.evaluatePotentialDraws(handContext)
 
         with(bestHandEvalResult) {
@@ -41,6 +31,15 @@ class EvaluatorService(
                 handStrength = handStrength
             )
         }
+    }
+
+    fun findBestHand(handContext: HandContext): HandEvaluationResult {
+        val cards = handContext.cards
+        val allPossibleHands = if (cards.size >= 5) cards.allFiveCardHands() else listOf(Hand.of(cards))
+
+        return allPossibleHands
+            .map { hand -> evaluateHand(hand = hand) }
+            .maxBy { it.handStrength.absoluteStrength }
     }
 
     fun evaluateHand(hand: Hand): HandEvaluationResult {
