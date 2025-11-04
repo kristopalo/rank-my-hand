@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service
 class EvaluatorService(
     private val rankingService: RankingService,
     private val handStrengthService: HandStrengthService,
-    private val potentialDrawService: PotentialDrawService
+    private val drawService: DrawService
 ) {
 
     fun evaluate(evaluationCmd: EvaluationCommand): EvaluationResult {
@@ -20,7 +20,7 @@ class EvaluatorService(
 
         val bestHandEvalResult = findBestHand(handContext)
         // TODO Kristo @ 02.11.2025 -> Find all possible / feasible ways to improve this hand and provide them with the probabilities
-        val potentialDraws = potentialDrawService.evaluatePotentialDraws(handContext)
+        val potentialDraws = drawService.evaluatePotentialDraws(handContext)
 
         with(bestHandEvalResult) {
             return EvaluationResult(
