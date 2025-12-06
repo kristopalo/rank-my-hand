@@ -6,7 +6,7 @@ import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.Street
 import kotlin.collections.filterNot
 
-data class HandContext(
+data class EvaluationContext(
     val holeCards: List<PlayingCard>,
     val boardCards: List<PlayingCard>
 ) : HasCards {
@@ -25,4 +25,11 @@ data class HandContext(
         7 -> Street.RIVER
         else -> error("Unable to determine street: $numberOfCardsDrawn")
     }
+
+    fun getUndealtCards(): List<PlayingCard> {
+        return PlayingCard.entries
+            .filterNot { it.rank == Rank.LOW_ACE }
+            .filterNot { card -> cards.contains(card) }
+    }
+
 }

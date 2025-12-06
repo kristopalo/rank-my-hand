@@ -1,11 +1,11 @@
 package com.bigstackbully.rankmyhand.testdata
 
-import com.bigstackbully.rankmyhand.model.HandContext
+import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 
 fun composeEvaluationCommandForFullHouse() = EvaluationCommand(
-    handContext = HandContext(
+    evaluationContext = EvaluationContext(
         holeCards = listOf(
             PlayingCard.ACE_OF_SPADES,
             PlayingCard.ACE_OF_HEARTS

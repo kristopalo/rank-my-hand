@@ -1,7 +1,8 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.HandContext
+import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.StraightDrawEvaluationResult
+import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.enums.Ranking
 import com.bigstackbully.rankmyhand.model.improvement.Draw
 import org.springframework.stereotype.Service
@@ -12,7 +13,7 @@ class DrawService(
 ) {
 
     fun evaluatePotentialDraws(
-        handContext: HandContext
+        evaluationContext: EvaluationContext
     ): List<Draw> {
         val draws = mutableListOf<Draw>()
 
@@ -23,25 +24,40 @@ class DrawService(
     }
 
     fun tryFindAllPossibleStraightDraws(
-        handContext: HandContext
+        evalContext: EvaluationContext
     ): List<StraightDrawEvaluationResult> {
-        val contextDistinctRankKeys =
-            handContext.cards.sortedByDescending { it.rank.value }.map { it.rank.key }.distinct()
         val straightHandCombos = handCombinationService.getAllHandCombinationsForRanking(Ranking.STRAIGHT)
 
         // TODO Kristo @ 04.11.2025 -> Maybe we could reuse rankCounts here again? How many hits are we getting for each hand combination?
 
-        val numberOfCardsLeftToDraw = handContext.numberOfCardsLeftToDraw
+        val numberOfCardsLeftToDraw = evalContext.numberOfCardsLeftToDraw
 
         return straightHandCombos
             .map { hc ->
                 val comboStraightRankKeys = hc.hand.toList().map { it.toString() }
-                val matchingRankKeys = contextDistinctRankKeys.intersect(comboStraightRankKeys).toList()
+
+                val matchingCards = mutableListOf<PlayingCard>()
+                val cardsLeftToChooseFrom = evalContext.cards.toMutableList()
+                val rankKeysWithoutAnyMatches = mutableListOf<String>()
+
+                for (rankKey in comboStraightRankKeys) {
+                    val matchingCard = cardsLeftToChooseFrom.find { it.rank.key == rankKey }
+
+                    if (matchingCard != null) {
+                        matchingCards.add(matchingCard)
+                    } else {
+                        rankKeysWithoutAnyMatches.add(rankKey)
+                    }
+                }
+
+                val outs = rankKeysWithoutAnyMatches.flatMap { missingRankKey ->
+                    evalContext.getUndealtCards().filter { it.rank.key == missingRankKey }
+                }
 
                 StraightDrawEvaluationResult(
-                    handContext = handContext,
+                    evaluationContext = evalContext,
                     targetHandCombination = hc,
-                    matchingCards = TODO(),
+                    matchingCards = matchingCards,
                     outs = TODO()
                 )
             }

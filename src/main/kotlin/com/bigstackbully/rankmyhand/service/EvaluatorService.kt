@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.HandContext
+import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.response.HandEvaluationResult
@@ -16,7 +16,7 @@ class EvaluatorService(
 ) {
 
     fun evaluate(evaluationCmd: EvaluationCommand): EvaluationResult {
-        val handContext = evaluationCmd.handContext
+        val handContext = evaluationCmd.evaluationContext
 
         val bestHandEvalResult = findBestHand(handContext)
         // TODO Kristo @ 02.11.2025 -> Find all possible / feasible ways to improve this hand and provide them with the probabilities
@@ -33,8 +33,8 @@ class EvaluatorService(
         }
     }
 
-    fun findBestHand(handContext: HandContext): HandEvaluationResult {
-        val cards = handContext.cards
+    fun findBestHand(evaluationContext: EvaluationContext): HandEvaluationResult {
+        val cards = evaluationContext.cards
         val allPossibleHands = if (cards.size >= 5) cards.allFiveCardHands() else listOf(Hand.of(cards))
 
         return allPossibleHands

@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.HandContext
+import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
@@ -34,13 +34,13 @@ class EvaluationRequestTransformer {
             throw IllegalArgumentException("At least one card must be provided.")
         }
 
-        val handContext = HandContext(
+        val evaluationContext = EvaluationContext(
             holeCards = cards.take(2),
             boardCards = cards.drop(2)
         )
 
         return EvaluationCommand(
-            handContext = handContext
+            evaluationContext = evaluationContext
         )
     }
 }

@@ -1,6 +1,6 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.HandContext
+import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 import io.kotest.matchers.collections.shouldNotBeEmpty
 import io.kotest.matchers.nulls.shouldNotBeNull
@@ -15,7 +15,7 @@ class DrawServiceTest {
     @Test
     fun `should evaluate to a straight draw`() {
         // arrange
-        val handContext = HandContext(
+        val evaluationContext = EvaluationContext(
             holeCards = listOf(
                 PlayingCard.NINE_OF_HEARTS,
                 PlayingCard.SIX_OF_SPADES
@@ -28,7 +28,7 @@ class DrawServiceTest {
         )
         
         // act
-        val actStraightDrawEvalResults = drawService.tryFindAllPossibleStraightDraws(handContext)
+        val actStraightDrawEvalResults = drawService.tryFindAllPossibleStraightDraws(evaluationContext)
         
         // assert
         actStraightDrawEvalResults.shouldNotBeNull()

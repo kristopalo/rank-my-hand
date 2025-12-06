@@ -4,7 +4,7 @@ import com.bigstackbully.rankmyhand.model.combination.HandCombination
 import com.bigstackbully.rankmyhand.model.enums.PlayingCard
 
 data class StraightDrawEvaluationResult(
-    val handContext: HandContext,
+    val evaluationContext: EvaluationContext,
     val targetHandCombination: HandCombination,
     val matchingCards: List<PlayingCard>,
     val outs: List<PlayingCard>
