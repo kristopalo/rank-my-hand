@@ -12,6 +12,8 @@ data class RankNotation(
     override val ranks: List<Rank>
 ) : HasRanks {
 
+    val hasLessThanFiveRanks = ranks.size < 5
+
     override fun toString() = ranks.toRankNotation()
 
     companion object {

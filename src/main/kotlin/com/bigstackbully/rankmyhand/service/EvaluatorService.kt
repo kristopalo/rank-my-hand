@@ -44,11 +44,9 @@ class EvaluatorService(
 
     fun evaluateHand(hand: Hand): HandEvaluationResult {
         val ranking = rankingService.evaluateRanking(hand)
-
-        val rankNotation = hand.rankNotation
         val handStrength = handStrengthService.calculateHandStrength(
             ranking = ranking,
-            rankNotation = rankNotation
+            hand = hand
         )
 
         return HandEvaluationResult(

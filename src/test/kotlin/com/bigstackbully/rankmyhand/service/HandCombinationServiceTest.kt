@@ -30,7 +30,7 @@ class HandCombinationServiceTest {
         "7543o, HIGH_CARD, 75432",
         "754o, HIGH_CARD, 75432",
         "75o, HIGH_CARD, 75432",
-        "7s, HIGH_CARD, 75432",
+        "7s, HIGH_CARD, 75432"
     )
     fun `should find the worst possible hand combination for a given signature notation`(
         signatureNotation: String,
