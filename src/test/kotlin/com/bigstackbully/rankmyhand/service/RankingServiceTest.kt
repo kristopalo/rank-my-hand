@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard
+import com.bigstackbully.rankmyhand.model.enums.Card
 import com.bigstackbully.rankmyhand.model.enums.Ranking
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test
@@ -48,7 +48,7 @@ class RankingServiceTest {
             .chunked(2)
             .mapNotNull { it ->
                 val standardNotation = "${it[0].uppercase()}${it[1].lowercase()}"
-                PlayingCard.fromShortNotation(standardNotation = standardNotation)
+                Card.fromShortNotation(standardNotation = standardNotation)
             }
 
         val hand = Hand.of(cards)

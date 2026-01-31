@@ -18,15 +18,6 @@ class SuitsController(
     fun getAllSuits(): GetAllSuitsResponse = GetAllSuitsResponse(
         suits = suitService.getAllSuits()
             .sortedBy { it.ordinal }
-            .map { s ->
-                with(s) {
-                    SuitDto(
-                        key = key,
-                        name = name,
-                        standardNotation = standardNotation,
-                        emoji = emoji
-                    )
-                }
-            }
+            .map { SuitDto.of(it) }
     )
 }

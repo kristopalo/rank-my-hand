@@ -1,0 +1,22 @@
+package com.bigstackbully.rankmyhand.controller
+
+import com.bigstackbully.rankmyhand.model.dto.CardDto
+import com.bigstackbully.rankmyhand.model.enums.Card
+import com.bigstackbully.rankmyhand.model.response.GetAllCardsResponse
+import com.bigstackbully.rankmyhand.service.CardService
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RestController
+
+@RestController
+@RequestMapping("/api/cards")
+class CardsController(
+    private val cardService: CardService
+) {
+    @GetMapping()
+    fun getAllCards(): GetAllCardsResponse = GetAllCardsResponse(
+        cards = cardService.getAllCards()
+            .sortedWith(compareBy<Card> { it.suit.ordinal }.thenByDescending { it.rank.value })
+            .map { CardDto.of(it) }
+    )
+}

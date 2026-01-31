@@ -1,11 +1,7 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.HandStrength
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard
-import com.bigstackbully.rankmyhand.model.enums.Ranking.*
-import io.kotest.matchers.shouldBe
-import org.junit.jupiter.api.Test
+import com.bigstackbully.rankmyhand.model.enums.Card
 
 class HandStrengthServiceTest {
 
@@ -17,7 +13,7 @@ class HandStrengthServiceTest {
         // Create a hand with all cards of the same suit (spades) from rank notation
         val cards = rankNotationString.mapNotNull { rankChar ->
             val standardNotation = "${rankChar.uppercase()}s"
-            PlayingCard.fromShortNotation(standardNotation)
+            Card.fromShortNotation(standardNotation)
         }
         return Hand.of(cards)
     }

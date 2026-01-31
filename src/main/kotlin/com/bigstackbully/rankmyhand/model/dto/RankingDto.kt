@@ -10,15 +10,13 @@ data class RankingDto(
 ) {
 
     companion object {
-        fun of(handRanking: Ranking): RankingDto {
-            return with(handRanking) {
-                RankingDto(
-                    key = key,
-                    name = name,
-                    displayName = displayName,
-                    strength = strength
-                )
-            }
+        fun of(handRanking: Ranking) = with(handRanking) {
+            RankingDto(
+                key = key,
+                name = name,
+                displayName = displayName,
+                strength = strength
+            )
         }
     }
 }

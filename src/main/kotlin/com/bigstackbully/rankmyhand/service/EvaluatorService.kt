@@ -4,23 +4,19 @@ import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard
+import com.bigstackbully.rankmyhand.model.enums.Card
 import com.bigstackbully.rankmyhand.model.response.HandEvaluationResult
 import org.springframework.stereotype.Service
 
 @Service
 class EvaluatorService(
     private val rankingService: RankingService,
-    private val handStrengthService: HandStrengthService,
-    private val drawService: DrawService
+    private val handStrengthService: HandStrengthService
 ) {
 
     fun evaluate(evaluationCmd: EvaluationCommand): EvaluationResult {
         val handContext = evaluationCmd.evaluationContext
-
         val bestHandEvalResult = findBestHand(handContext)
-        // TODO Kristo @ 02.11.2025 -> Find all possible / feasible ways to improve this hand and provide them with the probabilities
-        val potentialDraws = drawService.evaluatePotentialDraws(handContext)
 
         with(bestHandEvalResult) {
             return EvaluationResult(
@@ -35,7 +31,7 @@ class EvaluatorService(
 
     fun findBestHand(evaluationContext: EvaluationContext): HandEvaluationResult {
         val cards = evaluationContext.cards
-        val allPossibleHands = if (cards.size >= 5) cards.allFiveCardHands() else listOf(Hand.of(cards))
+        val allPossibleHands = if (cards.count() >= 5) cards.allFiveCardHands() else listOf(Hand.of(cards))
 
         return allPossibleHands
             .map { hand -> evaluateHand(hand = hand) }
@@ -56,11 +52,11 @@ class EvaluatorService(
         )
     }
 
-    fun List<PlayingCard>.allFiveCardHands() = combinations(5)
+    fun List<Card>.allFiveCardHands() = combinations(5)
         .map { cards -> Hand.of(cards) }
         .toList()
 
-    fun <PlayingCard> List<PlayingCard>.combinations(k: Int): Sequence<List<PlayingCard>> = sequence {
+    fun <Card> List<Card>.combinations(k: Int): Sequence<List<Card>> = sequence {
         if (k == 0) {
             yield(emptyList())
         } else {

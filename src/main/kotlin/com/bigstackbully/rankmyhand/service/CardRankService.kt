@@ -5,6 +5,5 @@ import org.springframework.stereotype.Service
 
 @Service
 class CardRankService {
-
     fun getAllCardRanks(): List<Rank> = Rank.entries
 }

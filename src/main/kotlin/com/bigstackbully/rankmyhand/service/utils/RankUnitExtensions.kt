@@ -8,13 +8,7 @@ import com.bigstackbully.rankmyhand.model.notation.StandardNotation
 import com.bigstackbully.rankmyhand.utils.HYPHEN
 import java.util.*
 
-fun SortedSet<RankUnit>.maxUnitSize(): Int? = maxOfOrNull { it.cards.size }
-
-fun SortedSet<RankUnit>.areSuited(): Boolean = flatMap { it.suits }.distinct().size == 1
-
-fun SortedSet<RankUnit>.areStraight(): Boolean = map { it.rank.value }
-    .zipWithNext()
-    .all { (a, b) -> a - 1 == b }
+fun SortedSet<RankUnit>.areSuited(): Boolean = flatMap { it.suits }.distinct().count() == 1
 
 fun SortedSet<RankUnit>.highestRank(): Rank? = maxOfOrNull { it.rank }
 

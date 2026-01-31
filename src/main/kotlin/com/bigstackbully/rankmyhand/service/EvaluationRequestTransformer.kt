@@ -2,7 +2,7 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard
+import com.bigstackbully.rankmyhand.model.enums.Card
 import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
 import com.bigstackbully.rankmyhand.service.utils.areUnique
 import com.bigstackbully.rankmyhand.service.utils.hasEvenNumberOfCharacters
@@ -23,7 +23,7 @@ class EvaluationRequestTransformer {
             .chunked(2)
             .mapNotNull { it ->
                 val standardNotation = "${it[0].uppercase()}${it[1].lowercase()}"
-                PlayingCard.fromShortNotation(standardNotation = standardNotation)
+                Card.fromShortNotation(standardNotation = standardNotation)
             }
 
         require(cards.areUnique()) {

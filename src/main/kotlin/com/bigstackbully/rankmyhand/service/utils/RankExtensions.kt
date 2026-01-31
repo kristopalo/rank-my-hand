@@ -24,4 +24,4 @@ fun List<Rank>.areWheelStraight() = hasFiveItems() && containsAll(
     )
 )
 
-fun List<Rank>.hasFiveItems(): Boolean = size == 5
+fun List<Rank>.hasFiveItems(): Boolean = count() == 5

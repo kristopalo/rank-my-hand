@@ -31,31 +31,19 @@ class HandCombinationService(
     private val rankingService: RankingService
 ) {
 
-    companion object {
-        private const val RANKS: String = "23456789TJQKA"
-    }
-
-    // TODO Kristo @ 14.10.2025 -> It's actually not very feasible to calculate the best possible hand combination this way
-    // TODO ...because even if we already have a draw of 4 cards (including ACE), there are still 3 cards to be dealt.
-    // TODO ...and one or more of those 3 cards could also be an ACE, so we might end up with FOAK or TOAK.
-
     fun findWorstPossibleHandCombination(
         signatureNotation: SignatureNotation
     ): HandCombination? {
         val allRankings = rankingService.getAllRankingsSortedByStrengthInAscOrder()
 
         val hRanks = signatureNotation.ranks
-
         val hRankCounts = RANKS.map { rank ->
             val count = hRanks.count { it.key == rank.toString() }
             count
         }
 
-        // TODO Kristo @ 27.10.2025 -> Take into account the isSuited property of the signature notation
-
         for (ranking in allRankings) {
             val mapOfHandCombinations = getMapOfHandCombinations(ranking = ranking)
-
             val handCombinationsInAscOrder = mapOfHandCombinations.values.sortedByDescending { it.absolutePosition }
 
             for (hc in handCombinationsInAscOrder) {
@@ -78,7 +66,6 @@ class HandCombinationService(
         ranking: Ranking
     ): List<HandCombination> = getMapOfHandCombinations(ranking = ranking).values.toList()
 
-    // TODO Kristo @ 30.06.2025 -> We should make this function private
     fun getHandCombination(
         ranking: Ranking,
         rankNotation: RankNotation
@@ -102,5 +89,9 @@ class HandCombinationService(
             ONE_PAIR -> ONE_PAIR_HANDS
             HIGH_CARD -> HIGH_CARD_HANDS
         }
+    }
+
+    companion object {
+        private const val RANKS: String = "23456789TJQKA"
     }
 }

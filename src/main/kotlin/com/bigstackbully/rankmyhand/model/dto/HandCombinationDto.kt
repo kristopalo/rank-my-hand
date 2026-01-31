@@ -13,18 +13,16 @@ data class HandCombinationDto(
     val relativeStrength: Double
 ) {
     companion object {
-        fun of(handCombination: HandCombination): HandCombinationDto {
-            return with(handCombination) {
-                HandCombinationDto(
-                    hand = hand,
-                    isSuited = isSuited,
-                    ranking = ranking.name,
-                    absolutePosition = absolutePosition,
-                    absoluteStrength = absoluteStrength,
-                    relativePosition = relativePosition,
-                    relativeStrength = relativeStrength
-                )
-            }
+        fun of(handCombination: HandCombination) = with(handCombination) {
+            HandCombinationDto(
+                hand = hand,
+                isSuited = isSuited,
+                ranking = ranking.name,
+                absolutePosition = absolutePosition,
+                absoluteStrength = absoluteStrength,
+                relativePosition = relativePosition,
+                relativeStrength = relativeStrength
+            )
         }
     }
 }

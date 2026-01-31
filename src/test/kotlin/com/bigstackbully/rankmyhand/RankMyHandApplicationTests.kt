@@ -9,5 +9,4 @@ class RankMyHandApplicationTests {
 	@Test
 	fun contextLoads() {
 	}
-
 }

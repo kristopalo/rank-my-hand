@@ -14,6 +14,9 @@ import com.bigstackbully.rankmyhand.model.conditions.hasTwoPairs
 import com.bigstackbully.rankmyhand.model.conditions.isAceHigh
 import com.bigstackbully.rankmyhand.model.conditions.isStraight
 import com.bigstackbully.rankmyhand.model.conditions.isSuited
+import com.bigstackbully.rankmyhand.utils.EMPTY_STRING
+import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
+import com.bigstackbully.rankmyhand.utils.UNDERSCORE
 
 enum class Ranking(
     val strength: Int,
@@ -61,8 +64,9 @@ enum class Ranking(
     );
 
     override val key: String = name
-        .split("_").joinToString(separator = "") { it.first().uppercase() }
+        .split(UNDERSCORE).joinToString(separator = EMPTY_STRING) { it.first().uppercase() }
 
     val displayName: String = name
-        .split("_").joinToString(separator = " ") { "${it.first().uppercase()}${it.substring(1).lowercase()}" }
+        .split(UNDERSCORE)
+        .joinToString(separator = SINGLE_SPACE) { "${it.first().uppercase()}${it.substring(1).lowercase()}" }
 }

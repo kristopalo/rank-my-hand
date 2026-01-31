@@ -3,10 +3,10 @@ package com.bigstackbully.rankmyhand.model.conditions
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.enums.Rank
 
-val hasFiveCards: (Hand) -> Boolean = { hand -> hand.cards.size == 5 }
-val hasAtLeastFourCards: (Hand) -> Boolean = { hand -> hand.cards.size >= 4 }
-val hasAtLeastThreeCards: (Hand) -> Boolean = { hand -> hand.cards.size >= 3 }
-val hasAtLeastTwoCards: (Hand) -> Boolean = { hand -> hand.cards.size >= 2 }
+val hasFiveCards: (Hand) -> Boolean = { hand -> hand.cards.count() == 5 }
+val hasAtLeastFourCards: (Hand) -> Boolean = { hand -> hand.cards.count() >= 4 }
+val hasAtLeastThreeCards: (Hand) -> Boolean = { hand -> hand.cards.count() >= 3 }
+val hasAtLeastTwoCards: (Hand) -> Boolean = { hand -> hand.cards.count() >= 2 }
 val hasAtLeastOneCard: (Hand) -> Boolean = { hand -> hand.cards.isNotEmpty() }
 
 val isSuited = { hand: Hand -> hand.isSuited }

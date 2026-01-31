@@ -4,14 +4,14 @@ import com.bigstackbully.rankmyhand.model.characteristic.HasCards
 import com.bigstackbully.rankmyhand.model.characteristic.HasRanks
 import com.bigstackbully.rankmyhand.model.characteristic.SuitAware
 import com.bigstackbully.rankmyhand.model.enums.Rank
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard
-import com.bigstackbully.rankmyhand.model.enums.PlayingCard.*
+import com.bigstackbully.rankmyhand.model.enums.Card
+import com.bigstackbully.rankmyhand.model.enums.Card.*
 import com.bigstackbully.rankmyhand.model.notation.RankNotation
 import com.bigstackbully.rankmyhand.model.notation.SignatureNotation
 import com.bigstackbully.rankmyhand.model.notation.StandardNotation
-import com.bigstackbully.rankmyhand.service.utils.areStraight
 import com.bigstackbully.rankmyhand.service.utils.areSuited
 import com.bigstackbully.rankmyhand.service.utils.areWheelStraight
+import com.bigstackbully.rankmyhand.service.utils.areStraight
 import com.bigstackbully.rankmyhand.service.utils.ranks
 import com.bigstackbully.rankmyhand.service.utils.highestRank
 import com.bigstackbully.rankmyhand.service.utils.serializedValue
@@ -24,9 +24,9 @@ data class Hand(
     private val rankUnits: SortedSet<RankUnit> = sortedSetOf()
 ) : HasRanks, SuitAware, HasCards {
 
-    override val cards: List<PlayingCard> = rankUnits
+    override val cards: List<Card> = rankUnits
         .flatMap { it.cards }
-        .sortedWith(compareByDescending<PlayingCard> { it.rank.value }.thenBy { it.suit.ordinal })
+        .sortedWith(compareByDescending<Card> { it.rank.value }.thenBy { it.suit.ordinal })
 
     override val ranks = rankUnits.ranks()
     override val isSuited: Boolean = rankUnits.areSuited()
@@ -39,6 +39,7 @@ data class Hand(
     val hasThreeOfAKind: Boolean = rankUnits.any { it.isThreeOfAKind }
     val hasTwoPairs: Boolean = rankUnits.count { it.isPair } == 2
     val hasPair: Boolean = rankUnits.any { it.isPair }
+    val hasFiveCards = cards.count() == 5
 
     val rankNotation: RankNotation = rankUnits.toRankNotation()
     val signatureNotation: SignatureNotation = rankUnits.toSignatureNotation()
@@ -48,8 +49,7 @@ data class Hand(
     override fun toString() = standardNotation.toString()
 
     companion object {
-
-        fun of(cards: List<PlayingCard>): Hand {
+        fun of(cards: List<Card>): Hand {
             val normalizedCards = if (cards.areWheelStraight()) {
                 cards.map { card ->
                     when (card) {

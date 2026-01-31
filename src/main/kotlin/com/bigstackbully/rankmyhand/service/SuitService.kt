@@ -5,6 +5,5 @@ import org.springframework.stereotype.Service
 
 @Service
 class SuitService {
-
     fun getAllSuits(): List<Suit> = Suit.entries
 }

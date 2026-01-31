@@ -1,12 +1,12 @@
 package com.bigstackbully.rankmyhand.model.enums
 
-enum class PlayingCard(
+import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
+import com.bigstackbully.rankmyhand.utils.UNDERSCORE
+
+enum class Card(
     val rank: Rank,
     val suit: Suit
-) : Comparable<PlayingCard> {
-    // https://en.wikipedia.org/wiki/Playing_cards_in_Unicode
-    // https://www.baeldung.com/kotlin/enum
-
+) : Comparable<Card> {
     LOW_ACE_OF_SPADES(rank = Rank.LOW_ACE, Suit.SPADES),
     TWO_OF_SPADES(rank = Rank.TWO, suit = Suit.SPADES),
     THREE_OF_SPADES(rank = Rank.THREE, suit = Suit.SPADES),
@@ -68,28 +68,24 @@ enum class PlayingCard(
     ACE_OF_CLUBS(rank = Rank.ACE, suit = Suit.CLUBS);
 
     val standardNotation: String = "${rank.key.uppercase()}${suit.standardNotation.lowercase()}"
-
     val key: String = standardNotation.uppercase()
 
     val displayName: String = name
-        .split("_")
-        .joinToString(" ") { word ->
+        .split(UNDERSCORE)
+        .joinToString(SINGLE_SPACE) { word ->
             if (word == "OF") "of"
             else word.lowercase().replaceFirstChar { it.uppercase() }
         }
 
-    val emojiName: String = "${rank.key}${suit.emoji}"
-
     companion object {
-
-        fun fromShortNotation(standardNotation: String): PlayingCard? {
+        fun fromShortNotation(standardNotation: String): Card? {
             return entries
                 .filterNot { it.rank == Rank.LOW_ACE }
                 .find { it.standardNotation == standardNotation }
         }
 
-        val playingCardDefaultComparator: Comparator<PlayingCard> =
-            compareByDescending<PlayingCard> { it.rank.value }
+        val cardDefaultComparator: Comparator<Card> =
+            compareByDescending<Card> { it.rank.value }
                 .thenByDescending { it.suit.ordinal }
     }
 }

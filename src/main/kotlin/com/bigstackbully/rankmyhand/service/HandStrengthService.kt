@@ -17,22 +17,19 @@ class HandStrengthService(
         ranking: Ranking,
         hand: Hand
     ): HandStrength {
-        var bestHandCombination: HandCombination?
-
-        if (hand.cards.size == 5) {
-            bestHandCombination = handCombinationService.getHandCombination(
+        val bestHandCombination = if (hand.hasFiveCards) {
+            handCombinationService.getHandCombination(
                 ranking = ranking,
                 rankNotation = hand.rankNotation
             )
         } else {
-            bestHandCombination = handCombinationService.findWorstPossibleHandCombination(
+            handCombinationService.findWorstPossibleHandCombination(
                 signatureNotation = hand.signatureNotation
             )
         }
 
-        if (bestHandCombination == null) {
+        if (bestHandCombination == null)
             throw IllegalStateException("Unable to calculate hand strength for hand '$hand' with ranking '${ranking.name}'. No matching hand combination found.")
-        }
 
         return with(bestHandCombination) {
             HandStrength(

@@ -10,7 +10,6 @@ import com.bigstackbully.rankmyhand.service.RankingService
 import com.bigstackbully.rankmyhand.utils.EMPTY_STRING
 import org.springframework.web.bind.annotation.*
 
-
 @RestController
 @RequestMapping("/api/rankings")
 class RankingsController(
@@ -57,8 +56,6 @@ class RankingsController(
         }
 
         val validRanksFormatted = validRankKeys.joinToString(separator = EMPTY_STRING)
-
-        // TODO Kristo @ 30.06.2025 -> Normalize the shortNotation
         val rankNt = RankNotation.from(validRanksFormatted)
         val ranking = rankingService.getRankingByKeyOrName(rankingId)
 

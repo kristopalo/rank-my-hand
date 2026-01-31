@@ -4,7 +4,6 @@ import com.bigstackbully.rankmyhand.model.RankUnit
 import com.bigstackbully.rankmyhand.model.characteristic.HasRanks
 import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.service.utils.areWheelStraight
-import com.bigstackbully.rankmyhand.service.utils.ranks
 import com.bigstackbully.rankmyhand.service.utils.toRankNotation
 import java.util.SortedSet
 
@@ -12,12 +11,9 @@ data class RankNotation(
     override val ranks: List<Rank>
 ) : HasRanks {
 
-    val hasLessThanFiveRanks = ranks.size < 5
-
     override fun toString() = ranks.toRankNotation()
 
     companion object {
-
         fun from(rankUnits: SortedSet<RankUnit>): RankNotation {
             val ranks = rankUnits.flatMap { it.cards }.map { it.rank }
             return of(ranks)
@@ -42,6 +38,5 @@ data class RankNotation(
 
             return RankNotation(normalizedRanks)
         }
-
     }
 }

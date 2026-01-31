@@ -22,17 +22,13 @@ enum class Rank(val key: String, val value: Int) {
             .sortedByDescending { it.value }
             .map { it.key }
 
-        fun containsKey(key: String): Boolean {
-            return keys().contains(key)
-        }
+        fun containsKey(key: String): Boolean = keys().contains(key)
 
-        fun fromKeyOrThrow(key: String): Rank {
-            return entries.filterNot { it == LOW_ACE }.find { it.key == key }
-                ?: throw IllegalArgumentException("Unable to find a matching card rank for key '$key'.")
-        }
+        fun fromKeyOrThrow(key: String): Rank = entries.filterNot { it == LOW_ACE }.find { it.key == key }
+            ?: throw IllegalArgumentException("Unable to find a matching card rank for key '$key'.")
 
         val sortByRankCountThenByRankValueComparator: Comparator<Map.Entry<Rank, List<Rank>>> =
-            compareByDescending<Map.Entry<Rank, List<Rank>>> { it.value.size }
+            compareByDescending<Map.Entry<Rank, List<Rank>>> { it.value.count() }
                 .thenByDescending { it.key.value }
     }
 

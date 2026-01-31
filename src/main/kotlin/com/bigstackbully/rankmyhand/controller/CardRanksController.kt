@@ -18,14 +18,6 @@ class CardRanksController(
     fun getAllCardRanks(): GetAllCardRanksResponse = GetAllCardRanksResponse(
         cardRanks = cardRankService.getAllCardRanks()
             .sortedByDescending { it.value }
-            .map { cr ->
-                with(cr) {
-                    CardRankDto(
-                        key = cr.key,
-                        name = cr.name,
-                        value = cr.value
-                    )
-                }
-            }
+            .map { CardRankDto.of(it) }
     )
 }
