@@ -3,6 +3,7 @@ package com.bigstackbully.rankmyhand.service
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.HandStrength
 import com.bigstackbully.rankmyhand.model.enums.Card
+import com.bigstackbully.rankmyhand.model.enums.Ranking
 import com.bigstackbully.rankmyhand.model.enums.Ranking.*
 import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
 import io.kotest.matchers.shouldBe
@@ -35,20 +36,7 @@ class HandStrengthServiceTest {
             HIGH_CARD to Pair("As Ks Qs Js 9s", HandStrength(6186, 0.171134, 1, 1.0))
         )
 
-        testCases.forEach { (ranking, rankingHandStrengthPair) ->
-            // arrange
-            val (stdNt, expHandStrength) = rankingHandStrengthPair
-            val hand = createHandFromStandardNotation(stdNt)
-
-            // act
-            val actHandStrength = handStrengthService.calculateHandStrength(
-                ranking = ranking,
-                hand = hand
-            )
-
-            // assert
-            actHandStrength shouldBe expHandStrength
-        }
+        assertHandStrengths(testCases)
     }
 
     @Test
@@ -67,6 +55,10 @@ class HandStrengthServiceTest {
             HIGH_CARD to Pair("7s 5s 4s 3s 2s", HandStrength(7462, 0.000134, 1277, 0.000783))
         )
 
+        assertHandStrengths(testCases)
+    }
+
+    private fun assertHandStrengths(testCases: Map<Ranking, Pair<String, HandStrength>>) {
         testCases.forEach { (ranking, rankingHandStrengthPair) ->
             // arrange
             val (stdNt, expHandStrength) = rankingHandStrengthPair
@@ -79,7 +71,7 @@ class HandStrengthServiceTest {
             )
 
             // assert
-            actHandStrength.shouldBe(expHandStrength)
+            actHandStrength shouldBe expHandStrength
         }
     }
 }

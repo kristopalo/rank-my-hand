@@ -16,27 +16,38 @@ class EvaluationRequestTransformer {
         val filteredInput = input.filter { it.isLetterOrDigit() }
 
         require(filteredInput.hasEvenNumberOfCharacters()) {
-            throw IllegalArgumentException("Input string can only contain an equal number of characters, 2 for each pair.")
+            "Input string can only contain an equal number of characters, 2 for each card."
         }
 
-        val cards = filteredInput
-            .chunked(2)
-            .mapNotNull { it ->
-                val standardNotation = "${it[0].uppercase()}${it[1].lowercase()}"
-                Card.fromShortNotation(standardNotation = standardNotation)
+        val validCards = mutableListOf<Card>()
+        val invalidCardsInStandardNt = mutableListOf<String>()
+
+        for (chunk in filteredInput.chunked(2)) {
+            val standardNt = "${chunk[0].uppercase()}${chunk[1].lowercase()}"
+            val card = Card.fromShortNotation(standardNotation = standardNt)
+
+            if (card != null) {
+                validCards.add(card)
+            } else {
+                invalidCardsInStandardNt.add(standardNt)
             }
-
-        require(cards.areUnique()) {
-            throw IllegalArgumentException("All cards in the provided hand have to be unique.")
         }
 
-        require(cards.isNotEmpty()) {
-            throw IllegalArgumentException("At least one card must be provided.")
+        require(invalidCardsInStandardNt.isEmpty()) {
+            "Found the following invalid cards in the input: ${invalidCardsInStandardNt.joinToString(", ") { card -> "'$card'" }}"
+        }
+
+        require(validCards.areUnique()) {
+            "All cards in the provided hand have to be unique."
+        }
+
+        require(validCards.isNotEmpty()) {
+            "At least one card must be provided."
         }
 
         val evaluationContext = EvaluationContext(
-            holeCards = cards.take(2),
-            boardCards = cards.drop(2)
+            holeCards = validCards.take(2),
+            boardCards = validCards.drop(2)
         )
 
         return EvaluationCommand(
