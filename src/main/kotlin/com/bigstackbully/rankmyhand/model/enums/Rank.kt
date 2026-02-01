@@ -1,5 +1,6 @@
 package com.bigstackbully.rankmyhand.model.enums
 
+
 enum class Rank(val key: String, val value: Int) {
     LOW_ACE(key = "A", value = 1),
     TWO(key = "2", value = 2),

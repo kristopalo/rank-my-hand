@@ -35,6 +35,8 @@ dependencies {
 	testImplementation("io.kotest:kotest-assertions-core:5.9.0")
 	testImplementation("io.mockk:mockk:1.14.3")
 	api("com.ninja-squad:springmockk:4.0.2")
+	// SpringDoc OpenAPI (Swagger)
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.4")
 }
 
 kotlin {

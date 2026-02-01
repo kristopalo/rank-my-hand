@@ -3,5 +3,15 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: rank-my-hand
     ports:
       - "8080:8080"
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xmx512m
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:8080/api-docs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
