@@ -7,6 +7,8 @@ import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
 import com.bigstackbully.rankmyhand.service.utils.areUnique
 import com.bigstackbully.rankmyhand.service.utils.hasEvenNumberOfCharacters
 import com.bigstackbully.rankmyhand.service.utils.wrapInApostrophes
+import com.bigstackbully.rankmyhand.utils.ITEM_SEPARATOR
+import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
 import org.springframework.stereotype.Service
 
 @Service
@@ -14,10 +16,34 @@ class EvaluationRequestTransformer {
 
     fun toCommand(evaluationReq: EvaluationRequest): EvaluationCommand {
         val input = evaluationReq.cards
+
+        val invalidCharacters = input.filter {
+            !it.isLetterOrDigit() && !it.isWhitespace() && it !in ALLOWED_SEPARATORS
+        }.toSet()
+
+        require(invalidCharacters.isEmpty()) {
+            buildList {
+                add("Input '$input' contains these invalid characters: [${invalidCharacters.joinToString(ITEM_SEPARATOR) { it.wrapInApostrophes() }}].")
+                add(
+                    "Only alphanumeric characters, whitespace, and the following item separators are allowed: [${
+                        ALLOWED_SEPARATORS.joinToString(ITEM_SEPARATOR) { it.wrapInApostrophes() }
+                    }]."
+                )
+            }.joinToString(separator = SINGLE_SPACE)
+        }
+
         val filteredInput = input.filter { it.isLetterOrDigit() }
 
         require(filteredInput.isNotEmpty()) {
-            "Input string contains invalid card characters. Cards must be represented in standard notation by two alphanumeric characters for each card (rank + suit). Valid examples: As, Kh, Qd, Jc, Ts, 9h, 8d, 7c, 6s, 5h, 4d, 3c, 2s."
+            buildList {
+                add("Unable to parse any valid cards from the input string of '$input'.")
+                add("Cards must be represented in standard notation by specifying exactly two characters per card: rank + suit.")
+                add("Valid ranks: A (Ace), K (King), Q (Queen), J (Jack), T (Ten), 9, 8, 7, 6, 5, 4, 3, 2.")
+                add("Valid suits: s (spades), h (hearts), d (diamonds), c (clubs).")
+                add("Valid separators between cards are: space, hyphen (-), comma (,), semicolon (;), period (.), pipe (|).")
+                add("All non-alphanumeric characters will be purged when parsing input string to cards.")
+                add("Examples of valid inputs: 'As Kh Qd Jc Ts' (with spaces), 'AsKhQdJcTs' (without spaces), 'As-Kh-Qd-Jc-Ts' (with separators).")
+            }.joinToString(separator = SINGLE_SPACE)
         }
 
         require(filteredInput.hasEvenNumberOfCharacters()) {
@@ -29,7 +55,7 @@ class EvaluationRequestTransformer {
 
         for (chunk in filteredInput.chunked(2)) {
             val standardNt = "${chunk[0].uppercase()}${chunk[1].lowercase()}"
-            val card = Card.fromShortNotation(standardNotation = standardNt)
+            val card = Card.fromStandardNotation(standardNotation = standardNt)
 
             if (card != null) {
                 validCards.add(card)
@@ -39,7 +65,7 @@ class EvaluationRequestTransformer {
         }
 
         require(invalidCardsInStandardNt.isEmpty()) {
-            "Unable to parse the following items into cards: ${invalidCardsInStandardNt.joinToString(", ") { it.wrapInApostrophes() }}"
+            "Unable to parse the following items into cards: ${invalidCardsInStandardNt.joinToString(ITEM_SEPARATOR) { it.wrapInApostrophes() }}"
         }
 
         require(validCards.areUnique()) {
@@ -58,5 +84,9 @@ class EvaluationRequestTransformer {
         return EvaluationCommand(
             evaluationContext = evaluationContext
         )
+    }
+
+    companion object {
+        private val ALLOWED_SEPARATORS = setOf('-', ',', ';', '.', '|')
     }
 }

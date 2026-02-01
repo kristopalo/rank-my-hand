@@ -16,7 +16,7 @@ class HandStrengthServiceTest {
     private val handStrengthService = HandStrengthService(handCombinationService = handCombinationService)
 
     private fun createHandFromStandardNotation(standardNotationString: String): Hand {
-        val cards = standardNotationString.split(SINGLE_SPACE).mapNotNull { Card.fromShortNotation(it) }
+        val cards = standardNotationString.split(SINGLE_SPACE).mapNotNull { Card.fromStandardNotation(it) }
         return Hand.of(cards)
     }
 

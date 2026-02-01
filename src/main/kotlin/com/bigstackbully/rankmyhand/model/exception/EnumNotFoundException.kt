@@ -1,21 +1,18 @@
 package com.bigstackbully.rankmyhand.model.exception
 
 import com.bigstackbully.rankmyhand.model.enums.interfaces.KeyedEnum
+import com.bigstackbully.rankmyhand.utils.ITEM_SEPARATOR
 import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
 import java.lang.IllegalArgumentException
 import kotlin.reflect.KClass
-
-const val ITEM_SEPARATOR = ", "
 
 class EnumNotFoundException(
     identifier: String,
     enumClass: KClass<out Enum<*>>
 ) : IllegalArgumentException(
-    buildString {
-        append("Invalid identifier '$identifier'.")
-        append(SINGLE_SPACE)
-        append("No matching value found in enum class '${enumClass.simpleName}'.")
-        append(SINGLE_SPACE)
+    buildList {
+        add("Invalid identifier '$identifier'.")
+        add("No matching value found in enum class '${enumClass.simpleName}'.")
 
         // Get enum entries using reflection
         val entries = enumClass.java.enumConstants?.toList().orEmpty()
@@ -24,14 +21,12 @@ class EnumNotFoundException(
         val keyed = entries.filterIsInstance<KeyedEnum>()
 
         if (keyed.isNotEmpty()) {
-            append("Please use one of the supported keys or names as an identifier.")
-            append(SINGLE_SPACE)
-            append("Supported keys: [${keyed.joinToString(ITEM_SEPARATOR) { it.key }}].")
+            add("Please use one of the supported keys or names as an identifier.")
+            add("Supported keys: [${keyed.joinToString(ITEM_SEPARATOR) { it.key }}].")
         } else {
-            append("Please use one of the supported names as an identifier.")
+            add("Please use one of the supported names as an identifier.")
         }
 
-        append(SINGLE_SPACE)
-        append("Supported names: [${entries.joinToString(ITEM_SEPARATOR) { it.name }}].")
-    }
+        add("Supported names: [${entries.joinToString(ITEM_SEPARATOR) { it.name }}].")
+    }.joinToString(SINGLE_SPACE)
 )

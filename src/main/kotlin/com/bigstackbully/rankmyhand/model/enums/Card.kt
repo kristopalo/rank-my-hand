@@ -78,7 +78,7 @@ enum class Card(
         }
 
     companion object {
-        fun fromShortNotation(standardNotation: String): Card? {
+        fun fromStandardNotation(standardNotation: String): Card? {
             return entries
                 .filterNot { it.rank == Rank.LOW_ACE }
                 .find { it.standardNotation == standardNotation }

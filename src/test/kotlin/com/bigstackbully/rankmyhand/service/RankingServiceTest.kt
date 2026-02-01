@@ -46,10 +46,7 @@ class RankingServiceTest {
         val cards = cardsInStandardNotation
             .filter { it.isLetterOrDigit() }
             .chunked(2)
-            .mapNotNull { it ->
-                val standardNotation = "${it[0].uppercase()}${it[1].lowercase()}"
-                Card.fromShortNotation(standardNotation = standardNotation)
-            }
+            .mapNotNull { Card.fromStandardNotation(standardNotation = "${it[0].uppercase()}${it[1].lowercase()}") }
 
         val hand = Hand.of(cards)
 
