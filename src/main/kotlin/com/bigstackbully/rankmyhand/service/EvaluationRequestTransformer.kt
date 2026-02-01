@@ -6,6 +6,7 @@ import com.bigstackbully.rankmyhand.model.enums.Card
 import com.bigstackbully.rankmyhand.model.request.EvaluationRequest
 import com.bigstackbully.rankmyhand.service.utils.areUnique
 import com.bigstackbully.rankmyhand.service.utils.hasEvenNumberOfCharacters
+import com.bigstackbully.rankmyhand.service.utils.wrapInApostrophes
 import org.springframework.stereotype.Service
 
 @Service
@@ -13,16 +14,20 @@ class EvaluationRequestTransformer {
 
     fun toCommand(evaluationReq: EvaluationRequest): EvaluationCommand {
         val input = evaluationReq.cards
-        val filteredInput = input.filter { it.isLetterOrDigit() }
 
-        require(filteredInput.hasEvenNumberOfCharacters()) {
+        val invalidCharacters = input.filter { !it.isLetterOrDigit() }.toSet()
+        require(invalidCharacters.isEmpty()) {
+            "Input contains invalid characters: ${invalidCharacters.joinToString(", ") { it.wrapInApostrophes() }}"
+        }
+
+        require(input.hasEvenNumberOfCharacters()) {
             "Input string can only contain an equal number of characters, 2 for each card."
         }
 
         val validCards = mutableListOf<Card>()
         val invalidCardsInStandardNt = mutableListOf<String>()
 
-        for (chunk in filteredInput.chunked(2)) {
+        for (chunk in input.chunked(2)) {
             val standardNt = "${chunk[0].uppercase()}${chunk[1].lowercase()}"
             val card = Card.fromShortNotation(standardNotation = standardNt)
 
@@ -34,7 +39,7 @@ class EvaluationRequestTransformer {
         }
 
         require(invalidCardsInStandardNt.isEmpty()) {
-            "Found the following invalid cards in the input: ${invalidCardsInStandardNt.joinToString(", ") { card -> "'$card'" }}"
+            "Unable to parse the following items into cards: ${invalidCardsInStandardNt.joinToString(", ") { it.wrapInApostrophes() }}"
         }
 
         require(validCards.areUnique()) {

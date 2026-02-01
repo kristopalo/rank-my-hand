@@ -1,5 +1,6 @@
 package com.bigstackbully.rankmyhand.controller.advice
 
+import com.bigstackbully.rankmyhand.model.exception.EnumNotFoundException
 import com.bigstackbully.rankmyhand.model.response.ErrorResponse
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
@@ -11,7 +12,15 @@ class ExceptionControllerAdvice {
 
     @ExceptionHandler(IllegalArgumentException::class)
     fun handleIllegalArgumentException(iae: IllegalArgumentException): ResponseEntity<ErrorResponse> =
-        composeResponseEntity(httpStatus = HttpStatus.NOT_FOUND, iae)
+        composeResponseEntity(httpStatus = HttpStatus.BAD_REQUEST, ex = iae)
+
+    @ExceptionHandler(IllegalStateException::class)
+    fun handleIllegalStateException(ise: IllegalStateException): ResponseEntity<ErrorResponse> =
+        composeResponseEntity(httpStatus = HttpStatus.BAD_REQUEST, ex = ise)
+
+    @ExceptionHandler(EnumNotFoundException::class)
+    fun handleEnumNotFoundException(infe: EnumNotFoundException): ResponseEntity<ErrorResponse> =
+        composeResponseEntity(httpStatus = HttpStatus.NOT_FOUND, ex = infe)
 
     @ExceptionHandler(Exception::class)
     fun handleGenericException(ex: Exception): ResponseEntity<ErrorResponse> =
