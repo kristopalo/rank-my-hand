@@ -7,8 +7,6 @@ data class EvaluationResponse(
     val ranking: Ranking,
     val shortNotation: String,
     val serializedValue: String,
-    val absolutePosition: Int,
     val absoluteStrength: Double,
-    val relativePosition: Int,
     val relativeStrength: Double
 )

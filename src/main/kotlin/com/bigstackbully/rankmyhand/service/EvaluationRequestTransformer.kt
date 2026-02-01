@@ -14,20 +14,20 @@ class EvaluationRequestTransformer {
 
     fun toCommand(evaluationReq: EvaluationRequest): EvaluationCommand {
         val input = evaluationReq.cards
+        val filteredInput = input.filter { it.isLetterOrDigit() }
 
-        val invalidCharacters = input.filter { !it.isLetterOrDigit() }.toSet()
-        require(invalidCharacters.isEmpty()) {
-            "Input contains invalid characters: ${invalidCharacters.joinToString(", ") { it.wrapInApostrophes() }}"
+        require(filteredInput.isNotEmpty()) {
+            "Input string contains invalid card characters. Cards must be represented in standard notation by two alphanumeric characters for each card (rank + suit). Valid examples: As, Kh, Qd, Jc, Ts, 9h, 8d, 7c, 6s, 5h, 4d, 3c, 2s."
         }
 
-        require(input.hasEvenNumberOfCharacters()) {
+        require(filteredInput.hasEvenNumberOfCharacters()) {
             "Input string can only contain an equal number of characters, 2 for each card."
         }
 
         val validCards = mutableListOf<Card>()
         val invalidCardsInStandardNt = mutableListOf<String>()
 
-        for (chunk in input.chunked(2)) {
+        for (chunk in filteredInput.chunked(2)) {
             val standardNt = "${chunk[0].uppercase()}${chunk[1].lowercase()}"
             val card = Card.fromShortNotation(standardNotation = standardNt)
 

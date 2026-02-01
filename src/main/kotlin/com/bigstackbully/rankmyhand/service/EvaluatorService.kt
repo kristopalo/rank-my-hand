@@ -6,6 +6,7 @@ import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.Card
 import com.bigstackbully.rankmyhand.model.response.HandEvaluationResult
+import com.bigstackbully.rankmyhand.utils.HYPHEN
 import org.springframework.stereotype.Service
 
 @Service
@@ -19,10 +20,15 @@ class EvaluatorService(
         val bestHandEvalResult = findBestHand(handContext)
 
         with(bestHandEvalResult) {
+            val serializedValue = listOf(
+                ranking.strength,
+                hand.serializedValue
+            ).joinToString(separator = HYPHEN)
+
             return EvaluationResult(
                 hand = hand.standardNotation.toString(),
                 ranking = ranking,
-                serializedValue = hand.serializedValue,
+                serializedValue = serializedValue,
                 shortNotation = hand.rankNotation.toString(),
                 handStrength = handStrength
             )

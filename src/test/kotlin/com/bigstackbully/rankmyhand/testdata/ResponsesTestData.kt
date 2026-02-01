@@ -14,8 +14,6 @@ fun composeHandEvaluationResponse(handEvalResult: EvaluationResult) = Evaluation
     ranking = handEvalResult.ranking,
     shortNotation = handEvalResult.shortNotation,
     serializedValue = handEvalResult.serializedValue,
-    absolutePosition = handEvalResult.handStrength.absolutePosition,
     absoluteStrength = handEvalResult.handStrength.absoluteStrength,
-    relativePosition = handEvalResult.handStrength.relativePosition,
     relativeStrength = handEvalResult.handStrength.relativeStrength
 )
