@@ -35,7 +35,7 @@ class EvaluatorService(
         }
     }
 
-    fun findBestHand(evaluationContext: EvaluationContext): HandEvaluationResult {
+    private fun findBestHand(evaluationContext: EvaluationContext): HandEvaluationResult {
         val cards = evaluationContext.cards
         val allPossibleHands = if (cards.count() >= 5) cards.allFiveCardHands() else listOf(Hand.of(cards))
 
@@ -44,7 +44,7 @@ class EvaluatorService(
             .maxBy { it.handStrength.absoluteStrength }
     }
 
-    fun evaluateHand(hand: Hand): HandEvaluationResult {
+    private fun evaluateHand(hand: Hand): HandEvaluationResult {
         val ranking = rankingService.evaluateRanking(hand)
         val handStrength = handStrengthService.calculateHandStrength(
             ranking = ranking,
