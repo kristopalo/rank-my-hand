@@ -26,10 +26,10 @@ class EvaluatorService(
             ).joinToString(separator = HYPHEN)
 
             return EvaluationResult(
-                hand = hand.standardNotation.toString(),
+                hand = hand.standardNotation,
                 ranking = ranking,
                 serializedValue = serializedValue,
-                shortNotation = hand.rankNotation.toString(),
+                shortNotation = hand.rankNotation,
                 handStrength = handStrength
             )
         }

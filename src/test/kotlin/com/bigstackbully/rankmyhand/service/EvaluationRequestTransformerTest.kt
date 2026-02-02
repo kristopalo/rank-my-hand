@@ -68,20 +68,6 @@ class EvaluationRequestTransformerTest {
             }
         }
 
-        @Test
-        fun `should transform request with mixed case`() {
-            // arrange
-            val request = EvaluationRequest(cards = "AS KH QD JC TS")
-
-            // act
-            val command = transformer.toCommand(request)
-
-            // assert
-            with(command.evaluationContext) {
-                holeCards shouldBe listOf(ACE_OF_SPADES, KING_OF_HEARTS)
-                boardCards shouldBe listOf(QUEEN_OF_DIAMONDS, JACK_OF_CLUBS, TEN_OF_SPADES)
-            }
-        }
 
         @Test
         fun `should correctly split hole cards and board cards`() {
@@ -330,25 +316,15 @@ class EvaluationRequestTransformerTest {
             )
         }
 
-        @Test
-        fun `should handle lowercase suit notation`() {
+        @ParameterizedTest
+        @ValueSource(strings = [
+            "as kh qd jc ts",
+            "AS KH QD JC TS",
+            "As Kh Qd Jc Ts"
+        ])
+        fun `should handle case insensitive input`(cards: String) {
             // arrange
-            val request = EvaluationRequest(cards = "as kh qd jc ts")
-
-            // act
-            val command = transformer.toCommand(request)
-
-            // assert
-            with(command.evaluationContext) {
-                holeCards shouldBe listOf(ACE_OF_SPADES, KING_OF_HEARTS)
-                boardCards shouldBe listOf(QUEEN_OF_DIAMONDS, JACK_OF_CLUBS, TEN_OF_SPADES)
-            }
-        }
-
-        @Test
-        fun `should handle uppercase suit notation`() {
-            // arrange
-            val request = EvaluationRequest(cards = "AS KH QD JC TS")
+            val request = EvaluationRequest(cards = cards)
 
             // act
             val command = transformer.toCommand(request)

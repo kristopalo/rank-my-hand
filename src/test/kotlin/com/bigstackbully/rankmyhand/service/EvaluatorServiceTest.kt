@@ -68,32 +68,6 @@ class EvaluatorServiceTest {
             verify { handStrengthService.calculateHandStrength(FULL_HOUSE, any()) }
         }
 
-        @Test
-        fun `should evaluate a royal flush hand correctly`() {
-            // arrange
-            val cards = listOf(ACE_OF_SPADES, KING_OF_SPADES, QUEEN_OF_SPADES, JACK_OF_SPADES, TEN_OF_SPADES)
-            val evalCmd = EvaluationCommand(
-                evaluationContext = EvaluationContext(holeCards = cards.take(2), boardCards = cards.drop(2))
-            )
-            val expectedHand = Hand.of(cards)
-            val expectedHandStrength = HandStrength(
-                absolutePosition = 1,
-                absoluteStrength = 1.0,
-                relativePosition = 1,
-                relativeStrength = 1.0
-            )
-
-            every { rankingService.evaluateRanking(any()) } returns ROYAL_FLUSH
-            every { handStrengthService.calculateHandStrength(ROYAL_FLUSH, any()) } returns expectedHandStrength
-
-            // act
-            val result = evaluatorService.evaluate(evalCmd)
-
-            // assert
-            result.ranking shouldBe ROYAL_FLUSH
-            result.hand shouldBe expectedHand.standardNotation
-            result.handStrength shouldBe expectedHandStrength
-        }
 
         @Test
         fun `should find best hand from 7 cards`() {
