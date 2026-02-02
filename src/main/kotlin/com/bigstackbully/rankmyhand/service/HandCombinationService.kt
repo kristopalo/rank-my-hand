@@ -1,7 +1,6 @@
 package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.combination.*
-import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.Ranking
 import com.bigstackbully.rankmyhand.model.enums.Ranking.*
 import org.springframework.stereotype.Service
@@ -22,9 +21,9 @@ class HandCombinationService(
 
     fun findWorstPossibleHandCombination(
         ranking: Ranking,
-        ranks: List<Rank>
+        rankNotation: String
     ): HandCombination? {
-        val hRankCounts = RANKS.map { rank -> ranks.count { it.key == rank.toString() } }
+        val hRankCounts = RANKS.map { rank -> rankNotation.count { it.toString() == rank.toString() } }
 
         val mapOfHandCombinations = getMapOfHandCombinations(ranking = ranking)
         val handCombinationsInAscOrder = mapOfHandCombinations.values.sortedByDescending { it.absolutePosition }

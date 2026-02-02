@@ -2,6 +2,7 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.Ranking
+import com.bigstackbully.rankmyhand.utils.EMPTY_STRING
 import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
 import io.kotest.matchers.nulls.shouldNotBeNull
 import io.kotest.matchers.shouldBe
@@ -44,7 +45,7 @@ class HandCombinationServiceTest {
         // act
         val actHandCombination = handCombinationService.findWorstPossibleHandCombination(
             ranking = expRanking,
-            ranks = ranks
+            rankNotation = ranks.joinToString(separator = EMPTY_STRING) { it.key }
         )
 
         // assert

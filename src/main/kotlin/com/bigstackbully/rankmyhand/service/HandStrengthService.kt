@@ -22,7 +22,7 @@ class HandStrengthService(
         } else {
             handCombinationService.findWorstPossibleHandCombination(
                 ranking = ranking,
-                ranks = hand.ranks
+                rankNotation = hand.rankNotation
             )
         }
 
