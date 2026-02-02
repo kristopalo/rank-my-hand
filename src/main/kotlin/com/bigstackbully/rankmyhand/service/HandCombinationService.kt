@@ -1,28 +1,9 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.combination.FLUSH_HANDS
-import com.bigstackbully.rankmyhand.model.combination.FOUR_OF_A_KIND_HANDS
-import com.bigstackbully.rankmyhand.model.combination.FULL_HOUSE_HANDS
-import com.bigstackbully.rankmyhand.model.combination.HIGH_CARD_HANDS
-import com.bigstackbully.rankmyhand.model.combination.HandCombination
-import com.bigstackbully.rankmyhand.model.combination.ONE_PAIR_HANDS
-import com.bigstackbully.rankmyhand.model.combination.ROYAL_FLUSH_HANDS
-import com.bigstackbully.rankmyhand.model.combination.STRAIGHT_FLUSH_HANDS
-import com.bigstackbully.rankmyhand.model.combination.STRAIGHT_HANDS
-import com.bigstackbully.rankmyhand.model.combination.THREE_OF_A_KIND_HANDS
-import com.bigstackbully.rankmyhand.model.combination.TWO_PAIR_HANDS
+import com.bigstackbully.rankmyhand.model.combination.*
 import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.Ranking
-import com.bigstackbully.rankmyhand.model.enums.Ranking.FLUSH
-import com.bigstackbully.rankmyhand.model.enums.Ranking.FOUR_OF_A_KIND
-import com.bigstackbully.rankmyhand.model.enums.Ranking.FULL_HOUSE
-import com.bigstackbully.rankmyhand.model.enums.Ranking.HIGH_CARD
-import com.bigstackbully.rankmyhand.model.enums.Ranking.ONE_PAIR
-import com.bigstackbully.rankmyhand.model.enums.Ranking.ROYAL_FLUSH
-import com.bigstackbully.rankmyhand.model.enums.Ranking.STRAIGHT
-import com.bigstackbully.rankmyhand.model.enums.Ranking.STRAIGHT_FLUSH
-import com.bigstackbully.rankmyhand.model.enums.Ranking.THREE_OF_A_KIND
-import com.bigstackbully.rankmyhand.model.enums.Ranking.TWO_PAIR
+import com.bigstackbully.rankmyhand.model.enums.Ranking.*
 import org.springframework.stereotype.Service
 
 @Service

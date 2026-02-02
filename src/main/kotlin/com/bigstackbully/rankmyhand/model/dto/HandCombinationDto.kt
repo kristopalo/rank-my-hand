@@ -1,7 +1,6 @@
 package com.bigstackbully.rankmyhand.model.dto
 
 import com.bigstackbully.rankmyhand.model.combination.HandCombination
-import kotlin.Int
 
 data class HandCombinationDto(
     val hand: String,

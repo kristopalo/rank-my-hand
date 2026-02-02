@@ -2,14 +2,13 @@ package com.bigstackbully.rankmyhand.model.notation
 
 import com.bigstackbully.rankmyhand.model.RankUnit
 import com.bigstackbully.rankmyhand.model.characteristic.HasCards
-import com.bigstackbully.rankmyhand.model.enums.Rank
-import com.bigstackbully.rankmyhand.model.enums.Card
-import com.bigstackbully.rankmyhand.model.enums.Card.Companion.cardDefaultComparator
 import com.bigstackbully.rankmyhand.model.characteristic.HasRanks
 import com.bigstackbully.rankmyhand.model.characteristic.SuitAware
+import com.bigstackbully.rankmyhand.model.enums.Card
+import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.service.utils.areSuited
 import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
-import java.util.SortedSet
+import java.util.*
 
 data class StandardNotation(
     override val cards: List<Card>

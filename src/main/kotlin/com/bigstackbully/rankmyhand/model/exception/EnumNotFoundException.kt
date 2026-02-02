@@ -3,7 +3,6 @@ package com.bigstackbully.rankmyhand.model.exception
 import com.bigstackbully.rankmyhand.model.enums.interfaces.KeyedEnum
 import com.bigstackbully.rankmyhand.utils.ITEM_SEPARATOR
 import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
-import java.lang.IllegalArgumentException
 import kotlin.reflect.KClass
 
 class EnumNotFoundException(

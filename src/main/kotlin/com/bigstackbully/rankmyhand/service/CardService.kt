@@ -1,7 +1,7 @@
 package com.bigstackbully.rankmyhand.service
 
-import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.Card
+import com.bigstackbully.rankmyhand.model.enums.Rank
 import org.springframework.stereotype.Service
 
 @Service

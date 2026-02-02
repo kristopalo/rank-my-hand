@@ -5,7 +5,7 @@ import com.bigstackbully.rankmyhand.model.characteristic.HasRanks
 import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.service.utils.areWheelStraight
 import com.bigstackbully.rankmyhand.service.utils.toRankNotation
-import java.util.SortedSet
+import java.util.*
 
 data class RankNotation(
     override val ranks: List<Rank>

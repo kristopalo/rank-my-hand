@@ -1,8 +1,8 @@
 package com.bigstackbully.rankmyhand.service
 
+import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.EvaluationResult
 import com.bigstackbully.rankmyhand.model.Hand
-import com.bigstackbully.rankmyhand.model.EvaluationContext
 import com.bigstackbully.rankmyhand.model.command.EvaluationCommand
 import com.bigstackbully.rankmyhand.model.enums.Card
 import com.bigstackbully.rankmyhand.model.response.HandEvaluationResult
