@@ -19,7 +19,7 @@ class SuitsController(
     private val suitService: SuitService
 ) {
 
-    @GetMapping()
+    @GetMapping
     @Operation(
         summary = "Get all card suits",
         description = "Returns all card suits (Spades, Hearts, Diamonds, Clubs)"

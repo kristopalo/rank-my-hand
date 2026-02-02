@@ -142,7 +142,7 @@ class RankingsController(
 
         val handCombination = handCombinationService.getHandCombination(
             ranking = ranking,
-            rankNotation = rankNt
+            rankNotation = rankNt.toString()
         )
 
         return HandCombinationDto.of(handCombination)

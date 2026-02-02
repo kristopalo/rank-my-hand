@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController
 class CardsController(
     private val cardService: CardService
 ) {
-    @GetMapping()
+    @GetMapping
     @Operation(
         summary = "Get all cards",
         description = "Returns a list of all 52 playing cards sorted by suit and rank"

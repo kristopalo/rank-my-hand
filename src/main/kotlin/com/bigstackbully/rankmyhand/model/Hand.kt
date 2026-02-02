@@ -3,22 +3,11 @@ package com.bigstackbully.rankmyhand.model
 import com.bigstackbully.rankmyhand.model.characteristic.HasCards
 import com.bigstackbully.rankmyhand.model.characteristic.HasRanks
 import com.bigstackbully.rankmyhand.model.characteristic.SuitAware
-import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.Card
 import com.bigstackbully.rankmyhand.model.enums.Card.*
-import com.bigstackbully.rankmyhand.model.notation.RankNotation
-import com.bigstackbully.rankmyhand.model.notation.SignatureNotation
-import com.bigstackbully.rankmyhand.model.notation.StandardNotation
-import com.bigstackbully.rankmyhand.service.utils.areSuited
-import com.bigstackbully.rankmyhand.service.utils.areWheelStraight
-import com.bigstackbully.rankmyhand.service.utils.areStraight
-import com.bigstackbully.rankmyhand.service.utils.ranks
-import com.bigstackbully.rankmyhand.service.utils.highestRank
-import com.bigstackbully.rankmyhand.service.utils.serializedValue
-import com.bigstackbully.rankmyhand.service.utils.toRankNotation
-import com.bigstackbully.rankmyhand.service.utils.toSignatureNotation
-import com.bigstackbully.rankmyhand.service.utils.toStandardNotation
-import java.util.SortedSet
+import com.bigstackbully.rankmyhand.model.enums.Rank
+import com.bigstackbully.rankmyhand.service.utils.*
+import java.util.*
 
 data class Hand(
     private val rankUnits: SortedSet<RankUnit> = sortedSetOf()
@@ -41,12 +30,11 @@ data class Hand(
     val hasPair: Boolean = rankUnits.any { it.isPair }
     val hasFiveCards = cards.count() == 5
 
-    val rankNotation: RankNotation = rankUnits.toRankNotation()
-    val signatureNotation: SignatureNotation = rankUnits.toSignatureNotation()
-    val standardNotation: StandardNotation = rankUnits.toStandardNotation()
+    val rankNotation: String = rankUnits.toRankNotation()
+    val standardNotation: String = rankUnits.toStandardNotation()
     val serializedValue: String = rankUnits.serializedValue()
 
-    override fun toString() = standardNotation.toString()
+    override fun toString() = standardNotation
 
     companion object {
         fun of(cards: List<Card>): Hand {

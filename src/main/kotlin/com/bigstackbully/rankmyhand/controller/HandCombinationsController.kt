@@ -16,7 +16,7 @@ class HandCombinationsController(
     private val handCombinationService: HandCombinationService
 ) {
 
-    @GetMapping()
+    @GetMapping
     @Operation(
         summary = "Get all hand combinations",
         description = "Returns all possible poker hand combinations across all rankings"

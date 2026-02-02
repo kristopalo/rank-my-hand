@@ -8,7 +8,6 @@ data class RankingDto(
     val displayName: String,
     val strength: Int
 ) {
-
     companion object {
         fun of(handRanking: Ranking) = with(handRanking) {
             RankingDto(

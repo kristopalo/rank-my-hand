@@ -19,7 +19,7 @@ class CardRanksController(
     private val cardRankService: CardRankService
 ) {
 
-    @GetMapping()
+    @GetMapping
     @Operation(
         summary = "Get all card ranks",
         description = "Returns all card ranks (Ace through Two) sorted by value in descending order"

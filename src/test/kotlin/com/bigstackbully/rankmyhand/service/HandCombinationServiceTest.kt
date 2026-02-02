@@ -1,7 +1,8 @@
 package com.bigstackbully.rankmyhand.service
 
+import com.bigstackbully.rankmyhand.model.enums.Rank
 import com.bigstackbully.rankmyhand.model.enums.Ranking
-import com.bigstackbully.rankmyhand.model.notation.SignatureNotation
+import com.bigstackbully.rankmyhand.utils.SINGLE_SPACE
 import io.kotest.matchers.nulls.shouldNotBeNull
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.params.ParameterizedTest
@@ -14,40 +15,43 @@ class HandCombinationServiceTest {
 
     @ParameterizedTest
     @CsvSource(
-        "J7o, HIGH_CARD, J7432",
-        "JJ753o, ONE_PAIR, JJ753",
-        "JJ975o, ONE_PAIR, JJ975",
-        "JJQ97o, ONE_PAIR, JJQ97",
-        "2222o, FOUR_OF_A_KIND, 22223",
-        "2223o, THREE_OF_A_KIND, 22243",
-        "222o, THREE_OF_A_KIND, 22243",
-        "JJTTo, TWO_PAIR, JJTT2",
-        "JJo, ONE_PAIR, JJ432",
-        "KQs, HIGH_CARD, KQ432",
-        "KQo, HIGH_CARD, KQ432",
-        "Ks, HIGH_CARD, K5432",
-        "7543s, HIGH_CARD, 75432",
-        "7543o, HIGH_CARD, 75432",
-        "754o, HIGH_CARD, 75432",
-        "75o, HIGH_CARD, 75432",
-        "7s, HIGH_CARD, 75432"
+        "Jc 7d 4s 3h 2c, HIGH_CARD, J7432",
+        "Jc Jd 7s 5h 3c, ONE_PAIR, JJ753",
+        "Jc Jd 9s 7h 5c, ONE_PAIR, JJ975",
+        "Jc Jd Qs 9h 7c, ONE_PAIR, JJQ97",
+        "2c 2d 2h 2s, FOUR_OF_A_KIND, 22223",
+        "2c 2d 2h 3c, THREE_OF_A_KIND, 22243",
+        "2c 2d 2h, THREE_OF_A_KIND, 22243",
+        "Jc Jd Ts Th, TWO_PAIR, JJTT2",
+        "Jc Jd, ONE_PAIR, JJ432",
+        "Kc Qc, HIGH_CARD, KQ432",
+        "Kc Qd, HIGH_CARD, KQ432",
+        "Kc, HIGH_CARD, K5432",
+        "7c 5c 4c 3c 2d, HIGH_CARD, 75432",
+        "7c 5d 4s 3h, HIGH_CARD, 75432",
+        "7c 5d 4s, HIGH_CARD, 75432",
+        "7c 5d, HIGH_CARD, 75432",
+        "7c, HIGH_CARD, 75432"
     )
-    fun `should find the worst possible hand combination for a given signature notation`(
-        signatureNotation: String,
+    fun `should find the worst possible hand combination for a given hand`(
+        cards: String,
         expRanking: Ranking,
-        expCardsInStandardNotation: String
+        expRankNotation: String
     ) {
         // arrange
-        val signatureNt = SignatureNotation.from(signatureNotation)
+        val ranks = cards.split(SINGLE_SPACE).map { Rank.fromKeyOrThrow(it.first().toString()) }
 
         // act
-        val actHandCombination = handCombinationService.findWorstPossibleHandCombination(signatureNt)
+        val actHandCombination = handCombinationService.findWorstPossibleHandCombination(
+            ranking = expRanking,
+            ranks = ranks
+        )
 
         // assert
         with(actHandCombination) {
             shouldNotBeNull()
-            ranking.shouldBe(expRanking)
-            hand.shouldBe(expCardsInStandardNotation)
+            ranking shouldBe expRanking
+            hand shouldBe expRankNotation
         }
     }
 }

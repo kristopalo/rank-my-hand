@@ -2,10 +2,7 @@ package com.bigstackbully.rankmyhand.service
 
 import com.bigstackbully.rankmyhand.model.Hand
 import com.bigstackbully.rankmyhand.model.HandStrength
-import com.bigstackbully.rankmyhand.model.combination.HandCombination
 import com.bigstackbully.rankmyhand.model.enums.Ranking
-import com.bigstackbully.rankmyhand.model.notation.RankNotation
-import com.bigstackbully.rankmyhand.service.utils.hasFiveItems
 import org.springframework.stereotype.Service
 
 @Service
@@ -24,7 +21,8 @@ class HandStrengthService(
             )
         } else {
             handCombinationService.findWorstPossibleHandCombination(
-                signatureNotation = hand.signatureNotation
+                ranking = ranking,
+                ranks = hand.ranks
             )
         }
 

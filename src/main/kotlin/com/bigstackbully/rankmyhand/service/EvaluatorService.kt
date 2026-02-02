@@ -58,11 +58,11 @@ class EvaluatorService(
         )
     }
 
-    fun List<Card>.allFiveCardHands() = combinations(5)
+    private fun List<Card>.allFiveCardHands() = combinations(5)
         .map { cards -> Hand.of(cards) }
         .toList()
 
-    fun <Card> List<Card>.combinations(k: Int): Sequence<List<Card>> = sequence {
+    private fun <Card> List<Card>.combinations(k: Int): Sequence<List<Card>> = sequence {
         if (k == 0) {
             yield(emptyList())
         } else {
